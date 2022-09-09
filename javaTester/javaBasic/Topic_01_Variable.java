@@ -2,9 +2,9 @@ package javaBasic;
 
 import java.util.Scanner;
 
-public class Topic_01_Data_Type {
+public class Topic_01_Variable {
 	// Hàm khởi tạo không tham số
-	public Topic_01_Data_Type() {
+	public Topic_01_Variable() {
 
 	}
 	// Biến static truy cập thông qua tên class + tên biến static : Topic_01_Data_Type.studentNumber
@@ -23,14 +23,14 @@ public class Topic_01_Data_Type {
 
 		System.out.println(studentPrice);
 
-		System.out.println(Topic_01_Data_Type.studentNumber);// khi khai báo với từ khoá static có thể gọi trực tiếp trong hàm static
+		System.out.println(Topic_01_Variable.studentNumber);// khi khai báo với từ khoá static có thể gọi trực tiếp trong hàm static
 		System.out.println(status);
 //		browserName = "Edge";//ko đc gán lại khi dùng final
 
-		Topic_01_Data_Type topic = new Topic_01_Data_Type();
+		Topic_01_Variable topic = new Topic_01_Variable();
 
 		System.out.println(topic.studentName); // ko khai báo với từ khoá staticthì phải tạo đối tượng của class
-		
+
 		Scanner scanner = new Scanner(System.in);
 		String name = scanner.nextLine();
 		System.out.println(name);
