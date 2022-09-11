@@ -11,8 +11,6 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-import commons.BasePage;
-
 public class Level_01_Register_DRY {
 	WebDriver driver;
 	String emailAddress;
