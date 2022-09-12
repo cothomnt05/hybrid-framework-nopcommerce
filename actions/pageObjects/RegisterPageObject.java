@@ -17,27 +17,27 @@ public class RegisterPageObject extends BasePage {
 		clickToElement(driver, RegisterPageUI.REGISTER_BUTTON);
 	}
 
-	public String getFirstNameErrorMessage() {
+	public String getErrorMessageAtFirstNameTextbox() {
 		waitForElementVisible(driver, RegisterPageUI.FIRST_NAME_ERROR_MESSAGE);
 		return getElementText(driver, RegisterPageUI.FIRST_NAME_ERROR_MESSAGE);
 	}
 
-	public String getLastNameErrorMessage() {
+	public String getErrorMessageAtLastNameTextbox() {
 		waitForElementVisible(driver, RegisterPageUI.LAST_NAME_ERROR_MESSAGE);
 		return getElementText(driver, RegisterPageUI.LAST_NAME_ERROR_MESSAGE);
 	}
 
-	public String getEmailErrorMessage() {
+	public String getErrorMessageAtEmailTextbox() {
 		waitForElementVisible(driver, RegisterPageUI.EMAIL_ERROR_MESSAGE);
 		return getElementText(driver, RegisterPageUI.EMAIL_ERROR_MESSAGE);
 	}
 
-	public String getPasswordErrorMessage() {
+	public String getErrorMessageAtPasswordTextbox() {
 		waitForElementVisible(driver, RegisterPageUI.PASSWORD_ERROR_MESSAGE);
 		return getElementText(driver, RegisterPageUI.PASSWORD_ERROR_MESSAGE);
 	}
 
-	public String getConfirmPasswordErrorMessage() {
+	public String getErrorMessageAtConfirmPasswordTextbox() {
 		waitForElementVisible(driver, RegisterPageUI.CONFIRM_PASSWORD_ERROR_MESSAGE);
 		return getElementText(driver, RegisterPageUI.CONFIRM_PASSWORD_ERROR_MESSAGE);
 	}
