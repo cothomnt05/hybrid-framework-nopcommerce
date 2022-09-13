@@ -77,7 +77,7 @@ public class Level_03_Page_Object_Login {
 	}
 
 	@Test
-	public void Login_03_Not_Found_Email() {
+	public void Login_03_Email_Not_Found() {
 		homePage.clickToLoginLink();
 		loginPage = new LoginPageObject(driver);
 
@@ -88,7 +88,7 @@ public class Level_03_Page_Object_Login {
 	}
 
 	@Test
-	public void Login_04_Valid_Email_Empty_Password() {
+	public void Login_04_Existing_Email_Empty_Password() {
 		homePage.clickToLoginLink();
 		loginPage = new LoginPageObject(driver);
 
@@ -99,7 +99,7 @@ public class Level_03_Page_Object_Login {
 	}
 
 	@Test
-	public void Login_05_Valid_Email_Incorrect_Password() {
+	public void Login_05_Existing_Email_Incorrect_Password() {
 		homePage.clickToLoginLink();
 		loginPage = new LoginPageObject(driver);
 
