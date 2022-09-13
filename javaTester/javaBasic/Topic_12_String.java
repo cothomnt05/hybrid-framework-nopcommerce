@@ -1,7 +1,5 @@
 package javaBasic;
 
-import org.openqa.selenium.Keys;
-
 public class Topic_12_String {
 
 	public static void main(String[] args) {
@@ -77,9 +75,9 @@ public class Topic_12_String {
 
 		// Handle multiple OS: Mac/Windows(Action - keys - Ctrl/Command)
 		if (osName.toLowerCase().contains("windows")) {
-			Keys key = Keys.CONTROL;
+			// Keys key = Keys.CONTROL;
 		} else {
-			Keys key = Keys.COMMAND;
+			// Keys key = Keys.COMMAND;
 		}
 
 		// Multiple browser: toUpperCase
@@ -109,10 +107,10 @@ public class Topic_12_String {
 		// Dynamic locator
 		// Đại diện cho 1 chuỗi: %s
 		// %b %t %d
-		String dynamicButtonXpath = "//button[@id='%s']";
-		System.out.println("Click to Login button = " + dynamicButtonXpath.format(dynamicButtonXpath, "login"));
-		System.out.println("Click to Search button = " + dynamicButtonXpath.format(dynamicButtonXpath, "search"));
-		System.out.println("Click to Register button = " + dynamicButtonXpath.format(dynamicButtonXpath, "register"));
+		// String dynamicButtonXpath = "//button[@id='%s']";
+		// System.out.println("Click to Login button = " + dynamicButtonXpath.format(dynamicButtonXpath, "login"));
+		// System.out.println("Click to Search button = " + dynamicButtonXpath.format(dynamicButtonXpath, "search"));
+		// System.out.println("Click to Register button = " + dynamicButtonXpath.format(dynamicButtonXpath, "register"));
 
 	}
 

@@ -3,9 +3,7 @@ package javaBasic;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 
 public class Topic_08_For_ForEach {
@@ -62,12 +60,12 @@ public class Topic_08_For_ForEach {
 		}
 
 		// Java Generic
-		List<WebElement> links = driver.findElements(By.xpath("//a"));
-		for (WebElement link : links) {
-			// Chuyển page
-			// Refresh DOM/HTML
-			// ko còn tồn tại
-			// Fail -> staleElementException
-		}
+		// List<WebElement> links = driver.findElements(By.xpath("//a"));
+		// for (WebElement link : links) {
+		// Chuyển page
+		// Refresh DOM/HTML
+		// ko còn tồn tại
+		// Fail -> staleElementException
+		// }
 	}
 }
