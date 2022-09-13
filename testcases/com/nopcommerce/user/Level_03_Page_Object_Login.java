@@ -39,7 +39,7 @@ public class Level_03_Page_Object_Login {
 		notFoundEmail = "afc" + generateFakeNumber() + "@mail.com";
 		incorrectPassword = "654321";
 
-		homePage.clickToRegisterLink();
+		homePage.openRegisterPage();
 		registerPage = new RegisterPageObject(driver);
 
 		registerPage.inputToFirstNameTextbox(firstName);
@@ -57,7 +57,7 @@ public class Level_03_Page_Object_Login {
 
 	@Test
 	public void Login_01_Empty_Data() {
-		homePage.clickToLoginLink();
+		homePage.openLoginPage();
 		loginPage = new LoginPageObject(driver);
 
 		loginPage.clickToLoginButton();
@@ -67,7 +67,7 @@ public class Level_03_Page_Object_Login {
 
 	@Test
 	public void Login_02_Invalid_Email() {
-		homePage.clickToLoginLink();
+		homePage.openLoginPage();
 		loginPage = new LoginPageObject(driver);
 
 		loginPage.inputToEmailTextbox(invalidEmail);
@@ -78,7 +78,7 @@ public class Level_03_Page_Object_Login {
 
 	@Test
 	public void Login_03_Email_Not_Found() {
-		homePage.clickToLoginLink();
+		homePage.openLoginPage();
 		loginPage = new LoginPageObject(driver);
 
 		loginPage.inputToEmailTextbox(notFoundEmail);
@@ -89,7 +89,7 @@ public class Level_03_Page_Object_Login {
 
 	@Test
 	public void Login_04_Existing_Email_Empty_Password() {
-		homePage.clickToLoginLink();
+		homePage.openLoginPage();
 		loginPage = new LoginPageObject(driver);
 
 		loginPage.inputToEmailTextbox(validEmail);
@@ -100,7 +100,7 @@ public class Level_03_Page_Object_Login {
 
 	@Test
 	public void Login_05_Existing_Email_Incorrect_Password() {
-		homePage.clickToLoginLink();
+		homePage.openLoginPage();
 		loginPage = new LoginPageObject(driver);
 
 		loginPage.inputToEmailTextbox(validEmail);
@@ -112,7 +112,7 @@ public class Level_03_Page_Object_Login {
 
 	@Test
 	public void Login_06_Valid_Email_Valid_Password() {
-		homePage.clickToLoginLink();
+		homePage.openLoginPage();
 		loginPage = new LoginPageObject(driver);
 
 		loginPage.inputToEmailTextbox(validEmail);

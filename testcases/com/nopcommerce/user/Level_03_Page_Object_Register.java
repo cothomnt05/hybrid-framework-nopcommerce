@@ -38,7 +38,7 @@ public class Level_03_Page_Object_Register {
 	@Test
 	public void Register_01_Empty_Data() {
 		System.out.println("Register_01 - Step 1: Click to Register link");
-		homePage.clickToRegisterLink();
+		homePage.openRegisterPage();
 		registerPage = new RegisterPageObject(driver);
 
 		System.out.println("Register_01 - Step 2: Click to Register button");
@@ -56,7 +56,7 @@ public class Level_03_Page_Object_Register {
 	@Test
 	public void Register_02_Invalid_Email() {
 		System.out.println("Register_02 - Step 1: Click to Register link");
-		homePage.clickToRegisterLink();
+		homePage.openRegisterPage();
 		registerPage = new RegisterPageObject(driver);
 
 		System.out.println("Register_02 - Step 2: Input to required fields");
@@ -76,7 +76,7 @@ public class Level_03_Page_Object_Register {
 	@Test
 	public void Register_03_Success() {
 		System.out.println("Register_03 - Step 1: Click to Register link");
-		homePage.clickToRegisterLink();
+		homePage.openRegisterPage();
 		registerPage = new RegisterPageObject(driver);
 
 		System.out.println("Register_03 - Step 2: Input to required fields");
@@ -100,7 +100,7 @@ public class Level_03_Page_Object_Register {
 	@Test
 	public void Register_04_Existing_Email() {
 		System.out.println("Register_04 - Step 1: Click to Register link");
-		homePage.clickToRegisterLink();
+		homePage.openRegisterPage();
 		registerPage = new RegisterPageObject(driver);
 
 		System.out.println("Register_04 - Step 2: Input to required fields");
@@ -120,7 +120,7 @@ public class Level_03_Page_Object_Register {
 	@Test
 	public void Register_05_Password_Less_Than_6_Chars() {
 		System.out.println("Register_05 - Step 1: Click to Register link");
-		homePage.clickToRegisterLink();
+		homePage.openRegisterPage();
 		registerPage = new RegisterPageObject(driver);
 
 		System.out.println("Register_05 - Step 2: Input to required fields");
@@ -140,7 +140,7 @@ public class Level_03_Page_Object_Register {
 	@Test
 	public void Register_06_Invalid_Confirm_Password() {
 		System.out.println("Register_06 - Step 1: Click to Register link");
-		homePage.clickToRegisterLink();
+		homePage.openRegisterPage();
 		registerPage = new RegisterPageObject(driver);
 
 		System.out.println("Register_06 - Step 2: Input to required fields");
