@@ -9,32 +9,32 @@ import org.testng.annotations.Test;
 
 import commons.BaseTest;
 import commons.PageGeneratorManager;
-import pageObjects.HomePageObject;
-import pageObjects.LoginPageObject;
-import pageObjects.MyProductReviewPageObject;
-import pageObjects.OrderPageObject;
-import pageObjects.AddressPageObject;
-import pageObjects.BackInStockSubscriptionPageObject;
-import pageObjects.ChangePasswordPageObject;
-import pageObjects.CustomerInfoPageObject;
-import pageObjects.DownloadableProductPageObject;
-import pageObjects.RegisterPageObject;
-import pageObjects.RewardPointPageObject;
+import pageObjects.user.UserAddressPageObject;
+import pageObjects.user.UserBackInStockSubscriptionPageObject;
+import pageObjects.user.UserChangePasswordPageObject;
+import pageObjects.user.UserCustomerInfoPageObject;
+import pageObjects.user.UserDownloadableProductPageObject;
+import pageObjects.user.UserHomePageObject;
+import pageObjects.user.UserLoginPageObject;
+import pageObjects.user.UserMyProductReviewPageObject;
+import pageObjects.user.UserOrderPageObject;
+import pageObjects.user.UserRegisterPageObject;
+import pageObjects.user.UserRewardPointPageObject;
 
 public class Level_07_Switch_Page extends BaseTest {
 	private WebDriver driver;
 	private String firstName, lastName, email, password;
-	private HomePageObject homePage;
-	private RegisterPageObject registerPage;
-	private LoginPageObject loginPage;
-	private CustomerInfoPageObject customerInfoPage;
-	private AddressPageObject addressPage;
-	private OrderPageObject orderPage;
-	private DownloadableProductPageObject downloadableProductPage;
-	private BackInStockSubscriptionPageObject backInStockSubscriptionPage;
-	private RewardPointPageObject rewardPointPage;
-	private ChangePasswordPageObject changePasswordPage;
-	private MyProductReviewPageObject myProductReviewPage;
+	private UserHomePageObject homePage;
+	private UserRegisterPageObject registerPage;
+	private UserLoginPageObject loginPage;
+	private UserCustomerInfoPageObject customerInfoPage;
+	private UserAddressPageObject addressPage;
+	private UserOrderPageObject orderPage;
+	private UserDownloadableProductPageObject downloadableProductPage;
+	private UserBackInStockSubscriptionPageObject backInStockSubscriptionPage;
+	private UserRewardPointPageObject rewardPointPage;
+	private UserChangePasswordPageObject changePasswordPage;
+	private UserMyProductReviewPageObject myProductReviewPage;
 
 	@Parameters("browser")
 
@@ -42,7 +42,7 @@ public class Level_07_Switch_Page extends BaseTest {
 	public void beforeClass(String browserName) {
 		driver = getBrowserDriver(browserName);
 
-		homePage = PageGeneratorManager.getHomePage(driver);
+		homePage = PageGeneratorManager.getUserHomePage(driver);
 
 		email = "afc" + generateFakeNumber() + "@mail.vn";
 		firstName = "Automation";

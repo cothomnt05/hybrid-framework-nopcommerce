@@ -2,60 +2,70 @@ package commons;
 
 import org.openqa.selenium.WebDriver;
 
-import pageObjects.HomePageObject;
-import pageObjects.LoginPageObject;
-import pageObjects.MyProductReviewPageObject;
-import pageObjects.OrderPageObject;
-import pageObjects.AddressPageObject;
-import pageObjects.BackInStockSubscriptionPageObject;
-import pageObjects.ChangePasswordPageObject;
-import pageObjects.CustomerInfoPageObject;
-import pageObjects.DownloadableProductPageObject;
-import pageObjects.RegisterPageObject;
-import pageObjects.RewardPointPageObject;
+import pageObject.admin.AdminDashboardPageObject;
+import pageObject.admin.AdminLoginPageObject;
+import pageObjects.user.UserAddressPageObject;
+import pageObjects.user.UserBackInStockSubscriptionPageObject;
+import pageObjects.user.UserChangePasswordPageObject;
+import pageObjects.user.UserCustomerInfoPageObject;
+import pageObjects.user.UserDownloadableProductPageObject;
+import pageObjects.user.UserHomePageObject;
+import pageObjects.user.UserLoginPageObject;
+import pageObjects.user.UserMyProductReviewPageObject;
+import pageObjects.user.UserOrderPageObject;
+import pageObjects.user.UserRegisterPageObject;
+import pageObjects.user.UserRewardPointPageObject;
 
 public class PageGeneratorManager {
-	public static LoginPageObject getLoginPage(WebDriver driver) {
-		return new LoginPageObject(driver);
+	public static UserLoginPageObject getUserLoginPage(WebDriver driver) {
+		return new UserLoginPageObject(driver);
 	}
 
-	public static RegisterPageObject getRegisterPage(WebDriver driver) {
-		return new RegisterPageObject(driver);
+	public static UserRegisterPageObject getUserRegisterPage(WebDriver driver) {
+		return new UserRegisterPageObject(driver);
 	}
 
-	public static HomePageObject getHomePage(WebDriver driver) {
-		return new HomePageObject(driver);
+	public static UserHomePageObject getUserHomePage(WebDriver driver) {
+		return new UserHomePageObject(driver);
 	}
 
-	public static CustomerInfoPageObject getCustomerInfoPage(WebDriver driver) {
-		return new CustomerInfoPageObject(driver);
+	public static UserCustomerInfoPageObject getCustomerInfoPage(WebDriver driver) {
+		return new UserCustomerInfoPageObject(driver);
 	}
 
-	public static AddressPageObject getAddressPage(WebDriver driver) {
-		return new AddressPageObject(driver);
+	public static UserAddressPageObject getAddressPage(WebDriver driver) {
+		return new UserAddressPageObject(driver);
 	}
 
-	public static OrderPageObject getOrderPage(WebDriver driver) {
-		return new OrderPageObject(driver);
+	public static UserOrderPageObject getOrderPage(WebDriver driver) {
+		return new UserOrderPageObject(driver);
 	}
 
-	public static DownloadableProductPageObject getDownloadableProductPage(WebDriver driver) {
-		return new DownloadableProductPageObject(driver);
+	public static UserDownloadableProductPageObject getDownloadableProductPage(WebDriver driver) {
+		return new UserDownloadableProductPageObject(driver);
 	}
 
-	public static BackInStockSubscriptionPageObject getBackInStockSubscriptionPage(WebDriver driver) {
-		return new BackInStockSubscriptionPageObject(driver);
+	public static UserBackInStockSubscriptionPageObject getBackInStockSubscriptionPage(WebDriver driver) {
+		return new UserBackInStockSubscriptionPageObject(driver);
 	}
 
-	public static RewardPointPageObject getRewardPointPage(WebDriver driver) {
-		return new RewardPointPageObject(driver);
+	public static UserRewardPointPageObject getRewardPointPage(WebDriver driver) {
+		return new UserRewardPointPageObject(driver);
 	}
 
-	public static ChangePasswordPageObject getChangePasswordPage(WebDriver driver) {
-		return new ChangePasswordPageObject(driver);
+	public static UserChangePasswordPageObject getChangePasswordPage(WebDriver driver) {
+		return new UserChangePasswordPageObject(driver);
 	}
 
-	public static MyProductReviewPageObject getMyProductReviewPage(WebDriver driver) {
-		return new MyProductReviewPageObject(driver);
+	public static UserMyProductReviewPageObject getMyProductReviewPage(WebDriver driver) {
+		return new UserMyProductReviewPageObject(driver);
+	}
+
+	public static AdminLoginPageObject getAdminLoginPage(WebDriver driver) {
+		return new AdminLoginPageObject(driver);
+	}
+
+	public static AdminDashboardPageObject getAdminDashboardPage(WebDriver driver) {
+		return new AdminDashboardPageObject(driver);
 	}
 }
