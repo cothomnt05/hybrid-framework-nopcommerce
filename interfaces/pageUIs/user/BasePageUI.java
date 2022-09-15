@@ -12,6 +12,6 @@ public class BasePageUI {
 	public static final String LOGOUT_LINK_AT_USER = "class=ico-logout";
 	public static final String LOGOUT_LINK_AT_ADMIN = "xpath=//a[text()='Logout']";
 
-	public static String DYNAMIC_PAGE_AT_MY_ACCOUNT_PAGE_AREA = "xpath=//div[contains(@class,'block-account-navigation')]//a[text() = '%s']";
+	public static final String DYNAMIC_PAGE_AT_MY_ACCOUNT_PAGE_AREA = "xpath=//div[contains(@class,'block-account-navigation')]//a[text() = '%s']";
 
 }
