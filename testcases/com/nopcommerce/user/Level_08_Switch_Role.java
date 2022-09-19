@@ -10,11 +10,11 @@ import org.testng.annotations.Test;
 import commons.BaseTest;
 import commons.GlobalConstants;
 import commons.PageGeneratorManager;
-import pageObject.admin.AdminDashboardPageObject;
-import pageObject.admin.AdminLoginPageObject;
-import pageObjects.user.UserCustomerInfoPageObject;
-import pageObjects.user.UserHomePageObject;
-import pageObjects.user.UserLoginPageObject;
+import nopcommerce.pageObject.admin.AdminDashboardPageObject;
+import nopcommerce.pageObject.admin.AdminLoginPageObject;
+import nopcommercepageObjects.user.UserCustomerInfoPageObject;
+import nopcommercepageObjects.user.UserHomePageObject;
+import nopcommercepageObjects.user.UserLoginPageObject;
 
 public class Level_08_Switch_Role extends BaseTest {
 	private WebDriver driver;
@@ -50,7 +50,7 @@ public class Level_08_Switch_Role extends BaseTest {
 
 		userHomePage = userCustomerInfoPage.clickToLogoutAtUserPage(driver);
 
-		userHomePage.openPageUrl(driver, GlobalConstants.ADMIN_PAGE_URL);
+		userHomePage.openPageUrl(driver, GlobalConstants.ADMIN_DEV_URL);
 		adminLoginPage = PageGeneratorManager.getAdminLoginPage(driver);
 
 		adminDashboardPage = adminLoginPage.loginAsAdmin(adminEmail, adminPassword);
@@ -62,7 +62,7 @@ public class Level_08_Switch_Role extends BaseTest {
 
 	@Test
 	public void Role_02_Admin_To_User() {
-		adminLoginPage.openPageUrl(driver, GlobalConstants.PORTAL_PAGE_URL);
+		adminLoginPage.openPageUrl(driver, GlobalConstants.PORTAL_DEV_URL);
 		userHomePage = PageGeneratorManager.getUserHomePage(driver);
 
 		userLoginPage = userHomePage.openLoginPage();
