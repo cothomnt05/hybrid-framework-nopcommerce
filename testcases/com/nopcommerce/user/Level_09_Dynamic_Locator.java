@@ -9,17 +9,17 @@ import org.testng.annotations.Test;
 
 import commons.BaseTest;
 import commons.PageGeneratorManager;
-import nopcommercepageObjects.user.UserAddressPageObject;
-import nopcommercepageObjects.user.UserBackInStockSubscriptionPageObject;
-import nopcommercepageObjects.user.UserChangePasswordPageObject;
-import nopcommercepageObjects.user.UserCustomerInfoPageObject;
-import nopcommercepageObjects.user.UserDownloadableProductPageObject;
-import nopcommercepageObjects.user.UserHomePageObject;
-import nopcommercepageObjects.user.UserLoginPageObject;
-import nopcommercepageObjects.user.UserMyProductReviewPageObject;
-import nopcommercepageObjects.user.UserOrderPageObject;
-import nopcommercepageObjects.user.UserRegisterPageObject;
-import nopcommercepageObjects.user.UserRewardPointPageObject;
+import pageObjects.nopcommerce.user.UserAddressPageObject;
+import pageObjects.nopcommerce.user.UserBackInStockSubscriptionPageObject;
+import pageObjects.nopcommerce.user.UserChangePasswordPageObject;
+import pageObjects.nopcommerce.user.UserCustomerInfoPageObject;
+import pageObjects.nopcommerce.user.UserDownloadableProductPageObject;
+import pageObjects.nopcommerce.user.UserHomePageObject;
+import pageObjects.nopcommerce.user.UserLoginPageObject;
+import pageObjects.nopcommerce.user.UserMyProductReviewPageObject;
+import pageObjects.nopcommerce.user.UserOrderPageObject;
+import pageObjects.nopcommerce.user.UserRegisterPageObject;
+import pageObjects.nopcommerce.user.UserRewardPointPageObject;
 
 public class Level_09_Dynamic_Locator extends BaseTest {
 	private WebDriver driver;

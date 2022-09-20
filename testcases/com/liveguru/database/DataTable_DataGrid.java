@@ -8,13 +8,13 @@ import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import commons.BaseTest;
-import liveguru.pageObjects.admin.AdminLoginPageObject;
-import liveguru.pageObjects.admin.AdminManagerCustomerPageObject;
-import liveguru.pageObjects.user.MyAccountPageObject;
-import liveguru.pageObjects.user.PageGeneratorManager;
-import liveguru.pageObjects.user.UserHomePageObject;
-import liveguru.pageObjects.user.UserLoginPageObject;
-import liveguru.pageObjects.user.UserRegisterPageObject;
+import pageObjects.liveguru.admin.AdminLoginPageObject;
+import pageObjects.liveguru.admin.AdminManagerCustomerPageObject;
+import pageObjects.liveguru.user.MyAccountPageObject;
+import pageObjects.liveguru.user.PageGeneratorManager;
+import pageObjects.liveguru.user.UserHomePageObject;
+import pageObjects.liveguru.user.UserLoginPageObject;
+import pageObjects.liveguru.user.UserRegisterPageObject;
 
 public class DataTable_DataGrid extends BaseTest {
 	@Parameters({ "browser", "appUrl" })

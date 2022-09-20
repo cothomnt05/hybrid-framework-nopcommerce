@@ -2,11 +2,13 @@ package commons;
 
 import java.util.List;
 import java.util.Set;
+import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
+import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -16,18 +18,19 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import nopcommerce.pageObject.admin.AdminLoginPageObject;
-import nopcommerce.pageUIs.user.BasePageUI;
-import nopcommerce.pageUIs.user.HomePageUI;
-import nopcommercepageObjects.user.UserAddressPageObject;
-import nopcommercepageObjects.user.UserBackInStockSubscriptionPageObject;
-import nopcommercepageObjects.user.UserChangePasswordPageObject;
-import nopcommercepageObjects.user.UserCustomerInfoPageObject;
-import nopcommercepageObjects.user.UserDownloadableProductPageObject;
-import nopcommercepageObjects.user.UserHomePageObject;
-import nopcommercepageObjects.user.UserMyProductReviewPageObject;
-import nopcommercepageObjects.user.UserOrderPageObject;
-import nopcommercepageObjects.user.UserRewardPointPageObject;
+import pageObjects.nopcommerce.admin.AdminLoginPageObject;
+import pageObjects.nopcommerce.user.UserAddressPageObject;
+import pageObjects.nopcommerce.user.UserBackInStockSubscriptionPageObject;
+import pageObjects.nopcommerce.user.UserChangePasswordPageObject;
+import pageObjects.nopcommerce.user.UserCustomerInfoPageObject;
+import pageObjects.nopcommerce.user.UserDownloadableProductPageObject;
+import pageObjects.nopcommerce.user.UserHomePageObject;
+import pageObjects.nopcommerce.user.UserMyProductReviewPageObject;
+import pageObjects.nopcommerce.user.UserOrderPageObject;
+import pageObjects.nopcommerce.user.UserRewardPointPageObject;
+import pageUIs.jquery.uploadFiles.BasePageJQueryUI;
+import pageUIs.nopcommerce.user.BasePageUI;
+import pageUIs.nopcommerce.user.HomePageUI;
 
 public class BasePage {
 
@@ -278,11 +281,37 @@ public class BasePage {
 	}
 
 	public boolean isElementDisplayed(WebDriver driver, String locatorType, String... dynamicValues) {
-		return getWebElement(driver, getDynamicXpath(locatorType, dynamicValues)).isDisplayed();
+		try {
+			return getWebElement(driver, getDynamicXpath(locatorType, dynamicValues)).isDisplayed();
+		} catch (NoSuchElementException e) {
+			return false;
+		}
 	}
 
 	public boolean isElementDisplayed(WebDriver driver, String locatorType) {
-		return getWebElement(driver, locatorType).isDisplayed();
+		try {
+			return getWebElement(driver, locatorType).isDisplayed();
+		} catch (NoSuchElementException e) {
+			return false;
+		}
+	}
+
+	public void overrideGlobalTimeout(WebDriver driver, long timeOut) {
+		driver.manage().timeouts().implicitlyWait(timeOut, TimeUnit.SECONDS);
+	}
+
+	public boolean isElementUndisplayed(WebDriver driver, String locatorType) {
+		overrideGlobalTimeout(driver, GlobalConstants.SHORT_TIMEOUT);
+		List<WebElement> elements = getListWebElement(driver, locatorType);
+		overrideGlobalTimeout(driver, longTimeout);
+
+		if (elements.size() == 0) {
+			return true;
+		} else if (elements.size() > 0 && !elements.get(0).isDisplayed()) {
+			return true;
+		} else {
+			return false;
+		}
 	}
 
 	public boolean isElementEnabled(WebDriver driver, String locatorType) {
@@ -383,11 +412,13 @@ public class BasePage {
 	public boolean isImageLoaded(WebDriver driver, String locatorType) {
 		JavascriptExecutor jsExecutor = (JavascriptExecutor) driver;
 		boolean status = (boolean) jsExecutor.executeScript("return arguments[0].complete && typeof arguments[0].naturalWidth != \"undefined\" && arguments[0].naturalWidth > 0", getWebElement(driver, locatorType));
-		if (status) {
-			return true;
-		} else {
-			return false;
-		}
+		return status;
+	}
+
+	public boolean isImageLoaded(WebDriver driver, String locatorType, String... dynamicValues) {
+		JavascriptExecutor jsExecutor = (JavascriptExecutor) driver;
+		boolean status = (boolean) jsExecutor.executeScript("return arguments[0].complete && typeof arguments[0].naturalWidth != \"undefined\" && arguments[0].naturalWidth > 0", getWebElement(driver, getDynamicXpath(locatorType, dynamicValues)));
+		return status;
 	}
 
 	public void waitForElementVisible(WebDriver driver, String locatorType) {
@@ -413,6 +444,16 @@ public class BasePage {
 	public void waitForElementInVisible(WebDriver driver, String locatorType) {
 		WebDriverWait explicitWait = new WebDriverWait(driver, longTimeout);
 		explicitWait.until(ExpectedConditions.invisibilityOfElementLocated(getByLocator(locatorType)));
+	}
+
+	/*
+	 * Wait for element undisplayed in DOM or not in DOM and override implicit timeout
+	 */
+	public void waitForElementUndisplayed(WebDriver driver, String locatorType) {
+		WebDriverWait explicitWait = new WebDriverWait(driver, shortTimeout);
+		overrideGlobalTimeout(driver, shortTimeout);
+		explicitWait.until(ExpectedConditions.invisibilityOfElementLocated(getByLocator(locatorType)));
+		overrideGlobalTimeout(driver, longTimeout);
 	}
 
 	public void waitForAllElementInVisible(WebDriver driver, String locatorType) {
@@ -527,5 +568,17 @@ public class BasePage {
 		clickToElementByJS(driver, BasePageUI.DYNAMIC_PAGE_AT_MY_ACCOUNT_PAGE_AREA, pageName);
 	}
 
+	public void uploadMultipleFiles(WebDriver driver, String... fileNames) {
+		String filePath = GlobalConstants.UPLOAD_FILE;
+		String fullFileName = "";
+		for (String file : fileNames) {
+			fullFileName = fullFileName + filePath + file + "\n";
+		}
+
+		fullFileName = fullFileName.trim();
+		getWebElement(driver, BasePageJQueryUI.UPLOAD_FILE).sendKeys(fullFileName);
+	}
+
 	private long longTimeout = GlobalConstants.LONG_TIMEOUT;
+	private long shortTimeout = GlobalConstants.SHORT_TIMEOUT;
 }
