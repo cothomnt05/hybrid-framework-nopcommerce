@@ -1,0 +1,163 @@
+ [2022-09-21 10:52:13,527] Register - Step 01: Navigate to Register page
+ [2022-09-21 10:52:21,622] Register - Step 02: Enter to Firstname textbox with value is 'Automation'
+ [2022-09-21 10:52:22,675] Register - Step 03: Enter to Lastname textbox with value is 'FC'
+ [2022-09-21 10:52:22,908] Register - Step 04: Enter to Email textbox with value is 'afc4498@mail.vn'
+ [2022-09-21 10:52:23,168] Register - Step 05: Enter to Password textbox with value is '123456'
+ [2022-09-21 10:52:23,362] Register - Step 06: Enter to Confirm password textbox with value is '123456'
+ [2022-09-21 10:52:23,690] Register - Step 07: Click to Register button
+ [2022-09-21 10:52:24,974] Register - Step 08: Vefiry Register success message is displayed
+ [2022-09-21 10:52:25,108] Register - Step 09: Click to Logout link
+ [2022-09-21 10:52:25,968] Login - Step 01: Navigate to Login page
+ [2022-09-21 10:52:26,936] Login - Step 02: Enter to Email textbox with value is 'afc4498@mail.vn'
+ [2022-09-21 10:52:27,239] Login - Step 03: Enter to Password textbox with value is '123456'
+ [2022-09-21 10:52:27,490] Login - Step 04: Click to Login button
+ [2022-09-21 10:52:28,469] Login - Step 05: Verify My account link is displayed
+ [2022-09-21 10:52:28,691] Login - Step 06: Navigate to My account page
+ [2022-09-21 10:52:29,669] Login - Step 07: Verify Customer infor page is displayed
+ [2022-09-21 11:09:15,525] Register - Step 01: Navigate to Register page
+ [2022-09-21 11:09:24,687] Register - Step 02: Enter to Firstname textbox with value is 'Automation'
+ [2022-09-21 11:09:24,859] Register - Step 03: Enter to Lastname textbox with value is 'FC'
+ [2022-09-21 11:09:25,008] Register - Step 04: Enter to Email textbox with value is 'afc8089@mail.vn'
+ [2022-09-21 11:09:25,251] Register - Step 05: Enter to Password textbox with value is '123456'
+ [2022-09-21 11:09:25,440] Register - Step 06: Enter to Confirm password textbox with value is '123456'
+ [2022-09-21 11:09:25,548] Register - Step 07: Click to Register button
+ [2022-09-21 11:09:26,554] Register - Step 08: Vefiry Register success message is displayed
+ [2022-09-21 11:09:26,654]  -------------------------- FAILED -------------------------- 
+ [2022-09-21 11:09:26,655] Register - Step 09: Click to Logout link
+ [2022-09-21 11:09:28,762] Login - Step 01: Navigate to Login page
+ [2022-09-21 11:09:29,532] Login - Step 02: Enter to Email textbox with value is 'afc8089@mail.vn'
+ [2022-09-21 11:09:29,658] Login - Step 03: Enter to Password textbox with value is '123456'
+ [2022-09-21 11:09:29,783] Login - Step 04: Click to Login button
+ [2022-09-21 11:09:31,554] Login - Step 05: Verify My account link is displayed
+ [2022-09-21 11:09:31,650]  -------------------------- FAILED -------------------------- 
+ [2022-09-21 11:09:31,650] Login - Step 06: Navigate to My account page
+ [2022-09-21 11:09:32,334] Login - Step 07: Verify Customer infor page is displayed
+ [2022-09-21 11:09:32,445]  -------------------------- FAILED -------------------------- 
+ [2022-09-21 11:10:39,972] Register - Step 01: Navigate to Register page
+ [2022-09-21 11:10:41,272] Register - Step 02: Enter to Firstname textbox with value is 'Automation'
+ [2022-09-21 11:10:41,419] Register - Step 03: Enter to Lastname textbox with value is 'FC'
+ [2022-09-21 11:10:41,546] Register - Step 04: Enter to Email textbox with value is 'afc9992@mail.vn'
+ [2022-09-21 11:10:41,682] Register - Step 05: Enter to Password textbox with value is '123456'
+ [2022-09-21 11:10:41,794] Register - Step 06: Enter to Confirm password textbox with value is '123456'
+ [2022-09-21 11:10:41,903] Register - Step 07: Click to Register button
+ [2022-09-21 11:10:45,917] Register - Step 08: Vefiry Register success message is displayed
+ [2022-09-21 11:10:46,003]  -------------------------- FAILED -------------------------- 
+ [2022-09-21 11:10:46,004] Register - Step 09: Click to Logout link
+ [2022-09-21 11:10:51,313] Login - Step 01: Navigate to Login page
+ [2022-09-21 11:18:30,333] Register - Step 01: Navigate to Register page
+ [2022-09-21 11:18:31,900] Register - Step 02: Enter to Firstname textbox with value is 'Automation'
+ [2022-09-21 11:18:32,118] Register - Step 03: Enter to Lastname textbox with value is 'FC'
+ [2022-09-21 11:18:32,245] Register - Step 04: Enter to Email textbox with value is 'afc2166@mail.vn'
+ [2022-09-21 11:18:32,372] Register - Step 05: Enter to Password textbox with value is '123456'
+ [2022-09-21 11:18:32,494] Register - Step 06: Enter to Confirm password textbox with value is '123456'
+ [2022-09-21 11:18:32,628] Register - Step 07: Click to Register button
+ [2022-09-21 11:18:36,630] Register - Step 08: Vefiry Register success message is displayed
+ [2022-09-21 11:18:36,739]  -------------------------- FAILED -------------------------- 
+ [2022-09-21 11:18:36,740] Register - Step 09: Click to Logout link
+ [2022-09-21 11:18:37,611] Login - Step 01: Navigate to Login page
+ [2022-09-21 11:18:38,344] Login - Step 02: Enter to Email textbox with value is 'afc2166@mail.vn'
+ [2022-09-21 11:18:38,497] Login - Step 03: Enter to Password textbox with value is '123456'
+ [2022-09-21 11:18:38,664] Login - Step 04: Click to Login button
+ [2022-09-21 11:18:39,457] Login - Step 05: Verify My account link is displayed
+ [2022-09-21 11:18:39,590]  -------------------------- FAILED -------------------------- 
+ [2022-09-21 11:18:39,590] Login - Step 06: Navigate to My account page
+ [2022-09-21 11:18:40,195] Login - Step 07: Verify Customer infor page is displayed
+ [2022-09-21 11:18:40,319]  -------------------------- FAILED -------------------------- 
+ [2022-09-21 11:25:00,117] Register - Step 01: Navigate to Register page
+ [2022-09-21 11:25:01,554] Register - Step 02: Enter to Firstname textbox with value is 'Automation'
+ [2022-09-21 11:25:01,723] Register - Step 03: Enter to Lastname textbox with value is 'FC'
+ [2022-09-21 11:25:01,848] Register - Step 04: Enter to Email textbox with value is 'afc2650@mail.vn'
+ [2022-09-21 11:25:02,002] Register - Step 05: Enter to Password textbox with value is '123456'
+ [2022-09-21 11:25:02,165] Register - Step 06: Enter to Confirm password textbox with value is '123456'
+ [2022-09-21 11:25:02,286] Register - Step 07: Click to Register button
+ [2022-09-21 11:25:03,229] Register - Step 08: Vefiry Register success message is displayed
+ [2022-09-21 11:25:03,324]  -------------------------- FAILED -------------------------- 
+ [2022-09-21 11:25:03,325] Register - Step 09: Click to Logout link
+ [2022-09-21 11:25:04,154] Login - Step 01: Navigate to Login page
+ [2022-09-21 11:25:04,826] Login - Step 02: Enter to Email textbox with value is 'afc2650@mail.vn'
+ [2022-09-21 11:25:04,965] Login - Step 03: Enter to Password textbox with value is '123456'
+ [2022-09-21 11:25:05,082] Login - Step 04: Click to Login button
+ [2022-09-21 11:25:05,988] Login - Step 05: Verify My account link is displayed
+ [2022-09-21 11:25:06,112]  -------------------------- FAILED -------------------------- 
+ [2022-09-21 11:25:06,113] Login - Step 06: Navigate to My account page
+ [2022-09-21 11:25:06,758] Login - Step 07: Verify Customer infor page is displayed
+ [2022-09-21 11:25:06,866]  -------------------------- FAILED -------------------------- 
+ [2022-09-21 11:25:17,665] Register - Step 01: Navigate to Register page
+ [2022-09-21 11:25:18,424] Register - Step 02: Enter to Firstname textbox with value is 'Automation'
+ [2022-09-21 11:25:18,615] Register - Step 03: Enter to Lastname textbox with value is 'FC'
+ [2022-09-21 11:25:18,740] Register - Step 04: Enter to Email textbox with value is 'afc5981@mail.vn'
+ [2022-09-21 11:25:18,907] Register - Step 05: Enter to Password textbox with value is '123456'
+ [2022-09-21 11:25:19,021] Register - Step 06: Enter to Confirm password textbox with value is '123456'
+ [2022-09-21 11:25:19,202] Register - Step 07: Click to Register button
+ [2022-09-21 11:25:20,202] Register - Step 08: Vefiry Register success message is displayed
+ [2022-09-21 11:25:20,292]  -------------------------- FAILED -------------------------- 
+ [2022-09-21 11:25:20,293] Register - Step 09: Click to Logout link
+ [2022-09-21 11:25:21,106] Login - Step 01: Navigate to Login page
+ [2022-09-21 11:25:21,741] Login - Step 02: Enter to Email textbox with value is 'afc5981@mail.vn'
+ [2022-09-21 11:25:21,876] Login - Step 03: Enter to Password textbox with value is '123456'
+ [2022-09-21 11:25:21,994] Login - Step 04: Click to Login button
+ [2022-09-21 11:25:22,777] Login - Step 05: Verify My account link is displayed
+ [2022-09-21 11:25:22,884]  -------------------------- FAILED -------------------------- 
+ [2022-09-21 11:25:22,884] Login - Step 06: Navigate to My account page
+ [2022-09-21 11:25:23,483] Login - Step 07: Verify Customer infor page is displayed
+ [2022-09-21 11:25:23,616]  -------------------------- FAILED -------------------------- 
+ [2022-09-21 16:54:19,744] Register - Step 01: Navigate to Register page
+ [2022-09-21 16:54:20,537] Register - Step 02: Enter to Firstname textbox with value is 'Automation'
+ [2022-09-21 16:54:20,740] Register - Step 03: Enter to Lastname textbox with value is 'FC'
+ [2022-09-21 16:54:20,866] Register - Step 04: Enter to Email textbox with value is 'afc9182@mail.vn'
+ [2022-09-21 16:54:21,024] Register - Step 05: Enter to Password textbox with value is '123456'
+ [2022-09-21 16:54:21,176] Register - Step 06: Enter to Confirm password textbox with value is '123456'
+ [2022-09-21 16:54:21,320] Register - Step 07: Click to Register button
+ [2022-09-21 16:54:22,250] Register - Step 08: Vefiry Register success message is displayed
+ [2022-09-21 16:54:22,344]  -------------------------- FAILED -------------------------- 
+ [2022-09-21 16:54:22,345] Register - Step 09: Click to Logout link
+ [2022-09-21 16:54:23,607] Login - Step 01: Navigate to Login page
+ [2022-09-21 16:54:24,251] Login - Step 02: Enter to Email textbox with value is 'afc9182@mail.vn'
+ [2022-09-21 16:54:24,390] Login - Step 03: Enter to Password textbox with value is '123456'
+ [2022-09-21 16:54:24,530] Login - Step 04: Click to Login button
+ [2022-09-21 16:54:25,365] Login - Step 05: Verify My account link is displayed
+ [2022-09-21 16:54:25,570]  -------------------------- FAILED -------------------------- 
+ [2022-09-21 16:54:25,570] Login - Step 06: Navigate to My account page
+ [2022-09-21 16:54:26,137] Login - Step 07: Verify Customer infor page is displayed
+ [2022-09-21 16:54:26,308]  -------------------------- FAILED -------------------------- 
+ [2022-09-21 17:00:08,863] Register - Step 01: Navigate to Register page
+ [2022-09-21 17:00:10,584] Register - Step 02: Enter to Firstname textbox with value is 'Automation'
+ [2022-09-21 17:00:10,742] Register - Step 03: Enter to Lastname textbox with value is 'FC'
+ [2022-09-21 17:00:10,875] Register - Step 04: Enter to Email textbox with value is 'afc7251@mail.vn'
+ [2022-09-21 17:00:11,047] Register - Step 05: Enter to Password textbox with value is '123456'
+ [2022-09-21 17:00:11,239] Register - Step 06: Enter to Confirm password textbox with value is '123456'
+ [2022-09-21 17:00:11,675] Register - Step 07: Click to Register button
+ [2022-09-21 17:00:12,652] Register - Step 08: Vefiry Register success message is displayed
+ [2022-09-21 17:00:12,865] Login - Step 01: Click to Logout link
+ [2022-09-21 17:00:13,679] Login - Step 02: Navigate to Login page
+ [2022-09-21 17:00:14,253] Login - Step 03: Enter to Email textbox with value is 'afc7251@mail.vn'
+ [2022-09-21 17:00:14,412] Login - Step 04: Enter to Password textbox with value is '123456'
+ [2022-09-21 17:00:14,544] Login - Step 05: Click to Login button
+ [2022-09-21 17:00:15,299] Login - Step 06: Verify My account link is displayed
+ [2022-09-21 17:10:55,250] Register - Step 01: Navigate to Register page
+ [2022-09-21 17:10:56,081] Register - Step 02: Enter to Firstname textbox with value is 'Automation'
+ [2022-09-21 17:10:56,277] Register - Step 03: Enter to Lastname textbox with value is 'FC'
+ [2022-09-21 17:10:56,417] Register - Step 04: Enter to Email textbox with value is 'afc3287@mail.vn'
+ [2022-09-21 17:10:56,603] Register - Step 05: Enter to Password textbox with value is '123456'
+ [2022-09-21 17:10:56,753] Register - Step 06: Enter to Confirm password textbox with value is '123456'
+ [2022-09-21 17:10:56,870] Register - Step 07: Click to Register button
+ [2022-09-21 17:10:57,848] Register - Step 08: Vefiry Register success message is displayed
+ [2022-09-21 17:10:58,071] Login - Step 01: Click to Logout link
+ [2022-09-21 17:10:58,895] Login - Step 02: Navigate to Login page
+ [2022-09-21 17:10:59,482] Login - Step 03: Enter to Email textbox with value is 'afc3287@mail.vn'
+ [2022-09-21 17:10:59,631] Login - Step 04: Enter to Password textbox with value is '123456'
+ [2022-09-21 17:10:59,770] Login - Step 05: Click to Login button
+ [2022-09-21 17:11:00,580] Login - Step 06: Verify My account link is displayed
+ [2022-09-21 17:27:26,164] Register - Step 01: Navigate to Register page
+ [2022-09-21 17:27:27,540] Register - Step 02: Enter to Firstname textbox with value is 'Automation'
+ [2022-09-21 17:27:27,677] Register - Step 03: Enter to Lastname textbox with value is 'FC'
+ [2022-09-21 17:27:27,790] Register - Step 04: Enter to Email textbox with value is 'afc2545@mail.vn'
+ [2022-09-21 17:27:27,926] Register - Step 05: Enter to Password textbox with value is '123456'
+ [2022-09-21 17:27:28,039] Register - Step 06: Enter to Confirm password textbox with value is '123456'
+ [2022-09-21 17:27:28,145] Register - Step 07: Click to Register button
+ [2022-09-21 17:27:28,987] Register - Step 08: Vefiry Register success message is displayed
+ [2022-09-21 17:27:29,073] Login - Step 01: Navigate to Login page
+ [2022-09-21 17:27:30,491] Login - Step 02: Enter to Email textbox with value is 'afc2545@mail.vn'
+ [2022-09-21 17:27:30,610] Login - Step 03: Enter to Password textbox with value is '123456'
+ [2022-09-21 17:27:30,724] Login - Step 04: Click to Login button
+ [2022-09-21 17:27:31,526] Login - Step 05: Verify My account link is displayed
