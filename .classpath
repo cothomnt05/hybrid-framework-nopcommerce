@@ -40,6 +40,5 @@
 	<classpathentry kind="lib" path="libExtentReportV5/lombok-1.18.12.jar"/>
 	<classpathentry kind="lib" path="libExtentReportV5/reactive-streams-1.0.3.jar"/>
 	<classpathentry kind="lib" path="libExtentReportV5/rxjava-3.0.4.jar"/>
-	<classpathentry kind="lib" path="libExtentReportV2/extentreports-2.41.2.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
