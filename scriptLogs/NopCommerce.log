@@ -161,3 +161,23 @@
  [2022-09-21 17:27:30,610] Login - Step 03: Enter to Password textbox with value is '123456'
  [2022-09-21 17:27:30,724] Login - Step 04: Click to Login button
  [2022-09-21 17:27:31,526] Login - Step 05: Verify My account link is displayed
+ [2022-09-22 22:44:05,502] Login - Step 01: Navigate to Login page
+ [2022-09-22 22:44:06,991] Login - Step 02: Enter to Email textbox with value is 'null'
+ [2022-09-22 22:47:45,230] Login - Step 01: Navigate to Login page
+ [2022-09-22 22:47:46,144] Login - Step 02: Enter to Email textbox with value is 'null'
+ [2022-09-22 22:50:27,605] Login - Step 01: Navigate to Login page
+ [2022-09-22 22:50:29,377] Login - Step 02: Enter to Email textbox with value is 'afc8386@mail.vn'
+ [2022-09-22 22:50:29,515] Login - Step 03: Enter to Password textbox with value is '123456'
+ [2022-09-22 22:50:29,641] Login - Step 04: Click to Login button
+ [2022-09-22 22:50:30,651] Login - Step 05: Verify My account link is displayed
+ [2022-09-22 22:50:30,767]  -------------------------- FAILED -------------------------- 
+ [2022-09-22 23:03:23,912] Login - Step 01: Navigate to Login page
+ [2022-09-22 23:03:25,329] Login - Step 02: Enter to Email textbox with value is 'afc284@mail.vn'
+ [2022-09-22 23:03:25,452] Login - Step 03: Enter to Password textbox with value is '123456'
+ [2022-09-22 23:03:25,560] Login - Step 04: Click to Login button
+ [2022-09-22 23:03:26,386] Login - Step 05: Verify My account link is displayed
+ [2022-09-22 23:03:26,489]  -------------------------- FAILED -------------------------- 
+ [2022-09-22 23:23:15,835] Pre-Condition - Step 01: Navigate to Login page
+ [2022-09-22 23:23:17,358] Pre-Condition - Step 02: Set cookie and reload page
+ [2022-09-22 23:23:22,359] Pre-Condition - Step 03: Verify My account link is displayed
+ [2022-09-22 23:23:22,480]  -------------------------- FAILED -------------------------- 
