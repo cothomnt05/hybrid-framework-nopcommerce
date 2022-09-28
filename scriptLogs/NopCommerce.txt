@@ -1,10 +1,83 @@
-[2022-09-23 00:50:42,163] Pre-Condition - Step 01: Navigate to Register page
-[2022-09-23 00:50:43,449] Pre-Condition - Step 02: Enter to Firstname textbox with value is 'Automation'
-[2022-09-23 00:50:43,616] Pre-Condition - Step 03: Enter to Lastname textbox with value is 'FC'
-[2022-09-23 00:50:43,744] Pre-Condition - Step 04: Enter to Email textbox with value is 'afc3587@mail.vn'
-[2022-09-23 00:50:43,894] Pre-Condition - Step 05: Enter to Password textbox with value is '123456'
-[2022-09-23 00:50:44,009] Pre-Condition - Step 06: Enter to Confirm password textbox with value is '123456'
-[2022-09-23 00:50:44,126] Pre-Condition - Step 07: Click to Register button
-[2022-09-23 00:50:44,979] Pre-Condition - Step 08: Vefiry Register success message is displayed
-[2022-09-23 00:50:45,399] OS name = windows 10
-[2022-09-23 00:50:45,400] Driver instance name = firefoxdriver: firefox on windows (d88347ae-8d06-43ae-992a-be850082b8be)
+[2022-09-28 15:07:48,359] Pre-Condition - Step 01: Open browser and admin site
+[2022-09-28 15:08:07,012] Pre-Condition - Step 02: Enter to Username Textbox with value: automationfc
+[2022-09-28 15:08:07,384] Pre-Condition - Step 03: Enter to Password Textbox with value: automationfc
+[2022-09-28 15:08:07,504] Pre-Condition - Step 04: Click to Login Button
+[2022-09-28 15:08:13,927] CreatePost - Step 01: Click to Post Menu
+[2022-09-28 15:08:16,408] CreatePost - Step 02: Get url Post Search Page
+[2022-09-28 15:08:16,414] CreatePost - Step 03: Click to Add New button
+[2022-09-28 15:08:20,907] CreatePost - Step 04: Enter to Post Title textbox
+[2022-09-28 15:08:22,157] CreatePost - Step 05: Enter to post body textbox
+[2022-09-28 15:08:24,748] CreatePost - Step 06: Click to Publish button
+[2022-09-28 15:08:25,397] CreatePost - Step 07: Click to Pre-Publish button
+[2022-09-28 15:08:26,969] CreatePost - Step 08: Verify Post published message is displayed
+[2022-09-28 15:08:37,137]  -------------------------- PASSED -------------------------- 
+[2022-09-28 15:08:37,310] SearchPost - Step 01: Open Post Search Page
+[2022-09-28 15:08:41,604] SearchPost - Step 02: Enter to Search Post Textbox
+[2022-09-28 15:08:41,834] SearchPost - Step 03: Click to Search Post Button
+[2022-09-28 15:08:45,484] SearchPost - Step 04: Verify search table contains 'Live Coding Title 9898'
+[2022-09-28 15:08:45,635]  -------------------------- PASSED -------------------------- 
+[2022-09-28 15:08:45,635] SearchPost - Step 05: Verify search table contains 'Automation FC'
+[2022-09-28 15:08:45,743]  -------------------------- PASSED -------------------------- 
+[2022-09-28 15:08:45,743] SearchPost - Step 06: Open End User site
+[2022-09-28 15:08:48,673] SearchPost - Step 07: Verify post infor displayed at Homepage
+[2022-09-28 15:08:48,784]  -------------------------- PASSED -------------------------- 
+[2022-09-28 15:08:48,879]  -------------------------- PASSED -------------------------- 
+[2022-09-28 15:08:48,989]  -------------------------- PASSED -------------------------- 
+[2022-09-28 15:08:49,081]  -------------------------- PASSED -------------------------- 
+[2022-09-28 15:08:49,081] SearchPost - Step 08: Click to post title
+[2022-09-28 15:08:51,026] SearchPost - Step 09: Verify post infor displayed at post detail page
+[2022-09-28 15:08:51,135]  -------------------------- PASSED -------------------------- 
+[2022-09-28 15:08:51,221]  -------------------------- PASSED -------------------------- 
+[2022-09-28 15:08:51,314]  -------------------------- PASSED -------------------------- 
+[2022-09-28 15:08:51,410]  -------------------------- PASSED -------------------------- 
+[2022-09-28 15:08:51,423] EditPost- Step 01: Open Admin Site
+[2022-09-28 15:08:53,579] EditPost - Step 02: Click to Post Menu
+[2022-09-28 15:08:55,553] EditPost - Step 03: Enter to Search Post Textbox
+[2022-09-28 15:08:55,725] EditPost - Step 04: Click to Search Post Button
+[2022-09-28 15:08:58,757] EditPost- Step 05: Click post title link and navigate to update post page
+[2022-09-28 15:09:02,204] EditPost - Step 06: Enter to Post Title textbox
+[2022-09-28 15:09:03,006] EditPost - Step 07: Enter to post body textbox
+[2022-09-28 15:09:05,434] EditPost - Step 08: Click to Publish button
+[2022-09-28 15:09:05,929] EditPost - Step 09: Verify Post published message is displayed
+[2022-09-28 15:09:11,058]  -------------------------- PASSED -------------------------- 
+[2022-09-28 15:09:11,058] EditPost - Step 10: Open Post Search Page
+[2022-09-28 15:09:14,398] EditPost - Step 11: Enter to Search Post Textbox
+[2022-09-28 15:09:14,553] EditPost - Step 12: Click to Search Post Button
+[2022-09-28 15:09:18,545] EditPost - Step 13: Verify search table contains 'Edit Title 9898'
+[2022-09-28 15:09:18,670]  -------------------------- PASSED -------------------------- 
+[2022-09-28 15:09:18,670] EditPost - Step 14: Verify search table contains 'Automation FC'
+[2022-09-28 15:09:18,777]  -------------------------- PASSED -------------------------- 
+[2022-09-28 15:09:18,778] EditPost - Step 15: Open End User site
+[2022-09-28 15:09:20,671] EditPost - Step 16: Verify post infor displayed at Homepage
+[2022-09-28 15:09:20,812]  -------------------------- PASSED -------------------------- 
+[2022-09-28 15:09:20,900]  -------------------------- PASSED -------------------------- 
+[2022-09-28 15:09:20,997]  -------------------------- PASSED -------------------------- 
+[2022-09-28 15:09:21,091]  -------------------------- PASSED -------------------------- 
+[2022-09-28 15:09:21,091] EditPost - Step 17: Click to post title
+[2022-09-28 15:09:22,822] EditPost - Step 18: Verify post infor displayed at post detail page
+[2022-09-28 15:09:22,964]  -------------------------- PASSED -------------------------- 
+[2022-09-28 15:09:23,060]  -------------------------- PASSED -------------------------- 
+[2022-09-28 15:09:23,152]  -------------------------- PASSED -------------------------- 
+[2022-09-28 15:09:23,249]  -------------------------- PASSED -------------------------- 
+[2022-09-28 15:09:23,262] DeletePost- Step 01: Open Admin Site
+[2022-09-28 15:09:25,198] DeletePost - Step 02: Click to Post Menu
+[2022-09-28 15:09:27,067] DeletePost - Step 03: Enter to Search Post Textbox
+[2022-09-28 15:09:27,244] DeletePost - Step 04: Click to Search Post Button
+[2022-09-28 15:09:30,559] DeletePost - Step 05: Select Post detail checkbox
+[2022-09-28 15:09:30,943] DeletePost - Step 06: Select 'Move to Trash' in Dropdown Actions
+[2022-09-28 15:09:31,353] DeletePost - Step 07: Click to Apply Button
+[2022-09-28 15:09:35,289] DeletePost - Step 08: Verify '1 post moved to the Trash.' message is displayed
+[2022-09-28 15:09:35,417]  -------------------------- PASSED -------------------------- 
+[2022-09-28 15:09:35,417] DeletePost - Step 09: Enter to Search Post Textbox
+[2022-09-28 15:09:35,557] DeletePost - Step 10: Click to Search Post Button
+[2022-09-28 15:09:38,759] DeletePost - Step 11: Verify 'No posts found.' message is displayed
+[2022-09-28 15:09:38,911]  -------------------------- PASSED -------------------------- 
+[2022-09-28 15:09:38,911] DeletePost - Step 12: Open End User site
+[2022-09-28 15:09:40,724] DeletePost - Step 13: Verify post title undisplayed at Home page
+[2022-09-28 15:09:50,858]  -------------------------- PASSED -------------------------- 
+[2022-09-28 15:09:50,858] DeletePost - Step 13: Enter to Search Textbox
+[2022-09-28 15:09:51,091] DeletePost - Step 14: Click to Search Button
+[2022-09-28 15:09:53,268] DeletePost - Step 15: Verify 'Nothing Found' message is displayed
+[2022-09-28 15:09:53,390]  -------------------------- PASSED -------------------------- 
+[2022-09-28 15:09:53,394] OS name = windows 10
+[2022-09-28 15:09:53,395] Driver instance name = firefoxdriver: firefox on windows (484cb3a7-61fc-41fd-9495-b24ba8dd300a)

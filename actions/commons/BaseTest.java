@@ -7,6 +7,7 @@ import java.util.concurrent.TimeUnit;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
+import org.joda.time.DateTime;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -55,6 +56,8 @@ public class BaseTest {
 	protected WebDriver getBrowserDriver(String browserName) {
 		if (browserName.equals("firefox")) {
 			WebDriverManager.firefoxdriver().setup();
+			FirefoxOptions options = new FirefoxOptions();
+			options.setAcceptInsecureCerts(false);
 			driver = new FirefoxDriver();
 		} else if (browserName.equals("h_firefox")) {
 			WebDriverManager.firefoxdriver().setup();
@@ -64,6 +67,8 @@ public class BaseTest {
 			driver = new FirefoxDriver(options);
 		} else if (browserName.equals("chrome")) {
 			WebDriverManager.chromedriver().setup();
+			ChromeOptions options = new ChromeOptions();
+			options.setAcceptInsecureCerts(false);
 			driver = new ChromeDriver();
 		} else if (browserName.equals("h_chrome")) {
 			WebDriverManager.chromedriver().setup();
@@ -282,4 +287,32 @@ public class BaseTest {
 		}
 	}
 
+	protected String getCurrentDate() {
+		DateTime now = new DateTime();
+		int day = now.getDayOfMonth();
+		if (day < 10) {
+			String dayValue = "0" + day;
+			return dayValue;
+		}
+		return String.valueOf(day);
+	}
+
+	protected String getCurrentMonth() {
+		DateTime now = new DateTime();
+		int month = now.getMonthOfYear();
+		if (month < 10) {
+			String monthValue = "0" + month;
+			return monthValue;
+		}
+		return String.valueOf(month);
+	}
+
+	protected String getCurrentYear() {
+		DateTime now = new DateTime();
+		return String.valueOf(now.getYear());
+	}
+
+	protected String getCurrentDay() {
+		return getCurrentDate() + "/" + getCurrentMonth() + "/" + getCurrentYear();
+	}
 }
