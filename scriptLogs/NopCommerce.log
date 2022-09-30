@@ -1068,3 +1068,39 @@ Session ID: 54ea51b3-1d0c-4f02-979e-9bd9ec319ddd
  [2022-09-28 23:15:16,066] OS name = windows 10
  [2022-09-28 23:15:16,067] 
  [2022-09-28 23:15:43,493] Register - Step 01: Navigate to Register page
+ [2022-09-29 13:10:07,871] Pre-Condition - Step 01: Open browser and navigate to demo site
+ [2022-09-29 13:10:13,147] Pre-Condition - Step 02: Enter to Username textbox with value: standard_user
+ [2022-09-29 13:10:13,426] Pre-Condition - Step 03: Enter to Password textbox with value: secret_sauce
+ [2022-09-29 13:10:13,665] Pre-Condition - Step 04: Click to Login button
+ [2022-09-29 13:10:13,998] SortByName - Step 01: Sort by name from A to Z
+ [2022-09-29 13:10:14,391] SortByName - Step 02: Verify list item is sorted by name from A to Z
+ [2022-09-29 13:10:14,536]  -------------------------- PASSED -------------------------- 
+ [2022-09-29 13:10:14,537] SortByName - Step 03: Sort by name from Z to A
+ [2022-09-29 13:10:14,730] SortByName - Step 04: Verify list item is sorted by name from Z to A
+ [2022-09-29 13:10:14,864]  -------------------------- PASSED -------------------------- 
+ [2022-09-29 13:10:15,030] SortByPrice - Step 01: Sort by price from low to high
+ [2022-09-29 13:10:15,293] SortByPrice - Step 02: Verify list item is sorted by price from low to high
+ [2022-09-29 13:10:15,425]  -------------------------- PASSED -------------------------- 
+ [2022-09-29 13:10:15,425] SortByPrice - Step 03: Sort by price from high to low
+ [2022-09-29 13:10:15,604] SortByPrice - Step 04: Verify list item is sorted by price from high to low
+ [2022-09-29 13:10:15,695]  -------------------------- PASSED -------------------------- 
+ [2022-09-29 13:10:15,702] OS name = windows 10
+ [2022-09-29 13:10:15,703] Driver instance name = chromedriver: chrome on windows (6c2eb4847b48cc00e81fc7adc5172934)
+ [2022-09-29 13:12:43,618] Pre-Condition - Step 01: Open browser and navigate to demo site
+ [2022-09-29 13:12:48,617] Pre-Condition - Step 02: Enter to Username textbox with value: standard_user
+ [2022-09-29 13:12:48,903] Pre-Condition - Step 03: Enter to Password textbox with value: secret_sauce
+ [2022-09-29 13:12:49,133] Pre-Condition - Step 04: Click to Login button
+ [2022-09-29 13:12:49,502] SortByName - Step 01: Sort by name from A to Z
+ [2022-09-29 13:12:49,852] SortByName - Step 02: Verify list item is sorted by name from A to Z
+ [2022-09-29 13:12:49,997]  -------------------------- PASSED -------------------------- 
+ [2022-09-29 13:12:49,997] SortByName - Step 03: Sort by name from Z to A
+ [2022-09-29 13:12:50,216] SortByName - Step 04: Verify list item is sorted by name from Z to A
+ [2022-09-29 13:12:50,322]  -------------------------- PASSED -------------------------- 
+ [2022-09-29 13:12:50,539] SortByPrice - Step 01: Sort by price from low to high
+ [2022-09-29 13:12:50,767] SortByPrice - Step 02: Verify list item is sorted by price from low to high
+ [2022-09-29 13:12:50,898]  -------------------------- PASSED -------------------------- 
+ [2022-09-29 13:12:50,899] SortByPrice - Step 03: Sort by price from high to low
+ [2022-09-29 13:12:51,066] SortByPrice - Step 04: Verify list item is sorted by price from high to low
+ [2022-09-29 13:12:51,157]  -------------------------- PASSED -------------------------- 
+ [2022-09-29 13:12:51,164] OS name = windows 10
+ [2022-09-29 13:12:51,165] Driver instance name = chromedriver: chrome on windows (a4e913cc3813e80d444f5eb01de7fe7f)
