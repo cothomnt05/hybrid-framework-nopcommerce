@@ -1158,3 +1158,57 @@ Session ID: 54ea51b3-1d0c-4f02-979e-9bd9ec319ddd
  [2022-09-30 20:01:38,195]  -------------------------- PASSED -------------------------- 
  [2022-09-30 20:01:38,201] OS name = windows 10
  [2022-09-30 20:01:38,201] Driver instance name = chromedriver: chrome on windows (5f6f91fd049ced98e00beb344bab88b9)
+ [2022-09-30 21:48:05,410] OS name = windows 10
+ [2022-09-30 21:48:05,410] Driver instance name = chromedriver: chrome on windows (64425995558d40ff024242782a41a64c)
+ [2022-09-30 21:52:52,578] OS name = windows 10
+ [2022-09-30 21:52:52,579] Driver instance name = chromedriver: chrome on windows (34a19919b527191cf7fc4ed8185287f0)
+ [2022-09-30 21:59:40,097] Register - Step 01: Navigate to Register page
+ [2022-09-30 21:59:41,639] Register - Step 02: Enter to Firstname textbox with value is 'Automation'
+ [2022-09-30 21:59:41,850] Register - Step 03: Enter to Lastname textbox with value is 'FC'
+ [2022-09-30 21:59:42,617] Register - Step 04: Enter to Email textbox with value is 'automation9237@mail.vn'
+ [2022-09-30 21:59:42,915] Register - Step 05: Enter to Password textbox with value is '123456'
+ [2022-09-30 21:59:43,125] Register - Step 06: Enter to Confirm password textbox with value is '123456'
+ [2022-09-30 21:59:43,316] Register - Step 07: Click to Register button
+ [2022-09-30 21:59:44,424] Register - Step 08: Vefiry Register success message is displayed
+ [2022-09-30 21:59:44,580] Login - Step 01: Navigate to Login page
+ [2022-09-30 21:59:46,089] Login - Step 02: Enter to Email textbox with value is 'automation9237@mail.vn'
+ [2022-09-30 21:59:46,318] Login - Step 03: Enter to Password textbox with value is '123456'
+ [2022-09-30 21:59:46,492] Login - Step 04: Click to Login button
+ [2022-09-30 21:59:47,442] Login - Step 05: Verify My account link is displayed
+ [2022-09-30 21:59:47,573]  -------------------------- PASSED -------------------------- 
+ [2022-09-30 21:59:47,588] My Account - Step 01: Navigate to My account page
+ [2022-09-30 21:59:48,244] My Account - Step 02: Verify Customer infor page is displayed
+ [2022-09-30 21:59:48,361]  -------------------------- PASSED -------------------------- 
+ [2022-09-30 21:59:48,361] My Account - Step 03: Verify 'Firstname' value is correctly
+ [2022-09-30 21:59:48,463]  -------------------------- PASSED -------------------------- 
+ [2022-09-30 21:59:48,464] My Account - Step 04: Verify 'Lastname' value is correctly
+ [2022-09-30 21:59:48,541]  -------------------------- PASSED -------------------------- 
+ [2022-09-30 21:59:48,541] My Account - Step 05: Verify 'Email' value is correctly
+ [2022-09-30 21:59:48,605]  -------------------------- PASSED -------------------------- 
+ [2022-09-30 21:59:48,610] OS name = windows 10
+ [2022-09-30 21:59:48,610] Driver instance name = chromedriver: chrome on windows (0ed02adecc113595b6c979a6fffd7c0f)
+ [2022-10-01 10:12:43,999] Register - Step 01: Navigate to Register page
+ [2022-10-01 10:12:45,660] Register - Step 02: Enter to Firstname textbox with value is 'Automation'
+ [2022-10-01 10:12:45,891] Register - Step 03: Enter to Lastname textbox with value is 'FC'
+ [2022-10-01 10:12:46,867] Register - Step 04: Enter to Email textbox with value is 'automation8620@mail.vn'
+ [2022-10-01 10:12:47,271] Register - Step 05: Enter to Password textbox with value is '123456'
+ [2022-10-01 10:12:47,490] Register - Step 06: Enter to Confirm password textbox with value is '123456'
+ [2022-10-01 10:12:47,678] Register - Step 07: Click to Register button
+ [2022-10-01 10:12:48,711] Register - Step 08: Vefiry Register success message is displayed
+ [2022-10-01 10:12:48,970] Login - Step 01: Navigate to Login page
+ [2022-10-01 10:12:50,411] Login - Step 02: Enter to Email textbox with value is 'automation8620@mail.vn'
+ [2022-10-01 10:12:50,675] Login - Step 03: Enter to Password textbox with value is '123456'
+ [2022-10-01 10:12:50,881] Login - Step 04: Click to Login button
+ [2022-10-01 10:12:51,822] Login - Step 05: Verify My account link is displayed
+ [2022-10-01 10:12:51,915]  -------------------------- PASSED -------------------------- 
+ [2022-10-01 10:12:51,927] My Account - Step 01: Navigate to My account page
+ [2022-10-01 10:12:52,602] My Account - Step 02: Verify Customer infor page is displayed
+ [2022-10-01 10:12:52,683]  -------------------------- PASSED -------------------------- 
+ [2022-10-01 10:12:52,683] My Account - Step 03: Verify 'Firstname' value is correctly
+ [2022-10-01 10:12:52,772]  -------------------------- PASSED -------------------------- 
+ [2022-10-01 10:12:52,772] My Account - Step 04: Verify 'Lastname' value is correctly
+ [2022-10-01 10:12:52,835]  -------------------------- PASSED -------------------------- 
+ [2022-10-01 10:12:52,835] My Account - Step 05: Verify 'Email' value is correctly
+ [2022-10-01 10:12:52,927]  -------------------------- PASSED -------------------------- 
+ [2022-10-01 10:12:52,933] OS name = windows 10
+ [2022-10-01 10:12:52,933] Driver instance name = chromedriver: chrome on windows (80a7b04ab711f73c8bb2adb0fd052f2d)

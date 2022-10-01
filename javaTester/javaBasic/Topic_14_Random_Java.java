@@ -3,6 +3,8 @@ package javaBasic;
 import java.util.Calendar;
 import java.util.Random;
 
+import commons.GlobalConstants;
+
 public class Topic_14_Random_Java {
 	public static void main(String[] args) throws InterruptedException {
 		System.out.println(getRandomEmail());
@@ -16,6 +18,7 @@ public class Topic_14_Random_Java {
 		System.out.println(getRandomNumber(100, 200));
 		System.out.println(getRandomNumber(100, 200));
 		System.out.println(getRandomNumber(100, 200));
+		System.out.println(GlobalConstants.PROJECT_PATH + "\\resources\\UserData.json");
 	}
 
 	public static int getRandomNumber() {

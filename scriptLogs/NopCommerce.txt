@@ -1,25 +1,25 @@
-[2022-09-30 20:01:29,468] Register - Step 01: Navigate to Register page
-[2022-09-30 20:01:30,812] Register - Step 02: Enter to Firstname textbox with value is 'Automation'
-[2022-09-30 20:01:31,066] Register - Step 03: Enter to Lastname textbox with value is 'FC'
-[2022-09-30 20:01:31,866] Register - Step 04: Enter to Email textbox with value is 'afc1954@mail.vn'
-[2022-09-30 20:01:32,185] Register - Step 05: Enter to Password textbox with value is '123456'
-[2022-09-30 20:01:32,392] Register - Step 06: Enter to Confirm password textbox with value is '123456'
-[2022-09-30 20:01:32,601] Register - Step 07: Click to Register button
-[2022-09-30 20:01:34,154] Register - Step 08: Vefiry Register success message is displayed
-[2022-09-30 20:01:34,371] Login - Step 01: Navigate to Login page
-[2022-09-30 20:01:35,897] Login - Step 02: Enter to Email textbox with value is 'afc1954@mail.vn'
-[2022-09-30 20:01:36,092] Login - Step 03: Enter to Password textbox with value is '123456'
-[2022-09-30 20:01:36,317] Login - Step 04: Click to Login button
-[2022-09-30 20:01:37,166] Login - Step 05: Verify My account link is displayed
-[2022-09-30 20:01:37,244]  -------------------------- PASSED -------------------------- 
-[2022-09-30 20:01:37,256] My Account - Step 01: Navigate to My account page
-[2022-09-30 20:01:37,902] My Account - Step 02: Verify Customer infor page is displayed
-[2022-09-30 20:01:37,979]  -------------------------- PASSED -------------------------- 
-[2022-09-30 20:01:37,979] My Account - Step 03: Verify 'Firstname' value is correctly
-[2022-09-30 20:01:38,069]  -------------------------- PASSED -------------------------- 
-[2022-09-30 20:01:38,069] My Account - Step 04: Verify 'Lastname' value is correctly
-[2022-09-30 20:01:38,131]  -------------------------- PASSED -------------------------- 
-[2022-09-30 20:01:38,131] My Account - Step 05: Verify 'Email' value is correctly
-[2022-09-30 20:01:38,195]  -------------------------- PASSED -------------------------- 
-[2022-09-30 20:01:38,201] OS name = windows 10
-[2022-09-30 20:01:38,201] Driver instance name = chromedriver: chrome on windows (5f6f91fd049ced98e00beb344bab88b9)
+[2022-10-01 10:12:43,999] Register - Step 01: Navigate to Register page
+[2022-10-01 10:12:45,660] Register - Step 02: Enter to Firstname textbox with value is 'Automation'
+[2022-10-01 10:12:45,891] Register - Step 03: Enter to Lastname textbox with value is 'FC'
+[2022-10-01 10:12:46,867] Register - Step 04: Enter to Email textbox with value is 'automation8620@mail.vn'
+[2022-10-01 10:12:47,271] Register - Step 05: Enter to Password textbox with value is '123456'
+[2022-10-01 10:12:47,490] Register - Step 06: Enter to Confirm password textbox with value is '123456'
+[2022-10-01 10:12:47,678] Register - Step 07: Click to Register button
+[2022-10-01 10:12:48,711] Register - Step 08: Vefiry Register success message is displayed
+[2022-10-01 10:12:48,970] Login - Step 01: Navigate to Login page
+[2022-10-01 10:12:50,411] Login - Step 02: Enter to Email textbox with value is 'automation8620@mail.vn'
+[2022-10-01 10:12:50,675] Login - Step 03: Enter to Password textbox with value is '123456'
+[2022-10-01 10:12:50,881] Login - Step 04: Click to Login button
+[2022-10-01 10:12:51,822] Login - Step 05: Verify My account link is displayed
+[2022-10-01 10:12:51,915]  -------------------------- PASSED -------------------------- 
+[2022-10-01 10:12:51,927] My Account - Step 01: Navigate to My account page
+[2022-10-01 10:12:52,602] My Account - Step 02: Verify Customer infor page is displayed
+[2022-10-01 10:12:52,683]  -------------------------- PASSED -------------------------- 
+[2022-10-01 10:12:52,683] My Account - Step 03: Verify 'Firstname' value is correctly
+[2022-10-01 10:12:52,772]  -------------------------- PASSED -------------------------- 
+[2022-10-01 10:12:52,772] My Account - Step 04: Verify 'Lastname' value is correctly
+[2022-10-01 10:12:52,835]  -------------------------- PASSED -------------------------- 
+[2022-10-01 10:12:52,835] My Account - Step 05: Verify 'Email' value is correctly
+[2022-10-01 10:12:52,927]  -------------------------- PASSED -------------------------- 
+[2022-10-01 10:12:52,933] OS name = windows 10
+[2022-10-01 10:12:52,933] Driver instance name = chromedriver: chrome on windows (80a7b04ab711f73c8bb2adb0fd052f2d)
