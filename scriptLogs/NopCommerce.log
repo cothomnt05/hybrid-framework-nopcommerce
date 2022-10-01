@@ -23,3 +23,105 @@
  [2022-10-01 22:56:47,242]  -------------------------- PASSED -------------------------- 
  [2022-10-01 22:56:47,249] OS name = windows 10
  [2022-10-01 22:56:47,249] Driver instance name = chromedriver: chrome on windows (c96b3baea5b122f8ba60512fd44e43dd)
+ [2022-10-01 23:09:20,624] OS name = windows 10
+ [2022-10-01 23:09:20,625] 
+ [2022-10-01 23:09:58,291] Register - Step 01: Navigate to Register page
+ [2022-10-01 23:10:15,789] Login - Step 01: Navigate to Login page
+ [2022-10-01 23:10:15,802] My Account - Step 01: Navigate to My account page
+ [2022-10-01 23:10:26,245] OS name = windows 10
+ [2022-10-01 23:10:26,246] Driver instance name = chromedriver: chrome on windows (30ad1c5fddad6d72fc549b346c5a0607)
+ [2022-10-01 23:10:36,681] chrome not reachable
+  (Session info: chrome=105.0.5195.127)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-G8U2059', ip: '192.168.1.58', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\THAOLE~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57305}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 30ad1c5fddad6d72fc549b346c5a0607
+ [2022-10-01 23:11:10,012] Register - Step 01: Navigate to Register page
+ [2022-10-01 23:11:12,084] Register - Step 02: Enter to Firstname textbox with value is 'Automation'
+ [2022-10-01 23:11:12,223] Register - Step 03: Enter to Lastname textbox with value is 'FC'
+ [2022-10-01 23:11:13,338] Register - Step 04: Enter to Email textbox with value is 'afc593@mail.vn'
+ [2022-10-01 23:11:13,541] Register - Step 05: Enter to Password textbox with value is '123456'
+ [2022-10-01 23:11:13,649] Register - Step 06: Enter to Confirm password textbox with value is '123456'
+ [2022-10-01 23:11:13,780] Register - Step 07: Click to Register button
+ [2022-10-01 23:11:14,743] Register - Step 08: Vefiry Register success message is displayed
+ [2022-10-01 23:11:14,978] Login - Step 01: Navigate to Login page
+ [2022-10-01 23:11:16,459] Login - Step 02: Enter to Email textbox with value is 'afc593@mail.vn'
+ [2022-10-01 23:11:16,594] Login - Step 03: Enter to Password textbox with value is '123456'
+ [2022-10-01 23:11:16,708] Login - Step 04: Click to Login button
+ [2022-10-01 23:11:17,542] Login - Step 05: Verify My account link is displayed
+ [2022-10-01 23:11:17,645]  -------------------------- PASSED -------------------------- 
+ [2022-10-01 23:11:17,655] My Account - Step 01: Navigate to My account page
+ [2022-10-01 23:11:18,196] My Account - Step 02: Verify Customer infor page is displayed
+ [2022-10-01 23:11:18,306]  -------------------------- PASSED -------------------------- 
+ [2022-10-01 23:11:18,306] My Account - Step 03: Verify 'Firstname' value is correctly
+ [2022-10-01 23:11:18,393]  -------------------------- PASSED -------------------------- 
+ [2022-10-01 23:11:18,393] My Account - Step 04: Verify 'Lastname' value is correctly
+ [2022-10-01 23:11:18,473]  -------------------------- PASSED -------------------------- 
+ [2022-10-01 23:11:18,473] My Account - Step 05: Verify 'Email' value is correctly
+ [2022-10-01 23:11:18,565]  -------------------------- PASSED -------------------------- 
+ [2022-10-01 23:11:18,571] OS name = windows 10
+ [2022-10-01 23:11:18,571] Driver instance name = firefoxdriver: firefox on windows (f785a0f4-bfcf-4314-a913-f4414d253bec)
+ [2022-10-01 23:37:41,523] Register - Step 01: Navigate to Register page
+ [2022-10-01 23:37:43,084] Register - Step 02: Enter to Firstname textbox with value is 'Automation'
+ [2022-10-01 23:37:43,291] Register - Step 03: Enter to Lastname textbox with value is 'FC'
+ [2022-10-01 23:37:44,102] Register - Step 04: Enter to Email textbox with value is 'afc7187@mail.vn'
+ [2022-10-01 23:37:44,419] Register - Step 05: Enter to Password textbox with value is '123456'
+ [2022-10-01 23:37:44,627] Register - Step 06: Enter to Confirm password textbox with value is '123456'
+ [2022-10-01 23:37:44,826] Register - Step 07: Click to Register button
+ [2022-10-01 23:37:45,745] Register - Step 08: Vefiry Register success message is displayed
+ [2022-10-01 23:37:45,944] Login - Step 01: Navigate to Login page
+ [2022-10-01 23:37:47,419] Login - Step 02: Enter to Email textbox with value is 'afc7187@mail.vn'
+ [2022-10-01 23:37:47,640] Login - Step 03: Enter to Password textbox with value is '123456'
+ [2022-10-01 23:37:47,839] Login - Step 04: Click to Login button
+ [2022-10-01 23:37:48,644] Login - Step 05: Verify My account link is displayed
+ [2022-10-01 23:37:48,746]  -------------------------- PASSED -------------------------- 
+ [2022-10-01 23:37:48,757] My Account - Step 01: Navigate to My account page
+ [2022-10-01 23:37:49,370] My Account - Step 02: Verify Customer infor page is displayed
+ [2022-10-01 23:37:49,449]  -------------------------- PASSED -------------------------- 
+ [2022-10-01 23:37:49,449] My Account - Step 03: Verify 'Firstname' value is correctly
+ [2022-10-01 23:37:49,508]  -------------------------- PASSED -------------------------- 
+ [2022-10-01 23:37:49,508] My Account - Step 04: Verify 'Lastname' value is correctly
+ [2022-10-01 23:37:49,602]  -------------------------- PASSED -------------------------- 
+ [2022-10-01 23:37:49,602] My Account - Step 05: Verify 'Email' value is correctly
+ [2022-10-01 23:37:49,681]  -------------------------- PASSED -------------------------- 
+ [2022-10-01 23:37:49,687] OS name = windows 10
+ [2022-10-01 23:37:49,687] Driver instance name = chromedriver: chrome on windows (b82678f15cbc5352928723827b0592d2)
+ [2022-10-01 23:43:57,811] Register - Step 01: Navigate to Register page
+ [2022-10-01 23:43:59,387] Register - Step 02: Enter to Firstname textbox with value is 'Automation'
+ [2022-10-01 23:43:59,660] Register - Step 03: Enter to Lastname textbox with value is 'FC'
+ [2022-10-01 23:44:00,527] Register - Step 04: Enter to Email textbox with value is 'afc1931@mail.vn'
+ [2022-10-01 23:44:00,848] Register - Step 05: Enter to Password textbox with value is '123456'
+ [2022-10-01 23:44:01,092] Register - Step 06: Enter to Confirm password textbox with value is '123456'
+ [2022-10-01 23:44:01,306] Register - Step 07: Click to Register button
+ [2022-10-01 23:44:02,302] Register - Step 08: Vefiry Register success message is displayed
+ [2022-10-01 23:44:02,519] Login - Step 01: Navigate to Login page
+ [2022-10-01 23:44:04,021] Login - Step 02: Enter to Email textbox with value is 'afc1931@mail.vn'
+ [2022-10-01 23:44:04,261] Login - Step 03: Enter to Password textbox with value is '123456'
+ [2022-10-01 23:44:04,473] Login - Step 04: Click to Login button
+ [2022-10-01 23:44:05,390] Login - Step 05: Verify My account link is displayed
+ [2022-10-01 23:44:05,517]  -------------------------- PASSED -------------------------- 
+ [2022-10-01 23:44:05,526] My Account - Step 01: Navigate to My account page
+ [2022-10-01 23:44:06,140] My Account - Step 02: Verify Customer infor page is displayed
+ [2022-10-01 23:44:06,259]  -------------------------- PASSED -------------------------- 
+ [2022-10-01 23:44:06,259] My Account - Step 03: Verify 'Firstname' value is correctly
+ [2022-10-01 23:44:06,365]  -------------------------- PASSED -------------------------- 
+ [2022-10-01 23:44:06,365] My Account - Step 04: Verify 'Lastname' value is correctly
+ [2022-10-01 23:44:06,441]  -------------------------- PASSED -------------------------- 
+ [2022-10-01 23:44:06,441] My Account - Step 05: Verify 'Email' value is correctly
+ [2022-10-01 23:44:06,521]  -------------------------- PASSED -------------------------- 
+ [2022-10-01 23:44:06,526] OS name = windows 10
+ [2022-10-01 23:44:06,526] Driver instance name = chromedriver: chrome on windows (ec64d31e660193ec17def54ba5d97b0b)
+ [2022-10-01 23:44:59,972] Register - Step 01: Navigate to Register page
+ [2022-10-01 23:45:30,407] Login - Step 01: Navigate to Login page
+ [2022-10-01 23:45:30,418] My Account - Step 01: Navigate to My account page
+ [2022-10-01 23:46:00,651] OS name = windows 10
+ [2022-10-01 23:46:00,652] Driver instance name = chromedriver: chrome on windows (1457caeaeb3bdbf98085f9d68905dc88)
+ [2022-10-01 23:46:00,660] no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=105.0.5195.127)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-G8U2059', ip: '192.168.1.58', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\THAOLE~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57502}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1457caeaeb3bdbf98085f9d68905dc88

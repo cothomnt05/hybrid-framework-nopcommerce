@@ -16,7 +16,7 @@ import pageObjects.nopcommerce.user.UserHomePageObject;
 import pageObjects.nopcommerce.user.UserLoginPageObject;
 import pageObjects.nopcommerce.user.UserRegisterPageObject;
 
-public class Level_21_Multiple_Environment extends BaseTest {
+public class Level_21_Multiple_Environment_Parameter extends BaseTest {
 	private WebDriver driver;
 	private String firstName, lastName, email, password;
 	private String day, month, year;

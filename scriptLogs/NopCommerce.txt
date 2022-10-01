@@ -1,25 +1,13 @@
-[2022-10-01 22:56:38,735] Register - Step 01: Navigate to Register page
-[2022-10-01 22:56:40,320] Register - Step 02: Enter to Firstname textbox with value is 'Automation'
-[2022-10-01 22:56:40,522] Register - Step 03: Enter to Lastname textbox with value is 'FC'
-[2022-10-01 22:56:41,298] Register - Step 04: Enter to Email textbox with value is 'afc5267@mail.vn'
-[2022-10-01 22:56:41,654] Register - Step 05: Enter to Password textbox with value is '123456'
-[2022-10-01 22:56:41,923] Register - Step 06: Enter to Confirm password textbox with value is '123456'
-[2022-10-01 22:56:42,163] Register - Step 07: Click to Register button
-[2022-10-01 22:56:43,212] Register - Step 08: Vefiry Register success message is displayed
-[2022-10-01 22:56:43,525] Login - Step 01: Navigate to Login page
-[2022-10-01 22:56:44,973] Login - Step 02: Enter to Email textbox with value is 'afc5267@mail.vn'
-[2022-10-01 22:56:45,195] Login - Step 03: Enter to Password textbox with value is '123456'
-[2022-10-01 22:56:45,395] Login - Step 04: Click to Login button
-[2022-10-01 22:56:46,220] Login - Step 05: Verify My account link is displayed
-[2022-10-01 22:56:46,299]  -------------------------- PASSED -------------------------- 
-[2022-10-01 22:56:46,311] My Account - Step 01: Navigate to My account page
-[2022-10-01 22:56:46,938] My Account - Step 02: Verify Customer infor page is displayed
-[2022-10-01 22:56:47,026]  -------------------------- PASSED -------------------------- 
-[2022-10-01 22:56:47,026] My Account - Step 03: Verify 'Firstname' value is correctly
-[2022-10-01 22:56:47,084]  -------------------------- PASSED -------------------------- 
-[2022-10-01 22:56:47,084] My Account - Step 04: Verify 'Lastname' value is correctly
-[2022-10-01 22:56:47,177]  -------------------------- PASSED -------------------------- 
-[2022-10-01 22:56:47,177] My Account - Step 05: Verify 'Email' value is correctly
-[2022-10-01 22:56:47,242]  -------------------------- PASSED -------------------------- 
-[2022-10-01 22:56:47,249] OS name = windows 10
-[2022-10-01 22:56:47,249] Driver instance name = chromedriver: chrome on windows (c96b3baea5b122f8ba60512fd44e43dd)
+[2022-10-01 23:44:59,972] Register - Step 01: Navigate to Register page
+[2022-10-01 23:45:30,407] Login - Step 01: Navigate to Login page
+[2022-10-01 23:45:30,418] My Account - Step 01: Navigate to My account page
+[2022-10-01 23:46:00,651] OS name = windows 10
+[2022-10-01 23:46:00,652] Driver instance name = chromedriver: chrome on windows (1457caeaeb3bdbf98085f9d68905dc88)
+[2022-10-01 23:46:00,660] no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=105.0.5195.127)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-G8U2059', ip: '192.168.1.58', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\THAOLE~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57502}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1457caeaeb3bdbf98085f9d68905dc88
