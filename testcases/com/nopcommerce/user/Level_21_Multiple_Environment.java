@@ -25,11 +25,11 @@ public class Level_21_Multiple_Environment extends BaseTest {
 	private UserLoginPageObject loginPage;
 	private UserCustomerInfoPageObject customerInfoPage;
 
-	@Parameters({ "browser", "environment" })
+	@Parameters({ "browser", "url" })
 
 	@BeforeClass
-	public void beforeClass(String browserName, String environmentName) {
-		driver = getBrowserDriver(browserName, environmentName);
+	public void beforeClass(String browserName, String urlPage) {
+		driver = getBrowserDriver(browserName, urlPage);
 
 		homePage = PageGeneratorManager.getUserHomePage(driver);
 
