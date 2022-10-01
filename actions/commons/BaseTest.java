@@ -109,7 +109,7 @@ public class BaseTest {
 		return driver;
 	}
 
-	protected WebDriver getBrowserDriver(String browserName, String appUrl) {
+	protected WebDriver getBrowserDriver(String browserName, String envName) {
 		if (browserName.equals("firefox")) {
 			WebDriverManager.firefoxdriver().setup();
 			driver = new FirefoxDriver();
@@ -153,7 +153,7 @@ public class BaseTest {
 		}
 
 		driver.manage().timeouts().implicitlyWait(GlobalConstants.LONG_TIMEOUT, TimeUnit.SECONDS);
-		driver.get(appUrl);
+		driver.get(getEnvironment(envName));
 		return driver;
 	}
 
@@ -161,9 +161,13 @@ public class BaseTest {
 		String envUrl = null;
 		EnvironmentList environment = EnvironmentList.valueOf(serverName.toUpperCase());
 		if (environment.equals(EnvironmentList.DEV)) {
-			envUrl = GlobalConstants.PORTAL_DEV_URL;
+			envUrl = "https://demo.nopcommerce.com/";
 		} else if (environment.equals(EnvironmentList.TESTING)) {
-			envUrl = GlobalConstants.ADMIN_DEV_URL;
+			envUrl = "https://admin-demo.nopcommerce.com/";
+		} else if (environment.equals(EnvironmentList.STAGING)) {
+			envUrl = "https://staging.nopcommerce.com/";
+		} else if (environment.equals(EnvironmentList.PROD)) {
+			envUrl = "https://production.nopcommerce.com/";
 		}
 		return envUrl;
 	}
