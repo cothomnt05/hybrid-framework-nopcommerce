@@ -10,8 +10,6 @@ import java.util.List;
 import org.openqa.selenium.WebDriver;
 
 import commons.BasePage;
-import jdbcTest.MySQLTestConnection;
-import pageUIs.wordpress.AdminDashboardPageUI;
 import pageUIs.wordpress.AdminUserPageUI;
 import utilities.MySQLConnUtils;
 
