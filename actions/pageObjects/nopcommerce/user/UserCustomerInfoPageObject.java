@@ -19,4 +19,14 @@ public class UserCustomerInfoPageObject extends BasePage {
 		return isElementDisplayed(driver, CustomerInfoPageUI.MY_ACCOUNT_HEADER);
 	}
 
+	public boolean isCheckboxSelected(String gender) {
+		waitForElementVisible(driver, CustomerInfoPageUI.DYNAMIC_RADIO_CHECKBOX_GENDER, gender);
+		return isElementSelected(driver, CustomerInfoPageUI.DYNAMIC_RADIO_CHECKBOX_GENDER, gender);
+	}
+
+	public String isDropdownSelected(String dropdownName) {
+		waitForElementVisible(driver, CustomerInfoPageUI.DYNAMIC_DROPDOWN_DAY, dropdownName);
+		return getSelectedItemInDefaultDropdown(driver, CustomerInfoPageUI.DYNAMIC_DROPDOWN_DAY, dropdownName);
+	}
+
 }

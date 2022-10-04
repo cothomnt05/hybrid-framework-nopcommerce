@@ -1,0 +1,109 @@
+[2022-10-04 17:49:26,858] Pre-Condition - Step 01: Open browse and navigate to Homepage
+[2022-10-04 17:49:32,552] Pre-Condition - Step 02: Navigate to Register page
+[2022-10-04 17:49:33,316] Pre-Condition - Step 03: Input to Firstname textbox with value: Automation
+[2022-10-04 17:49:33,536] Pre-Condition - Step 04: Input to Lastname textbox with value: FC
+[2022-10-04 17:49:33,732] Pre-Condition - Step 05: Input to Email textbox with value: automation8104@gmail.com
+[2022-10-04 17:49:33,995] Pre-Condition - Step 06: Input to Password textbox with value: 123456
+[2022-10-04 17:49:34,187] Pre-Condition - Step 07: Input to Confirm Password textbox with value: 123456
+[2022-10-04 17:49:34,373] Pre-Condition - Step 08: Click to Register button
+[2022-10-04 17:49:36,192] Pre-Condition - Step 09: Vefiry Register success message is displayed
+[2022-10-04 17:49:36,287]  -------------------------- PASSED -------------------------- 
+[2022-10-04 17:49:36,288] Pre-Condition - Step 10: Click to MyAccount link
+[2022-10-04 17:49:36,972] CustomerInfo - Step 01: Open Customer Info page
+[2022-10-04 17:49:37,497] CustomerInfo - Step 02: Update Gender Checkbox with value: Male
+[2022-10-04 17:49:37,691] CustomerInfo - Step 03: Update first name textbox with value: Autotmation
+[2022-10-04 17:49:37,895] CustomerInfo - Step 04: Update last name textbox with value: FC
+[2022-10-04 17:49:38,084] CustomerInfo - Step 05: Update date of birth dropdown with value: 1/January/1999
+[2022-10-04 17:49:38,633] CustomerInfo - Step 06: Update email textbox with value: automationfc2575.vn@gmail.com
+[2022-10-04 17:49:38,872] CustomerInfo - Step 07: Update company textbox with value: Automation FC
+[2022-10-04 17:49:39,078] CustomerInfo - Step 08: Click to Save button
+[2022-10-04 17:49:39,880] CustomerInfo - Step 09: Verify gender checkbox is correctly displayed
+[2022-10-04 17:49:39,949]  -------------------------- PASSED -------------------------- 
+[2022-10-04 17:49:39,949] CustomerInfo - Step 10: Verify first name textbox is correctly displayed
+[2022-10-04 17:49:40,013]  -------------------------- PASSED -------------------------- 
+[2022-10-04 17:49:40,013] CustomerInfo - Step 11: Verify last name textbox is correctly displayed
+[2022-10-04 17:49:40,077]  -------------------------- PASSED -------------------------- 
+[2022-10-04 17:49:40,078] CustomerInfo - Step 12: Verify date of birth dropdown is correctly displayed
+[2022-10-04 17:49:40,217]  -------------------------- PASSED -------------------------- 
+[2022-10-04 17:49:40,370]  -------------------------- PASSED -------------------------- 
+[2022-10-04 17:49:41,469]  -------------------------- PASSED -------------------------- 
+[2022-10-04 17:49:41,470] CustomerInfo - Step 13: Verify email textbox is correctly displayed
+[2022-10-04 17:49:41,551]  -------------------------- PASSED -------------------------- 
+[2022-10-04 17:49:41,551] CustomerInfo - Step 14: Verify company name textbox is correctly displayed
+[2022-10-04 17:49:41,614]  -------------------------- PASSED -------------------------- 
+[2022-10-04 17:49:41,614] CustomerInfo - Step 15: Click to MyAccount link
+[2022-10-04 17:49:42,234] Addresses - Step 01: Open Addresses page
+[2022-10-04 17:49:42,820] Addresses - Step 02: Click to 'ADD NEW' button
+[2022-10-04 17:49:43,457] Addresses - Step 03: Input to Firstname textbox with value: Autotmation
+[2022-10-04 17:49:43,634] Addresses - Step 04: Input to Lastname textbox with value: FC
+[2022-10-04 17:49:43,814] Addresses - Step 05: Input to Email textbox with value: automationfc2575.vn@gmail.com
+[2022-10-04 17:49:44,068] Addresses - Step 06: Input to Company textbox with value: Automation FC
+[2022-10-04 17:49:44,274] Addresses - Step 07: Select Country dropdown with value: Viet Nam
+[2022-10-04 17:49:44,479] Addresses - Step 08: Select State/province dropdown with value: Other
+[2022-10-04 17:49:44,754] Addresses - Step 09: Input to City textbox with value: Da Nang
+[2022-10-04 17:49:44,949] Addresses - Step 10: Input to Address 1 textbox with value: 123/04 Le Lai
+[2022-10-04 17:49:45,153] Addresses - Step 11: Input to Address 2 textbox with value: 234/05 Hai Phong
+[2022-10-04 17:49:45,359] Addresses - Step 12: Input to Zip/postal code textbox with value: 550000
+[2022-10-04 17:49:45,542] Addresses - Step 13: Input to Phone number textbox with value: 0123456789
+[2022-10-04 17:49:45,735] Addresses - Step 14: Input to Fax number textbox with value: 0987654321
+[2022-10-04 17:49:45,935] Addresses - Step 15: Click to SAVE button
+[2022-10-04 17:49:46,762] Addresses - Step 16: Verify fullname is correctly displayed
+[2022-10-04 17:49:46,847]  -------------------------- PASSED -------------------------- 
+[2022-10-04 17:49:46,847] Addresses - Step 17: Verify email is correctly displayed
+[2022-10-04 17:49:46,928]  -------------------------- PASSED -------------------------- 
+[2022-10-04 17:49:46,928] Addresses - Step 18: Verify Company is correctly displayed
+[2022-10-04 17:49:47,013]  -------------------------- PASSED -------------------------- 
+[2022-10-04 17:49:47,013] Addresses - Step 19: Verify Country is correctly displayed
+[2022-10-04 17:49:47,100]  -------------------------- PASSED -------------------------- 
+[2022-10-04 17:49:47,100] Addresses - Step 20: Verify State/province is correctly displayed
+[2022-10-04 17:49:47,179]  -------------------------- PASSED -------------------------- 
+[2022-10-04 17:49:47,179] Addresses - Step 21: Verify City is correctly displayed
+[2022-10-04 17:49:47,249]  -------------------------- PASSED -------------------------- 
+[2022-10-04 17:49:47,249] Addresses - Step 22: Verify Address 1 is correctly displayed
+[2022-10-04 17:49:47,335]  -------------------------- PASSED -------------------------- 
+[2022-10-04 17:49:47,335] Addresses - Step 23: Verify Address 2 is correctly displayed
+[2022-10-04 17:49:47,414]  -------------------------- PASSED -------------------------- 
+[2022-10-04 17:49:47,414] Addresses - Step 24: Verify Zip/postal is correctly displayed
+[2022-10-04 17:49:47,499]  -------------------------- PASSED -------------------------- 
+[2022-10-04 17:49:47,500] Addresses - Step 25: Verify phone number is correctly displayed
+[2022-10-04 17:49:47,586]  -------------------------- PASSED -------------------------- 
+[2022-10-04 17:49:47,586] Addresses - Step 26: Verify fax number is correctly displayed
+[2022-10-04 17:49:47,663]  -------------------------- PASSED -------------------------- 
+[2022-10-04 17:49:47,663] Addresses - Step 27: Click to MyAccount link
+[2022-10-04 17:49:48,168] ChangePassword - Step 01: Open Change password page
+[2022-10-04 17:49:48,759] ChangePassword - Step 02: Input to Old password textbox with value: 123456
+[2022-10-04 17:49:48,948] ChangePassword - Step 03: Input to New password textbox with value: 1234567
+[2022-10-04 17:49:49,142] ChangePassword - Step 04: Input to Confirm password textbox with value: 1234567
+[2022-10-04 17:49:49,327] ChangePassword - Step 05: Click to CHANGE PASSWORD button
+[2022-10-04 17:49:49,880] ChangePassword - Step 06: Verify change password success message is displayed
+[2022-10-04 17:49:49,978]  -------------------------- PASSED -------------------------- 
+[2022-10-04 17:49:49,979] ChangePassword - Step 07: Click Alert Message close button
+[2022-10-04 17:49:50,117] ChangePassword - Step 08: Click to Logout link
+[2022-10-04 17:49:51,899] ChangePassword - Step 09: Open Login page 
+[2022-10-04 17:49:52,504] ChangePassword - Step 10: Input to email textbox with value: automationfc2575.vn@gmail.com
+[2022-10-04 17:49:52,721] ChangePassword - Step 11: Input to password textbox with value: 123456
+[2022-10-04 17:49:52,896] ChangePassword - Step 12: Click to LOGIN button
+[2022-10-04 17:49:53,515] ChangePassword - Step 13: Verify unsuccessful message is displayed
+[2022-10-04 17:49:53,594]  -------------------------- PASSED -------------------------- 
+[2022-10-04 17:49:53,594] ChangePassword - Step 14: Input to email textbox with value: automationfc2575.vn@gmail.com
+[2022-10-04 17:49:53,798] ChangePassword - Step 15: Input to password textbox with value: 1234567
+[2022-10-04 17:49:53,963] ChangePassword - Step 16: Click to LOGIN button
+[2022-10-04 17:49:54,819] ChangePassword - Step 17: Verify MyAccount link is displayed
+[2022-10-04 17:49:54,899]  -------------------------- PASSED -------------------------- 
+[2022-10-04 17:49:54,900] ChangePassword - Step 18: Click to MyAccount link
+[2022-10-04 17:49:55,417] MyProductReviews - Step 01: Click to Desktops link in Computer menu
+[2022-10-04 17:49:56,327] MyProductReviews - Step 02: Click to Build your own computer product
+[2022-10-04 17:49:58,331] MyProductReviews - Step 03: Click to ' Add your review' link
+[2022-10-04 17:49:58,963] MyProductReviews - Step 04: Input to Review title textbox with value: review title
+[2022-10-04 17:49:59,176] MyProductReviews - Step 05: Input to Review text textbox with value: review text
+[2022-10-04 17:49:59,360] MyProductReviews - Step 06: Click to 'SUBMIT REVIEW' button
+[2022-10-04 17:49:59,909] MyProductReviews - Step 07: Verify 'Product review is successfully added.' message is displayed
+[2022-10-04 17:49:59,987]  -------------------------- PASSED -------------------------- 
+[2022-10-04 17:49:59,988] MyProductReviews - Step 08: Click to MyAccount link
+[2022-10-04 17:50:00,477] MyProductReviews - Step 09: Open My product reviews page
+[2022-10-04 17:50:01,059] MyProductReviews - Step 10: Verify product review is displayed
+[2022-10-04 17:50:01,137]  -------------------------- PASSED -------------------------- 
+[2022-10-04 17:50:01,217]  -------------------------- PASSED -------------------------- 
+[2022-10-04 17:50:01,298]  -------------------------- PASSED -------------------------- 
+[2022-10-04 17:50:01,303] OS name = windows 10
+[2022-10-04 17:50:01,303] Driver instance name = chromedriver: chrome on windows (32e4a5687a33c0734d52aae8d3fe5ca6)

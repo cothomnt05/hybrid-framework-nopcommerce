@@ -8,6 +8,7 @@ import pageObjects.nopcommerce.user.UserAddressPageObject;
 import pageObjects.nopcommerce.user.UserBackInStockSubscriptionPageObject;
 import pageObjects.nopcommerce.user.UserChangePasswordPageObject;
 import pageObjects.nopcommerce.user.UserCustomerInfoPageObject;
+import pageObjects.nopcommerce.user.UserProductPageObject;
 import pageObjects.nopcommerce.user.UserDownloadableProductPageObject;
 import pageObjects.nopcommerce.user.UserHomePageObject;
 import pageObjects.nopcommerce.user.UserLoginPageObject;
@@ -67,5 +68,9 @@ public class PageGeneratorManager {
 
 	public static AdminDashboardPageObject getAdminDashboardPage(WebDriver driver) {
 		return new AdminDashboardPageObject(driver);
+	}
+
+	public static UserProductPageObject getUserProductPage(WebDriver driver) {
+		return new UserProductPageObject(driver);
 	}
 }

@@ -162,7 +162,7 @@ public class NopCommerce_002_Login extends BaseTest {
 		log.info("Success - Step 04: Click to Login button");
 		homePage = loginPage.clickToLoginButton();
 
-		log.info("Success - Step 03: Verify login successful message");
+		log.info("Success - Step 03: Verify MyAccount link is displayed");
 		verifyTrue(homePage.isMyAccountLinkDisplayed());
 
 	}

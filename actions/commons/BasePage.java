@@ -219,6 +219,11 @@ public class BasePage {
 		return select.getFirstSelectedOption().getText();
 	}
 
+	public String getSelectedItemInDefaultDropdown(WebDriver driver, String locatorType, String... dynamicValues) {
+		Select select = new Select(getWebElement(driver, getDynamicXpath(locatorType, dynamicValues)));
+		return select.getFirstSelectedOption().getText();
+	}
+
 	public boolean isDropdownMultiple(WebDriver driver, String locatorType) {
 		Select select = new Select(getWebElement(driver, locatorType));
 		return select.isMultiple();
@@ -370,6 +375,10 @@ public class BasePage {
 		return getWebElement(driver, locatorType).isSelected();
 	}
 
+	public boolean isElementSelected(WebDriver driver, String locatorType, String... dynamicValues) {
+		return getWebElement(driver, getDynamicXpath(locatorType, dynamicValues)).isSelected();
+	}
+
 	public void switchToFrameIframe(WebDriver driver, String locatorType) {
 		driver.switchTo().frame(getWebElement(driver, locatorType));
 	}
@@ -381,6 +390,11 @@ public class BasePage {
 	public void hoverMouseToElement(WebDriver driver, String locatorType) {
 		Actions action = new Actions(driver);
 		action.moveToElement(getWebElement(driver, locatorType)).perform();
+	}
+
+	public void hoverMouseToElement(WebDriver driver, String locatorType, String... dynamicValues) {
+		Actions action = new Actions(driver);
+		action.moveToElement(getWebElement(driver, getDynamicXpath(locatorType, dynamicValues))).perform();
 	}
 
 	public void pressKeyToElement(WebDriver driver, String locatorType, Keys key) {
@@ -651,6 +665,11 @@ public class BasePage {
 		sendkeyToElement(driver, BasePageUI.DYNAMIC_TEXTBOX_BY_ID, valueText, textboxID);
 	}
 
+	public void inputToTextboxByLabel(WebDriver driver, String textboxID, String valueText) {
+		waitForElementVisible(driver, BasePageUI.DYNAMIC_TEXTBOX_BY_LABEL, textboxID);
+		sendkeyToElement(driver, BasePageUI.DYNAMIC_TEXTBOX_BY_LABEL, valueText, textboxID);
+	}
+
 	/**
 	 * Click to dynamic button by text
 	 * 
@@ -708,6 +727,11 @@ public class BasePage {
 		return getElementAttribute(driver, BasePageUI.DYNAMIC_TEXTBOX_BY_ID, "value", textboxID);
 	}
 
+	public String getTextboxValueByLabel(WebDriver driver, String textboxID) {
+		waitForElementVisible(driver, BasePageUI.DYNAMIC_TEXTBOX_BY_LABEL, textboxID);
+		return getElementAttribute(driver, BasePageUI.DYNAMIC_TEXTBOX_BY_LABEL, "value", textboxID);
+	}
+
 	public UserHomePO openEndUserSite(WebDriver driver, String urlPage) {
 		openPageUrl(driver, urlPage);
 		return pageObjects.wordpress.PageGeneratorManager.getUserHomePageObject(driver);
@@ -716,6 +740,12 @@ public class BasePage {
 	public AdminDashboardPO openAdminSite(WebDriver driver, String urlPage) {
 		openPageUrl(driver, urlPage);
 		return pageObjects.wordpress.PageGeneratorManager.getAdminDashboardPageObject(driver);
+	}
+
+	public void clickToLinkInMenuByText(WebDriver driver, String textMenu, String textFieldProduct) {
+		hoverMouseToElement(driver, BasePageUI.DYNAMIC_MENU_LINK_BY_TEXT, textMenu);
+		waitForElementClickable(driver, BasePageUI.DYNAMIC_PRODUCT_LINK_BY_TEXT, textMenu, textFieldProduct);
+		clickToElement(driver, BasePageUI.DYNAMIC_PRODUCT_LINK_BY_TEXT, textMenu, textFieldProduct);
 	}
 
 	private long longTimeout = GlobalConstants.LONG_TIMEOUT;
