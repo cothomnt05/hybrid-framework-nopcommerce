@@ -9,13 +9,12 @@
 		<listener class-name="reportConfig.AllureTestListener"/>-->
 	</listeners>
 	
-	<parameter name="urlUser" value="http://automationfc.net/"></parameter>
-	<parameter name="urlAdmin" value="http://automationfc.net/wp-admin/"></parameter>
+	<parameter name="adminUrl" value="http://automationfc.net/wp-admin/"/>
 	
 	<test name="Run on Firefox">
 	<parameter name = "browser" value ="firefox" />
 		<classes>
-			<class name="com.wordpress.posts.Post_01_Create_Update_Read_Delete_Search" />
+			<class name="com.wordpress.User_01_View_User" />
 		</classes>
 		
 		<!--<packages>

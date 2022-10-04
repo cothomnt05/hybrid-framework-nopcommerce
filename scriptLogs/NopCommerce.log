@@ -125,3 +125,64 @@ System info: host: 'DESKTOP-G8U2059', ip: '192.168.1.58', os.name: 'Windows 10',
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\THAOLE~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57502}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
 Session ID: 1457caeaeb3bdbf98085f9d68905dc88
+ [2022-10-04 00:28:02,345] Pre-Condition: Open browse and navigate to Homepage
+ [2022-10-04 00:28:08,971] RegisterWithEmptyData - Step 01: Navigate to Register page
+ [2022-10-04 00:28:09,943] RegisterWithEmptyData - Step 02: Click to Register button
+ [2022-10-04 00:28:10,127] RegisterWithEmptyData - Step 03: Verify error message at Firstname textbox
+ [2022-10-04 00:28:10,227]  -------------------------- PASSED -------------------------- 
+ [2022-10-04 00:28:10,228] RegisterWithEmptyData - Step 04: Verify error message at Lastname textbox
+ [2022-10-04 00:28:10,314]  -------------------------- PASSED -------------------------- 
+ [2022-10-04 00:28:10,314] RegisterWithEmptyData - Step 05: Verify error message at Email textbox
+ [2022-10-04 00:28:10,413]  -------------------------- PASSED -------------------------- 
+ [2022-10-04 00:28:10,413] RegisterWithEmptyData - Step 06: Verify error message at Password textbox
+ [2022-10-04 00:28:10,494]  -------------------------- PASSED -------------------------- 
+ [2022-10-04 00:28:10,494] RegisterWithEmptyData - Step 07: Verify error message at Confirm password textbox
+ [2022-10-04 00:28:10,572]  -------------------------- PASSED -------------------------- 
+ [2022-10-04 00:28:10,675] RegisterWithInvalidEmail - Step 01: Navigate to Register page
+ [2022-10-04 00:28:11,721] RegisterWithInvalidEmail - Step 02: Input to Firstname textbox with value: Automation
+ [2022-10-04 00:28:11,909] RegisterWithInvalidEmail - Step 03: Input to Lastname textbox with value: FC
+ [2022-10-04 00:28:12,108] RegisterWithInvalidEmail - Step 04: Input to Email textbox with value: automation@#$%
+ [2022-10-04 00:28:12,312] RegisterWithInvalidEmail - Step 05: Input to Password textbox with value: 123456
+ [2022-10-04 00:28:12,531] RegisterWithInvalidEmail - Step 06: Input to Confirm Password textbox with value: 123456
+ [2022-10-04 00:28:12,722] RegisterWithInvalidEmail - Step 07: Click to Register button
+ [2022-10-04 00:28:12,850] RegisterWithInvalidEmail - Step 08: Verify error message at Email textbox
+ [2022-10-04 00:28:12,929]  -------------------------- PASSED -------------------------- 
+ [2022-10-04 00:28:12,939] RegisterWithPasswordLess6Char - Step 01: Navigate to Register page
+ [2022-10-04 00:28:13,388] RegisterWithPasswordLess6Char - Step 02: Input to Firstname textbox with value: Automation
+ [2022-10-04 00:28:13,629] RegisterWithPasswordLess6Char - Step 03: Input to Lastname textbox with value: FC
+ [2022-10-04 00:28:13,798] RegisterWithPasswordLess6Char - Step 04: Input to Email textbox with value: automation70@gmail.com
+ [2022-10-04 00:28:14,014] RegisterWithPasswordLess6Char - Step 05: Input to Password textbox with value: 1234
+ [2022-10-04 00:28:14,184] RegisterWithPasswordLess6Char - Step 06: Input to Confirm Password textbox with value: 1234
+ [2022-10-04 00:28:14,377] RegisterWithPasswordLess6Char - Step 07: Click to Register button
+ [2022-10-04 00:28:14,504] RegisterWithPasswordLess6Char - Step 08: Verify error message at Password textbox
+ [2022-10-04 00:28:14,570]  -------------------------- PASSED -------------------------- 
+ [2022-10-04 00:28:14,579] RegisterConfirmPassword - Step 01: Navigate to Register page
+ [2022-10-04 00:28:14,955] RegisterConfirmPassword - Step 02: Input to Firstname textbox with value: Automation
+ [2022-10-04 00:28:15,171] RegisterConfirmPassword - Step 03: Input to Lastname textbox with value: FC
+ [2022-10-04 00:28:15,346] RegisterConfirmPassword - Step 04: Input to Email textbox with value: automation70@gmail.com
+ [2022-10-04 00:28:15,559] RegisterConfirmPassword - Step 05: Input to Password textbox with value: 123456
+ [2022-10-04 00:28:15,733] RegisterConfirmPassword - Step 06: Input to Confirm Password textbox with value: 1234567
+ [2022-10-04 00:28:15,917] RegisterConfirmPassword - Step 07: Click to Register button
+ [2022-10-04 00:28:16,038] RegisterConfirmPassword - Step 08: Verify error message at Confirm password textbox
+ [2022-10-04 00:28:16,124]  -------------------------- PASSED -------------------------- 
+ [2022-10-04 00:28:16,132] RegisterSuccess - Step 01: Navigate to Register page
+ [2022-10-04 00:28:16,507] RegisterSuccess - Step 02: Input to Firstname textbox with value: Automation
+ [2022-10-04 00:28:16,695] RegisterSuccess - Step 03: Input to Lastname textbox with value: FC
+ [2022-10-04 00:28:16,863] RegisterSuccess - Step 04: Input to Email textbox with value: automation70@gmail.com
+ [2022-10-04 00:28:17,076] RegisterSuccess - Step 05: Input to Password textbox with value: 123456
+ [2022-10-04 00:28:17,259] RegisterSuccess - Step 06: Input to Confirm Password textbox with value: 123456
+ [2022-10-04 00:28:17,448] RegisterSuccess - Step 07: Click to Register button
+ [2022-10-04 00:28:18,530] RegisterSuccess - Step 08: Vefiry Register success message is displayed
+ [2022-10-04 00:28:18,615]  -------------------------- PASSED -------------------------- 
+ [2022-10-04 00:28:18,616] RegisterSuccess - Step 09: Click to Logout button
+ [2022-10-04 00:28:19,469] RegisterWithEmailExsited - Step 01: Navigate to Register page
+ [2022-10-04 00:28:19,999] RegisterWithEmailExsited - Step 02: Input to Firstname textbox with value: Automation
+ [2022-10-04 00:28:20,220] RegisterWithEmailExsited - Step 03: Input to Lastname textbox with value: FC
+ [2022-10-04 00:28:20,411] RegisterWithEmailExsited - Step 04: Input to Email textbox with value: automation70@gmail.com
+ [2022-10-04 00:28:20,607] RegisterWithEmailExsited - Step 05: Input to Password textbox with value: 123456
+ [2022-10-04 00:28:20,782] RegisterWithEmailExsited - Step 06: Input to Confirm Password textbox with value: 123456
+ [2022-10-04 00:28:20,955] RegisterWithEmailExsited - Step 07: Click to Register button
+ [2022-10-04 00:28:21,510] RegisterWithEmailExsited - Step 08: Verify error message at Email textbox
+ [2022-10-04 00:28:21,610]  -------------------------- PASSED -------------------------- 
+ [2022-10-04 00:28:21,616] OS name = windows 10
+ [2022-10-04 00:28:21,617] Driver instance name = chromedriver: chrome on windows (9569c6cb099a0c7faa2e1ca24a9b035b)

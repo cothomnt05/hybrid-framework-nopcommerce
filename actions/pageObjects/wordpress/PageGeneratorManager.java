@@ -40,4 +40,8 @@ public class PageGeneratorManager {
 		return new UserSearchPO(driver);
 	}
 
+	public static AdminUserPO getAdminUserPageObject(WebDriver driver) {
+		return new AdminUserPO(driver);
+	}
+
 }

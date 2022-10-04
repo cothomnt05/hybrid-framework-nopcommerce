@@ -1,4 +1,4 @@
-package com.wordpress.posts;
+package com.wordpress;
 
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterClass;
