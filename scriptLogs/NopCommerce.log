@@ -1121,3 +1121,175 @@ Session ID: 1457caeaeb3bdbf98085f9d68905dc88
  [2022-10-04 17:50:01,298]  -------------------------- PASSED -------------------------- 
  [2022-10-04 17:50:01,303] OS name = windows 10
  [2022-10-04 17:50:01,303] Driver instance name = chromedriver: chrome on windows (32e4a5687a33c0734d52aae8d3fe5ca6)
+ [2022-10-05 09:52:04,266] Pre-Condition - Step 01: Open browse and navigate to Homepage
+ [2022-10-05 09:52:16,908] Pre-Condition - Step 02: Navigate to Register page
+ [2022-10-05 09:52:18,099] Pre-Condition - Step 03: Input to Firstname textbox with value: Automation
+ [2022-10-05 09:52:18,364] Pre-Condition - Step 04: Input to Lastname textbox with value: FC
+ [2022-10-05 09:52:18,584] Pre-Condition - Step 05: Input to Email textbox with value: automation3912@gmail.com
+ [2022-10-05 09:52:18,800] Pre-Condition - Step 06: Input to Password textbox with value: 123456
+ [2022-10-05 09:52:18,982] Pre-Condition - Step 07: Input to Confirm Password textbox with value: 123456
+ [2022-10-05 09:52:19,164] Pre-Condition - Step 08: Click to Register button
+ [2022-10-05 09:52:20,236] Pre-Condition - Step 09: Vefiry Register success message is displayed
+ [2022-10-05 09:52:20,321]  -------------------------- PASSED -------------------------- 
+ [2022-10-05 09:52:20,321] Pre-Condition - Step 10: Click to Search Page link
+ [2022-10-05 09:52:21,541] SearchWithEmptyData - Step 01: Click to SEARCH button
+ [2022-10-05 09:52:22,286] SearchWithEmptyData - Step 02: Vefiry 'Search term minimum length is 3 characters' message is displayed
+ [2022-10-05 09:52:22,407]  -------------------------- PASSED -------------------------- 
+ [2022-10-05 09:52:22,407] SearchWithEmptyData - Step 03: Click to Search Page link
+ [2022-10-05 09:52:23,201] SearchWithDataNOtExist - Step 01: Input to Search keyword textbox with value: MacBook Pro 2050
+ [2022-10-05 09:52:23,399] SearchWithDataNOtExist - Step 02: Click to SEARCH button
+ [2022-10-05 09:52:23,961] SearchWithDataNOtExist - Step 03: Vefiry 'No products were found that matched your criteria.' message is displayed
+ [2022-10-05 09:52:24,050]  -------------------------- PASSED -------------------------- 
+ [2022-10-05 09:52:24,051] SearchWithDataNOtExist - Step 04: Click to Search Page link
+ [2022-10-05 09:52:24,615] SearchWithShortProductName - Step 01: Input to Search keyword textbox with value: Lenovo
+ [2022-10-05 09:52:24,770] SearchWithShortProductName - Step 02: Click to SEARCH button
+ [2022-10-05 09:52:25,372] SearchWithShortProductName - Step 03: Verify 2 products is displayed
+ [2022-10-05 09:52:25,415]  -------------------------- PASSED -------------------------- 
+ [2022-10-05 09:52:25,415] SearchWithShortProductName - Step 04: Click to Search Page link
+ [2022-10-05 09:52:25,908] SearchWithFullProductName - Step 01: Input to Search keyword textbox with value: Thinkpad X1 Carbon
+ [2022-10-05 09:52:26,113] SearchWithShortProductName - Step 02: Click to SEARCH button
+ [2022-10-05 09:52:26,663] SearchWithShortProductName - Step 03: Verify 1 products is displayed
+ [2022-10-05 09:52:26,684]  -------------------------- PASSED -------------------------- 
+ [2022-10-05 09:52:26,684] SearchWithShortProductName - Step 04: Click to Search Page link
+ [2022-10-05 09:52:27,213] AdvancedSearchWithParentCategories - Step 01: Input to Search keyword textbox with value: Apple MacBook Pro
+ [2022-10-05 09:52:27,440] AdvancedSearchWithParentCategories - Step 02: Check to 'Advanced Search' checkbox
+ [2022-10-05 09:52:57,801] AdvancedSearchWithSubCategories - Step 01: Input to Search keyword textbox with value: Apple MacBook Pro
+ [2022-10-05 09:52:58,026] AdvancedSearchWithSubCategories - Step 02: Check to 'Advanced Search' checkbox
+ [2022-10-05 09:53:28,215] AdvancedSearchWithIncorrectManufacturer - Step 01: Input to Search keyword textbox with value: Apple MacBook Pro
+ [2022-10-05 09:53:28,470] AdvancedSearchWithIncorrectManufacturer - Step 02: Check to 'Advanced Search' checkbox
+ [2022-10-05 09:53:58,717] AdvancedSearchWithCorrectManufacturer - Step 01: Input to Search keyword textbox with value: Apple MacBook Pro
+ [2022-10-05 09:53:58,934] AdvancedSearchWithCorrectManufacturer - Step 02: Check to 'Advanced Search' checkbox
+ [2022-10-05 09:54:29,148] OS name = windows 10
+ [2022-10-05 09:54:29,149] Driver instance name = chromedriver: chrome on windows (d3b90cd7e0993ac0ecc1b73386f3b246)
+ [2022-10-05 09:55:27,443] Pre-Condition - Step 01: Open browse and navigate to Homepage
+ [2022-10-05 09:55:33,468] Pre-Condition - Step 02: Navigate to Register page
+ [2022-10-05 09:55:34,501] Pre-Condition - Step 03: Input to Firstname textbox with value: Automation
+ [2022-10-05 09:55:34,702] Pre-Condition - Step 04: Input to Lastname textbox with value: FC
+ [2022-10-05 09:55:34,882] Pre-Condition - Step 05: Input to Email textbox with value: automation7582@gmail.com
+ [2022-10-05 09:55:35,123] Pre-Condition - Step 06: Input to Password textbox with value: 123456
+ [2022-10-05 09:55:35,311] Pre-Condition - Step 07: Input to Confirm Password textbox with value: 123456
+ [2022-10-05 09:55:35,498] Pre-Condition - Step 08: Click to Register button
+ [2022-10-05 09:55:36,633] Pre-Condition - Step 09: Vefiry Register success message is displayed
+ [2022-10-05 09:55:36,718]  -------------------------- PASSED -------------------------- 
+ [2022-10-05 09:55:36,718] Pre-Condition - Step 10: Click to Search Page link
+ [2022-10-05 09:55:37,650] SearchWithEmptyData - Step 01: Click to SEARCH button
+ [2022-10-05 09:55:38,190] SearchWithEmptyData - Step 02: Vefiry 'Search term minimum length is 3 characters' message is displayed
+ [2022-10-05 09:55:38,279]  -------------------------- PASSED -------------------------- 
+ [2022-10-05 09:55:38,279] SearchWithEmptyData - Step 03: Click to Search Page link
+ [2022-10-05 09:55:38,911] SearchWithDataNOtExist - Step 01: Input to Search keyword textbox with value: MacBook Pro 2050
+ [2022-10-05 09:55:39,146] SearchWithDataNOtExist - Step 02: Click to SEARCH button
+ [2022-10-05 09:55:39,693] SearchWithDataNOtExist - Step 03: Vefiry 'No products were found that matched your criteria.' message is displayed
+ [2022-10-05 09:55:39,785]  -------------------------- PASSED -------------------------- 
+ [2022-10-05 09:55:39,785] SearchWithDataNOtExist - Step 04: Click to Search Page link
+ [2022-10-05 09:55:40,323] SearchWithShortProductName - Step 01: Input to Search keyword textbox with value: Lenovo
+ [2022-10-05 09:55:40,509] SearchWithShortProductName - Step 02: Click to SEARCH button
+ [2022-10-05 09:55:41,123] SearchWithShortProductName - Step 03: Verify 2 products is displayed
+ [2022-10-05 09:55:41,159]  -------------------------- PASSED -------------------------- 
+ [2022-10-05 09:55:41,159] SearchWithShortProductName - Step 04: Click to Search Page link
+ [2022-10-05 09:55:41,752] SearchWithFullProductName - Step 01: Input to Search keyword textbox with value: Thinkpad X1 Carbon
+ [2022-10-05 09:55:41,960] SearchWithShortProductName - Step 02: Click to SEARCH button
+ [2022-10-05 09:55:42,490] SearchWithShortProductName - Step 03: Verify 1 products is displayed
+ [2022-10-05 09:55:42,513]  -------------------------- PASSED -------------------------- 
+ [2022-10-05 09:55:42,514] SearchWithShortProductName - Step 04: Click to Search Page link
+ [2022-10-05 09:55:43,091] AdvancedSearchWithParentCategories - Step 01: Input to Search keyword textbox with value: Apple MacBook Pro
+ [2022-10-05 09:55:43,302] AdvancedSearchWithParentCategories - Step 02: Check to 'Advanced search' checkbox
+ [2022-10-05 09:55:43,472] AdvancedSearchWithParentCategories - Step 03: Select 'Computers' At Category Dropdown
+ [2022-10-05 09:55:43,668] AdvancedSearchWithParentCategories - Step 04: Uncheck to 'Automatically search sub categories' checkbox
+ [2022-10-05 09:55:43,755] AdvancedSearchWithParentCategories - Step 05: Click to SEARCH button
+ [2022-10-05 09:55:44,280] AdvancedSearchWithParentCategories - Step 06: Vefiry 'No products were found that matched your criteria.' message is displayed
+ [2022-10-05 09:55:44,359]  -------------------------- PASSED -------------------------- 
+ [2022-10-05 09:55:44,359] AdvancedSearchWithParentCategories - Step 07: Click to Search Page link
+ [2022-10-05 09:55:44,920] AdvancedSearchWithSubCategories - Step 01: Input to Search keyword textbox with value: Apple MacBook Pro
+ [2022-10-05 09:55:45,136] AdvancedSearchWithSubCategories - Step 02: Check to 'Advanced search' checkbox
+ [2022-10-05 09:55:45,277] AdvancedSearchWithSubCategories - Step 03: Select 'Computers' At Category Dropdown
+ [2022-10-05 09:55:45,408] AdvancedSearchWithSubCategories - Step 04: Check to 'Automatically search sub categories' checkbox
+ [2022-10-05 09:55:45,538] AdvancedSearchWithSubCategories - Step 05: Click to SEARCH button
+ [2022-10-05 09:55:46,089] AdvancedSearchWithSubCategories - Step 06: Verify 1 products is displayed
+ [2022-10-05 09:55:46,113]  -------------------------- PASSED -------------------------- 
+ [2022-10-05 09:55:46,113] AdvancedSearchWithSubCategories - Step 07: Click to Search Page link
+ [2022-10-05 09:55:46,649] AdvancedSearchWithIncorrectManufacturer - Step 01: Input to Search keyword textbox with value: Apple MacBook Pro
+ [2022-10-05 09:55:46,847] AdvancedSearchWithIncorrectManufacturer - Step 02: Check to 'Advanced search' checkbox
+ [2022-10-05 09:55:46,993] AdvancedSearchWithIncorrectManufacturer - Step 03: Select 'Computers' At Category Dropdown
+ [2022-10-05 09:55:47,142] AdvancedSearchWithIncorrectManufacturer - Step 04: Check to 'Automatically search sub categories' checkbox
+ [2022-10-05 09:55:47,272] AdvancedSearchWithIncorrectManufacturer - Step 05: Select 'HP' At Manufacturer Dropdown
+ [2022-10-05 09:55:47,437] AdvancedSearchWithIncorrectManufacturer - Step 06: Click to SEARCH button
+ [2022-10-05 09:55:47,978] AdvancedSearchWithIncorrectManufacturer - Step 07: Vefiry 'No products were found that matched your criteria.' message is displayed
+ [2022-10-05 09:55:48,090]  -------------------------- PASSED -------------------------- 
+ [2022-10-05 09:55:48,090] AdvancedSearchWithIncorrectManufacturer - Step 08: Click to Search Page link
+ [2022-10-05 09:55:48,619] AdvancedSearchWithCorrectManufacturer - Step 01: Input to Search keyword textbox with value: Apple MacBook Pro
+ [2022-10-05 09:55:48,818] AdvancedSearchWithCorrectManufacturer - Step 02: Check to 'Advanced search' checkbox
+ [2022-10-05 09:55:48,960] AdvancedSearchWithCorrectManufacturer - Step 03: Select 'Computers' At Category Dropdown
+ [2022-10-05 09:55:49,110] AdvancedSearchWithCorrectManufacturer - Step 04: Check to 'Automatically search sub categories' checkbox
+ [2022-10-05 09:55:49,254] AdvancedSearchWithCorrectManufacturer - Step 05: Select 'Apple' At Manufacturer Dropdown
+ [2022-10-05 09:55:49,393] AdvancedSearchWithCorrectManufacturer - Step 06: Click to SEARCH button
+ [2022-10-05 09:55:49,986] AdvancedSearchWithCorrectManufacturer - Step 07: Verify 1 products is displayed
+ [2022-10-05 09:55:50,007]  -------------------------- PASSED -------------------------- 
+ [2022-10-05 09:55:50,007] AdvancedSearchWithCorrectManufacturer - Step 08: Click to Search Page link
+ [2022-10-05 09:55:50,520] OS name = windows 10
+ [2022-10-05 09:55:50,521] Driver instance name = chromedriver: chrome on windows (0ceb624f11331924137b05691e817d3b)
+ [2022-10-05 09:58:39,135] Pre-Condition - Step 01: Open browse and navigate to Homepage
+ [2022-10-05 09:58:44,764] Pre-Condition - Step 02: Navigate to Register page
+ [2022-10-05 09:58:45,751] Pre-Condition - Step 03: Input to Firstname textbox with value: Automation
+ [2022-10-05 09:58:45,962] Pre-Condition - Step 04: Input to Lastname textbox with value: FC
+ [2022-10-05 09:58:46,174] Pre-Condition - Step 05: Input to Email textbox with value: automation7604@gmail.com
+ [2022-10-05 09:58:46,416] Pre-Condition - Step 06: Input to Password textbox with value: 123456
+ [2022-10-05 09:58:46,611] Pre-Condition - Step 07: Input to Confirm Password textbox with value: 123456
+ [2022-10-05 09:58:46,808] Pre-Condition - Step 08: Click to Register button
+ [2022-10-05 09:58:48,497] Pre-Condition - Step 09: Verify Register success message is displayed
+ [2022-10-05 09:58:48,596]  -------------------------- PASSED -------------------------- 
+ [2022-10-05 09:58:48,596] Pre-Condition - Step 10: Click to Search Page link
+ [2022-10-05 09:58:49,563] SearchWithEmptyData - Step 01: Click to SEARCH button
+ [2022-10-05 09:58:50,111] SearchWithEmptyData - Step 02: Verify 'Search term minimum length is 3 characters' message is displayed
+ [2022-10-05 09:58:50,214]  -------------------------- PASSED -------------------------- 
+ [2022-10-05 09:58:50,214] SearchWithEmptyData - Step 03: Click to Search Page link
+ [2022-10-05 09:58:50,837] SearchWithDataNOtExist - Step 01: Input to Search keyword textbox with value: MacBook Pro 2050
+ [2022-10-05 09:58:51,054] SearchWithDataNOtExist - Step 02: Click to SEARCH button
+ [2022-10-05 09:58:51,640] SearchWithDataNOtExist - Step 03: Verify 'No products were found that matched your criteria.' message is displayed
+ [2022-10-05 09:58:51,730]  -------------------------- PASSED -------------------------- 
+ [2022-10-05 09:58:51,731] SearchWithDataNOtExist - Step 04: Click to Search Page link
+ [2022-10-05 09:58:52,215] SearchWithShortProductName - Step 01: Input to Search keyword textbox with value: Lenovo
+ [2022-10-05 09:58:52,392] SearchWithShortProductName - Step 02: Click to SEARCH button
+ [2022-10-05 09:58:52,968] SearchWithShortProductName - Step 03: Verify 2 products is displayed
+ [2022-10-05 09:58:53,011]  -------------------------- PASSED -------------------------- 
+ [2022-10-05 09:58:53,011] SearchWithShortProductName - Step 04: Click to Search Page link
+ [2022-10-05 09:58:53,551] SearchWithFullProductName - Step 01: Input to Search keyword textbox with value: Thinkpad X1 Carbon
+ [2022-10-05 09:58:53,756] SearchWithFullProductName - Step 02: Click to SEARCH button
+ [2022-10-05 09:58:54,320] SearchWithFullProductName - Step 03: Verify 1 products is displayed
+ [2022-10-05 09:58:54,349]  -------------------------- PASSED -------------------------- 
+ [2022-10-05 09:58:54,349] SearchWithFullProductName - Step 04: Click to Search Page link
+ [2022-10-05 09:58:54,877] AdvancedSearchWithParentCategories - Step 01: Input to Search keyword textbox with value: Apple MacBook Pro
+ [2022-10-05 09:58:55,057] AdvancedSearchWithParentCategories - Step 02: Check to 'Advanced search' checkbox
+ [2022-10-05 09:58:55,232] AdvancedSearchWithParentCategories - Step 03: Select 'Computers' At Category Dropdown
+ [2022-10-05 09:58:55,410] AdvancedSearchWithParentCategories - Step 04: Uncheck to 'Automatically search sub categories' checkbox
+ [2022-10-05 09:58:55,514] AdvancedSearchWithParentCategories - Step 05: Click to SEARCH button
+ [2022-10-05 09:58:56,051] AdvancedSearchWithParentCategories - Step 06: Verify 'No products were found that matched your criteria.' message is displayed
+ [2022-10-05 09:58:56,115]  -------------------------- PASSED -------------------------- 
+ [2022-10-05 09:58:56,115] AdvancedSearchWithParentCategories - Step 07: Click to Search Page link
+ [2022-10-05 09:58:56,616] AdvancedSearchWithSubCategories - Step 01: Input to Search keyword textbox with value: Apple MacBook Pro
+ [2022-10-05 09:58:56,816] AdvancedSearchWithSubCategories - Step 02: Check to 'Advanced search' checkbox
+ [2022-10-05 09:58:56,972] AdvancedSearchWithSubCategories - Step 03: Select 'Computers' At Category Dropdown
+ [2022-10-05 09:58:57,121] AdvancedSearchWithSubCategories - Step 04: Check to 'Automatically search sub categories' checkbox
+ [2022-10-05 09:58:57,252] AdvancedSearchWithSubCategories - Step 05: Click to SEARCH button
+ [2022-10-05 09:58:57,832] AdvancedSearchWithSubCategories - Step 06: Verify 1 products is displayed
+ [2022-10-05 09:58:57,864]  -------------------------- PASSED -------------------------- 
+ [2022-10-05 09:58:57,864] AdvancedSearchWithSubCategories - Step 07: Click to Search Page link
+ [2022-10-05 09:58:58,380] AdvancedSearchWithIncorrectManufacturer - Step 01: Input to Search keyword textbox with value: Apple MacBook Pro
+ [2022-10-05 09:58:58,587] AdvancedSearchWithIncorrectManufacturer - Step 02: Check to 'Advanced search' checkbox
+ [2022-10-05 09:58:58,759] AdvancedSearchWithIncorrectManufacturer - Step 03: Select 'Computers' At Category Dropdown
+ [2022-10-05 09:58:58,918] AdvancedSearchWithIncorrectManufacturer - Step 04: Check to 'Automatically search sub categories' checkbox
+ [2022-10-05 09:58:59,061] AdvancedSearchWithIncorrectManufacturer - Step 05: Select 'HP' At Manufacturer Dropdown
+ [2022-10-05 09:58:59,227] AdvancedSearchWithIncorrectManufacturer - Step 06: Click to SEARCH button
+ [2022-10-05 09:58:59,754] AdvancedSearchWithIncorrectManufacturer - Step 07: Verify 'No products were found that matched your criteria.' message is displayed
+ [2022-10-05 09:58:59,836]  -------------------------- PASSED -------------------------- 
+ [2022-10-05 09:58:59,836] AdvancedSearchWithIncorrectManufacturer - Step 08: Click to Search Page link
+ [2022-10-05 09:59:00,346] AdvancedSearchWithCorrectManufacturer - Step 01: Input to Search keyword textbox with value: Apple MacBook Pro
+ [2022-10-05 09:59:00,546] AdvancedSearchWithCorrectManufacturer - Step 02: Check to 'Advanced search' checkbox
+ [2022-10-05 09:59:00,694] AdvancedSearchWithCorrectManufacturer - Step 03: Select 'Computers' At Category Dropdown
+ [2022-10-05 09:59:00,842] AdvancedSearchWithCorrectManufacturer - Step 04: Check to 'Automatically search sub categories' checkbox
+ [2022-10-05 09:59:00,986] AdvancedSearchWithCorrectManufacturer - Step 05: Select 'Apple' At Manufacturer Dropdown
+ [2022-10-05 09:59:01,141] AdvancedSearchWithCorrectManufacturer - Step 06: Click to SEARCH button
+ [2022-10-05 09:59:01,682] AdvancedSearchWithCorrectManufacturer - Step 07: Verify 1 products is displayed
+ [2022-10-05 09:59:01,702]  -------------------------- PASSED -------------------------- 
+ [2022-10-05 09:59:01,702] AdvancedSearchWithCorrectManufacturer - Step 08: Click to Search Page link
+ [2022-10-05 09:59:02,212] OS name = windows 10
+ [2022-10-05 09:59:02,212] Driver instance name = chromedriver: chrome on windows (44af084373b1e8b73195c68ea0c5cf55)

@@ -22,4 +22,6 @@ public class BasePageUI {
 
 	public static final String DYNAMIC_PRODUCT_LINK_BY_TEXT = "xpath=//ul[@class='top-menu notmobile']//a[contains(text(),'%s')]/following-sibling::ul//a[contains(text(),'%s')]";
 	public static final String DYNAMIC_MENU_LINK_BY_TEXT = "xpath=//ul[@class='top-menu notmobile']//a[contains(text(),'%s')]";
+
+	public static final String DYNAMIC_PAGE_LINK_IN_FOOTER_BY_NAME_PAGE = "xpath=//div[@class='footer']//a[text() = '%s']";
 }

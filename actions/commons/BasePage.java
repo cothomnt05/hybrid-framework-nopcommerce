@@ -167,6 +167,10 @@ public class BasePage {
 	public List<WebElement> getListWebElement(WebDriver driver, String locatorType) {
 		return driver.findElements(getByLocator(locatorType));
 	}
+	
+	public List<WebElement> getListWebElement(WebDriver driver, String locatorType, String... dynamicValues) {
+		return driver.findElements(getByLocator(getDynamicXpath(locatorType, dynamicValues)));
+	}
 
 	public void clickToElement(WebDriver driver, String locatorType) {
 		if (driver.toString().contains("internet explorer")) {
@@ -746,6 +750,11 @@ public class BasePage {
 		hoverMouseToElement(driver, BasePageUI.DYNAMIC_MENU_LINK_BY_TEXT, textMenu);
 		waitForElementClickable(driver, BasePageUI.DYNAMIC_PRODUCT_LINK_BY_TEXT, textMenu, textFieldProduct);
 		clickToElement(driver, BasePageUI.DYNAMIC_PRODUCT_LINK_BY_TEXT, textMenu, textFieldProduct);
+	}
+
+	public void openPageInFooterByPageName(WebDriver driver, String pageName) {
+		waitForElementClickable(driver, BasePageUI.DYNAMIC_PAGE_LINK_IN_FOOTER_BY_NAME_PAGE, pageName);
+		clickToElement(driver, BasePageUI.DYNAMIC_PAGE_LINK_IN_FOOTER_BY_NAME_PAGE, pageName);
 	}
 
 	private long longTimeout = GlobalConstants.LONG_TIMEOUT;
