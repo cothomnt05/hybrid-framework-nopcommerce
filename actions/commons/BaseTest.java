@@ -2,12 +2,15 @@ package commons;
 
 import java.io.File;
 import java.io.IOException;
+import java.net.MalformedURLException;
+import java.net.URL;
 import java.util.Random;
 import java.util.concurrent.TimeUnit;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.joda.time.DateTime;
+import org.openqa.selenium.Platform;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -16,6 +19,8 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.opera.OperaDriver;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.Assert;
 import org.testng.Reporter;
 import org.testng.annotations.BeforeSuite;
@@ -109,6 +114,77 @@ public class BaseTest {
 		return driver;
 	}
 
+	protected WebDriver getBrowserDriver(String browserName, String ipAddress, String port) {
+		DesiredCapabilities capability = null;
+
+		if (browserName.equals("firefox")) {
+			WebDriverManager.firefoxdriver().setup();
+			capability = DesiredCapabilities.firefox();
+			capability.setBrowserName("firefox");
+			capability.setPlatform(Platform.WINDOWS);
+
+			FirefoxOptions options = new FirefoxOptions();
+			options.merge(capability);
+
+		} else if (browserName.equals("h_firefox")) {
+			WebDriverManager.firefoxdriver().setup();
+			FirefoxOptions options = new FirefoxOptions();
+			options.addArguments("--headless");
+			options.addArguments("window-size=1920x1080");
+			driver = new FirefoxDriver(options);
+		} else if (browserName.equals("chrome")) {
+			WebDriverManager.chromedriver().setup();
+			capability = DesiredCapabilities.chrome();
+			capability.setBrowserName("chrome");
+			capability.setPlatform(Platform.WINDOWS);
+
+			ChromeOptions options = new ChromeOptions();
+			options.merge(capability);
+
+		} else if (browserName.equals("h_chrome")) {
+			WebDriverManager.chromedriver().setup();
+			ChromeOptions options = new ChromeOptions();
+			options.addArguments("--headless");
+			options.addArguments("window-size=1920x1080");
+			driver = new ChromeDriver(options);
+		} else if (browserName.equals("edge")) {
+			WebDriverManager.edgedriver().setup();
+			driver = new EdgeDriver();
+		} else if (browserName.equals("ie")) {
+			WebDriverManager.iedriver().arch32().setup();
+			driver = new InternetExplorerDriver();
+		} else if (browserName.equals("opera")) {
+			WebDriverManager.operadriver().setup();
+			driver = new OperaDriver();
+		} else if (browserName.equals("coccoc")) {
+			WebDriverManager.chromedriver().driverVersion("104.0.5112.79").setup();
+			ChromeOptions options = new ChromeOptions();
+			if (GlobalConstants.OS_NAME.startsWith("Windows")) {
+				options.setBinary("C:\\Program Files\\CocCoc\\Browser\\Application\\browser.exe");
+			} else {
+				options.setBinary("...");
+			}
+			driver = new ChromeDriver(options);
+		} else if (browserName.equals("brave")) {
+			WebDriverManager.chromedriver().setup();
+			ChromeOptions options = new ChromeOptions();
+			options.setBinary("C:\\Program Files\\BraveSoftware\\Brave-Browser\\Application\\brave.exe");
+			driver = new ChromeDriver(options);
+		} else {
+			throw new RuntimeException("Browser name invalid");
+		}
+
+		try {
+			driver = new RemoteWebDriver(new URL(String.format("http://%s:%s/wd/hub", ipAddress, port)), capability);
+		} catch (MalformedURLException e) {
+			e.printStackTrace();
+		}
+
+		driver.manage().timeouts().implicitlyWait(GlobalConstants.LONG_TIMEOUT, TimeUnit.SECONDS);
+		driver.get(GlobalConstants.PORTAL_DEV_URL);
+		return driver;
+	}
+
 	protected WebDriver getBrowserDriver(String browserName, String urlPage) {
 		if (browserName.equals("firefox")) {
 			WebDriverManager.firefoxdriver().setup();
@@ -157,7 +233,7 @@ public class BaseTest {
 		return driver;
 	}
 
-	private String getEnvironment(String serverName) {
+	protected String getEnvironment(String serverName) {
 		String envUrl = null;
 		EnvironmentList environment = EnvironmentList.valueOf(serverName.toUpperCase());
 		if (environment.equals(EnvironmentList.DEV)) {
