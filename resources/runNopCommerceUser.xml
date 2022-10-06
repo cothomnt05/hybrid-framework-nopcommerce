@@ -13,9 +13,9 @@
 	</listeners>
 	<parameter name = "url" value ="https://demo.nopcommerce.com/" />
 	<test name="Run on Chrome">
-	<parameter name = "browser" value ="chrome" />
+	<parameter name = "browser" value ="edge" />
 		<classes>
-			<class name="com.nopcommerce.userTC.NopCommerce_004_Search" />
+			<class name="com.nopcommerce.userTC.NopCommerce_005_SortDataAndDisplayProduct" />
 		</classes>
 	</test>
 	

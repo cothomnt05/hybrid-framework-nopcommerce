@@ -1,66 +1,23 @@
-[2022-10-05 09:58:39,135] Pre-Condition - Step 01: Open browse and navigate to Homepage
-[2022-10-05 09:58:44,764] Pre-Condition - Step 02: Navigate to Register page
-[2022-10-05 09:58:45,751] Pre-Condition - Step 03: Input to Firstname textbox with value: Automation
-[2022-10-05 09:58:45,962] Pre-Condition - Step 04: Input to Lastname textbox with value: FC
-[2022-10-05 09:58:46,174] Pre-Condition - Step 05: Input to Email textbox with value: automation7604@gmail.com
-[2022-10-05 09:58:46,416] Pre-Condition - Step 06: Input to Password textbox with value: 123456
-[2022-10-05 09:58:46,611] Pre-Condition - Step 07: Input to Confirm Password textbox with value: 123456
-[2022-10-05 09:58:46,808] Pre-Condition - Step 08: Click to Register button
-[2022-10-05 09:58:48,497] Pre-Condition - Step 09: Verify Register success message is displayed
-[2022-10-05 09:58:48,596]  -------------------------- PASSED -------------------------- 
-[2022-10-05 09:58:48,596] Pre-Condition - Step 10: Click to Search Page link
-[2022-10-05 09:58:49,563] SearchWithEmptyData - Step 01: Click to SEARCH button
-[2022-10-05 09:58:50,111] SearchWithEmptyData - Step 02: Verify 'Search term minimum length is 3 characters' message is displayed
-[2022-10-05 09:58:50,214]  -------------------------- PASSED -------------------------- 
-[2022-10-05 09:58:50,214] SearchWithEmptyData - Step 03: Click to Search Page link
-[2022-10-05 09:58:50,837] SearchWithDataNOtExist - Step 01: Input to Search keyword textbox with value: MacBook Pro 2050
-[2022-10-05 09:58:51,054] SearchWithDataNOtExist - Step 02: Click to SEARCH button
-[2022-10-05 09:58:51,640] SearchWithDataNOtExist - Step 03: Verify 'No products were found that matched your criteria.' message is displayed
-[2022-10-05 09:58:51,730]  -------------------------- PASSED -------------------------- 
-[2022-10-05 09:58:51,731] SearchWithDataNOtExist - Step 04: Click to Search Page link
-[2022-10-05 09:58:52,215] SearchWithShortProductName - Step 01: Input to Search keyword textbox with value: Lenovo
-[2022-10-05 09:58:52,392] SearchWithShortProductName - Step 02: Click to SEARCH button
-[2022-10-05 09:58:52,968] SearchWithShortProductName - Step 03: Verify 2 products is displayed
-[2022-10-05 09:58:53,011]  -------------------------- PASSED -------------------------- 
-[2022-10-05 09:58:53,011] SearchWithShortProductName - Step 04: Click to Search Page link
-[2022-10-05 09:58:53,551] SearchWithFullProductName - Step 01: Input to Search keyword textbox with value: Thinkpad X1 Carbon
-[2022-10-05 09:58:53,756] SearchWithFullProductName - Step 02: Click to SEARCH button
-[2022-10-05 09:58:54,320] SearchWithFullProductName - Step 03: Verify 1 products is displayed
-[2022-10-05 09:58:54,349]  -------------------------- PASSED -------------------------- 
-[2022-10-05 09:58:54,349] SearchWithFullProductName - Step 04: Click to Search Page link
-[2022-10-05 09:58:54,877] AdvancedSearchWithParentCategories - Step 01: Input to Search keyword textbox with value: Apple MacBook Pro
-[2022-10-05 09:58:55,057] AdvancedSearchWithParentCategories - Step 02: Check to 'Advanced search' checkbox
-[2022-10-05 09:58:55,232] AdvancedSearchWithParentCategories - Step 03: Select 'Computers' At Category Dropdown
-[2022-10-05 09:58:55,410] AdvancedSearchWithParentCategories - Step 04: Uncheck to 'Automatically search sub categories' checkbox
-[2022-10-05 09:58:55,514] AdvancedSearchWithParentCategories - Step 05: Click to SEARCH button
-[2022-10-05 09:58:56,051] AdvancedSearchWithParentCategories - Step 06: Verify 'No products were found that matched your criteria.' message is displayed
-[2022-10-05 09:58:56,115]  -------------------------- PASSED -------------------------- 
-[2022-10-05 09:58:56,115] AdvancedSearchWithParentCategories - Step 07: Click to Search Page link
-[2022-10-05 09:58:56,616] AdvancedSearchWithSubCategories - Step 01: Input to Search keyword textbox with value: Apple MacBook Pro
-[2022-10-05 09:58:56,816] AdvancedSearchWithSubCategories - Step 02: Check to 'Advanced search' checkbox
-[2022-10-05 09:58:56,972] AdvancedSearchWithSubCategories - Step 03: Select 'Computers' At Category Dropdown
-[2022-10-05 09:58:57,121] AdvancedSearchWithSubCategories - Step 04: Check to 'Automatically search sub categories' checkbox
-[2022-10-05 09:58:57,252] AdvancedSearchWithSubCategories - Step 05: Click to SEARCH button
-[2022-10-05 09:58:57,832] AdvancedSearchWithSubCategories - Step 06: Verify 1 products is displayed
-[2022-10-05 09:58:57,864]  -------------------------- PASSED -------------------------- 
-[2022-10-05 09:58:57,864] AdvancedSearchWithSubCategories - Step 07: Click to Search Page link
-[2022-10-05 09:58:58,380] AdvancedSearchWithIncorrectManufacturer - Step 01: Input to Search keyword textbox with value: Apple MacBook Pro
-[2022-10-05 09:58:58,587] AdvancedSearchWithIncorrectManufacturer - Step 02: Check to 'Advanced search' checkbox
-[2022-10-05 09:58:58,759] AdvancedSearchWithIncorrectManufacturer - Step 03: Select 'Computers' At Category Dropdown
-[2022-10-05 09:58:58,918] AdvancedSearchWithIncorrectManufacturer - Step 04: Check to 'Automatically search sub categories' checkbox
-[2022-10-05 09:58:59,061] AdvancedSearchWithIncorrectManufacturer - Step 05: Select 'HP' At Manufacturer Dropdown
-[2022-10-05 09:58:59,227] AdvancedSearchWithIncorrectManufacturer - Step 06: Click to SEARCH button
-[2022-10-05 09:58:59,754] AdvancedSearchWithIncorrectManufacturer - Step 07: Verify 'No products were found that matched your criteria.' message is displayed
-[2022-10-05 09:58:59,836]  -------------------------- PASSED -------------------------- 
-[2022-10-05 09:58:59,836] AdvancedSearchWithIncorrectManufacturer - Step 08: Click to Search Page link
-[2022-10-05 09:59:00,346] AdvancedSearchWithCorrectManufacturer - Step 01: Input to Search keyword textbox with value: Apple MacBook Pro
-[2022-10-05 09:59:00,546] AdvancedSearchWithCorrectManufacturer - Step 02: Check to 'Advanced search' checkbox
-[2022-10-05 09:59:00,694] AdvancedSearchWithCorrectManufacturer - Step 03: Select 'Computers' At Category Dropdown
-[2022-10-05 09:59:00,842] AdvancedSearchWithCorrectManufacturer - Step 04: Check to 'Automatically search sub categories' checkbox
-[2022-10-05 09:59:00,986] AdvancedSearchWithCorrectManufacturer - Step 05: Select 'Apple' At Manufacturer Dropdown
-[2022-10-05 09:59:01,141] AdvancedSearchWithCorrectManufacturer - Step 06: Click to SEARCH button
-[2022-10-05 09:59:01,682] AdvancedSearchWithCorrectManufacturer - Step 07: Verify 1 products is displayed
-[2022-10-05 09:59:01,702]  -------------------------- PASSED -------------------------- 
-[2022-10-05 09:59:01,702] AdvancedSearchWithCorrectManufacturer - Step 08: Click to Search Page link
-[2022-10-05 09:59:02,212] OS name = windows 10
-[2022-10-05 09:59:02,212] Driver instance name = chromedriver: chrome on windows (44af084373b1e8b73195c68ea0c5cf55)
+[2022-10-06 17:15:32,380] Pre-Condition - Step 01: Open browse and navigate to Homepage
+[2022-10-06 17:15:54,946] Pre-Condition - Step 02: Click to 'Notebooks' in Computer Header Menu
+[2022-10-06 17:15:59,505] DisplayWith3Products - Step 01: Select '3' from Display Dropdown
+[2022-10-06 17:16:00,048] DisplayWith3Products - Step 02: Verify at most 3 products displayed
+[2022-10-06 17:16:00,086]  -------------------------- FAILED -------------------------- 
+[2022-10-06 17:16:00,179] DisplayWith3Products - Step 03: Verify next icon is displayed at page 1
+[2022-10-06 17:16:00,573]  -------------------------- PASSED -------------------------- 
+[2022-10-06 17:16:00,656]  -------------------------- PASSED -------------------------- 
+[2022-10-06 17:16:00,656] DisplayWith3Products - Step 04: Paging to Page 2
+[2022-10-06 17:16:00,878] DisplayWith3Products - Step 05: Verify previous icon is displayed at page 2
+[2022-10-06 17:16:01,007]  -------------------------- FAILED -------------------------- 
+[2022-10-06 17:16:01,266]  -------------------------- PASSED -------------------------- 
+[2022-10-06 17:16:01,266] DisplayWith3Products - Step 06: Click to 'Notebooks' in Computer Header Menu
+[2022-10-06 17:16:02,704] DisplayWith6Products - Step 01: Select '6' from Display Dropdown
+[2022-10-06 17:16:02,871] DisplayWith6Products - Step 02: Verify at most 6 products displayed
+[2022-10-06 17:16:02,889]  -------------------------- PASSED -------------------------- 
+[2022-10-06 17:16:02,889] DisplayWith6Products - Step 03: Verify paging is not displayed
+[2022-10-06 17:16:38,034]  -------------------------- PASSED -------------------------- 
+[2022-10-06 17:16:38,035] DisplayWith6Products - Step 04: Click to 'Notebooks' in Computer Header Menu
+[2022-10-06 17:16:39,765] DisplayWith9Products - Step 01: Select '9' from Display Dropdown
+[2022-10-06 17:16:39,978] DisplayWith9Products - Step 02: Verify at most 9 products displayed
+[2022-10-06 17:16:40,000]  -------------------------- PASSED -------------------------- 
+[2022-10-06 17:16:40,000] DisplayWith9Products - Step 03: Verify paging is not displayed

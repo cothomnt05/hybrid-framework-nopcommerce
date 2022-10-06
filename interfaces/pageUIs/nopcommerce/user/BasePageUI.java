@@ -19,6 +19,7 @@ public class BasePageUI {
 	public static final String DYNAMIC_RADIO_BUTTON_BY_LABEL = "xpath=//label[contains(text(),'%s')]/preceding-sibling::input";
 	public static final String DYNAMIC_CHECKBOX_BUTTON_BY_LABEL = "xpath=//label[contains(text(),'%s')]/following-sibling::input";
 	public static final String DYNAMIC_DROPDOWN_BY_NAME = "xpath=//select[@name='%s']";
+	public static final String DYNAMIC_SEARCH_DROPDOWN_BY_LABEL_NAME = "xpath=//label[contains(text(),'%s')]/following-sibling::select";
 
 	public static final String DYNAMIC_PRODUCT_LINK_BY_TEXT = "xpath=//ul[@class='top-menu notmobile']//a[contains(text(),'%s')]/following-sibling::ul//a[contains(text(),'%s')]";
 	public static final String DYNAMIC_MENU_LINK_BY_TEXT = "xpath=//ul[@class='top-menu notmobile']//a[contains(text(),'%s')]";

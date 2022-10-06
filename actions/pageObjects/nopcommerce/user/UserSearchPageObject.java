@@ -41,12 +41,6 @@ public class UserSearchPageObject extends BasePage {
 		checkToDefaultCheckboxRadio(driver, SearchPageUI.DYNAMIC_SEARCH_CHECKBOX_BY_LABEL, labelName);
 	}
 
-	public void selectItemInDropdownByLabel(String labelName, String valueText) {
-		waitForElementVisible(driver, SearchPageUI.DYNAMIC_SEARCH_DROPDOWN_BY_LABEL_NAME, labelName);
-		selectItemInDefaultDropdown(driver, SearchPageUI.DYNAMIC_SEARCH_DROPDOWN_BY_LABEL_NAME, valueText, labelName);
-
-	}
-
 	public void unCheckToCheckboxByLabel(String labelName) {
 		waitForElementClickable(driver, SearchPageUI.DYNAMIC_SEARCH_CHECKBOX_BY_LABEL, labelName);
 		uncheckToDefaultCheckbox(driver, SearchPageUI.DYNAMIC_SEARCH_CHECKBOX_BY_LABEL, labelName);

@@ -1293,3 +1293,624 @@ Session ID: 1457caeaeb3bdbf98085f9d68905dc88
  [2022-10-05 09:59:01,702] AdvancedSearchWithCorrectManufacturer - Step 08: Click to Search Page link
  [2022-10-05 09:59:02,212] OS name = windows 10
  [2022-10-05 09:59:02,212] Driver instance name = chromedriver: chrome on windows (44af084373b1e8b73195c68ea0c5cf55)
+ [2022-10-06 09:57:37,652] OS name = windows 10
+ [2022-10-06 09:57:37,681] 
+ [2022-10-06 09:57:37,938] OS name = windows 10
+ [2022-10-06 09:57:37,940] 
+ [2022-10-06 09:59:16,635] OS name = windows 10
+ [2022-10-06 09:59:16,636] 
+ [2022-10-06 10:01:17,845] OS name = windows 10
+ [2022-10-06 10:01:17,847] 
+ [2022-10-06 10:02:07,508] Register - Step 01: Navigate to Register page
+ [2022-10-06 10:02:08,903] Register - Step 02: Enter to Firstname textbox with value is 'Automation'
+ [2022-10-06 10:02:09,042] Register - Step 03: Enter to Lastname textbox with value is 'FC'
+ [2022-10-06 10:02:10,214] Register - Step 04: Enter to Email textbox with value is 'afc6810@mail.vn'
+ [2022-10-06 10:02:10,428] Register - Step 05: Enter to Password textbox with value is '123456'
+ [2022-10-06 10:02:10,530] Register - Step 06: Enter to Confirm password textbox with value is '123456'
+ [2022-10-06 10:02:10,725] Register - Step 07: Click to Register button
+ [2022-10-06 10:02:12,365] Register - Step 08: Vefiry Register success message is displayed
+ [2022-10-06 10:02:12,478] Login - Step 01: Navigate to Login page
+ [2022-10-06 10:02:14,042] Login - Step 02: Enter to Email textbox with value is 'afc6810@mail.vn'
+ [2022-10-06 10:02:14,168] Login - Step 03: Enter to Password textbox with value is '123456'
+ [2022-10-06 10:02:14,283] Login - Step 04: Click to Login button
+ [2022-10-06 10:02:15,165] Login - Step 05: Verify My account link is displayed
+ [2022-10-06 10:02:15,276]  -------------------------- PASSED -------------------------- 
+ [2022-10-06 10:02:15,284] My Account - Step 01: Navigate to My account page
+ [2022-10-06 10:02:15,978] My Account - Step 02: Verify Customer infor page is displayed
+ [2022-10-06 10:02:16,082]  -------------------------- PASSED -------------------------- 
+ [2022-10-06 10:02:16,083] My Account - Step 03: Verify 'Firstname' value is correctly
+ [2022-10-06 10:02:16,182]  -------------------------- PASSED -------------------------- 
+ [2022-10-06 10:02:16,182] My Account - Step 04: Verify 'Lastname' value is correctly
+ [2022-10-06 10:02:16,260]  -------------------------- PASSED -------------------------- 
+ [2022-10-06 10:02:16,261] My Account - Step 05: Verify 'Email' value is correctly
+ [2022-10-06 10:02:16,352]  -------------------------- PASSED -------------------------- 
+ [2022-10-06 10:02:16,373] OS name = windows 10
+ [2022-10-06 10:02:16,374] Driver instance name = remotewebdriver: firefox on windows (efb1f8e9-bc3f-4184-8fb7-e3fdfce5d2d9)
+ [2022-10-06 10:05:13,943] Register - Step 01: Navigate to Register page
+ [2022-10-06 10:05:16,448] Register - Step 02: Enter to Firstname textbox with value is 'Automation'
+ [2022-10-06 10:05:17,033] Register - Step 03: Enter to Lastname textbox with value is 'FC'
+ [2022-10-06 10:05:17,916] Register - Step 04: Enter to Email textbox with value is 'afc8200@mail.vn'
+ [2022-10-06 10:05:18,336] Register - Step 05: Enter to Password textbox with value is '123456'
+ [2022-10-06 10:05:18,578] Register - Step 06: Enter to Confirm password textbox with value is '123456'
+ [2022-10-06 10:05:18,801] Register - Step 07: Click to Register button
+ [2022-10-06 10:05:20,888] Register - Step 08: Vefiry Register success message is displayed
+ [2022-10-06 10:05:21,157] Login - Step 01: Navigate to Login page
+ [2022-10-06 10:05:22,870] Login - Step 02: Enter to Email textbox with value is 'afc8200@mail.vn'
+ [2022-10-06 10:05:23,096] Login - Step 03: Enter to Password textbox with value is '123456'
+ [2022-10-06 10:05:23,291] Login - Step 04: Click to Login button
+ [2022-10-06 10:05:24,269] Login - Step 05: Verify My account link is displayed
+ [2022-10-06 10:05:24,408]  -------------------------- PASSED -------------------------- 
+ [2022-10-06 10:05:24,421] My Account - Step 01: Navigate to My account page
+ [2022-10-06 10:05:25,296] My Account - Step 02: Verify Customer infor page is displayed
+ [2022-10-06 10:05:25,437]  -------------------------- PASSED -------------------------- 
+ [2022-10-06 10:05:25,437] My Account - Step 03: Verify 'Firstname' value is correctly
+ [2022-10-06 10:05:25,551]  -------------------------- PASSED -------------------------- 
+ [2022-10-06 10:05:25,551] My Account - Step 04: Verify 'Lastname' value is correctly
+ [2022-10-06 10:05:25,595] Register - Step 01: Navigate to Register page
+ [2022-10-06 10:05:25,711]  -------------------------- PASSED -------------------------- 
+ [2022-10-06 10:05:25,711] My Account - Step 05: Verify 'Email' value is correctly
+ [2022-10-06 10:05:25,888]  -------------------------- PASSED -------------------------- 
+ [2022-10-06 10:05:25,902] OS name = windows 10
+ [2022-10-06 10:05:25,902] Driver instance name = remotewebdriver: chrome on windows (50259792cfa922a022d29b0359725a3d)
+ [2022-10-06 10:05:27,383] Register - Step 02: Enter to Firstname textbox with value is 'Automation'
+ [2022-10-06 10:05:27,514] Register - Step 03: Enter to Lastname textbox with value is 'FC'
+ [2022-10-06 10:05:28,642] Register - Step 04: Enter to Email textbox with value is 'afc9691@mail.vn'
+ [2022-10-06 10:05:28,845] Register - Step 05: Enter to Password textbox with value is '123456'
+ [2022-10-06 10:05:28,955] Register - Step 06: Enter to Confirm password textbox with value is '123456'
+ [2022-10-06 10:05:29,156] Register - Step 07: Click to Register button
+ [2022-10-06 10:05:30,843] Register - Step 08: Vefiry Register success message is displayed
+ [2022-10-06 10:05:30,930] Login - Step 01: Navigate to Login page
+ [2022-10-06 10:05:32,643] Login - Step 02: Enter to Email textbox with value is 'afc9691@mail.vn'
+ [2022-10-06 10:05:32,753] Login - Step 03: Enter to Password textbox with value is '123456'
+ [2022-10-06 10:05:32,872] Login - Step 04: Click to Login button
+ [2022-10-06 10:05:33,862] Login - Step 05: Verify My account link is displayed
+ [2022-10-06 10:05:33,973]  -------------------------- PASSED -------------------------- 
+ [2022-10-06 10:05:33,983] My Account - Step 01: Navigate to My account page
+ [2022-10-06 10:05:34,642] My Account - Step 02: Verify Customer infor page is displayed
+ [2022-10-06 10:05:34,754]  -------------------------- PASSED -------------------------- 
+ [2022-10-06 10:05:34,754] My Account - Step 03: Verify 'Firstname' value is correctly
+ [2022-10-06 10:05:34,842]  -------------------------- PASSED -------------------------- 
+ [2022-10-06 10:05:34,842] My Account - Step 04: Verify 'Lastname' value is correctly
+ [2022-10-06 10:05:34,932]  -------------------------- PASSED -------------------------- 
+ [2022-10-06 10:05:34,932] My Account - Step 05: Verify 'Email' value is correctly
+ [2022-10-06 10:05:35,008]  -------------------------- PASSED -------------------------- 
+ [2022-10-06 10:05:35,012] OS name = windows 10
+ [2022-10-06 10:05:35,013] Driver instance name = remotewebdriver: firefox on windows (14d3e9d9-7fe8-40f8-a2f0-6478fca28777)
+ [2022-10-06 10:06:12,071] Register - Step 01: Navigate to Register page
+ [2022-10-06 10:06:13,841] Register - Step 02: Enter to Firstname textbox with value is 'Automation'
+ [2022-10-06 10:06:14,120] Register - Step 03: Enter to Lastname textbox with value is 'FC'
+ [2022-10-06 10:06:15,384] Register - Step 04: Enter to Email textbox with value is 'afc5957@mail.vn'
+ [2022-10-06 10:06:15,715] Register - Step 05: Enter to Password textbox with value is '123456'
+ [2022-10-06 10:06:15,996] Register - Step 06: Enter to Confirm password textbox with value is '123456'
+ [2022-10-06 10:06:16,270] Register - Step 07: Click to Register button
+ [2022-10-06 10:06:17,346] Register - Step 08: Vefiry Register success message is displayed
+ [2022-10-06 10:06:17,593] Login - Step 01: Navigate to Login page
+ [2022-10-06 10:06:19,138] Login - Step 02: Enter to Email textbox with value is 'afc5957@mail.vn'
+ [2022-10-06 10:06:19,371] Login - Step 03: Enter to Password textbox with value is '123456'
+ [2022-10-06 10:06:19,581] Login - Step 04: Click to Login button
+ [2022-10-06 10:06:20,509] Login - Step 05: Verify My account link is displayed
+ [2022-10-06 10:06:20,614]  -------------------------- PASSED -------------------------- 
+ [2022-10-06 10:06:20,625] My Account - Step 01: Navigate to My account page
+ [2022-10-06 10:06:21,420] My Account - Step 02: Verify Customer infor page is displayed
+ [2022-10-06 10:06:21,533]  -------------------------- PASSED -------------------------- 
+ [2022-10-06 10:06:21,533] My Account - Step 03: Verify 'Firstname' value is correctly
+ [2022-10-06 10:06:21,653]  -------------------------- PASSED -------------------------- 
+ [2022-10-06 10:06:21,653] My Account - Step 04: Verify 'Lastname' value is correctly
+ [2022-10-06 10:06:21,750]  -------------------------- PASSED -------------------------- 
+ [2022-10-06 10:06:21,750] My Account - Step 05: Verify 'Email' value is correctly
+ [2022-10-06 10:06:21,907]  -------------------------- PASSED -------------------------- 
+ [2022-10-06 10:06:21,915] OS name = windows 10
+ [2022-10-06 10:06:21,915] Driver instance name = remotewebdriver: chrome on windows (67bfce380a441d19c8371106e5e38016)
+ [2022-10-06 10:07:47,804] Register - Step 01: Navigate to Register page
+ [2022-10-06 10:07:48,852] Register - Step 02: Enter to Firstname textbox with value is 'Automation'
+ [2022-10-06 10:07:49,063] Register - Step 03: Enter to Lastname textbox with value is 'FC'
+ [2022-10-06 10:07:50,224] Register - Step 04: Enter to Email textbox with value is 'afc7308@mail.vn'
+ [2022-10-06 10:07:50,404] Register - Step 05: Enter to Password textbox with value is '123456'
+ [2022-10-06 10:07:50,518] Register - Step 06: Enter to Confirm password textbox with value is '123456'
+ [2022-10-06 10:07:50,633] Register - Step 07: Click to Register button
+ [2022-10-06 10:07:51,862] Register - Step 08: Vefiry Register success message is displayed
+ [2022-10-06 10:07:51,966] Login - Step 01: Navigate to Login page
+ [2022-10-06 10:07:53,650] Login - Step 02: Enter to Email textbox with value is 'afc7308@mail.vn'
+ [2022-10-06 10:07:53,802] Login - Step 03: Enter to Password textbox with value is '123456'
+ [2022-10-06 10:07:53,921] Login - Step 04: Click to Login button
+ [2022-10-06 10:07:54,880] Login - Step 05: Verify My account link is displayed
+ [2022-10-06 10:07:54,978]  -------------------------- PASSED -------------------------- 
+ [2022-10-06 10:07:54,987] My Account - Step 01: Navigate to My account page
+ [2022-10-06 10:07:55,700] My Account - Step 02: Verify Customer infor page is displayed
+ [2022-10-06 10:07:55,828]  -------------------------- PASSED -------------------------- 
+ [2022-10-06 10:07:55,828] My Account - Step 03: Verify 'Firstname' value is correctly
+ [2022-10-06 10:07:55,936]  -------------------------- PASSED -------------------------- 
+ [2022-10-06 10:07:55,936] My Account - Step 04: Verify 'Lastname' value is correctly
+ [2022-10-06 10:07:56,097]  -------------------------- PASSED -------------------------- 
+ [2022-10-06 10:07:56,097] My Account - Step 05: Verify 'Email' value is correctly
+ [2022-10-06 10:07:56,172]  -------------------------- PASSED -------------------------- 
+ [2022-10-06 10:07:56,179] OS name = windows 10
+ [2022-10-06 10:07:56,179] Driver instance name = remotewebdriver: firefox on windows (aa2b7d55-4c32-4984-a26b-8733120ab6aa)
+ [2022-10-06 14:26:57,938] Pre-Condition - Step 01: Open browse and navigate to Homepage
+ [2022-10-06 14:27:16,418] Pre-Condition - Step 02: Navigate to Register page
+ [2022-10-06 14:27:18,757] Pre-Condition - Step 03: Input to Firstname textbox with value: Automation
+ [2022-10-06 14:27:19,050] Pre-Condition - Step 04: Input to Lastname textbox with value: FC
+ [2022-10-06 14:27:19,260] Pre-Condition - Step 05: Input to Email textbox with value: automation7287@gmail.com
+ [2022-10-06 14:27:19,496] Pre-Condition - Step 06: Input to Password textbox with value: 123456
+ [2022-10-06 14:27:19,723] Pre-Condition - Step 07: Input to Confirm Password textbox with value: 123456
+ [2022-10-06 14:27:19,946] Pre-Condition - Step 08: Click to Register button
+ [2022-10-06 14:27:20,850] Pre-Condition - Step 09: Verify Register success message is displayed
+ [2022-10-06 14:27:20,977]  -------------------------- PASSED -------------------------- 
+ [2022-10-06 14:27:20,977] Pre-Condition - Step 10: Click to Search Page link
+ [2022-10-06 14:27:22,490] SearchWithEmptyData - Step 01: Click to SEARCH button
+ [2022-10-06 14:27:23,031] SearchWithEmptyData - Step 02: Verify 'Search term minimum length is 3 characters' message is displayed
+ [2022-10-06 14:27:23,121]  -------------------------- PASSED -------------------------- 
+ [2022-10-06 14:27:23,121] SearchWithEmptyData - Step 03: Click to Search Page link
+ [2022-10-06 14:27:23,843] SearchWithDataNOtExist - Step 01: Input to Search keyword textbox with value: MacBook Pro 2050
+ [2022-10-06 14:27:24,076] SearchWithDataNOtExist - Step 02: Click to SEARCH button
+ [2022-10-06 14:27:24,624] SearchWithDataNOtExist - Step 03: Verify 'No products were found that matched your criteria.' message is displayed
+ [2022-10-06 14:27:24,740]  -------------------------- PASSED -------------------------- 
+ [2022-10-06 14:27:24,740] SearchWithDataNOtExist - Step 04: Click to Search Page link
+ [2022-10-06 14:27:25,286] SearchWithShortProductName - Step 01: Input to Search keyword textbox with value: Lenovo
+ [2022-10-06 14:27:25,465] SearchWithShortProductName - Step 02: Click to SEARCH button
+ [2022-10-06 14:27:26,096] SearchWithShortProductName - Step 03: Verify 2 products is displayed
+ [2022-10-06 14:27:26,242]  -------------------------- PASSED -------------------------- 
+ [2022-10-06 14:27:26,242] SearchWithShortProductName - Step 04: Click to Search Page link
+ [2022-10-06 14:27:26,859] SearchWithFullProductName - Step 01: Input to Search keyword textbox with value: Thinkpad X1 Carbon
+ [2022-10-06 14:27:27,098] SearchWithFullProductName - Step 02: Click to SEARCH button
+ [2022-10-06 14:27:27,670] SearchWithFullProductName - Step 03: Verify 1 products is displayed
+ [2022-10-06 14:27:27,703]  -------------------------- PASSED -------------------------- 
+ [2022-10-06 14:27:27,704] SearchWithFullProductName - Step 04: Click to Search Page link
+ [2022-10-06 14:27:28,246] AdvancedSearchWithParentCategories - Step 01: Input to Search keyword textbox with value: Apple MacBook Pro
+ [2022-10-06 14:27:28,476] AdvancedSearchWithParentCategories - Step 02: Check to 'Advanced search' checkbox
+ [2022-10-06 14:27:28,728] AdvancedSearchWithParentCategories - Step 03: Select 'Computers' At Category Dropdown
+ [2022-10-06 14:27:28,992] AdvancedSearchWithParentCategories - Step 04: Uncheck to 'Automatically search sub categories' checkbox
+ [2022-10-06 14:27:29,098] AdvancedSearchWithParentCategories - Step 05: Click to SEARCH button
+ [2022-10-06 14:27:29,717] AdvancedSearchWithParentCategories - Step 06: Verify 'No products were found that matched your criteria.' message is displayed
+ [2022-10-06 14:27:29,839]  -------------------------- PASSED -------------------------- 
+ [2022-10-06 14:27:29,840] AdvancedSearchWithParentCategories - Step 07: Click to Search Page link
+ [2022-10-06 14:27:30,465] AdvancedSearchWithSubCategories - Step 01: Input to Search keyword textbox with value: Apple MacBook Pro
+ [2022-10-06 14:27:30,714] AdvancedSearchWithSubCategories - Step 02: Check to 'Advanced search' checkbox
+ [2022-10-06 14:27:30,875] AdvancedSearchWithSubCategories - Step 03: Select 'Computers' At Category Dropdown
+ [2022-10-06 14:27:31,013] AdvancedSearchWithSubCategories - Step 04: Check to 'Automatically search sub categories' checkbox
+ [2022-10-06 14:27:31,185] AdvancedSearchWithSubCategories - Step 05: Click to SEARCH button
+ [2022-10-06 14:27:31,912] AdvancedSearchWithSubCategories - Step 06: Verify 1 products is displayed
+ [2022-10-06 14:27:31,950]  -------------------------- PASSED -------------------------- 
+ [2022-10-06 14:27:31,950] AdvancedSearchWithSubCategories - Step 07: Click to Search Page link
+ [2022-10-06 14:27:32,689] AdvancedSearchWithIncorrectManufacturer - Step 01: Input to Search keyword textbox with value: Apple MacBook Pro
+ [2022-10-06 14:27:32,959] AdvancedSearchWithIncorrectManufacturer - Step 02: Check to 'Advanced search' checkbox
+ [2022-10-06 14:27:33,133] AdvancedSearchWithIncorrectManufacturer - Step 03: Select 'Computers' At Category Dropdown
+ [2022-10-06 14:27:33,312] AdvancedSearchWithIncorrectManufacturer - Step 04: Check to 'Automatically search sub categories' checkbox
+ [2022-10-06 14:27:33,505] AdvancedSearchWithIncorrectManufacturer - Step 05: Select 'HP' At Manufacturer Dropdown
+ [2022-10-06 14:27:33,726] AdvancedSearchWithIncorrectManufacturer - Step 06: Click to SEARCH button
+ [2022-10-06 14:27:35,095] AdvancedSearchWithIncorrectManufacturer - Step 07: Verify 'No products were found that matched your criteria.' message is displayed
+ [2022-10-06 14:27:35,203]  -------------------------- PASSED -------------------------- 
+ [2022-10-06 14:27:35,203] AdvancedSearchWithIncorrectManufacturer - Step 08: Click to Search Page link
+ [2022-10-06 14:27:36,158] AdvancedSearchWithCorrectManufacturer - Step 01: Input to Search keyword textbox with value: Apple MacBook Pro
+ [2022-10-06 14:27:36,433] AdvancedSearchWithCorrectManufacturer - Step 02: Check to 'Advanced search' checkbox
+ [2022-10-06 14:27:36,631] AdvancedSearchWithCorrectManufacturer - Step 03: Select 'Computers' At Category Dropdown
+ [2022-10-06 14:27:36,827] AdvancedSearchWithCorrectManufacturer - Step 04: Check to 'Automatically search sub categories' checkbox
+ [2022-10-06 14:27:37,022] AdvancedSearchWithCorrectManufacturer - Step 05: Select 'Apple' At Manufacturer Dropdown
+ [2022-10-06 14:27:37,293] AdvancedSearchWithCorrectManufacturer - Step 06: Click to SEARCH button
+ [2022-10-06 14:27:38,680] AdvancedSearchWithCorrectManufacturer - Step 07: Verify 1 products is displayed
+ [2022-10-06 14:27:38,699]  -------------------------- PASSED -------------------------- 
+ [2022-10-06 14:27:38,699] AdvancedSearchWithCorrectManufacturer - Step 08: Click to Search Page link
+ [2022-10-06 14:27:39,257] OS name = windows 10
+ [2022-10-06 14:27:39,258] Driver instance name = chromedriver: chrome on windows (4beceece70c3e40b473e325e40b0071e)
+ [2022-10-06 15:39:42,731] Pre-Condition - Step 01: Open browse and navigate to Homepage
+ [2022-10-06 15:39:51,784] Pre-Condition - Step 02: Navigate to Register page
+ [2022-10-06 15:39:52,906] Pre-Condition - Step 03: Input to Firstname textbox with value: Automation
+ [2022-10-06 15:39:53,178] Pre-Condition - Step 04: Input to Lastname textbox with value: FC
+ [2022-10-06 15:39:53,431] Pre-Condition - Step 05: Input to Email textbox with value: automation804@gmail.com
+ [2022-10-06 15:39:53,682] Pre-Condition - Step 06: Input to Password textbox with value: 123456
+ [2022-10-06 15:39:53,895] Pre-Condition - Step 07: Input to Confirm Password textbox with value: 123456
+ [2022-10-06 15:39:54,135] Pre-Condition - Step 08: Click to Register button
+ [2022-10-06 15:39:55,726] Pre-Condition - Step 09: Verify Register success message is displayed
+ [2022-10-06 15:39:55,845]  -------------------------- PASSED -------------------------- 
+ [2022-10-06 15:39:55,845] Pre-Condition - Step 10: Click to Search Page link
+ [2022-10-06 15:39:57,120] SearchWithEmptyData - Step 01: Click to SEARCH button
+ [2022-10-06 15:39:57,703] SearchWithEmptyData - Step 02: Verify 'Search term minimum length is 3 characters' message is displayed
+ [2022-10-06 15:39:57,787]  -------------------------- PASSED -------------------------- 
+ [2022-10-06 15:39:57,787] SearchWithEmptyData - Step 03: Click to Search Page link
+ [2022-10-06 15:39:58,534] SearchWithDataNOtExist - Step 01: Input to Search keyword textbox with value: MacBook Pro 2050
+ [2022-10-06 15:39:58,813] SearchWithDataNOtExist - Step 02: Click to SEARCH button
+ [2022-10-06 15:39:59,377] SearchWithDataNOtExist - Step 03: Verify 'No products were found that matched your criteria.' message is displayed
+ [2022-10-06 15:39:59,479]  -------------------------- PASSED -------------------------- 
+ [2022-10-06 15:39:59,480] SearchWithDataNOtExist - Step 04: Click to Search Page link
+ [2022-10-06 15:40:00,021] SearchWithShortProductName - Step 01: Input to Search keyword textbox with value: Lenovo
+ [2022-10-06 15:40:00,230] SearchWithShortProductName - Step 02: Click to SEARCH button
+ [2022-10-06 15:40:00,824] SearchWithShortProductName - Step 03: Verify 2 products is displayed
+ [2022-10-06 15:40:01,273]  -------------------------- PASSED -------------------------- 
+ [2022-10-06 15:40:01,274] SearchWithShortProductName - Step 04: Click to Search Page link
+ [2022-10-06 15:40:02,268] SearchWithFullProductName - Step 01: Input to Search keyword textbox with value: Thinkpad X1 Carbon
+ [2022-10-06 15:40:02,488] SearchWithFullProductName - Step 02: Click to SEARCH button
+ [2022-10-06 15:40:03,470] SearchWithFullProductName - Step 03: Verify 1 products is displayed
+ [2022-10-06 15:40:03,503]  -------------------------- PASSED -------------------------- 
+ [2022-10-06 15:40:03,503] SearchWithFullProductName - Step 04: Click to Search Page link
+ [2022-10-06 15:40:04,245] AdvancedSearchWithParentCategories - Step 01: Input to Search keyword textbox with value: Apple MacBook Pro
+ [2022-10-06 15:40:04,562] AdvancedSearchWithParentCategories - Step 02: Check to 'Advanced search' checkbox
+ [2022-10-06 15:40:04,754] AdvancedSearchWithParentCategories - Step 03: Select 'Computers' At Category Dropdown
+ [2022-10-06 15:40:04,989] AdvancedSearchWithParentCategories - Step 04: Uncheck to 'Automatically search sub categories' checkbox
+ [2022-10-06 15:40:05,132] AdvancedSearchWithParentCategories - Step 05: Click to SEARCH button
+ [2022-10-06 15:40:05,719] AdvancedSearchWithParentCategories - Step 06: Verify 'No products were found that matched your criteria.' message is displayed
+ [2022-10-06 15:40:05,799]  -------------------------- PASSED -------------------------- 
+ [2022-10-06 15:40:05,799] AdvancedSearchWithParentCategories - Step 07: Click to Search Page link
+ [2022-10-06 15:40:06,351] AdvancedSearchWithSubCategories - Step 01: Input to Search keyword textbox with value: Apple MacBook Pro
+ [2022-10-06 15:40:06,593] AdvancedSearchWithSubCategories - Step 02: Check to 'Advanced search' checkbox
+ [2022-10-06 15:40:06,778] AdvancedSearchWithSubCategories - Step 03: Select 'Computers' At Category Dropdown
+ [2022-10-06 15:40:06,939] AdvancedSearchWithSubCategories - Step 04: Check to 'Automatically search sub categories' checkbox
+ [2022-10-06 15:40:07,069] AdvancedSearchWithSubCategories - Step 05: Click to SEARCH button
+ [2022-10-06 15:40:07,732] AdvancedSearchWithSubCategories - Step 06: Verify 1 products is displayed
+ [2022-10-06 15:40:07,755]  -------------------------- PASSED -------------------------- 
+ [2022-10-06 15:40:07,755] AdvancedSearchWithSubCategories - Step 07: Click to Search Page link
+ [2022-10-06 15:40:08,290] AdvancedSearchWithIncorrectManufacturer - Step 01: Input to Search keyword textbox with value: Apple MacBook Pro
+ [2022-10-06 15:40:08,504] AdvancedSearchWithIncorrectManufacturer - Step 02: Check to 'Advanced search' checkbox
+ [2022-10-06 15:40:08,673] AdvancedSearchWithIncorrectManufacturer - Step 03: Select 'Computers' At Category Dropdown
+ [2022-10-06 15:40:08,817] AdvancedSearchWithIncorrectManufacturer - Step 04: Check to 'Automatically search sub categories' checkbox
+ [2022-10-06 15:40:08,965] AdvancedSearchWithIncorrectManufacturer - Step 05: Select 'HP' At Manufacturer Dropdown
+ [2022-10-06 15:40:09,144] AdvancedSearchWithIncorrectManufacturer - Step 06: Click to SEARCH button
+ [2022-10-06 15:40:09,811] AdvancedSearchWithIncorrectManufacturer - Step 07: Verify 'No products were found that matched your criteria.' message is displayed
+ [2022-10-06 15:40:09,951]  -------------------------- PASSED -------------------------- 
+ [2022-10-06 15:40:09,952] AdvancedSearchWithIncorrectManufacturer - Step 08: Click to Search Page link
+ [2022-10-06 15:40:10,490] AdvancedSearchWithCorrectManufacturer - Step 01: Input to Search keyword textbox with value: Apple MacBook Pro
+ [2022-10-06 15:40:10,704] AdvancedSearchWithCorrectManufacturer - Step 02: Check to 'Advanced search' checkbox
+ [2022-10-06 15:40:10,860] AdvancedSearchWithCorrectManufacturer - Step 03: Select 'Computers' At Category Dropdown
+ [2022-10-06 15:40:11,032] AdvancedSearchWithCorrectManufacturer - Step 04: Check to 'Automatically search sub categories' checkbox
+ [2022-10-06 15:40:11,202] AdvancedSearchWithCorrectManufacturer - Step 05: Select 'Apple' At Manufacturer Dropdown
+ [2022-10-06 15:40:11,329] AdvancedSearchWithCorrectManufacturer - Step 06: Click to SEARCH button
+ [2022-10-06 15:40:12,004] AdvancedSearchWithCorrectManufacturer - Step 07: Verify 1 products is displayed
+ [2022-10-06 15:40:12,019]  -------------------------- PASSED -------------------------- 
+ [2022-10-06 15:40:12,026] OS name = windows 10
+ [2022-10-06 15:40:12,026] Driver instance name = chromedriver: chrome on windows (e11af4bfbd31cf26486af674b43b8502)
+ [2022-10-06 15:42:44,650] Pre-Condition - Step 01: Open browse and navigate to Homepage
+ [2022-10-06 15:42:51,140] Pre-Condition - Step 02: Click to 'Notebooks' in Computer Header Menu
+ [2022-10-06 15:42:52,691] DisplayWith3Products - Step 01: Select '3' from Display Dropdown
+ [2022-10-06 15:42:52,967] DisplayWith6Products - Step 01: Select '6' from Display Dropdown
+ [2022-10-06 15:42:53,123] DisplayWith9Products - Step 01: Select '9' from Display Dropdown
+ [2022-10-06 15:42:53,231] SortDataByNameAToZ - Step 01: Select 'Name: A to Z' from Position Dropdown
+ [2022-10-06 15:42:53,350] SortDataByNameZToA - Step 01: Select 'Name: Z to A' from Position Dropdown
+ [2022-10-06 15:42:53,464] SortDataByPriceLowToHigh - Step 01: Select 'Price: Low to High' from Position Dropdown
+ [2022-10-06 15:42:53,587] SortDataByPriceHighToLow - Step 01: Select 'Price: High to Low' from Position Dropdown
+ [2022-10-06 15:42:53,704] OS name = windows 10
+ [2022-10-06 15:42:53,705] Driver instance name = chromedriver: chrome on windows (10122ee870ec2645f7e284e6b6fa2551)
+ [2022-10-06 15:43:30,220] Pre-Condition - Step 01: Open browse and navigate to Homepage
+ [2022-10-06 15:43:36,807] Pre-Condition - Step 02: Click to 'Notebooks' in Computer Header Menu
+ [2022-10-06 15:43:38,928] DisplayWith3Products - Step 01: Select '3' from Display Dropdown
+ [2022-10-06 15:44:09,537] DisplayWith6Products - Step 01: Select '6' from Display Dropdown
+ [2022-10-06 15:44:40,014] DisplayWith9Products - Step 01: Select '9' from Display Dropdown
+ [2022-10-06 15:45:10,442] SortDataByNameAToZ - Step 01: Select 'Name: A to Z' from Position Dropdown
+ [2022-10-06 15:45:43,026] SortDataByNameZToA - Step 01: Select 'Name: Z to A' from Position Dropdown
+ [2022-10-06 15:46:13,189] SortDataByPriceLowToHigh - Step 01: Select 'Price: Low to High' from Position Dropdown
+ [2022-10-06 15:46:43,469] SortDataByPriceHighToLow - Step 01: Select 'Price: High to Low' from Position Dropdown
+ [2022-10-06 15:47:00,886] Pre-Condition - Step 01: Open browse and navigate to Homepage
+ [2022-10-06 15:47:09,389] Pre-Condition - Step 02: Click to 'Notebooks' in Computer Header Menu
+ [2022-10-06 15:47:11,640] DisplayWith3Products - Step 01: Select '3' from Display Dropdown
+ [2022-10-06 15:47:11,909] DisplayWith3Products - Step 02: Verify at most 3 products displayed
+ [2022-10-06 15:47:12,050]  -------------------------- FAILED -------------------------- 
+ [2022-10-06 15:47:12,054] DisplayWith3Products - Step 03: Verify next icon is displayed at page 1
+ [2022-10-06 15:47:12,304]  -------------------------- FAILED -------------------------- 
+ [2022-10-06 15:47:12,304] DisplayWith3Products - Step 04: Paging to Page 2
+ [2022-10-06 15:47:12,637] DisplayWith6Products - Step 01: Select '6' from Display Dropdown
+ [2022-10-06 15:47:12,785] DisplayWith6Products - Step 02: Verify at most 6 products displayed
+ [2022-10-06 15:47:12,810]  -------------------------- PASSED -------------------------- 
+ [2022-10-06 15:47:12,810] DisplayWith6Products - Step 03: Verify paging is not displayed
+ [2022-10-06 15:47:46,779] Pre-Condition - Step 01: Open browse and navigate to Homepage
+ [2022-10-06 15:47:53,113] Pre-Condition - Step 02: Click to 'Notebooks' in Computer Header Menu
+ [2022-10-06 15:47:54,666] DisplayWith3Products - Step 01: Select '3' from Display Dropdown
+ [2022-10-06 15:47:54,864] DisplayWith3Products - Step 02: Verify at most 3 products displayed
+ [2022-10-06 15:47:54,888]  -------------------------- FAILED -------------------------- 
+ [2022-10-06 15:47:54,890] DisplayWith3Products - Step 03: Verify next icon is displayed at page 1
+ [2022-10-06 15:47:55,343]  -------------------------- FAILED -------------------------- 
+ [2022-10-06 15:47:55,344] DisplayWith3Products - Step 04: Paging to Page 2
+ [2022-10-06 15:47:55,677] DisplayWith6Products - Step 01: Select '6' from Display Dropdown
+ [2022-10-06 15:47:55,849] DisplayWith6Products - Step 02: Verify at most 6 products displayed
+ [2022-10-06 15:47:55,876]  -------------------------- PASSED -------------------------- 
+ [2022-10-06 15:47:55,876] DisplayWith6Products - Step 03: Verify paging is not displayed
+ [2022-10-06 15:48:31,586]  -------------------------- PASSED -------------------------- 
+ [2022-10-06 15:48:31,587] DisplayWith6Products - Step 04: Click to 'Notebooks' in Computer Header Menu
+ [2022-10-06 15:48:33,136] DisplayWith9Products - Step 01: Select '9' from Display Dropdown
+ [2022-10-06 15:48:33,360] DisplayWith9Products - Step 02: Verify at most 9 products displayed
+ [2022-10-06 15:48:33,385]  -------------------------- PASSED -------------------------- 
+ [2022-10-06 15:48:33,385] DisplayWith9Products - Step 03: Verify paging is not displayed
+ [2022-10-06 15:49:08,559]  -------------------------- PASSED -------------------------- 
+ [2022-10-06 15:49:08,569] SortDataByNameAToZ - Step 01: Select 'Name: A to Z' from Position Dropdown
+ [2022-10-06 15:49:08,793] SortDataByNameAToZ - Step 02: Verify list product is sorted by name from A to Z
+ [2022-10-06 15:49:08,979]  -------------------------- PASSED -------------------------- 
+ [2022-10-06 15:49:08,980] SortDataByNameAToZ - Step 03: Click to 'Notebooks' in Computer Header Menu
+ [2022-10-06 15:49:09,990] SortDataByNameZToA - Step 01: Select 'Name: Z to A' from Position Dropdown
+ [2022-10-06 15:49:10,168] SortDataByNameZToA - Step 02: Verify list product is sorted by name from Z to A
+ [2022-10-06 15:49:10,308]  -------------------------- PASSED -------------------------- 
+ [2022-10-06 15:49:10,308] SortDataByNameZToA - Step 03: Click to 'Notebooks' in Computer Header Menu
+ [2022-10-06 15:49:11,015] SortDataByPriceLowToHigh - Step 01: Select 'Price: Low to High' from Position Dropdown
+ [2022-10-06 15:49:11,208] SortDataByPriceLowToHigh - Step 02: Verify list product is sorted by price from low to high
+ [2022-10-06 15:49:11,413] SortDataByPriceHighToLow - Step 01: Select 'Price: High to Low' from Position Dropdown
+ [2022-10-06 15:49:11,578] SortDataByPriceHighToLow - Step 02: Verify list product is sorted by price from high to low
+ [2022-10-06 15:49:11,733] OS name = windows 10
+ [2022-10-06 15:49:11,733] Driver instance name = chromedriver: chrome on windows (b8e057d5dcd356872c8a678c842296f7)
+ [2022-10-06 15:53:52,942] Pre-Condition - Step 01: Open browse and navigate to Homepage
+ [2022-10-06 15:53:58,996] Pre-Condition - Step 02: Click to 'Notebooks' in Computer Header Menu
+ [2022-10-06 15:54:00,597] DisplayWith3Products - Step 01: Select '3' from Display Dropdown
+ [2022-10-06 15:54:00,826] DisplayWith3Products - Step 02: Verify at most 3 products displayed
+ [2022-10-06 15:54:00,858]  -------------------------- FAILED -------------------------- 
+ [2022-10-06 15:54:00,859] DisplayWith3Products - Step 03: Verify next icon is displayed at page 1
+ [2022-10-06 15:54:01,786]  -------------------------- FAILED -------------------------- 
+ [2022-10-06 15:54:01,787] DisplayWith3Products - Step 04: Paging to Page 2
+ [2022-10-06 15:54:02,087] DisplayWith6Products - Step 01: Select '6' from Display Dropdown
+ [2022-10-06 15:54:02,252] DisplayWith6Products - Step 02: Verify at most 6 products displayed
+ [2022-10-06 15:54:02,275]  -------------------------- PASSED -------------------------- 
+ [2022-10-06 15:54:02,275] DisplayWith6Products - Step 03: Verify paging is not displayed
+ [2022-10-06 15:54:37,983]  -------------------------- PASSED -------------------------- 
+ [2022-10-06 15:54:37,983] DisplayWith6Products - Step 04: Click to 'Notebooks' in Computer Header Menu
+ [2022-10-06 15:54:39,535] DisplayWith9Products - Step 01: Select '9' from Display Dropdown
+ [2022-10-06 15:54:39,721] DisplayWith9Products - Step 02: Verify at most 9 products displayed
+ [2022-10-06 15:54:39,748]  -------------------------- PASSED -------------------------- 
+ [2022-10-06 15:54:39,749] DisplayWith9Products - Step 03: Verify paging is not displayed
+ [2022-10-06 15:55:14,903]  -------------------------- PASSED -------------------------- 
+ [2022-10-06 15:55:14,926] SortDataByNameAToZ - Step 01: Select 'Name: A to Z' from Position Dropdown
+ [2022-10-06 15:55:15,116] SortDataByNameAToZ - Step 02: Verify list product is sorted by name from A to Z
+ [2022-10-06 15:55:15,251]  -------------------------- PASSED -------------------------- 
+ [2022-10-06 15:55:15,252] SortDataByNameAToZ - Step 03: Click to 'Notebooks' in Computer Header Menu
+ [2022-10-06 15:55:16,319] SortDataByNameZToA - Step 01: Select 'Name: Z to A' from Position Dropdown
+ [2022-10-06 15:55:16,510] SortDataByNameZToA - Step 02: Verify list product is sorted by name from Z to A
+ [2022-10-06 15:55:16,629]  -------------------------- PASSED -------------------------- 
+ [2022-10-06 15:55:16,629] SortDataByNameZToA - Step 03: Click to 'Notebooks' in Computer Header Menu
+ [2022-10-06 15:55:17,330] SortDataByPriceLowToHigh - Step 01: Select 'Price: Low to High' from Position Dropdown
+ [2022-10-06 15:55:17,495] SortDataByPriceLowToHigh - Step 02: Verify list product is sorted by price from low to high
+ [2022-10-06 15:55:17,655] SortDataByPriceHighToLow - Step 01: Select 'Price: High to Low' from Position Dropdown
+ [2022-10-06 15:55:17,835] SortDataByPriceHighToLow - Step 02: Verify list product is sorted by price from high to low
+ [2022-10-06 15:55:17,984] OS name = windows 10
+ [2022-10-06 15:55:17,984] Driver instance name = chromedriver: chrome on windows (3376014b086cf4500d376ace200481f8)
+ [2022-10-06 16:00:30,083] Pre-Condition - Step 01: Open browse and navigate to Homepage
+ [2022-10-06 16:00:36,747] Pre-Condition - Step 02: Click to 'Notebooks' in Computer Header Menu
+ [2022-10-06 16:00:38,145] SortDataByPriceLowToHigh - Step 01: Select 'Price: Low to High' from Position Dropdown
+ [2022-10-06 16:00:38,349] SortDataByPriceLowToHigh - Step 02: Verify list product is sorted by price from low to high
+ [2022-10-06 16:00:38,482]  -------------------------- PASSED -------------------------- 
+ [2022-10-06 16:00:38,482] SortDataByPriceLowToHigh - Step 03: Click to 'Notebooks' in Computer Header Menu
+ [2022-10-06 16:00:39,338] SortDataByPriceHighToLow - Step 01: Select 'Price: High to Low' from Position Dropdown
+ [2022-10-06 16:00:39,528] SortDataByPriceHighToLow - Step 02: Verify list product is sorted by price from high to low
+ [2022-10-06 16:00:39,648]  -------------------------- PASSED -------------------------- 
+ [2022-10-06 16:00:39,648] SortDataByPriceHighToLow - Step 03: Click to 'Notebooks' in Computer Header Menu
+ [2022-10-06 16:00:40,365] OS name = windows 10
+ [2022-10-06 16:00:40,366] Driver instance name = chromedriver: chrome on windows (3ab8e1a76ab149fbd944b44224660a95)
+ [2022-10-06 16:02:01,660] Pre-Condition - Step 01: Open browse and navigate to Homepage
+ [2022-10-06 16:02:07,506] Pre-Condition - Step 02: Click to 'Notebooks' in Computer Header Menu
+ [2022-10-06 16:02:08,922] SortDataByPriceLowToHigh - Step 01: Select 'Price: Low to High' from Position Dropdown
+ [2022-10-06 16:02:09,138] SortDataByPriceLowToHigh - Step 02: Verify list product is sorted by price from low to high
+ [2022-10-06 16:02:09,266]  -------------------------- PASSED -------------------------- 
+ [2022-10-06 16:02:09,266] SortDataByPriceLowToHigh - Step 03: Click to 'Notebooks' in Computer Header Menu
+ [2022-10-06 16:02:10,909] SortDataByPriceHighToLow - Step 01: Select 'Price: High to Low' from Position Dropdown
+ [2022-10-06 16:02:11,088] SortDataByPriceHighToLow - Step 02: Verify list product is sorted by price from high to low
+ [2022-10-06 16:02:11,207]  -------------------------- PASSED -------------------------- 
+ [2022-10-06 16:02:11,207] SortDataByPriceHighToLow - Step 03: Click to 'Notebooks' in Computer Header Menu
+ [2022-10-06 16:02:12,013] OS name = windows 10
+ [2022-10-06 16:02:12,014] Driver instance name = chromedriver: chrome on windows (ee255b9ddbc50d89c7e66a621cdce337)
+ [2022-10-06 16:03:00,362] Pre-Condition - Step 01: Open browse and navigate to Homepage
+ [2022-10-06 16:03:06,341] Pre-Condition - Step 02: Click to 'Notebooks' in Computer Header Menu
+ [2022-10-06 16:03:08,295] DisplayWith3Products - Step 01: Select '3' from Display Dropdown
+ [2022-10-06 16:03:08,503] DisplayWith3Products - Step 02: Verify at most 3 products displayed
+ [2022-10-06 16:03:08,528]  -------------------------- FAILED -------------------------- 
+ [2022-10-06 16:03:08,530] DisplayWith3Products - Step 03: Verify next icon is displayed at page 1
+ [2022-10-06 16:03:08,930]  -------------------------- FAILED -------------------------- 
+ [2022-10-06 16:03:08,930] DisplayWith3Products - Step 04: Paging to Page 2
+ [2022-10-06 16:03:09,303] OS name = windows 10
+ [2022-10-06 16:03:09,303] Driver instance name = chromedriver: chrome on windows (4b64a555d73530609f7ca07eba98cf2d)
+ [2022-10-06 16:05:18,636] Pre-Condition - Step 01: Open browse and navigate to Homepage
+ [2022-10-06 16:05:24,816] Pre-Condition - Step 02: Click to 'Notebooks' in Computer Header Menu
+ [2022-10-06 16:05:26,121] DisplayWith3Products - Step 01: Select '3' from Display Dropdown
+ [2022-10-06 16:05:26,319] DisplayWith3Products - Step 02: Verify at most 3 products displayed
+ [2022-10-06 16:05:26,368]  -------------------------- FAILED -------------------------- 
+ [2022-10-06 16:05:26,369] DisplayWith3Products - Step 03: Verify next icon is displayed at page 1
+ [2022-10-06 16:05:27,356]  -------------------------- PASSED -------------------------- 
+ [2022-10-06 16:05:27,357] DisplayWith3Products - Step 04: Paging to Page 2
+ [2022-10-06 16:05:27,647] OS name = windows 10
+ [2022-10-06 16:05:27,648] Driver instance name = chromedriver: chrome on windows (4f419bd0fe82072b265155304d38be6c)
+ [2022-10-06 16:07:14,148] Pre-Condition - Step 01: Open browse and navigate to Homepage
+ [2022-10-06 16:07:19,685] Pre-Condition - Step 02: Click to 'Notebooks' in Computer Header Menu
+ [2022-10-06 16:07:21,102] DisplayWith3Products - Step 01: Select '3' from Display Dropdown
+ [2022-10-06 16:07:21,298] DisplayWith3Products - Step 02: Verify at most 3 products displayed
+ [2022-10-06 16:07:21,453]  -------------------------- FAILED -------------------------- 
+ [2022-10-06 16:07:21,455] DisplayWith3Products - Step 03: Verify next icon is displayed at page 1
+ [2022-10-06 16:07:21,929]  -------------------------- PASSED -------------------------- 
+ [2022-10-06 16:07:21,929] DisplayWith3Products - Step 04: Paging to Page 2
+ [2022-10-06 16:07:22,182] OS name = windows 10
+ [2022-10-06 16:07:22,183] Driver instance name = chromedriver: chrome on windows (45387644847d7e429c169e5b74d0df09)
+ [2022-10-06 16:09:46,368] Pre-Condition - Step 01: Open browse and navigate to Homepage
+ [2022-10-06 16:09:53,172] Pre-Condition - Step 02: Click to 'Notebooks' in Computer Header Menu
+ [2022-10-06 16:09:55,138] DisplayWith3Products - Step 01: Select '3' from Display Dropdown
+ [2022-10-06 16:09:55,353] DisplayWith3Products - Step 02: Verify at most 3 products displayed
+ [2022-10-06 16:09:55,520]  -------------------------- FAILED -------------------------- 
+ [2022-10-06 16:09:55,522] DisplayWith3Products - Step 03: Verify next icon is displayed at page 1
+ [2022-10-06 16:09:55,830]  -------------------------- PASSED -------------------------- 
+ [2022-10-06 16:09:55,830] DisplayWith3Products - Step 04: Paging to Page 2
+ [2022-10-06 16:09:56,119] OS name = windows 10
+ [2022-10-06 16:09:56,120] Driver instance name = chromedriver: chrome on windows (8419946c7544e4feaac035ecfa8dfe5e)
+ [2022-10-06 16:10:13,103] Pre-Condition - Step 01: Open browse and navigate to Homepage
+ [2022-10-06 16:10:37,787] Pre-Condition - Step 02: Click to 'Notebooks' in Computer Header Menu
+ [2022-10-06 16:10:40,396] DisplayWith3Products - Step 01: Select '3' from Display Dropdown
+ [2022-10-06 16:10:40,828] DisplayWith3Products - Step 02: Verify at most 3 products displayed
+ [2022-10-06 16:10:40,985]  -------------------------- PASSED -------------------------- 
+ [2022-10-06 16:10:40,985] DisplayWith3Products - Step 03: Verify next icon is displayed at page 1
+ [2022-10-06 16:10:41,162]  -------------------------- PASSED -------------------------- 
+ [2022-10-06 16:10:41,162] DisplayWith3Products - Step 04: Paging to Page 2
+ [2022-10-06 16:10:41,464] OS name = windows 10
+ [2022-10-06 16:10:41,464] Driver instance name = firefoxdriver: firefox on windows (a885022c-8ae0-42a7-8258-7165cefc8593)
+ [2022-10-06 16:11:40,964] Pre-Condition - Step 01: Open browse and navigate to Homepage
+ [2022-10-06 16:11:50,957] Pre-Condition - Step 02: Click to 'Notebooks' in Computer Header Menu
+ [2022-10-06 16:11:52,380] DisplayWith3Products - Step 01: Select '3' from Display Dropdown
+ [2022-10-06 16:11:52,796] DisplayWith3Products - Step 02: Verify at most 3 products displayed
+ [2022-10-06 16:11:52,945]  -------------------------- PASSED -------------------------- 
+ [2022-10-06 16:11:52,946] DisplayWith3Products - Step 03: Verify next icon is displayed at page 1
+ [2022-10-06 16:11:53,179]  -------------------------- PASSED -------------------------- 
+ [2022-10-06 16:11:53,180] DisplayWith3Products - Step 04: Paging to Page 2
+ [2022-10-06 16:11:53,501] OS name = windows 10
+ [2022-10-06 16:11:53,501] Driver instance name = firefoxdriver: firefox on windows (fb57f5ba-fdac-4c53-8925-d01ed25287ec)
+ [2022-10-06 16:14:51,529] Pre-Condition - Step 01: Open browse and navigate to Homepage
+ [2022-10-06 16:15:00,973] Pre-Condition - Step 02: Click to 'Notebooks' in Computer Header Menu
+ [2022-10-06 16:15:02,541] DisplayWith3Products - Step 01: Select '3' from Display Dropdown
+ [2022-10-06 16:15:02,932] DisplayWith3Products - Step 02: Verify at most 3 products displayed
+ [2022-10-06 16:15:03,048]  -------------------------- FAILED -------------------------- 
+ [2022-10-06 16:15:03,049] DisplayWith3Products - Step 03: Verify next icon is displayed at page 1
+ [2022-10-06 16:15:03,844]  -------------------------- PASSED -------------------------- 
+ [2022-10-06 16:15:03,844] DisplayWith3Products - Step 04: Paging to Page 2
+ [2022-10-06 16:15:04,140] OS name = windows 10
+ [2022-10-06 16:15:04,140] Driver instance name = firefoxdriver: firefox on windows (aecee54b-f370-462a-8bf9-15b50427d28a)
+ [2022-10-06 16:16:12,783] Pre-Condition - Step 01: Open browse and navigate to Homepage
+ [2022-10-06 16:16:22,811] Pre-Condition - Step 02: Click to 'Notebooks' in Computer Header Menu
+ [2022-10-06 16:16:24,431] DisplayWith3Products - Step 01: Select '3' from Display Dropdown
+ [2022-10-06 16:16:24,830] DisplayWith3Products - Step 02: Verify at most 3 products displayed
+ [2022-10-06 16:16:24,959]  -------------------------- PASSED -------------------------- 
+ [2022-10-06 16:16:24,959] DisplayWith3Products - Step 03: Verify next icon is displayed at page 1
+ [2022-10-06 16:16:25,716]  -------------------------- PASSED -------------------------- 
+ [2022-10-06 16:16:25,716] DisplayWith3Products - Step 04: Paging to Page 2
+ [2022-10-06 16:16:25,997] OS name = windows 10
+ [2022-10-06 16:16:25,997] Driver instance name = firefoxdriver: firefox on windows (211ffcf0-c5f3-4750-b79a-6738fd42aff8)
+ [2022-10-06 16:16:54,439] Pre-Condition - Step 01: Open browse and navigate to Homepage
+ [2022-10-06 16:17:01,023] Pre-Condition - Step 02: Click to 'Notebooks' in Computer Header Menu
+ [2022-10-06 16:17:02,533] DisplayWith3Products - Step 01: Select '3' from Display Dropdown
+ [2022-10-06 16:17:02,787] DisplayWith3Products - Step 02: Verify at most 3 products displayed
+ [2022-10-06 16:17:02,965]  -------------------------- PASSED -------------------------- 
+ [2022-10-06 16:17:02,966] DisplayWith3Products - Step 03: Verify next icon is displayed at page 1
+ [2022-10-06 16:17:03,265]  -------------------------- PASSED -------------------------- 
+ [2022-10-06 16:17:03,265] DisplayWith3Products - Step 04: Paging to Page 2
+ [2022-10-06 16:17:03,650] OS name = windows 10
+ [2022-10-06 16:17:03,651] Driver instance name = chromedriver: chrome on windows (89d70afb9d3d773f8be422cc4e6ad57d)
+ [2022-10-06 16:17:41,842] Pre-Condition - Step 01: Open browse and navigate to Homepage
+ [2022-10-06 16:17:48,105] Pre-Condition - Step 02: Click to 'Notebooks' in Computer Header Menu
+ [2022-10-06 16:17:50,172] DisplayWith3Products - Step 01: Select '3' from Display Dropdown
+ [2022-10-06 16:17:50,423] DisplayWith3Products - Step 02: Verify at most 3 products displayed
+ [2022-10-06 16:17:50,603]  -------------------------- PASSED -------------------------- 
+ [2022-10-06 16:17:50,604] DisplayWith3Products - Step 03: Verify next icon is displayed at page 1
+ [2022-10-06 16:17:50,893]  -------------------------- PASSED -------------------------- 
+ [2022-10-06 16:17:50,894] DisplayWith3Products - Step 04: Paging to Page 2
+ [2022-10-06 16:17:51,248] OS name = windows 10
+ [2022-10-06 16:17:51,248] Driver instance name = chromedriver: chrome on windows (0727b961f80d0c39e416575da79de0d9)
+ [2022-10-06 16:19:55,875] Pre-Condition - Step 01: Open browse and navigate to Homepage
+ [2022-10-06 16:20:02,239] Pre-Condition - Step 02: Click to 'Notebooks' in Computer Header Menu
+ [2022-10-06 16:20:03,565] DisplayWith3Products - Step 01: Select '3' from Display Dropdown
+ [2022-10-06 16:20:03,771] DisplayWith3Products - Step 02: Verify at most 3 products displayed
+ [2022-10-06 16:20:03,936]  -------------------------- PASSED -------------------------- 
+ [2022-10-06 16:20:03,936] DisplayWith3Products - Step 03: Verify next icon is displayed at page 1
+ [2022-10-06 16:20:04,104]  -------------------------- PASSED -------------------------- 
+ [2022-10-06 16:20:04,274]  -------------------------- PASSED -------------------------- 
+ [2022-10-06 16:20:04,274] DisplayWith3Products - Step 04: Paging to Page 2
+ [2022-10-06 16:20:04,515] OS name = windows 10
+ [2022-10-06 16:20:04,515] Driver instance name = chromedriver: chrome on windows (de85b0f2b6f6835d314fdd02edacdfb4)
+ [2022-10-06 16:20:59,076] Pre-Condition - Step 01: Open browse and navigate to Homepage
+ [2022-10-06 16:21:05,052] Pre-Condition - Step 02: Click to 'Notebooks' in Computer Header Menu
+ [2022-10-06 16:21:07,122] DisplayWith3Products - Step 01: Select '3' from Display Dropdown
+ [2022-10-06 16:21:07,324] DisplayWith3Products - Step 02: Verify at most 3 products displayed
+ [2022-10-06 16:21:07,491]  -------------------------- PASSED -------------------------- 
+ [2022-10-06 16:21:07,492] DisplayWith3Products - Step 03: Verify next icon is displayed at page 1
+ [2022-10-06 16:21:07,857]  -------------------------- PASSED -------------------------- 
+ [2022-10-06 16:21:08,049]  -------------------------- PASSED -------------------------- 
+ [2022-10-06 16:21:08,050] DisplayWith3Products - Step 04: Paging to Page 2
+ [2022-10-06 16:21:08,292] OS name = windows 10
+ [2022-10-06 16:21:08,292] Driver instance name = chromedriver: chrome on windows (fd42af580493b518748df3384f2bde54)
+ [2022-10-06 16:22:33,589] Pre-Condition - Step 01: Open browse and navigate to Homepage
+ [2022-10-06 16:22:39,206] Pre-Condition - Step 02: Click to 'Notebooks' in Computer Header Menu
+ [2022-10-06 16:22:41,287] DisplayWith3Products - Step 01: Select '3' from Display Dropdown
+ [2022-10-06 16:22:41,491] DisplayWith3Products - Step 02: Verify at most 3 products displayed
+ [2022-10-06 16:22:41,661]  -------------------------- PASSED -------------------------- 
+ [2022-10-06 16:22:41,661] DisplayWith3Products - Step 03: Verify next icon is displayed at page 1
+ [2022-10-06 16:22:41,794]  -------------------------- PASSED -------------------------- 
+ [2022-10-06 16:22:41,937]  -------------------------- PASSED -------------------------- 
+ [2022-10-06 16:22:41,937] DisplayWith3Products - Step 04: Paging to Page 2
+ [2022-10-06 16:22:42,076] DisplayWith3Products - Step 05: Verify previous icon is displayed at page 2
+ [2022-10-06 16:22:42,150]  -------------------------- FAILED -------------------------- 
+ [2022-10-06 16:22:42,240]  -------------------------- FAILED -------------------------- 
+ [2022-10-06 16:22:42,240] DisplayWith3Products - Step 06: Click to 'Notebooks' in Computer Header Menu
+ [2022-10-06 16:22:43,232] OS name = windows 10
+ [2022-10-06 16:22:43,232] Driver instance name = chromedriver: chrome on windows (f60e429798e55607ab6926ff0dbffa37)
+ [2022-10-06 16:24:10,951] Pre-Condition - Step 01: Open browse and navigate to Homepage
+ [2022-10-06 16:24:17,050] Pre-Condition - Step 02: Click to 'Notebooks' in Computer Header Menu
+ [2022-10-06 16:24:18,486] DisplayWith3Products - Step 01: Select '3' from Display Dropdown
+ [2022-10-06 16:24:18,697] DisplayWith3Products - Step 02: Verify at most 3 products displayed
+ [2022-10-06 16:24:18,850]  -------------------------- PASSED -------------------------- 
+ [2022-10-06 16:24:18,850] DisplayWith3Products - Step 03: Verify next icon is displayed at page 1
+ [2022-10-06 16:24:19,681]  -------------------------- PASSED -------------------------- 
+ [2022-10-06 16:24:19,778]  -------------------------- PASSED -------------------------- 
+ [2022-10-06 16:24:19,778] DisplayWith3Products - Step 04: Paging to Page 2
+ [2022-10-06 16:24:19,914] DisplayWith3Products - Step 05: Verify previous icon is displayed at page 2
+ [2022-10-06 16:24:19,989]  -------------------------- FAILED -------------------------- 
+ [2022-10-06 16:24:20,265]  -------------------------- PASSED -------------------------- 
+ [2022-10-06 16:24:20,265] DisplayWith3Products - Step 06: Click to 'Notebooks' in Computer Header Menu
+ [2022-10-06 16:24:21,302] OS name = windows 10
+ [2022-10-06 16:24:21,304] Driver instance name = chromedriver: chrome on windows (8d9b72e8e664c7b2a30efb21d1f0777f)
+ [2022-10-06 16:26:31,224] Pre-Condition - Step 01: Open browse and navigate to Homepage
+ [2022-10-06 16:26:37,172] Pre-Condition - Step 02: Click to 'Notebooks' in Computer Header Menu
+ [2022-10-06 16:26:38,652] DisplayWith3Products - Step 01: Select '3' from Display Dropdown
+ [2022-10-06 16:26:38,868] DisplayWith3Products - Step 02: Verify at most 3 products displayed
+ [2022-10-06 16:26:39,035]  -------------------------- PASSED -------------------------- 
+ [2022-10-06 16:26:39,035] DisplayWith3Products - Step 03: Verify next icon is displayed at page 1
+ [2022-10-06 16:26:39,847]  -------------------------- PASSED -------------------------- 
+ [2022-10-06 16:26:39,935]  -------------------------- PASSED -------------------------- 
+ [2022-10-06 16:26:39,935] DisplayWith3Products - Step 04: Paging to Page 2
+ [2022-10-06 16:26:40,109] DisplayWith3Products - Step 05: Verify previous icon is displayed at page 2
+ [2022-10-06 16:26:40,253]  -------------------------- FAILED -------------------------- 
+ [2022-10-06 16:26:40,953]  -------------------------- PASSED -------------------------- 
+ [2022-10-06 16:26:40,953] DisplayWith3Products - Step 06: Click to 'Notebooks' in Computer Header Menu
+ [2022-10-06 16:26:42,002] OS name = windows 10
+ [2022-10-06 16:26:42,002] Driver instance name = chromedriver: chrome on windows (9b9bfdbf189a787488889e2c7f00c2da)
+ [2022-10-06 16:33:48,771] Pre-Condition - Step 01: Open browse and navigate to Homepage
+ [2022-10-06 16:33:54,849] Pre-Condition - Step 02: Click to 'Notebooks' in Computer Header Menu
+ [2022-10-06 16:33:56,342] DisplayWith3Products - Step 01: Select '3' from Display Dropdown
+ [2022-10-06 16:33:56,525] DisplayWith3Products - Step 02: Verify at most 3 products displayed
+ [2022-10-06 16:33:56,694]  -------------------------- FAILED -------------------------- 
+ [2022-10-06 16:33:56,695] DisplayWith3Products - Step 03: Verify next icon is displayed at page 1
+ [2022-10-06 16:33:57,505]  -------------------------- PASSED -------------------------- 
+ [2022-10-06 16:33:57,594]  -------------------------- PASSED -------------------------- 
+ [2022-10-06 16:33:57,594] DisplayWith3Products - Step 04: Paging to Page 2
+ [2022-10-06 16:33:57,730] DisplayWith3Products - Step 05: Verify previous icon is displayed at page 2
+ [2022-10-06 16:33:57,838]  -------------------------- FAILED -------------------------- 
+ [2022-10-06 16:33:58,175]  -------------------------- PASSED -------------------------- 
+ [2022-10-06 16:33:58,175] DisplayWith3Products - Step 06: Click to 'Notebooks' in Computer Header Menu
+ [2022-10-06 16:33:59,147] OS name = windows 10
+ [2022-10-06 16:33:59,147] Driver instance name = chromedriver: chrome on windows (7fcd221455c9a23c60b827ab0015b8f9)
+ [2022-10-06 16:47:31,157] Pre-Condition - Step 01: Open browse and navigate to Homepage
+ [2022-10-06 16:47:42,794] Pre-Condition - Step 02: Click to 'Notebooks' in Computer Header Menu
+ [2022-10-06 16:47:45,039] DisplayWith3Products - Step 01: Select '3' from Display Dropdown
+ [2022-10-06 16:47:45,312] DisplayWith3Products - Step 02: Verify at most 3 products displayed
+ [2022-10-06 16:47:45,344]  -------------------------- FAILED -------------------------- 
+ [2022-10-06 16:47:45,346] DisplayWith3Products - Step 03: Verify next icon is displayed at page 1
+ [2022-10-06 16:47:46,370]  -------------------------- PASSED -------------------------- 
+ [2022-10-06 16:47:46,454]  -------------------------- PASSED -------------------------- 
+ [2022-10-06 16:47:46,454] DisplayWith3Products - Step 04: Paging to Page 2
+ [2022-10-06 16:47:46,608] DisplayWith3Products - Step 05: Verify previous icon is displayed at page 2
+ [2022-10-06 16:47:46,712]  -------------------------- FAILED -------------------------- 
+ [2022-10-06 16:47:47,167]  -------------------------- PASSED -------------------------- 
+ [2022-10-06 16:47:47,167] DisplayWith3Products - Step 06: Click to 'Notebooks' in Computer Header Menu
+ [2022-10-06 16:47:48,127] OS name = windows 10
+ [2022-10-06 16:47:48,127] Driver instance name = chromedriver: chrome on windows (5f5624b64e929195cbc9c729f278139e)
+ [2022-10-06 16:57:14,170] Pre-Condition - Step 01: Open browse and navigate to Homepage
+ [2022-10-06 16:57:58,801] Pre-Condition - Step 02: Click to 'Notebooks' in Computer Header Menu
+ [2022-10-06 16:58:05,001] DisplayWith3Products - Step 01: Select '3' from Display Dropdown
+ [2022-10-06 16:58:05,656] DisplayWith3Products - Step 02: Verify at most 3 products displayed
+ [2022-10-06 16:58:05,720]  -------------------------- FAILED -------------------------- 
+ [2022-10-06 16:58:05,729] DisplayWith3Products - Step 03: Verify next icon is displayed at page 1
+ [2022-10-06 16:58:06,158]  -------------------------- PASSED -------------------------- 
+ [2022-10-06 16:58:06,278]  -------------------------- PASSED -------------------------- 
+ [2022-10-06 16:58:06,278] DisplayWith3Products - Step 04: Paging to Page 2
+ [2022-10-06 16:58:06,452] DisplayWith3Products - Step 05: Verify previous icon is displayed at page 2
+ [2022-10-06 16:58:06,585]  -------------------------- FAILED -------------------------- 
+ [2022-10-06 16:58:06,882]  -------------------------- PASSED -------------------------- 
+ [2022-10-06 16:58:06,882] DisplayWith3Products - Step 06: Click to 'Notebooks' in Computer Header Menu
+ [2022-10-06 16:58:09,216] OS name = windows 10
+ [2022-10-06 16:58:09,217] Driver instance name = edgedriver: msedge on windows (d1d89f496f7fa96d49ee21ffb00658b9)
+ [2022-10-06 17:15:32,380] Pre-Condition - Step 01: Open browse and navigate to Homepage
+ [2022-10-06 17:15:54,946] Pre-Condition - Step 02: Click to 'Notebooks' in Computer Header Menu
+ [2022-10-06 17:15:59,505] DisplayWith3Products - Step 01: Select '3' from Display Dropdown
+ [2022-10-06 17:16:00,048] DisplayWith3Products - Step 02: Verify at most 3 products displayed
+ [2022-10-06 17:16:00,086]  -------------------------- FAILED -------------------------- 
+ [2022-10-06 17:16:00,179] DisplayWith3Products - Step 03: Verify next icon is displayed at page 1
+ [2022-10-06 17:16:00,573]  -------------------------- PASSED -------------------------- 
+ [2022-10-06 17:16:00,656]  -------------------------- PASSED -------------------------- 
+ [2022-10-06 17:16:00,656] DisplayWith3Products - Step 04: Paging to Page 2
+ [2022-10-06 17:16:00,878] DisplayWith3Products - Step 05: Verify previous icon is displayed at page 2
+ [2022-10-06 17:16:01,007]  -------------------------- FAILED -------------------------- 
+ [2022-10-06 17:16:01,266]  -------------------------- PASSED -------------------------- 
+ [2022-10-06 17:16:01,266] DisplayWith3Products - Step 06: Click to 'Notebooks' in Computer Header Menu
+ [2022-10-06 17:16:02,704] DisplayWith6Products - Step 01: Select '6' from Display Dropdown
+ [2022-10-06 17:16:02,871] DisplayWith6Products - Step 02: Verify at most 6 products displayed
+ [2022-10-06 17:16:02,889]  -------------------------- PASSED -------------------------- 
+ [2022-10-06 17:16:02,889] DisplayWith6Products - Step 03: Verify paging is not displayed
+ [2022-10-06 17:16:38,034]  -------------------------- PASSED -------------------------- 
+ [2022-10-06 17:16:38,035] DisplayWith6Products - Step 04: Click to 'Notebooks' in Computer Header Menu
+ [2022-10-06 17:16:39,765] DisplayWith9Products - Step 01: Select '9' from Display Dropdown
+ [2022-10-06 17:16:39,978] DisplayWith9Products - Step 02: Verify at most 9 products displayed
+ [2022-10-06 17:16:40,000]  -------------------------- PASSED -------------------------- 
+ [2022-10-06 17:16:40,000] DisplayWith9Products - Step 03: Verify paging is not displayed

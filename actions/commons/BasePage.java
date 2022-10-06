@@ -35,6 +35,18 @@ import pageUIs.jquery.uploadFiles.BasePageJQueryUI;
 import pageUIs.nopcommerce.user.BasePageUI;
 import pageUIs.nopcommerce.user.HomePageUI;
 
+/**
+ * @author Thao Le Glass
+ *
+ */
+/**
+ * @author Thao Le Glass
+ *
+ */
+/**
+ * @author Thao Le Glass
+ *
+ */
 public class BasePage {
 
 	public static BasePage getBasePageObject() {
@@ -167,7 +179,7 @@ public class BasePage {
 	public List<WebElement> getListWebElement(WebDriver driver, String locatorType) {
 		return driver.findElements(getByLocator(locatorType));
 	}
-	
+
 	public List<WebElement> getListWebElement(WebDriver driver, String locatorType, String... dynamicValues) {
 		return driver.findElements(getByLocator(getDynamicXpath(locatorType, dynamicValues)));
 	}
@@ -720,6 +732,18 @@ public class BasePage {
 	}
 
 	/**
+	 * Select to dynamic dropdown by label name
+	 * 
+	 * @param driver
+	 * @param labelName
+	 * @param valueText
+	 */
+	public void selectItemInDropdownByLabel(WebDriver driver, String labelName, String valueText) {
+		waitForElementVisible(driver, BasePageUI.DYNAMIC_SEARCH_DROPDOWN_BY_LABEL_NAME, labelName);
+		selectItemInDefaultDropdown(driver, BasePageUI.DYNAMIC_SEARCH_DROPDOWN_BY_LABEL_NAME, valueText, labelName);
+	}
+
+	/**
 	 * Get value in textbox by textboxID
 	 * 
 	 * @param driver
@@ -731,6 +755,37 @@ public class BasePage {
 		return getElementAttribute(driver, BasePageUI.DYNAMIC_TEXTBOX_BY_ID, "value", textboxID);
 	}
 
+	/**
+	 * Click to Open Page At Header Menu By Page Name
+	 * 
+	 * @param driver
+	 * @param textMenuAtHeader
+	 * @param textFieldProduct
+	 */
+	public void clickToLinkInMenuByText(WebDriver driver, String textMenu, String textFieldProduct) {
+		hoverMouseToElement(driver, BasePageUI.DYNAMIC_MENU_LINK_BY_TEXT, textMenu);
+		waitForElementClickable(driver, BasePageUI.DYNAMIC_PRODUCT_LINK_BY_TEXT, textMenu, textFieldProduct);
+		clickToElement(driver, BasePageUI.DYNAMIC_PRODUCT_LINK_BY_TEXT, textMenu, textFieldProduct);
+	}
+
+	/**
+	 * Click to Open Page At Footer By Page Name
+	 * 
+	 * @param driver
+	 * @param pageName
+	 */
+	public void openPageInFooterByPageName(WebDriver driver, String pageName) {
+		waitForElementClickable(driver, BasePageUI.DYNAMIC_PAGE_LINK_IN_FOOTER_BY_NAME_PAGE, pageName);
+		clickToElement(driver, BasePageUI.DYNAMIC_PAGE_LINK_IN_FOOTER_BY_NAME_PAGE, pageName);
+	}
+
+	/**
+	 * Get textbox value By Label textbox
+	 * 
+	 * @param driver
+	 * @param textboxID
+	 * @return
+	 */
 	public String getTextboxValueByLabel(WebDriver driver, String textboxID) {
 		waitForElementVisible(driver, BasePageUI.DYNAMIC_TEXTBOX_BY_LABEL, textboxID);
 		return getElementAttribute(driver, BasePageUI.DYNAMIC_TEXTBOX_BY_LABEL, "value", textboxID);
@@ -744,17 +799,6 @@ public class BasePage {
 	public AdminDashboardPO openAdminSite(WebDriver driver, String urlPage) {
 		openPageUrl(driver, urlPage);
 		return pageObjects.wordpress.PageGeneratorManager.getAdminDashboardPageObject(driver);
-	}
-
-	public void clickToLinkInMenuByText(WebDriver driver, String textMenu, String textFieldProduct) {
-		hoverMouseToElement(driver, BasePageUI.DYNAMIC_MENU_LINK_BY_TEXT, textMenu);
-		waitForElementClickable(driver, BasePageUI.DYNAMIC_PRODUCT_LINK_BY_TEXT, textMenu, textFieldProduct);
-		clickToElement(driver, BasePageUI.DYNAMIC_PRODUCT_LINK_BY_TEXT, textMenu, textFieldProduct);
-	}
-
-	public void openPageInFooterByPageName(WebDriver driver, String pageName) {
-		waitForElementClickable(driver, BasePageUI.DYNAMIC_PAGE_LINK_IN_FOOTER_BY_NAME_PAGE, pageName);
-		clickToElement(driver, BasePageUI.DYNAMIC_PAGE_LINK_IN_FOOTER_BY_NAME_PAGE, pageName);
 	}
 
 	private long longTimeout = GlobalConstants.LONG_TIMEOUT;

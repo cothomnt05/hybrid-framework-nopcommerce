@@ -132,7 +132,7 @@ public class NopCommerce_004_Search extends BaseTest {
 		searchPage.checkToCheckboxByLabel("Advanced search");
 
 		log.info("AdvancedSearchWithParentCategories - Step 03: Select 'Computers' At Category Dropdown");
-		searchPage.selectItemInDropdownByLabel("Category", "Computers");
+		searchPage.selectItemInDropdownByLabel(driver, "Category", "Computers");
 
 		log.info("AdvancedSearchWithParentCategories - Step 04: Uncheck to 'Automatically search sub categories' checkbox");
 		searchPage.unCheckToCheckboxByLabel("sub categories");
@@ -156,7 +156,7 @@ public class NopCommerce_004_Search extends BaseTest {
 		searchPage.checkToCheckboxByLabel("Advanced search");
 
 		log.info("AdvancedSearchWithSubCategories - Step 03: Select 'Computers' At Category Dropdown");
-		searchPage.selectItemInDropdownByLabel("Category", "Computers");
+		searchPage.selectItemInDropdownByLabel(driver, "Category", "Computers");
 
 		log.info("AdvancedSearchWithSubCategories - Step 04: Check to 'Automatically search sub categories' checkbox");
 		searchPage.checkToCheckboxByLabel("sub categories");
@@ -181,13 +181,13 @@ public class NopCommerce_004_Search extends BaseTest {
 		searchPage.checkToCheckboxByLabel("Advanced search");
 
 		log.info("AdvancedSearchWithIncorrectManufacturer - Step 03: Select 'Computers' At Category Dropdown");
-		searchPage.selectItemInDropdownByLabel("Category", "Computers");
+		searchPage.selectItemInDropdownByLabel(driver, "Category", "Computers");
 
 		log.info("AdvancedSearchWithIncorrectManufacturer - Step 04: Check to 'Automatically search sub categories' checkbox");
 		searchPage.checkToCheckboxByLabel("sub categories");
 
 		log.info("AdvancedSearchWithIncorrectManufacturer - Step 05: Select 'HP' At Manufacturer Dropdown");
-		searchPage.selectItemInDropdownByLabel("Manufacturer", "HP");
+		searchPage.selectItemInDropdownByLabel(driver, "Manufacturer", "HP");
 
 		log.info("AdvancedSearchWithIncorrectManufacturer - Step 06: Click to SEARCH button");
 		searchPage.clickToSearchButton();
@@ -208,22 +208,19 @@ public class NopCommerce_004_Search extends BaseTest {
 		searchPage.checkToCheckboxByLabel("Advanced search");
 
 		log.info("AdvancedSearchWithCorrectManufacturer - Step 03: Select 'Computers' At Category Dropdown");
-		searchPage.selectItemInDropdownByLabel("Category", "Computers");
+		searchPage.selectItemInDropdownByLabel(driver, "Category", "Computers");
 
 		log.info("AdvancedSearchWithCorrectManufacturer - Step 04: Check to 'Automatically search sub categories' checkbox");
 		searchPage.checkToCheckboxByLabel("sub categories");
 
 		log.info("AdvancedSearchWithCorrectManufacturer - Step 05: Select 'Apple' At Manufacturer Dropdown");
-		searchPage.selectItemInDropdownByLabel("Manufacturer", "Apple");
+		searchPage.selectItemInDropdownByLabel(driver, "Manufacturer", "Apple");
 
 		log.info("AdvancedSearchWithCorrectManufacturer - Step 06: Click to SEARCH button");
 		searchPage.clickToSearchButton();
 
 		log.info("AdvancedSearchWithCorrectManufacturer - Step 07: Verify 1 products is displayed");
 		verifyEquals(searchPage.getProductNumberSearchBySearchKeyword("Apple MacBook Pro"), 1);
-
-		log.info("AdvancedSearchWithCorrectManufacturer - Step 08: Click to Search Page link");
-		searchPage.openPageInFooterByPageName(driver, "Search");
 
 	}
 
