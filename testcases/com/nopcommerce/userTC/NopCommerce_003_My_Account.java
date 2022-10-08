@@ -17,7 +17,7 @@ import pageObjects.nopcommerce.user.UserMyProductReviewPageObject;
 import pageObjects.nopcommerce.user.UserProductPageObject;
 import pageObjects.nopcommerce.user.UserRegisterPageObject;
 
-public class NopCommerce_003_MyAccount extends BaseTest {
+public class NopCommerce_003_My_Account extends BaseTest {
 	private WebDriver driver;
 	private UserHomePageObject homePage;
 	private UserRegisterPageObject registerPage;

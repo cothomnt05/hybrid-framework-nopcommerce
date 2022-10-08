@@ -17,4 +17,10 @@ public class ProductPageUI {
 	public static final String PAGE_NUMBER = "xpath=//li[@class='current-page']/span";
 	public static final String PAGER = "xpath=//div[@class='pager']";
 
+	public static final String ADD_TO_WISHLIST_BUTTON = "xpath=//div[@class='add-to-wishlist']/button";
+	public static final String BAR_NOTIFICATION_MESSAGE = "xpath=//div[contains(@class,'bar-notification success')]//p[@class='content']";
+	public static final String BAR_NOTIFICATION_CLOSE_ICON = "xpath=// div[contains(@class,'bar-notification success')]//span[@class='close']";
+
+	public static final String COMPARE_BUTTON_BY_PRODUCT_NAME = "xpath=//a[text()='%s']//parent::h2/following-sibling::div[@class='add-info']//button[contains(@class,'add-to-compare-list-button')]";
+
 }

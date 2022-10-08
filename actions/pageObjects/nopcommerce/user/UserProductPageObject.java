@@ -150,4 +150,21 @@ public class UserProductPageObject extends BasePage {
 		return isElementUndisplayed(driver, ProductPageUI.PAGER);
 	}
 
+	public String getResultMessageText() {
+		waitForElementVisible(driver, ProductPageUI.BAR_NOTIFICATION_MESSAGE);
+		return getElementText(driver, ProductPageUI.BAR_NOTIFICATION_MESSAGE);
+	}
+
+	public void clickToCloseButton() {
+		waitForElementClickable(driver, ProductPageUI.BAR_NOTIFICATION_CLOSE_ICON);
+		clickToElement(driver, ProductPageUI.BAR_NOTIFICATION_CLOSE_ICON);
+		sleepInSecond(1);
+
+	}
+
+	public void clickCompareButtonByProductName(String productName) {
+		waitForElementClickable(driver, ProductPageUI.COMPARE_BUTTON_BY_PRODUCT_NAME, productName);
+		clickToElement(driver, ProductPageUI.COMPARE_BUTTON_BY_PRODUCT_NAME, productName);
+	}
+
 }

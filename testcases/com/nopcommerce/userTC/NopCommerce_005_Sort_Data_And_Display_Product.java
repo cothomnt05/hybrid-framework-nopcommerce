@@ -11,7 +11,7 @@ import commons.PageGeneratorManager;
 import pageObjects.nopcommerce.user.UserHomePageObject;
 import pageObjects.nopcommerce.user.UserProductPageObject;
 
-public class NopCommerce_005_SortDataAndDisplayProduct extends BaseTest {
+public class NopCommerce_005_Sort_Data_And_Display_Product extends BaseTest {
 	private WebDriver driver;
 	private UserHomePageObject homePage;
 	private UserProductPageObject productPage;

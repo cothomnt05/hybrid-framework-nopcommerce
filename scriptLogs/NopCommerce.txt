@@ -1,23 +1,85 @@
-[2022-10-06 17:15:32,380] Pre-Condition - Step 01: Open browse and navigate to Homepage
-[2022-10-06 17:15:54,946] Pre-Condition - Step 02: Click to 'Notebooks' in Computer Header Menu
-[2022-10-06 17:15:59,505] DisplayWith3Products - Step 01: Select '3' from Display Dropdown
-[2022-10-06 17:16:00,048] DisplayWith3Products - Step 02: Verify at most 3 products displayed
-[2022-10-06 17:16:00,086]  -------------------------- FAILED -------------------------- 
-[2022-10-06 17:16:00,179] DisplayWith3Products - Step 03: Verify next icon is displayed at page 1
-[2022-10-06 17:16:00,573]  -------------------------- PASSED -------------------------- 
-[2022-10-06 17:16:00,656]  -------------------------- PASSED -------------------------- 
-[2022-10-06 17:16:00,656] DisplayWith3Products - Step 04: Paging to Page 2
-[2022-10-06 17:16:00,878] DisplayWith3Products - Step 05: Verify previous icon is displayed at page 2
-[2022-10-06 17:16:01,007]  -------------------------- FAILED -------------------------- 
-[2022-10-06 17:16:01,266]  -------------------------- PASSED -------------------------- 
-[2022-10-06 17:16:01,266] DisplayWith3Products - Step 06: Click to 'Notebooks' in Computer Header Menu
-[2022-10-06 17:16:02,704] DisplayWith6Products - Step 01: Select '6' from Display Dropdown
-[2022-10-06 17:16:02,871] DisplayWith6Products - Step 02: Verify at most 6 products displayed
-[2022-10-06 17:16:02,889]  -------------------------- PASSED -------------------------- 
-[2022-10-06 17:16:02,889] DisplayWith6Products - Step 03: Verify paging is not displayed
-[2022-10-06 17:16:38,034]  -------------------------- PASSED -------------------------- 
-[2022-10-06 17:16:38,035] DisplayWith6Products - Step 04: Click to 'Notebooks' in Computer Header Menu
-[2022-10-06 17:16:39,765] DisplayWith9Products - Step 01: Select '9' from Display Dropdown
-[2022-10-06 17:16:39,978] DisplayWith9Products - Step 02: Verify at most 9 products displayed
-[2022-10-06 17:16:40,000]  -------------------------- PASSED -------------------------- 
-[2022-10-06 17:16:40,000] DisplayWith9Products - Step 03: Verify paging is not displayed
+[2022-10-08 16:23:51,458] Pre-Condition - Step 01: Open browse and navigate to Homepage
+[2022-10-08 16:24:00,189] Pre-Condition - Step 02: Navigate to Register page
+[2022-10-08 16:24:02,876] Pre-Condition - Step 03: Input to Firstname textbox with value: Automation
+[2022-10-08 16:24:04,193] Pre-Condition - Step 04: Input to Lastname textbox with value: FC
+[2022-10-08 16:24:05,499] Pre-Condition - Step 05: Input to Email textbox with value: automation9273@gmail.com
+[2022-10-08 16:24:06,804] Pre-Condition - Step 06: Input to Password textbox with value: 123456
+[2022-10-08 16:24:08,128] Pre-Condition - Step 07: Input to Confirm Password textbox with value: 123456
+[2022-10-08 16:24:09,429] Pre-Condition - Step 08: Click to Register button
+[2022-10-08 16:24:11,580] Pre-Condition - Step 09: Verify Register success message is displayed
+[2022-10-08 16:24:11,679]  -------------------------- PASSED -------------------------- 
+[2022-10-08 16:24:12,135] AddProduct - Step 01: Click Desktops Page link from Computers Menu
+[2022-10-08 16:24:14,372] AddProduct -  Step 02: Click 'Compare' button of 'Lenovo IdeaCentre 600 All-in-One PC' from Product list
+[2022-10-08 16:24:15,598] AddProduct -  Step 03: Verify 'The product has been added to your product comparison' message is displayed
+[2022-10-08 16:24:15,949]  -------------------------- PASSED -------------------------- 
+[2022-10-08 16:24:15,949] AddProduct - Step 04: Click close button to close dialog
+[2022-10-08 16:24:18,173] AddProduct -  Step 05: Click 'Compare' button of 'Digital Storm VANQUISH 3 Custom Performance PC' from Product list
+[2022-10-08 16:24:19,382] AddProduct -  Step 06: Verify 'The product has been added to your product comparison' message is displayed
+[2022-10-08 16:24:19,751]  -------------------------- PASSED -------------------------- 
+[2022-10-08 16:24:19,751] AddProduct - Step 07: Click close button to close dialog
+[2022-10-08 16:24:22,002] AddProduct - Step 08: Open 'Compare products list' page in footer
+[2022-10-08 16:24:26,078] AddProduct - Step 09: Verify 'Lenovo IdeaCentre 600 All-in-One PC' is displayed
+[2022-10-08 16:24:26,131]  -------------------------- PASSED -------------------------- 
+[2022-10-08 16:24:26,131] AddProduct - Step 10: Verify 'Digital Storm VANQUISH 3 Custom Performance PC' is displayed
+[2022-10-08 16:24:26,192]  -------------------------- PASSED -------------------------- 
+[2022-10-08 16:24:26,192] AddProduct - Step 11: Click to 'Clear list' button
+[2022-10-08 16:24:28,262] AddProduct - Step 12: Verify 'You have no items to compare.' message is displayed
+[2022-10-08 16:24:28,375]  -------------------------- PASSED -------------------------- 
+[2022-10-08 16:24:28,375] AddProduct - Step 13: Verify 'Lenovo IdeaCentre 600 All-in-One PC' is not displayed
+[2022-10-08 16:24:43,414]  -------------------------- PASSED -------------------------- 
+[2022-10-08 16:24:43,414] AddProduct - Step 14: Verify 'Digital Storm VANQUISH 3 Custom Performance PC' is not displayed
+[2022-10-08 16:24:58,444]  -------------------------- PASSED -------------------------- 
+[2022-10-08 16:24:58,688] RecentlyViewedProducts - Step 01: Click Notebooks Page link from Computers Menu
+[2022-10-08 16:25:01,549] RecentlyViewedProducts - Step 02: View 'Apple MacBook Pro 13-inch' product 1
+[2022-10-08 16:25:04,336] RecentlyViewedProducts - Step 03: Click Notebooks Page link from Computers Menu
+[2022-10-08 16:25:06,317] RecentlyViewedProducts - Step 04: View 'Asus N551JK-XO076H Laptop' product 2
+[2022-10-08 16:25:09,312] RecentlyViewedProducts - Step 05: Click Notebooks Page link from Computers Menu
+[2022-10-08 16:25:12,016] RecentlyViewedProducts - Step 06: View 'HP Envy 6-1180ca 15.6-Inch Sleekbook' product 3
+[2022-10-08 16:25:14,875] RecentlyViewedProducts - Step 07: Click Notebooks Page link from Computers Menu
+[2022-10-08 16:25:16,778] RecentlyViewedProducts - Step 08: View 'HP Spectre XT Pro UltraBook' product 4
+[2022-10-08 16:25:19,296] RecentlyViewedProducts - Step 09: Click Notebooks Page link from Computers Menu
+[2022-10-08 16:25:21,965] RecentlyViewedProducts - Step 10: View 'Lenovo Thinkpad X1 Carbon Laptop' product 5
+[2022-10-08 16:25:24,227] RecentlyViewedProducts - Step 11: Open 'Recently viewed products' page in footer
+[2022-10-08 16:25:27,905] RecentlyViewedProducts - Step 12: Verify 3 products is displayed
+[2022-10-08 16:25:27,949]  -------------------------- PASSED -------------------------- 
+[2022-10-08 16:25:27,950] RecentlyViewedProducts - Step 13: Verify 'Lenovo Thinkpad X1 Carbon Laptop' product 5 is displayed
+[2022-10-08 16:25:28,041]  -------------------------- PASSED -------------------------- 
+[2022-10-08 16:25:28,041] RecentlyViewedProducts - Step 14: Verify 'HP Spectre XT Pro UltraBook' product 4 is displayed
+[2022-10-08 16:25:28,137]  -------------------------- PASSED -------------------------- 
+[2022-10-08 16:25:28,137] RecentlyViewedProducts - Step 15: Verify 'HP Envy 6-1180ca 15.6-Inch Sleekbook' product 3 is displayed
+[2022-10-08 16:25:28,234]  -------------------------- PASSED -------------------------- 
+[2022-10-08 16:25:28,247] AddToWishlist - Step 01: Click Desktops Page link from Computers Menu
+[2022-10-08 16:25:30,158] AddToWishlist - Step 02: Choose 'Lenovo IdeaCentre 600 All-in-One PC' from Product list
+[2022-10-08 16:25:32,434] AddToWishlist - Step 03: Click 'Add to wishlist' button
+[2022-10-08 16:25:33,716] AddToWishlist - Step 04: Verify 'The product has been added to your wishlist' is displayed
+[2022-10-08 16:25:34,094]  -------------------------- PASSED -------------------------- 
+[2022-10-08 16:25:34,094] AddToWishlist - Step 05: Click close button to close dialog
+[2022-10-08 16:25:36,561] AddToWishlist - Step 06: Open Wishlist page
+[2022-10-08 16:25:38,440] AddToWishlist - Step 07: Verify product 'Lenovo IdeaCentre 600 All-in-One PC' is displayed
+[2022-10-08 16:25:38,523]  -------------------------- PASSED -------------------------- 
+[2022-10-08 16:25:38,523] AddToWishlist - Step 08: Click to wishlist URL for sharing
+[2022-10-08 16:25:40,153] AddToWishlist - Step 09: Verify product 'Lenovo IdeaCentre 600 All-in-One PC' is displayed and message
+[2022-10-08 16:25:40,224]  -------------------------- PASSED -------------------------- 
+[2022-10-08 16:25:40,309]  -------------------------- PASSED -------------------------- 
+[2022-10-08 16:25:40,319] AddToCart - Step 01: Open Wishlist page
+[2022-10-08 16:25:40,721] AddToCart - Step 02: Check to checkbox of 'Lenovo IdeaCentre 600 All-in-One PC'
+[2022-10-08 16:25:57,102] AddToCart - Step 03: Click 'Add to cart' button
+[2022-10-08 16:25:59,841] AddToCart - Step 04: Verify product 'Lenovo IdeaCentre 600 All-in-One PC' is displayed at Add to Cart page
+[2022-10-08 16:25:59,931]  -------------------------- PASSED -------------------------- 
+[2022-10-08 16:25:59,931] AddToCart - Step 05: Open Wishlist page
+[2022-10-08 16:26:01,553] AddToCart - Step 06: Verify product 'Lenovo IdeaCentre 600 All-in-One PC' is not displayed at Wishlist page
+[2022-10-08 16:26:31,710]  -------------------------- PASSED -------------------------- 
+[2022-10-08 16:26:31,729] RemoveProduct - Step 01: Click Desktops Page link from Computers Menu
+[2022-10-08 16:26:34,429] RemoveProduct - Step 02: Choose 'Lenovo IdeaCentre 600 All-in-One PC' from Product list
+[2022-10-08 16:26:36,669] RemoveProduct - Step 03: Click 'Add to wishlist' button
+[2022-10-08 16:26:37,960] RemoveProduct - Step 04: Verify 'The product has been added to your wishlist' is displayed
+[2022-10-08 16:26:38,341]  -------------------------- PASSED -------------------------- 
+[2022-10-08 16:26:38,341] RemoveProduct - Step 05: Click close button to close dialog
+[2022-10-08 16:26:40,718] RemoveProduct - Step 06: Open Wishlist page
+[2022-10-08 16:26:42,410] RemoveProduct - Step 07: Click to remove icon of 'Lenovo IdeaCentre 600 All-in-One PC'
+[2022-10-08 16:26:44,101] RemoveProduct - Step 08: Verify 'The wishlist is empty!' message is displayed
+[2022-10-08 16:26:44,209]  -------------------------- PASSED -------------------------- 
+[2022-10-08 16:26:44,209] RemoveProduct - Step 08: Verify product 'Lenovo IdeaCentre 600 All-in-One PC' is not displayed at Wishlist page
+[2022-10-08 16:27:14,318]  -------------------------- PASSED -------------------------- 
+[2022-10-08 16:27:14,330] OS name = windows 10
+[2022-10-08 16:27:14,330] Driver instance name = chromedriver: chrome on windows (326bde6e842506505fa318a0382db9bf)

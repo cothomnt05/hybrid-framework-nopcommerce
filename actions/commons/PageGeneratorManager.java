@@ -4,19 +4,23 @@ import org.openqa.selenium.WebDriver;
 
 import pageObjects.nopcommerce.admin.AdminDashboardPageObject;
 import pageObjects.nopcommerce.admin.AdminLoginPageObject;
+import pageObjects.nopcommerce.user.UserATCPageObject;
 import pageObjects.nopcommerce.user.UserAddressPageObject;
 import pageObjects.nopcommerce.user.UserBackInStockSubscriptionPageObject;
 import pageObjects.nopcommerce.user.UserChangePasswordPageObject;
+import pageObjects.nopcommerce.user.UserCompareProductPageObject;
 import pageObjects.nopcommerce.user.UserCustomerInfoPageObject;
-import pageObjects.nopcommerce.user.UserProductPageObject;
 import pageObjects.nopcommerce.user.UserDownloadableProductPageObject;
 import pageObjects.nopcommerce.user.UserHomePageObject;
 import pageObjects.nopcommerce.user.UserLoginPageObject;
 import pageObjects.nopcommerce.user.UserMyProductReviewPageObject;
 import pageObjects.nopcommerce.user.UserOrderPageObject;
+import pageObjects.nopcommerce.user.UserProductPageObject;
+import pageObjects.nopcommerce.user.UserRecentlyViewedProductPageObject;
 import pageObjects.nopcommerce.user.UserRegisterPageObject;
 import pageObjects.nopcommerce.user.UserRewardPointPageObject;
 import pageObjects.nopcommerce.user.UserSearchPageObject;
+import pageObjects.nopcommerce.user.UserWishlistPageObject;
 
 public class PageGeneratorManager {
 	public static UserLoginPageObject getUserLoginPage(WebDriver driver) {
@@ -78,4 +82,21 @@ public class PageGeneratorManager {
 	public static UserSearchPageObject getUserSearchPage(WebDriver driver) {
 		return new UserSearchPageObject(driver);
 	}
+
+	public static UserATCPageObject getUserATCPage(WebDriver driver) {
+		return new UserATCPageObject(driver);
+	}
+
+	public static UserWishlistPageObject getUserWishListPage(WebDriver driver) {
+		return new UserWishlistPageObject(driver);
+	}
+
+	public static UserCompareProductPageObject getUserCompareProductPage(WebDriver driver) {
+		return new UserCompareProductPageObject(driver);
+	}
+
+	public static UserRecentlyViewedProductPageObject getUserRecentlyViewedProductPage(WebDriver driver) {
+		return new UserRecentlyViewedProductPageObject(driver);
+	}
+
 }

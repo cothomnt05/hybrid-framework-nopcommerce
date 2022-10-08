@@ -1914,3 +1914,1511 @@ Session ID: 1457caeaeb3bdbf98085f9d68905dc88
  [2022-10-06 17:16:39,978] DisplayWith9Products - Step 02: Verify at most 9 products displayed
  [2022-10-06 17:16:40,000]  -------------------------- PASSED -------------------------- 
  [2022-10-06 17:16:40,000] DisplayWith9Products - Step 03: Verify paging is not displayed
+ [2022-10-06 17:17:15,122]  -------------------------- PASSED -------------------------- 
+ [2022-10-06 17:17:15,162] SortDataByNameAToZ - Step 01: Select 'Name: A to Z' from Position Dropdown
+ [2022-10-06 17:17:15,361] SortDataByNameAToZ - Step 02: Verify list product is sorted by name from A to Z
+ [2022-10-06 17:17:15,485]  -------------------------- PASSED -------------------------- 
+ [2022-10-06 17:17:15,485] SortDataByNameAToZ - Step 03: Click to 'Notebooks' in Computer Header Menu
+ [2022-10-06 17:17:17,895] SortDataByNameZToA - Step 01: Select 'Name: Z to A' from Position Dropdown
+ [2022-10-06 17:17:18,101] SortDataByNameZToA - Step 02: Verify list product is sorted by name from Z to A
+ [2022-10-06 17:17:18,265]  -------------------------- PASSED -------------------------- 
+ [2022-10-06 17:17:18,265] SortDataByNameZToA - Step 03: Click to 'Notebooks' in Computer Header Menu
+ [2022-10-06 17:17:19,354] SortDataByPriceLowToHigh - Step 01: Select 'Price: Low to High' from Position Dropdown
+ [2022-10-06 17:17:19,542] SortDataByPriceLowToHigh - Step 02: Verify list product is sorted by price from low to high
+ [2022-10-06 17:17:19,672]  -------------------------- PASSED -------------------------- 
+ [2022-10-06 17:17:19,672] SortDataByPriceLowToHigh - Step 03: Click to 'Notebooks' in Computer Header Menu
+ [2022-10-06 17:17:20,515] SortDataByPriceHighToLow - Step 01: Select 'Price: High to Low' from Position Dropdown
+ [2022-10-06 17:17:20,695] SortDataByPriceHighToLow - Step 02: Verify list product is sorted by price from high to low
+ [2022-10-06 17:17:20,816]  -------------------------- PASSED -------------------------- 
+ [2022-10-06 17:17:20,816] SortDataByPriceHighToLow - Step 03: Click to 'Notebooks' in Computer Header Menu
+ [2022-10-06 17:17:21,665] OS name = windows 10
+ [2022-10-06 17:17:21,665] Driver instance name = edgedriver: msedge on windows (e2983a04a5922d547efe78bba5ff76b4)
+ [2022-10-07 14:10:40,796] Pre-Condition - Step 01: Open browse and navigate to Homepage
+ [2022-10-07 14:11:09,174] Pre-Condition - Step 02: Navigate to Register page
+ [2022-10-07 14:11:11,290] Pre-Condition - Step 03: Input to Firstname textbox with value: Automation
+ [2022-10-07 14:11:12,033] Pre-Condition - Step 04: Input to Lastname textbox with value: FC
+ [2022-10-07 14:11:12,239] Pre-Condition - Step 05: Input to Email textbox with value: automation6477@gmail.com
+ [2022-10-07 14:11:12,469] Pre-Condition - Step 06: Input to Password textbox with value: 123456
+ [2022-10-07 14:11:12,668] Pre-Condition - Step 07: Input to Confirm Password textbox with value: 123456
+ [2022-10-07 14:11:12,847] Pre-Condition - Step 08: Click to Register button
+ [2022-10-07 14:11:13,914] Pre-Condition - Step 09: Verify Register success message is displayed
+ [2022-10-07 14:11:14,145]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 14:11:15,141] AddToWishlist - Step 01: Click Destops Page link from Computers Menu
+ [2022-10-07 14:11:46,058] AddProduct - Step 01: Click Destops Page link from Computers Menu
+ [2022-10-07 14:11:46,059] AddProduct -  Step 02: Click 'Compare' button of 'Lenovo IdeaCentre 600 All-in-One PC' from Product list
+ [2022-10-07 14:11:46,059] AddProduct -  Step 03: Verify 'The product has been added to your ' message is displayed
+ [2022-10-07 14:11:46,059] AddProduct - Step 04: Click close button to close dialog
+ [2022-10-07 14:11:46,059] AddProduct -  Step 05: Click 'Compare' button of 'Digital Storm VANQUISH 3 Custom Performance PC' from Product list
+ [2022-10-07 14:11:46,062] AddProduct -  Step 06: Verify 'The product has been added to your ' message is displayed
+ [2022-10-07 14:11:46,062] AddProduct - Step 07: Click close button to close dialog
+ [2022-10-07 14:11:46,062] AddProduct - Step 08: Open 'Compare products list' page in footer
+ [2022-10-07 14:11:46,063] AddProduct - Step 09: Verify 'Lenovo IdeaCentre 600 All-in-One PC' is displayed
+ [2022-10-07 14:11:46,063] AddProduct - Step 10: Verify 'Digital Storm VANQUISH 3 Custom Performance PC' is displayed
+ [2022-10-07 14:11:46,063] AddProduct - Step 11: Click to 'Clear list' button
+ [2022-10-07 14:11:46,063] AddProduct - Step 12: Verify 'You have no items to compare.' message is displayed
+ [2022-10-07 14:11:46,063] AddProduct - Step 13: Verify 'Lenovo IdeaCentre 600 All-in-One PC' is not displayed
+ [2022-10-07 14:11:46,063] AddProduct - Step 14: Verify 'Digital Storm VANQUISH 3 Custom Performance PC' is not displayed
+ [2022-10-07 14:11:46,074] RecentlyViewedProducts - Step 01: Click Notebooks Page link from Computers Menu
+ [2022-10-07 14:11:46,074] RecentlyViewedProducts - Step 01: View 'Apple MacBook Pro 13-inch' product 1
+ [2022-10-07 14:11:46,074] RecentlyViewedProducts - Step 01: Click Notebooks Page link from Computers Menu
+ [2022-10-07 14:11:46,074] RecentlyViewedProducts - Step 01: View 'Asus N551JK-XO076H Laptop' product 2
+ [2022-10-07 14:11:46,074] RecentlyViewedProducts - Step 01: Click Notebooks Page link from Computers Menu
+ [2022-10-07 14:11:46,074] RecentlyViewedProducts - Step 01: View 'HP Envy 6-1180ca 15.6-Inch Sleekbook' product 3
+ [2022-10-07 14:11:46,074] RecentlyViewedProducts - Step 01: Click Notebooks Page link from Computers Menu
+ [2022-10-07 14:11:46,075] RecentlyViewedProducts - Step 01: View 'HP Spectre XT Pro UltraBook' product 4
+ [2022-10-07 14:11:46,075] RecentlyViewedProducts - Step 01: Click Notebooks Page link from Computers Menu
+ [2022-10-07 14:11:46,075] RecentlyViewedProducts - Step 01: View 'Lenovo Thinkpad X1 Carbon Laptop' product 5
+ [2022-10-07 14:11:46,075] RecentlyViewedProducts - Step 08: Open 'Recently viewed products' page in footer
+ [2022-10-07 14:11:46,075] RecentlyViewedProducts - Step 09: Verify 3 products is displayed
+ [2022-10-07 14:11:46,075] RecentlyViewedProducts - Step 09: Verify 'Lenovo Thinkpad X1 Carbon Laptop' product 5 is displayed
+ [2022-10-07 14:11:46,075] RecentlyViewedProducts - Step 09: Verify 'HP Spectre XT Pro UltraBook' product 4 is displayed
+ [2022-10-07 14:11:46,075] RecentlyViewedProducts - Step 09: Verify 'HP Envy 6-1180ca 15.6-Inch Sleekbook' product 3 is displayed
+ [2022-10-07 14:11:46,092] RemoveProduct - Step 01: Click Destops Page link from Computers Menu
+ [2022-10-07 14:11:46,285] OS name = windows 10
+ [2022-10-07 14:11:46,286] Driver instance name = edgedriver: msedge on windows (693cebd40c669041dfe3a9aa421738e2)
+ [2022-10-07 14:12:55,276] Pre-Condition - Step 01: Open browse and navigate to Homepage
+ [2022-10-07 14:13:05,894] Pre-Condition - Step 02: Navigate to Register page
+ [2022-10-07 14:13:08,115] Pre-Condition - Step 03: Input to Firstname textbox with value: Automation
+ [2022-10-07 14:13:08,597] Pre-Condition - Step 04: Input to Lastname textbox with value: FC
+ [2022-10-07 14:13:08,782] Pre-Condition - Step 05: Input to Email textbox with value: automation6549@gmail.com
+ [2022-10-07 14:13:09,008] Pre-Condition - Step 06: Input to Password textbox with value: 123456
+ [2022-10-07 14:13:09,210] Pre-Condition - Step 07: Input to Confirm Password textbox with value: 123456
+ [2022-10-07 14:13:09,389] Pre-Condition - Step 08: Click to Register button
+ [2022-10-07 14:13:10,476] Pre-Condition - Step 09: Verify Register success message is displayed
+ [2022-10-07 14:13:10,607]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 14:13:10,711] AddToWishlist - Step 01: Click Desktops Page link from Computers Menu
+ [2022-10-07 14:13:11,668] AddToWishlist - Step 02: Choose 'Lenovo IdeaCentre 600 All-in-One PC' from Product list
+ [2022-10-07 14:13:12,942] AddToWishlist - Step 03: Click 'Add to wishlist' button
+ [2022-10-07 14:13:13,084] AddToWishlist - Step 04: Verify 'The product has been added to your wishlist' is displayed
+ [2022-10-07 14:13:13,468]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 14:13:13,468] AddToWishlist - Step 05: Click close button to close dialog
+ [2022-10-07 14:13:13,619] AddToWishlist - Step 06: Open Wishlist page
+ [2022-10-07 14:13:15,143] AddToWishlist - Step 07: Verify product is displayed
+ [2022-10-07 14:13:15,228]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 14:13:15,228] AddToWishlist - Step 08: Click to wishlist URL for sharing
+ [2022-10-07 14:13:15,740] AddToWishlist - Step 09: Verify product is displayed and message
+ [2022-10-07 14:13:15,798]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 14:13:15,875]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 14:13:15,994] RemoveProduct - Step 01: Click Desktops Page link from Computers Menu
+ [2022-10-07 14:13:16,699] RemoveProduct -  Step 02: Choose 'Lenovo IdeaCentre 600 All-in-One PC' from Product list
+ [2022-10-07 14:13:17,814] RemoveProduct - Step 03: Click 'Add to wishlist' button
+ [2022-10-07 14:13:17,977] RemoveProduct - Step 04: Verify 'The product has been added to your wishlist' is displayed
+ [2022-10-07 14:13:18,375]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 14:13:18,375] RemoveProduct - Step 05: Click close button to close dialog
+ [2022-10-07 14:13:18,759] RemoveProduct - Step 06: Open Wishlist page
+ [2022-10-07 14:13:20,015] RemoveProduct - Step 07: Click to remove icon of 'Lenovo IdeaCentre 600 All-in-One PC'
+ [2022-10-07 14:13:50,329] AddToCart - Step 01: Open Wishlist page
+ [2022-10-07 14:13:50,329] AddToCart - Step 02: Check to checkbox of 'Lenovo IdeaCentre 600 All-in-One PC'
+ [2022-10-07 14:14:50,698] OS name = windows 10
+ [2022-10-07 14:14:50,698] Driver instance name = chromedriver: chrome on windows (8ef2013fa12bf0c277a62c217e6c5fa1)
+ [2022-10-07 14:16:57,641] Pre-Condition - Step 01: Open browse and navigate to Homepage
+ [2022-10-07 14:17:03,883] Pre-Condition - Step 02: Navigate to Register page
+ [2022-10-07 14:17:04,675] Pre-Condition - Step 03: Input to Firstname textbox with value: Automation
+ [2022-10-07 14:17:04,898] Pre-Condition - Step 04: Input to Lastname textbox with value: FC
+ [2022-10-07 14:17:05,093] Pre-Condition - Step 05: Input to Email textbox with value: automation9613@gmail.com
+ [2022-10-07 14:17:05,319] Pre-Condition - Step 06: Input to Password textbox with value: 123456
+ [2022-10-07 14:17:05,537] Pre-Condition - Step 07: Input to Confirm Password textbox with value: 123456
+ [2022-10-07 14:17:05,723] Pre-Condition - Step 08: Click to Register button
+ [2022-10-07 14:17:07,003] Pre-Condition - Step 09: Verify Register success message is displayed
+ [2022-10-07 14:17:07,097]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 14:17:07,186] AddToWishlist - Step 01: Click Desktops Page link from Computers Menu
+ [2022-10-07 14:17:08,051] AddToWishlist - Step 02: Choose 'Lenovo IdeaCentre 600 All-in-One PC' from Product list
+ [2022-10-07 14:17:09,238] AddToWishlist - Step 03: Click 'Add to wishlist' button
+ [2022-10-07 14:17:09,369] AddToWishlist - Step 04: Verify 'The product has been added to your wishlist' is displayed
+ [2022-10-07 14:17:09,950]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 14:17:09,951] AddToWishlist - Step 05: Click close button to close dialog
+ [2022-10-07 14:17:10,092] AddToWishlist - Step 06: Open Wishlist page
+ [2022-10-07 14:17:11,612] AddToWishlist - Step 07: Verify product is displayed
+ [2022-10-07 14:17:11,694]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 14:17:11,694] AddToWishlist - Step 08: Click to wishlist URL for sharing
+ [2022-10-07 14:17:12,193] AddToWishlist - Step 09: Verify product is displayed and message
+ [2022-10-07 14:17:12,259]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 14:17:12,333]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 14:17:12,472] RemoveProduct - Step 01: Click Desktops Page link from Computers Menu
+ [2022-10-07 14:17:13,221] RemoveProduct -  Step 02: Choose 'Lenovo IdeaCentre 600 All-in-One PC' from Product list
+ [2022-10-07 14:17:14,136] RemoveProduct - Step 03: Click 'Add to wishlist' button
+ [2022-10-07 14:17:14,296] RemoveProduct - Step 04: Verify 'The product has been added to your wishlist' is displayed
+ [2022-10-07 14:17:14,698]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 14:17:14,698] RemoveProduct - Step 05: Click close button to close dialog
+ [2022-10-07 14:17:15,061] RemoveProduct - Step 06: Open Wishlist page
+ [2022-10-07 14:17:16,264] RemoveProduct - Step 07: Click to remove icon of 'Lenovo IdeaCentre 600 All-in-One PC'
+ [2022-10-07 14:17:46,494] AddToCart - Step 01: Open Wishlist page
+ [2022-10-07 14:17:46,495] AddToCart - Step 02: Check to checkbox of 'Lenovo IdeaCentre 600 All-in-One PC'
+ [2022-10-07 14:18:16,894] AddToCart - Step 03: Click 'Add to cart' button
+ [2022-10-07 14:18:19,246] AddToCart - Step 04: Verify product is displayed at Add to Cart page
+ [2022-10-07 14:18:19,333]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 14:18:19,334] AddToCart - Step 05: Open Wishlist page
+ [2022-10-07 14:18:19,836] AddToCart - Step 06: Verify product is not displayed at Wishlist page
+ [2022-10-07 14:19:19,921]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 14:19:19,931] OS name = windows 10
+ [2022-10-07 14:19:19,932] Driver instance name = chromedriver: chrome on windows (d01f7613d288110de66c0ee527572b83)
+ [2022-10-07 14:20:49,097] Pre-Condition - Step 01: Open browse and navigate to Homepage
+ [2022-10-07 14:20:54,723] Pre-Condition - Step 02: Navigate to Register page
+ [2022-10-07 14:20:56,321] Pre-Condition - Step 03: Input to Firstname textbox with value: Automation
+ [2022-10-07 14:20:56,530] Pre-Condition - Step 04: Input to Lastname textbox with value: FC
+ [2022-10-07 14:20:56,736] Pre-Condition - Step 05: Input to Email textbox with value: automation2587@gmail.com
+ [2022-10-07 14:20:56,991] Pre-Condition - Step 06: Input to Password textbox with value: 123456
+ [2022-10-07 14:20:57,202] Pre-Condition - Step 07: Input to Confirm Password textbox with value: 123456
+ [2022-10-07 14:20:57,407] Pre-Condition - Step 08: Click to Register button
+ [2022-10-07 14:20:58,492] Pre-Condition - Step 09: Verify Register success message is displayed
+ [2022-10-07 14:20:58,590]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 14:20:58,692] AddToWishlist - Step 01: Click Desktops Page link from Computers Menu
+ [2022-10-07 14:20:59,680] AddToWishlist - Step 02: Choose 'Lenovo IdeaCentre 600 All-in-One PC' from Product list
+ [2022-10-07 14:21:00,848] AddToWishlist - Step 03: Click 'Add to wishlist' button
+ [2022-10-07 14:21:00,982] AddToWishlist - Step 04: Verify 'The product has been added to your wishlist' is displayed
+ [2022-10-07 14:21:01,357]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 14:21:01,358] AddToWishlist - Step 05: Click close button to close dialog
+ [2022-10-07 14:21:01,670] AddToWishlist - Step 06: Open Wishlist page
+ [2022-10-07 14:21:03,361] AddToWishlist - Step 07: Verify product is displayed
+ [2022-10-07 14:21:03,482]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 14:21:03,482] AddToWishlist - Step 08: Click to wishlist URL for sharing
+ [2022-10-07 14:21:04,011] AddToWishlist - Step 09: Verify product is displayed and message
+ [2022-10-07 14:21:04,072]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 14:21:04,148]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 14:21:04,271] AddToCart - Step 01: Open Wishlist page
+ [2022-10-07 14:21:04,272] AddToCart - Step 02: Check to checkbox of 'Lenovo IdeaCentre 600 All-in-One PC'
+ [2022-10-07 14:21:34,550] AddToCart - Step 03: Click 'Add to cart' button
+ [2022-10-07 14:21:36,911] AddToCart - Step 04: Verify product is displayed at Add to Cart page
+ [2022-10-07 14:21:36,996]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 14:21:36,997] AddToCart - Step 05: Open Wishlist page
+ [2022-10-07 14:21:37,487] AddToCart - Step 06: Verify product is not displayed at Wishlist page
+ [2022-10-07 14:21:37,562]  -------------------------- FAILED -------------------------- 
+ [2022-10-07 14:21:37,806] RemoveProduct - Step 01: Click Desktops Page link from Computers Menu
+ [2022-10-07 14:22:08,188] OS name = windows 10
+ [2022-10-07 14:22:08,188] Driver instance name = chromedriver: chrome on windows (83717f54b02b057e23d698816a3e5f26)
+ [2022-10-07 14:22:55,994] Pre-Condition - Step 01: Open browse and navigate to Homepage
+ [2022-10-07 14:23:01,950] Pre-Condition - Step 02: Navigate to Register page
+ [2022-10-07 14:23:02,703] Pre-Condition - Step 03: Input to Firstname textbox with value: Automation
+ [2022-10-07 14:23:02,915] Pre-Condition - Step 04: Input to Lastname textbox with value: FC
+ [2022-10-07 14:23:03,095] Pre-Condition - Step 05: Input to Email textbox with value: automation3563@gmail.com
+ [2022-10-07 14:23:03,322] Pre-Condition - Step 06: Input to Password textbox with value: 123456
+ [2022-10-07 14:23:03,523] Pre-Condition - Step 07: Input to Confirm Password textbox with value: 123456
+ [2022-10-07 14:23:03,707] Pre-Condition - Step 08: Click to Register button
+ [2022-10-07 14:23:05,403] Pre-Condition - Step 09: Verify Register success message is displayed
+ [2022-10-07 14:23:05,490]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 14:23:05,582] AddToWishlist - Step 01: Click Desktops Page link from Computers Menu
+ [2022-10-07 14:23:06,542] AddToWishlist - Step 02: Choose 'Lenovo IdeaCentre 600 All-in-One PC' from Product list
+ [2022-10-07 14:23:07,956] AddToWishlist - Step 03: Click 'Add to wishlist' button
+ [2022-10-07 14:23:08,091] AddToWishlist - Step 04: Verify 'The product has been added to your wishlist' is displayed
+ [2022-10-07 14:23:08,492]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 14:23:08,493] AddToWishlist - Step 05: Click close button to close dialog
+ [2022-10-07 14:23:08,815] AddToWishlist - Step 06: Open Wishlist page
+ [2022-10-07 14:23:10,152] AddToWishlist - Step 07: Verify product is displayed
+ [2022-10-07 14:23:10,241]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 14:23:10,241] AddToWishlist - Step 08: Click to wishlist URL for sharing
+ [2022-10-07 14:23:10,749] AddToWishlist - Step 09: Verify product is displayed and message
+ [2022-10-07 14:23:10,800]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 14:23:10,874]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 14:23:10,977] AddToCart - Step 01: Open Wishlist page
+ [2022-10-07 14:23:10,978] AddToCart - Step 02: Check to checkbox of 'Lenovo IdeaCentre 600 All-in-One PC'
+ [2022-10-07 14:23:41,227] AddToCart - Step 03: Click 'Add to cart' button
+ [2022-10-07 14:23:44,248] AddToCart - Step 04: Verify product is displayed at Add to Cart page
+ [2022-10-07 14:23:44,335]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 14:23:44,335] AddToCart - Step 05: Open Wishlist page
+ [2022-10-07 14:23:44,897] AddToCart - Step 06: Verify product is not displayed at Wishlist page
+ [2022-10-07 14:23:44,975]  -------------------------- FAILED -------------------------- 
+ [2022-10-07 14:23:45,112] RemoveProduct - Step 01: Click Desktops Page link from Computers Menu
+ [2022-10-07 14:23:45,955] RemoveProduct -  Step 02: Choose 'Lenovo IdeaCentre 600 All-in-One PC' from Product list
+ [2022-10-07 14:23:48,000] RemoveProduct - Step 03: Click 'Add to wishlist' button
+ [2022-10-07 14:23:48,186] RemoveProduct - Step 04: Verify 'The product has been added to your wishlist' is displayed
+ [2022-10-07 14:23:48,526]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 14:23:48,527] RemoveProduct - Step 05: Click close button to close dialog
+ [2022-10-07 14:23:48,829] RemoveProduct - Step 06: Open Wishlist page
+ [2022-10-07 14:23:50,121] RemoveProduct - Step 07: Click to remove icon of 'Lenovo IdeaCentre 600 All-in-One PC'
+ [2022-10-07 14:24:20,335] OS name = windows 10
+ [2022-10-07 14:24:20,336] Driver instance name = chromedriver: chrome on windows (3c5ae9411b753a82429b5b8634670f3d)
+ [2022-10-07 14:26:14,179] Pre-Condition - Step 01: Open browse and navigate to Homepage
+ [2022-10-07 14:26:20,303] Pre-Condition - Step 02: Navigate to Register page
+ [2022-10-07 14:26:20,995] Pre-Condition - Step 03: Input to Firstname textbox with value: Automation
+ [2022-10-07 14:26:21,215] Pre-Condition - Step 04: Input to Lastname textbox with value: FC
+ [2022-10-07 14:26:21,396] Pre-Condition - Step 05: Input to Email textbox with value: automation2151@gmail.com
+ [2022-10-07 14:26:21,625] Pre-Condition - Step 06: Input to Password textbox with value: 123456
+ [2022-10-07 14:26:21,823] Pre-Condition - Step 07: Input to Confirm Password textbox with value: 123456
+ [2022-10-07 14:26:22,009] Pre-Condition - Step 08: Click to Register button
+ [2022-10-07 14:26:23,928] Pre-Condition - Step 09: Verify Register success message is displayed
+ [2022-10-07 14:26:24,015]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 14:26:24,171] AddToWishlist - Step 01: Click Desktops Page link from Computers Menu
+ [2022-10-07 14:26:25,158] AddToWishlist - Step 02: Choose 'Lenovo IdeaCentre 600 All-in-One PC' from Product list
+ [2022-10-07 14:26:29,167] AddToWishlist - Step 03: Click 'Add to wishlist' button
+ [2022-10-07 14:26:29,360] AddToWishlist - Step 04: Verify 'The product has been added to your wishlist' is displayed
+ [2022-10-07 14:26:29,779]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 14:26:29,779] AddToWishlist - Step 05: Click close button to close dialog
+ [2022-10-07 14:26:30,141] AddToWishlist - Step 06: Open Wishlist page
+ [2022-10-07 14:26:31,640] AddToWishlist - Step 07: Verify product is displayed
+ [2022-10-07 14:26:31,730]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 14:26:31,730] AddToWishlist - Step 08: Click to wishlist URL for sharing
+ [2022-10-07 14:26:32,233] AddToWishlist - Step 09: Verify product is displayed and message
+ [2022-10-07 14:26:32,300]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 14:26:32,377]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 14:26:32,512] RemoveProduct - Step 06: Open Wishlist page
+ [2022-10-07 14:26:32,978] RemoveProduct - Step 07: Click to remove icon of 'Lenovo IdeaCentre 600 All-in-One PC'
+ [2022-10-07 14:28:31,767] Pre-Condition - Step 01: Open browse and navigate to Homepage
+ [2022-10-07 14:28:38,570] Pre-Condition - Step 02: Navigate to Register page
+ [2022-10-07 14:28:39,283] Pre-Condition - Step 03: Input to Firstname textbox with value: Automation
+ [2022-10-07 14:28:39,491] Pre-Condition - Step 04: Input to Lastname textbox with value: FC
+ [2022-10-07 14:28:39,691] Pre-Condition - Step 05: Input to Email textbox with value: automation1765@gmail.com
+ [2022-10-07 14:28:39,914] Pre-Condition - Step 06: Input to Password textbox with value: 123456
+ [2022-10-07 14:28:40,097] Pre-Condition - Step 07: Input to Confirm Password textbox with value: 123456
+ [2022-10-07 14:28:40,287] Pre-Condition - Step 08: Click to Register button
+ [2022-10-07 14:28:42,116] Pre-Condition - Step 09: Verify Register success message is displayed
+ [2022-10-07 14:28:42,217]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 14:28:42,311] AddToWishlist - Step 01: Click Desktops Page link from Computers Menu
+ [2022-10-07 14:28:43,298] AddToWishlist - Step 02: Choose 'Lenovo IdeaCentre 600 All-in-One PC' from Product list
+ [2022-10-07 14:28:44,439] AddToWishlist - Step 03: Click 'Add to wishlist' button
+ [2022-10-07 14:28:44,593] AddToWishlist - Step 04: Verify 'The product has been added to your wishlist' is displayed
+ [2022-10-07 14:28:44,971]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 14:28:44,972] AddToWishlist - Step 05: Click close button to close dialog
+ [2022-10-07 14:28:45,385] AddToWishlist - Step 06: Open Wishlist page
+ [2022-10-07 14:28:46,727] AddToWishlist - Step 07: Verify product is displayed
+ [2022-10-07 14:28:46,816]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 14:28:46,816] AddToWishlist - Step 08: Click to wishlist URL for sharing
+ [2022-10-07 14:28:47,300] AddToWishlist - Step 09: Verify product is displayed and message
+ [2022-10-07 14:28:47,360]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 14:28:47,437]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 14:28:47,555] RemoveProduct - Step 06: Open Wishlist page
+ [2022-10-07 14:28:48,025] RemoveProduct - Step 07: Click to remove icon of 'Lenovo IdeaCentre 600 All-in-One PC'
+ [2022-10-07 14:32:00,273] Pre-Condition - Step 01: Open browse and navigate to Homepage
+ [2022-10-07 14:32:23,053] Pre-Condition - Step 02: Navigate to Register page
+ [2022-10-07 14:32:24,358] Pre-Condition - Step 03: Input to Firstname textbox with value: Automation
+ [2022-10-07 14:32:24,579] Pre-Condition - Step 04: Input to Lastname textbox with value: FC
+ [2022-10-07 14:32:24,779] Pre-Condition - Step 05: Input to Email textbox with value: automation8691@gmail.com
+ [2022-10-07 14:32:24,922] Pre-Condition - Step 06: Input to Password textbox with value: 123456
+ [2022-10-07 14:32:25,034] Pre-Condition - Step 07: Input to Confirm Password textbox with value: 123456
+ [2022-10-07 14:32:25,137] Pre-Condition - Step 08: Click to Register button
+ [2022-10-07 14:32:26,864] Pre-Condition - Step 09: Verify Register success message is displayed
+ [2022-10-07 14:32:26,947]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 14:32:27,090] AddToWishlist - Step 01: Click Desktops Page link from Computers Menu
+ [2022-10-07 14:32:28,184] AddToWishlist - Step 02: Choose 'Lenovo IdeaCentre 600 All-in-One PC' from Product list
+ [2022-10-07 14:32:29,720] AddToWishlist - Step 03: Click 'Add to wishlist' button
+ [2022-10-07 14:32:30,028] AddToWishlist - Step 04: Verify 'The product has been added to your wishlist' is displayed
+ [2022-10-07 14:32:30,162]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 14:32:30,163] AddToWishlist - Step 05: Click close button to close dialog
+ [2022-10-07 14:32:30,461] AddToWishlist - Step 06: Open Wishlist page
+ [2022-10-07 14:32:31,034] RemoveProduct - Step 06: Open Wishlist page
+ [2022-10-07 14:32:31,325] RemoveProduct - Step 01: Click Desktops Page link from Computers Menu
+ [2022-10-07 14:32:31,457] OS name = windows 10
+ [2022-10-07 14:32:31,457] Driver instance name = firefoxdriver: firefox on windows (8e53b089-13fc-435b-8f12-d451501894c6)
+ [2022-10-07 14:33:18,336] Pre-Condition - Step 01: Open browse and navigate to Homepage
+ [2022-10-07 14:33:27,616] Pre-Condition - Step 02: Navigate to Register page
+ [2022-10-07 14:33:28,357] Pre-Condition - Step 03: Input to Firstname textbox with value: Automation
+ [2022-10-07 14:33:28,499] Pre-Condition - Step 04: Input to Lastname textbox with value: FC
+ [2022-10-07 14:33:28,615] Pre-Condition - Step 05: Input to Email textbox with value: automation5265@gmail.com
+ [2022-10-07 14:33:28,867] Pre-Condition - Step 06: Input to Password textbox with value: 123456
+ [2022-10-07 14:33:29,001] Pre-Condition - Step 07: Input to Confirm Password textbox with value: 123456
+ [2022-10-07 14:33:29,106] Pre-Condition - Step 08: Click to Register button
+ [2022-10-07 14:33:30,374] Pre-Condition - Step 09: Verify Register success message is displayed
+ [2022-10-07 14:33:30,479]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 14:33:30,592] AddToWishlist - Step 01: Click Desktops Page link from Computers Menu
+ [2022-10-07 14:33:31,764] AddToWishlist - Step 02: Choose 'Lenovo IdeaCentre 600 All-in-One PC' from Product list
+ [2022-10-07 14:33:33,320] AddToWishlist - Step 03: Click 'Add to wishlist' button
+ [2022-10-07 14:33:33,655] AddToWishlist - Step 04: Verify 'The product has been added to your wishlist' is displayed
+ [2022-10-07 14:33:33,775]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 14:33:33,775] AddToWishlist - Step 05: Click close button to close dialog
+ [2022-10-07 14:33:34,072] AddToWishlist - Step 06: Open Wishlist page
+ [2022-10-07 14:33:34,193] AddToWishlist - Step 07: Verify product is displayed
+ [2022-10-07 14:33:34,724]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 14:33:34,724] AddToWishlist - Step 08: Click to wishlist URL for sharing
+ [2022-10-07 14:33:35,637] AddToWishlist - Step 09: Verify product is displayed and message
+ [2022-10-07 14:33:35,725]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 14:33:35,826]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 14:33:35,977] RemoveProduct - Step 06: Open Wishlist page
+ [2022-10-07 14:33:36,124] RemoveProduct - Step 07: Click to remove icon of 'Lenovo IdeaCentre 600 All-in-One PC'
+ [2022-10-07 14:34:36,659] RemoveProduct - Step 01: Click Desktops Page link from Computers Menu
+ [2022-10-07 14:34:38,019] RemoveProduct -  Step 02: Choose 'Lenovo IdeaCentre 600 All-in-One PC' from Product list
+ [2022-10-07 14:34:39,019] RemoveProduct - Step 03: Click 'Add to wishlist' button
+ [2022-10-07 14:34:39,660] RemoveProduct - Step 04: Verify 'The product has been added to your wishlist' is displayed
+ [2022-10-07 14:34:39,850]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 14:34:39,851] RemoveProduct - Step 05: Click close button to close dialog
+ [2022-10-07 14:34:40,173] AddToCart - Step 01: Open Wishlist page
+ [2022-10-07 14:34:40,173] AddToCart - Step 02: Check to checkbox of 'Lenovo IdeaCentre 600 All-in-One PC'
+ [2022-10-07 14:35:40,409] OS name = windows 10
+ [2022-10-07 14:35:40,409] Driver instance name = firefoxdriver: firefox on windows (7e2e4dd4-4eea-48a5-8c4b-9053ce4ada02)
+ [2022-10-07 14:36:14,662] Pre-Condition - Step 01: Open browse and navigate to Homepage
+ [2022-10-07 14:36:23,841] Pre-Condition - Step 02: Navigate to Register page
+ [2022-10-07 14:36:24,578] Pre-Condition - Step 03: Input to Firstname textbox with value: Automation
+ [2022-10-07 14:36:24,863] Pre-Condition - Step 04: Input to Lastname textbox with value: FC
+ [2022-10-07 14:36:25,019] Pre-Condition - Step 05: Input to Email textbox with value: automation986@gmail.com
+ [2022-10-07 14:36:25,171] Pre-Condition - Step 06: Input to Password textbox with value: 123456
+ [2022-10-07 14:36:25,274] Pre-Condition - Step 07: Input to Confirm Password textbox with value: 123456
+ [2022-10-07 14:36:25,399] Pre-Condition - Step 08: Click to Register button
+ [2022-10-07 14:36:26,629] Pre-Condition - Step 09: Verify Register success message is displayed
+ [2022-10-07 14:36:26,741]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 14:36:26,848] AddToWishlist - Step 01: Click Desktops Page link from Computers Menu
+ [2022-10-07 14:36:27,855] AddToWishlist - Step 02: Choose 'Lenovo IdeaCentre 600 All-in-One PC' from Product list
+ [2022-10-07 14:36:29,318] AddToWishlist - Step 03: Click 'Add to wishlist' button
+ [2022-10-07 14:36:29,618] AddToWishlist - Step 04: Verify 'The product has been added to your wishlist' is displayed
+ [2022-10-07 14:36:29,754]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 14:36:29,754] AddToWishlist - Step 05: Click close button to close dialog
+ [2022-10-07 14:36:30,050] AddToWishlist - Step 06: Open Wishlist page
+ [2022-10-07 14:36:30,162] AddToWishlist - Step 07: Verify product is displayed
+ [2022-10-07 14:36:30,534]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 14:36:30,534] AddToWishlist - Step 08: Click to wishlist URL for sharing
+ [2022-10-07 14:36:31,204] AddToWishlist - Step 09: Verify product is displayed and message
+ [2022-10-07 14:36:31,257]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 14:36:31,325]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 14:36:31,473] RemoveProduct - Step 06: Open Wishlist page
+ [2022-10-07 14:36:31,623] RemoveProduct - Step 07: Click to remove icon of 'Lenovo IdeaCentre 600 All-in-One PC'
+ [2022-10-07 14:37:32,038] RemoveProduct - Step 01: Click Desktops Page link from Computers Menu
+ [2022-10-07 14:37:33,716] RemoveProduct -  Step 02: Choose 'Lenovo IdeaCentre 600 All-in-One PC' from Product list
+ [2022-10-07 14:37:34,677] RemoveProduct - Step 03: Click 'Add to wishlist' button
+ [2022-10-07 14:37:35,251] RemoveProduct - Step 04: Verify 'The product has been added to your wishlist' is displayed
+ [2022-10-07 14:37:35,383]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 14:37:35,384] RemoveProduct - Step 05: Click close button to close dialog
+ [2022-10-07 14:37:35,711] AddToCart - Step 01: Open Wishlist page
+ [2022-10-07 14:37:35,711] AddToCart - Step 02: Check to checkbox of 'Lenovo IdeaCentre 600 All-in-One PC'
+ [2022-10-07 14:38:35,869] OS name = windows 10
+ [2022-10-07 14:38:35,869] Driver instance name = firefoxdriver: firefox on windows (24b12d00-3984-48bf-94b5-616ab9c5682a)
+ [2022-10-07 14:39:16,870] Pre-Condition - Step 01: Open browse and navigate to Homepage
+ [2022-10-07 14:39:26,235] Pre-Condition - Step 02: Navigate to Register page
+ [2022-10-07 14:39:27,258] Pre-Condition - Step 03: Input to Firstname textbox with value: Automation
+ [2022-10-07 14:39:27,403] Pre-Condition - Step 04: Input to Lastname textbox with value: FC
+ [2022-10-07 14:39:27,514] Pre-Condition - Step 05: Input to Email textbox with value: automation7351@gmail.com
+ [2022-10-07 14:39:27,641] Pre-Condition - Step 06: Input to Password textbox with value: 123456
+ [2022-10-07 14:39:27,746] Pre-Condition - Step 07: Input to Confirm Password textbox with value: 123456
+ [2022-10-07 14:39:27,853] Pre-Condition - Step 08: Click to Register button
+ [2022-10-07 14:39:29,541] Pre-Condition - Step 09: Verify Register success message is displayed
+ [2022-10-07 14:39:29,638]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 14:39:29,750] AddToWishlist - Step 01: Click Desktops Page link from Computers Menu
+ [2022-10-07 14:39:30,757] AddToWishlist - Step 02: Choose 'Lenovo IdeaCentre 600 All-in-One PC' from Product list
+ [2022-10-07 14:39:32,338] AddToWishlist - Step 03: Click 'Add to wishlist' button
+ [2022-10-07 14:39:32,666] AddToWishlist - Step 04: Verify 'The product has been added to your wishlist' is displayed
+ [2022-10-07 14:39:32,797]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 14:39:32,797] AddToWishlist - Step 05: Click close button to close dialog
+ [2022-10-07 14:39:33,077] AddToWishlist - Step 06: Open Wishlist page
+ [2022-10-07 14:39:33,199] AddToWishlist - Step 07: Verify product is displayed
+ [2022-10-07 14:39:33,609]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 14:39:33,610] AddToWishlist - Step 08: Click to wishlist URL for sharing
+ [2022-10-07 14:39:34,164] AddToWishlist - Step 09: Verify product is displayed and message
+ [2022-10-07 14:39:34,246]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 14:39:34,313]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 14:39:34,454] AddToCart - Step 01: Open Wishlist page
+ [2022-10-07 14:39:34,454] AddToCart - Step 02: Check to checkbox of 'Lenovo IdeaCentre 600 All-in-One PC'
+ [2022-10-07 14:40:04,812] AddToCart - Step 03: Click 'Add to cart' button
+ [2022-10-07 14:40:06,729] AddToCart - Step 04: Verify product is displayed at Add to Cart page
+ [2022-10-07 14:40:06,803]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 14:40:06,804] AddToCart - Step 05: Open Wishlist page
+ [2022-10-07 14:40:06,893] AddToCart - Step 06: Verify product is not displayed at Wishlist page
+ [2022-10-07 14:40:06,959]  -------------------------- FAILED -------------------------- 
+ [2022-10-07 14:40:07,058] RemoveProduct - Step 01: Click Desktops Page link from Computers Menu
+ [2022-10-07 14:40:07,780] RemoveProduct -  Step 02: Choose 'Lenovo IdeaCentre 600 All-in-One PC' from Product list
+ [2022-10-07 14:40:08,800] RemoveProduct - Step 03: Click 'Add to wishlist' button
+ [2022-10-07 14:40:09,120] RemoveProduct - Step 04: Verify 'The product has been added to your wishlist' is displayed
+ [2022-10-07 14:40:09,210]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 14:40:09,211] RemoveProduct - Step 05: Click close button to close dialog
+ [2022-10-07 14:40:09,507] RemoveProduct - Step 06: Open Wishlist page
+ [2022-10-07 14:40:09,610] RemoveProduct - Step 07: Click to remove icon of 'Lenovo IdeaCentre 600 All-in-One PC'
+ [2022-10-07 14:40:40,103] OS name = windows 10
+ [2022-10-07 14:40:40,103] Driver instance name = firefoxdriver: firefox on windows (c3b13bd8-e1b0-4675-838f-6129b781b717)
+ [2022-10-07 14:51:59,966] Pre-Condition - Step 01: Open browse and navigate to Homepage
+ [2022-10-07 14:52:09,897] Pre-Condition - Step 02: Navigate to Register page
+ [2022-10-07 14:52:10,620] Pre-Condition - Step 03: Input to Firstname textbox with value: Automation
+ [2022-10-07 14:52:10,869] Pre-Condition - Step 04: Input to Lastname textbox with value: FC
+ [2022-10-07 14:52:10,976] Pre-Condition - Step 05: Input to Email textbox with value: automation4567@gmail.com
+ [2022-10-07 14:52:11,124] Pre-Condition - Step 06: Input to Password textbox with value: 123456
+ [2022-10-07 14:52:11,256] Pre-Condition - Step 07: Input to Confirm Password textbox with value: 123456
+ [2022-10-07 14:52:11,380] Pre-Condition - Step 08: Click to Register button
+ [2022-10-07 14:52:13,197] Pre-Condition - Step 09: Verify Register success message is displayed
+ [2022-10-07 14:52:13,287]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 14:52:13,396] AddToWishlist - Step 01: Click Desktops Page link from Computers Menu
+ [2022-10-07 14:52:14,469] AddToWishlist - Step 02: Choose 'Lenovo IdeaCentre 600 All-in-One PC' from Product list
+ [2022-10-07 14:52:15,883] AddToWishlist - Step 03: Click 'Add to wishlist' button
+ [2022-10-07 14:52:16,183] AddToWishlist - Step 04: Verify 'The product has been added to your wishlist' is displayed
+ [2022-10-07 14:52:16,410]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 14:52:16,410] AddToWishlist - Step 05: Click close button to close dialog
+ [2022-10-07 14:52:16,691] AddToWishlist - Step 06: Open Wishlist page
+ [2022-10-07 14:52:16,789] AddToWishlist - Step 07: Verify product is displayed
+ [2022-10-07 14:52:17,209]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 14:52:17,210] AddToWishlist - Step 08: Click to wishlist URL for sharing
+ [2022-10-07 14:52:17,754] AddToWishlist - Step 09: Verify product is displayed and message
+ [2022-10-07 14:52:17,826]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 14:52:17,890]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 14:52:18,044] AddToCart - Step 01: Open Wishlist page
+ [2022-10-07 14:52:18,044] AddToCart - Step 02: Check to checkbox of 'Lenovo IdeaCentre 600 All-in-One PC'
+ [2022-10-07 14:52:46,248] Pre-Condition - Step 01: Open browse and navigate to Homepage
+ [2022-10-07 14:52:56,619] Pre-Condition - Step 02: Navigate to Register page
+ [2022-10-07 14:52:57,690] Pre-Condition - Step 03: Input to Firstname textbox with value: Automation
+ [2022-10-07 14:52:57,874] Pre-Condition - Step 04: Input to Lastname textbox with value: FC
+ [2022-10-07 14:52:57,991] Pre-Condition - Step 05: Input to Email textbox with value: automation279@gmail.com
+ [2022-10-07 14:52:58,139] Pre-Condition - Step 06: Input to Password textbox with value: 123456
+ [2022-10-07 14:52:58,238] Pre-Condition - Step 07: Input to Confirm Password textbox with value: 123456
+ [2022-10-07 14:52:58,370] Pre-Condition - Step 08: Click to Register button
+ [2022-10-07 14:53:00,134] Pre-Condition - Step 09: Verify Register success message is displayed
+ [2022-10-07 14:53:00,222]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 14:53:00,342] AddToWishlist - Step 01: Click Desktops Page link from Computers Menu
+ [2022-10-07 14:53:01,359] AddToWishlist - Step 02: Choose 'Lenovo IdeaCentre 600 All-in-One PC' from Product list
+ [2022-10-07 14:53:02,703] AddToWishlist - Step 03: Click 'Add to wishlist' button
+ [2022-10-07 14:53:03,044] AddToWishlist - Step 04: Verify 'The product has been added to your wishlist' is displayed
+ [2022-10-07 14:53:03,165]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 14:53:03,166] AddToWishlist - Step 05: Click close button to close dialog
+ [2022-10-07 14:53:03,493] AddToWishlist - Step 06: Open Wishlist page
+ [2022-10-07 14:53:03,606] AddToWishlist - Step 07: Verify product is displayed
+ [2022-10-07 14:53:03,978]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 14:53:03,979] AddToWishlist - Step 08: Click to wishlist URL for sharing
+ [2022-10-07 14:53:04,544] AddToWishlist - Step 09: Verify product is displayed and message
+ [2022-10-07 14:53:04,625]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 14:53:04,736]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 14:53:04,886] AddToCart - Step 01: Open Wishlist page
+ [2022-10-07 14:53:04,886] AddToCart - Step 02: Check to checkbox of 'Lenovo IdeaCentre 600 All-in-One PC'
+ [2022-10-07 14:53:35,212] AddToCart - Step 03: Click 'Add to cart' button
+ [2022-10-07 14:53:37,121] AddToCart - Step 04: Verify product is displayed at Add to Cart page
+ [2022-10-07 14:53:37,200]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 14:53:37,201] AddToCart - Step 05: Open Wishlist page
+ [2022-10-07 14:53:37,291] AddToCart - Step 06: Verify product is not displayed at Wishlist page
+ [2022-10-07 14:53:37,361]  -------------------------- FAILED -------------------------- 
+ [2022-10-07 14:53:37,449] RemoveProduct - Step 01: Click Desktops Page link from Computers Menu
+ [2022-10-07 14:53:38,217] RemoveProduct -  Step 02: Choose 'Lenovo IdeaCentre 600 All-in-One PC' from Product list
+ [2022-10-07 14:53:39,227] RemoveProduct - Step 03: Click 'Add to wishlist' button
+ [2022-10-07 14:53:39,784] RemoveProduct - Step 04: Verify 'The product has been added to your wishlist' is displayed
+ [2022-10-07 14:53:39,898]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 14:53:39,898] RemoveProduct - Step 05: Click close button to close dialog
+ [2022-10-07 14:53:40,199] RemoveProduct - Step 06: Open Wishlist page
+ [2022-10-07 14:53:40,299] RemoveProduct - Step 07: Click to remove icon of 'Lenovo IdeaCentre 600 All-in-One PC'
+ [2022-10-07 14:54:10,736] OS name = windows 10
+ [2022-10-07 14:54:10,737] Driver instance name = firefoxdriver: firefox on windows (f24e91c7-0bbc-4831-bb21-145c7e29501e)
+ [2022-10-07 14:55:30,249] Pre-Condition - Step 01: Open browse and navigate to Homepage
+ [2022-10-07 14:55:39,855] Pre-Condition - Step 02: Navigate to Register page
+ [2022-10-07 14:55:40,563] Pre-Condition - Step 03: Input to Firstname textbox with value: Automation
+ [2022-10-07 14:55:40,769] Pre-Condition - Step 04: Input to Lastname textbox with value: FC
+ [2022-10-07 14:55:40,934] Pre-Condition - Step 05: Input to Email textbox with value: automation4851@gmail.com
+ [2022-10-07 14:55:41,052] Pre-Condition - Step 06: Input to Password textbox with value: 123456
+ [2022-10-07 14:55:41,162] Pre-Condition - Step 07: Input to Confirm Password textbox with value: 123456
+ [2022-10-07 14:55:41,269] Pre-Condition - Step 08: Click to Register button
+ [2022-10-07 14:55:42,484] Pre-Condition - Step 09: Verify Register success message is displayed
+ [2022-10-07 14:55:42,579]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 14:55:42,681] AddToWishlist - Step 01: Click Desktops Page link from Computers Menu
+ [2022-10-07 14:55:43,706] AddToWishlist - Step 02: Choose 'Lenovo IdeaCentre 600 All-in-One PC' from Product list
+ [2022-10-07 14:55:45,040] AddToWishlist - Step 03: Click 'Add to wishlist' button
+ [2022-10-07 14:55:45,540] AddToWishlist - Step 04: Verify 'The product has been added to your wishlist' is displayed
+ [2022-10-07 14:55:45,644]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 14:55:45,645] AddToWishlist - Step 05: Click close button to close dialog
+ [2022-10-07 14:55:45,944] AddToWishlist - Step 06: Open Wishlist page
+ [2022-10-07 14:55:46,039] AddToWishlist - Step 07: Verify product is displayed
+ [2022-10-07 14:55:46,431]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 14:55:46,431] AddToWishlist - Step 08: Click to wishlist URL for sharing
+ [2022-10-07 14:55:47,075] AddToWishlist - Step 09: Verify product is displayed and message
+ [2022-10-07 14:55:47,159]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 14:55:47,224]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 14:55:47,378] AddToCart - Step 01: Open Wishlist page
+ [2022-10-07 14:55:47,497] AddToCart - Step 02: Check to checkbox of 'Lenovo IdeaCentre 600 All-in-One PC'
+ [2022-10-07 14:56:18,082] AddToCart - Step 03: Click 'Add to cart' button
+ [2022-10-07 14:56:20,943] AddToCart - Step 04: Verify product is displayed at Add to Cart page
+ [2022-10-07 14:56:21,020]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 14:56:21,029] RemoveProduct - Step 01: Click Desktops Page link from Computers Menu
+ [2022-10-07 14:56:21,742] RemoveProduct -  Step 02: Choose 'Lenovo IdeaCentre 600 All-in-One PC' from Product list
+ [2022-10-07 14:56:22,705] RemoveProduct - Step 03: Click 'Add to wishlist' button
+ [2022-10-07 14:56:23,013] RemoveProduct - Step 04: Verify 'The product has been added to your wishlist' is displayed
+ [2022-10-07 14:56:23,257]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 14:56:23,257] RemoveProduct - Step 05: Click close button to close dialog
+ [2022-10-07 14:56:23,542] RemoveProduct - Step 06: Open Wishlist page
+ [2022-10-07 14:56:23,641] RemoveProduct - Step 07: Click to remove icon of 'Lenovo IdeaCentre 600 All-in-One PC'
+ [2022-10-07 14:56:54,151] OS name = windows 10
+ [2022-10-07 14:56:54,151] Driver instance name = firefoxdriver: firefox on windows (1187d119-ec83-449d-a7ad-e45f49aeafff)
+ [2022-10-07 15:01:44,674] Pre-Condition - Step 01: Open browse and navigate to Homepage
+ [2022-10-07 15:01:53,711] Pre-Condition - Step 02: Navigate to Register page
+ [2022-10-07 15:01:54,797] Pre-Condition - Step 03: Input to Firstname textbox with value: Automation
+ [2022-10-07 15:01:55,004] Pre-Condition - Step 04: Input to Lastname textbox with value: FC
+ [2022-10-07 15:01:55,129] Pre-Condition - Step 05: Input to Email textbox with value: automation998@gmail.com
+ [2022-10-07 15:01:55,280] Pre-Condition - Step 06: Input to Password textbox with value: 123456
+ [2022-10-07 15:01:55,387] Pre-Condition - Step 07: Input to Confirm Password textbox with value: 123456
+ [2022-10-07 15:01:55,497] Pre-Condition - Step 08: Click to Register button
+ [2022-10-07 15:01:57,375] Pre-Condition - Step 09: Verify Register success message is displayed
+ [2022-10-07 15:01:57,467]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 15:01:57,576] AddToWishlist - Step 01: Click Desktops Page link from Computers Menu
+ [2022-10-07 15:01:58,527] AddToWishlist - Step 02: Choose 'Lenovo IdeaCentre 600 All-in-One PC' from Product list
+ [2022-10-07 15:02:00,678] AddToWishlist - Step 03: Click 'Add to wishlist' button
+ [2022-10-07 15:02:00,989] AddToWishlist - Step 04: Verify 'The product has been added to your wishlist' is displayed
+ [2022-10-07 15:02:01,091]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 15:02:01,092] AddToWishlist - Step 05: Click close button to close dialog
+ [2022-10-07 15:02:01,420] AddToWishlist - Step 06: Open Wishlist page
+ [2022-10-07 15:02:01,538] AddToWishlist - Step 07: Verify product is displayed
+ [2022-10-07 15:02:01,973]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 15:02:01,973] AddToWishlist - Step 08: Click to wishlist URL for sharing
+ [2022-10-07 15:02:02,509] AddToWishlist - Step 09: Verify product is displayed and message
+ [2022-10-07 15:02:02,588]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 15:02:02,661]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 15:02:02,820] AddToCart - Step 01: Open Wishlist page
+ [2022-10-07 15:02:02,918] AddToCart - Step 02: Check to checkbox of 'Lenovo IdeaCentre 600 All-in-One PC'
+ [2022-10-07 15:02:33,540] AddToCart - Step 03: Click 'Add to cart' button
+ [2022-10-07 15:02:36,222] AddToCart - Step 04: Verify product is displayed at Add to Cart page
+ [2022-10-07 15:02:36,291]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 15:02:36,291] AddToCart - Step 05: Open Wishlist page
+ [2022-10-07 15:02:36,378] AddToCart - Step 06: Verify product is not displayed at Wishlist page
+ [2022-10-07 15:02:36,431]  -------------------------- FAILED -------------------------- 
+ [2022-10-07 15:02:36,506] RemoveProduct - Step 01: Click Desktops Page link from Computers Menu
+ [2022-10-07 15:02:37,226] RemoveProduct -  Step 02: Choose 'Lenovo IdeaCentre 600 All-in-One PC' from Product list
+ [2022-10-07 15:02:38,390] RemoveProduct - Step 03: Click 'Add to wishlist' button
+ [2022-10-07 15:02:38,934] RemoveProduct - Step 04: Verify 'The product has been added to your wishlist' is displayed
+ [2022-10-07 15:02:39,064]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 15:02:39,064] RemoveProduct - Step 05: Click close button to close dialog
+ [2022-10-07 15:02:39,365] RemoveProduct - Step 06: Open Wishlist page
+ [2022-10-07 15:02:39,492] RemoveProduct - Step 07: Click to remove icon of 'Lenovo IdeaCentre 600 All-in-One PC'
+ [2022-10-07 15:02:40,347] RemoveProduct - Step 08: Verify 'The wishlist is empty!' message is displayed
+ [2022-10-07 15:02:40,444]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 15:02:40,444] RemoveProduct - Step 08: Verify product is not displayed at Wishlist page
+ [2022-10-07 15:03:40,501]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 15:03:40,508] OS name = windows 10
+ [2022-10-07 15:03:40,508] Driver instance name = firefoxdriver: firefox on windows (695adc5e-e685-4217-978c-da7f50008bf2)
+ [2022-10-07 15:08:04,425] Pre-Condition - Step 01: Open browse and navigate to Homepage
+ [2022-10-07 15:08:14,367] Pre-Condition - Step 02: Navigate to Register page
+ [2022-10-07 15:08:15,092] Pre-Condition - Step 03: Input to Firstname textbox with value: Automation
+ [2022-10-07 15:08:15,370] Pre-Condition - Step 04: Input to Lastname textbox with value: FC
+ [2022-10-07 15:08:15,476] Pre-Condition - Step 05: Input to Email textbox with value: automation7436@gmail.com
+ [2022-10-07 15:08:15,607] Pre-Condition - Step 06: Input to Password textbox with value: 123456
+ [2022-10-07 15:08:15,725] Pre-Condition - Step 07: Input to Confirm Password textbox with value: 123456
+ [2022-10-07 15:08:15,829] Pre-Condition - Step 08: Click to Register button
+ [2022-10-07 15:08:17,581] Pre-Condition - Step 09: Verify Register success message is displayed
+ [2022-10-07 15:08:17,667]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 15:08:17,777] AddToWishlist - Step 01: Click Desktops Page link from Computers Menu
+ [2022-10-07 15:08:18,812] AddToWishlist - Step 02: Choose 'Lenovo IdeaCentre 600 All-in-One PC' from Product list
+ [2022-10-07 15:08:20,405] AddToWishlist - Step 03: Click 'Add to wishlist' button
+ [2022-10-07 15:08:20,727] AddToWishlist - Step 04: Verify 'The product has been added to your wishlist' is displayed
+ [2022-10-07 15:08:20,822]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 15:08:20,822] AddToWishlist - Step 05: Click close button to close dialog
+ [2022-10-07 15:08:21,143] AddToWishlist - Step 06: Open Wishlist page
+ [2022-10-07 15:08:21,532] AddToCart - Step 01: Open Wishlist page
+ [2022-10-07 15:08:21,658] RemoveProduct - Step 01: Click Desktops Page link from Computers Menu
+ [2022-10-07 15:08:21,776] OS name = windows 10
+ [2022-10-07 15:08:21,777] Driver instance name = firefoxdriver: firefox on windows (9f140c26-5baf-4cd0-ab59-77385ea4b9aa)
+ [2022-10-07 15:09:07,855] Pre-Condition - Step 01: Open browse and navigate to Homepage
+ [2022-10-07 15:09:17,179] Pre-Condition - Step 02: Navigate to Register page
+ [2022-10-07 15:09:17,924] Pre-Condition - Step 03: Input to Firstname textbox with value: Automation
+ [2022-10-07 15:09:18,097] Pre-Condition - Step 04: Input to Lastname textbox with value: FC
+ [2022-10-07 15:09:18,210] Pre-Condition - Step 05: Input to Email textbox with value: automation5740@gmail.com
+ [2022-10-07 15:09:18,357] Pre-Condition - Step 06: Input to Password textbox with value: 123456
+ [2022-10-07 15:09:18,469] Pre-Condition - Step 07: Input to Confirm Password textbox with value: 123456
+ [2022-10-07 15:09:18,579] Pre-Condition - Step 08: Click to Register button
+ [2022-10-07 15:09:20,532] Pre-Condition - Step 09: Verify Register success message is displayed
+ [2022-10-07 15:09:20,631]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 15:09:20,738] AddToWishlist - Step 01: Click Desktops Page link from Computers Menu
+ [2022-10-07 15:09:21,731] AddToWishlist - Step 02: Choose 'Lenovo IdeaCentre 600 All-in-One PC' from Product list
+ [2022-10-07 15:09:23,067] AddToWishlist - Step 03: Click 'Add to wishlist' button
+ [2022-10-07 15:09:23,401] AddToWishlist - Step 04: Verify 'The product has been added to your wishlist' is displayed
+ [2022-10-07 15:09:23,520]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 15:09:23,520] AddToWishlist - Step 05: Click close button to close dialog
+ [2022-10-07 15:09:23,804] AddToWishlist - Step 06: Open Wishlist page
+ [2022-10-07 15:09:23,911] AddToWishlist - Step 07: Verify product is displayed
+ [2022-10-07 15:09:24,296]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 15:09:24,296] AddToWishlist - Step 08: Click to wishlist URL for sharing
+ [2022-10-07 15:09:24,830] AddToWishlist - Step 09: Verify product is displayed and message
+ [2022-10-07 15:09:24,894]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 15:09:24,962]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 15:09:25,159] AddToCart - Step 01: Open Wishlist page
+ [2022-10-07 15:09:25,557] AddToCart - Step 02: Check to checkbox of 'Lenovo IdeaCentre 600 All-in-One PC'
+ [2022-10-07 15:09:40,907] AddToCart - Step 03: Click 'Add to cart' button
+ [2022-10-07 15:09:41,912] AddToCart - Step 04: Verify product is displayed at Add to Cart page
+ [2022-10-07 15:09:41,991]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 15:09:41,991] AddToCart - Step 05: Open Wishlist page
+ [2022-10-07 15:09:42,077] AddToCart - Step 06: Verify product is not displayed at Wishlist page
+ [2022-10-07 15:09:42,154]  -------------------------- FAILED -------------------------- 
+ [2022-10-07 15:09:42,251] RemoveProduct - Step 01: Click Desktops Page link from Computers Menu
+ [2022-10-07 15:09:42,958] RemoveProduct -  Step 02: Choose 'Lenovo IdeaCentre 600 All-in-One PC' from Product list
+ [2022-10-07 15:09:44,276] RemoveProduct - Step 03: Click 'Add to wishlist' button
+ [2022-10-07 15:09:44,893] RemoveProduct - Step 04: Verify 'The product has been added to your wishlist' is displayed
+ [2022-10-07 15:09:45,015]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 15:09:45,016] RemoveProduct - Step 05: Click close button to close dialog
+ [2022-10-07 15:09:45,322] RemoveProduct - Step 06: Open Wishlist page
+ [2022-10-07 15:09:45,416] RemoveProduct - Step 07: Click to remove icon of 'Lenovo IdeaCentre 600 All-in-One PC'
+ [2022-10-07 15:09:46,080] RemoveProduct - Step 08: Verify 'The wishlist is empty!' message is displayed
+ [2022-10-07 15:10:01,185] OS name = windows 10
+ [2022-10-07 15:10:01,186] Driver instance name = firefoxdriver: firefox on windows (9c6cdfec-c057-4f9a-bbe2-f1bdbf3b5614)
+ [2022-10-07 15:12:26,312] Pre-Condition - Step 01: Open browse and navigate to Homepage
+ [2022-10-07 15:12:35,736] Pre-Condition - Step 02: Navigate to Register page
+ [2022-10-07 15:12:37,267] Pre-Condition - Step 03: Input to Firstname textbox with value: Automation
+ [2022-10-07 15:12:37,505] Pre-Condition - Step 04: Input to Lastname textbox with value: FC
+ [2022-10-07 15:12:37,617] Pre-Condition - Step 05: Input to Email textbox with value: automation5505@gmail.com
+ [2022-10-07 15:12:37,774] Pre-Condition - Step 06: Input to Password textbox with value: 123456
+ [2022-10-07 15:12:37,956] Pre-Condition - Step 07: Input to Confirm Password textbox with value: 123456
+ [2022-10-07 15:12:38,087] Pre-Condition - Step 08: Click to Register button
+ [2022-10-07 15:12:39,803] Pre-Condition - Step 09: Verify Register success message is displayed
+ [2022-10-07 15:12:39,904]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 15:12:40,007] AddToWishlist - Step 01: Click Desktops Page link from Computers Menu
+ [2022-10-07 15:12:41,007] AddToWishlist - Step 02: Choose 'Lenovo IdeaCentre 600 All-in-One PC' from Product list
+ [2022-10-07 15:12:42,477] AddToWishlist - Step 03: Click 'Add to wishlist' button
+ [2022-10-07 15:12:42,796] AddToWishlist - Step 04: Verify 'The product has been added to your wishlist' is displayed
+ [2022-10-07 15:12:42,906]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 15:12:42,906] AddToWishlist - Step 05: Click close button to close dialog
+ [2022-10-07 15:12:43,191] AddToWishlist - Step 06: Open Wishlist page
+ [2022-10-07 15:12:43,294] AddToWishlist - Step 07: Verify product is displayed
+ [2022-10-07 15:12:43,685]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 15:12:43,685] AddToWishlist - Step 08: Click to wishlist URL for sharing
+ [2022-10-07 15:12:44,267] AddToWishlist - Step 09: Verify product is displayed and message
+ [2022-10-07 15:12:44,340]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 15:12:44,414]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 15:12:44,583] AddToCart - Step 01: Open Wishlist page
+ [2022-10-07 15:12:44,994] AddToCart - Step 02: Check to checkbox of 'Lenovo IdeaCentre 600 All-in-One PC'
+ [2022-10-07 15:13:00,307] AddToCart - Step 03: Click 'Add to cart' button
+ [2022-10-07 15:13:01,325] AddToCart - Step 04: Verify product is displayed at Add to Cart page
+ [2022-10-07 15:13:01,399]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 15:13:01,400] AddToCart - Step 05: Open Wishlist page
+ [2022-10-07 15:13:01,487] AddToCart - Step 06: Verify product is not displayed at Wishlist page
+ [2022-10-07 15:13:01,561]  -------------------------- FAILED -------------------------- 
+ [2022-10-07 15:13:01,660] RemoveProduct - Step 01: Click Desktops Page link from Computers Menu
+ [2022-10-07 15:13:02,380] RemoveProduct -  Step 02: Choose 'Lenovo IdeaCentre 600 All-in-One PC' from Product list
+ [2022-10-07 15:13:03,589] RemoveProduct - Step 03: Click 'Add to wishlist' button
+ [2022-10-07 15:13:04,291] RemoveProduct - Step 04: Verify 'The product has been added to your wishlist' is displayed
+ [2022-10-07 15:13:04,396]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 15:13:04,396] RemoveProduct - Step 05: Click close button to close dialog
+ [2022-10-07 15:13:04,732] RemoveProduct - Step 06: Open Wishlist page
+ [2022-10-07 15:13:05,162] RemoveProduct - Step 07: Click to remove icon of 'Lenovo IdeaCentre 600 All-in-One PC'
+ [2022-10-07 15:13:05,647] RemoveProduct - Step 08: Verify 'The wishlist is empty!' message is displayed
+ [2022-10-07 15:13:05,737]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 15:13:05,738] RemoveProduct - Step 08: Verify product is not displayed at Wishlist page
+ [2022-10-07 15:13:35,818]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 15:13:35,827] OS name = windows 10
+ [2022-10-07 15:13:35,827] Driver instance name = firefoxdriver: firefox on windows (0219cbef-8667-4274-a25b-0e13c0e84955)
+ [2022-10-07 15:14:17,784] Pre-Condition - Step 01: Open browse and navigate to Homepage
+ [2022-10-07 15:14:27,289] Pre-Condition - Step 02: Navigate to Register page
+ [2022-10-07 15:14:28,097] Pre-Condition - Step 03: Input to Firstname textbox with value: Automation
+ [2022-10-07 15:14:28,296] Pre-Condition - Step 04: Input to Lastname textbox with value: FC
+ [2022-10-07 15:14:28,411] Pre-Condition - Step 05: Input to Email textbox with value: automation8844@gmail.com
+ [2022-10-07 15:14:28,552] Pre-Condition - Step 06: Input to Password textbox with value: 123456
+ [2022-10-07 15:14:28,704] Pre-Condition - Step 07: Input to Confirm Password textbox with value: 123456
+ [2022-10-07 15:14:28,811] Pre-Condition - Step 08: Click to Register button
+ [2022-10-07 15:14:33,547] Pre-Condition - Step 09: Verify Register success message is displayed
+ [2022-10-07 15:14:33,633]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 15:14:33,794] AddToWishlist - Step 01: Click Desktops Page link from Computers Menu
+ [2022-10-07 15:14:34,923] AddToWishlist - Step 02: Choose 'Lenovo IdeaCentre 600 All-in-One PC' from Product list
+ [2022-10-07 15:14:36,414] AddToWishlist - Step 03: Click 'Add to wishlist' button
+ [2022-10-07 15:14:36,743] AddToWishlist - Step 04: Verify 'The product has been added to your wishlist' is displayed
+ [2022-10-07 15:14:36,852]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 15:14:36,852] AddToWishlist - Step 05: Click close button to close dialog
+ [2022-10-07 15:14:37,164] AddToWishlist - Step 06: Open Wishlist page
+ [2022-10-07 15:14:37,294] AddToWishlist - Step 07: Verify product is displayed
+ [2022-10-07 15:14:37,708]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 15:14:37,708] AddToWishlist - Step 08: Click to wishlist URL for sharing
+ [2022-10-07 15:14:38,309] AddToWishlist - Step 09: Verify product is displayed and message
+ [2022-10-07 15:14:38,375]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 15:14:38,453]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 15:14:38,632] AddToCart - Step 01: Open Wishlist page
+ [2022-10-07 15:14:39,071] AddToCart - Step 02: Check to checkbox of 'Lenovo IdeaCentre 600 All-in-One PC'
+ [2022-10-07 15:14:54,405] AddToCart - Step 03: Click 'Add to cart' button
+ [2022-10-07 15:14:55,396] AddToCart - Step 04: Verify product is displayed at Add to Cart page
+ [2022-10-07 15:14:55,464]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 15:14:55,464] AddToCart - Step 05: Open Wishlist page
+ [2022-10-07 15:14:55,545] AddToCart - Step 06: Verify product is not displayed at Wishlist page
+ [2022-10-07 15:14:55,615]  -------------------------- FAILED -------------------------- 
+ [2022-10-07 15:14:55,705] OS name = windows 10
+ [2022-10-07 15:14:55,706] Driver instance name = firefoxdriver: firefox on windows (cc725218-46ff-47fe-88fb-305058ff4b45)
+ [2022-10-07 15:15:36,651] Pre-Condition - Step 01: Open browse and navigate to Homepage
+ [2022-10-07 15:15:46,107] Pre-Condition - Step 02: Navigate to Register page
+ [2022-10-07 15:15:46,871] Pre-Condition - Step 03: Input to Firstname textbox with value: Automation
+ [2022-10-07 15:15:47,056] Pre-Condition - Step 04: Input to Lastname textbox with value: FC
+ [2022-10-07 15:15:47,211] Pre-Condition - Step 05: Input to Email textbox with value: automation6974@gmail.com
+ [2022-10-07 15:15:47,356] Pre-Condition - Step 06: Input to Password textbox with value: 123456
+ [2022-10-07 15:15:47,467] Pre-Condition - Step 07: Input to Confirm Password textbox with value: 123456
+ [2022-10-07 15:15:47,574] Pre-Condition - Step 08: Click to Register button
+ [2022-10-07 15:15:49,441] Pre-Condition - Step 09: Verify Register success message is displayed
+ [2022-10-07 15:15:49,542]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 15:15:49,648] AddToWishlist - Step 01: Click Desktops Page link from Computers Menu
+ [2022-10-07 15:15:51,013] AddToWishlist - Step 02: Choose 'Lenovo IdeaCentre 600 All-in-One PC' from Product list
+ [2022-10-07 15:15:52,506] AddToWishlist - Step 03: Click 'Add to wishlist' button
+ [2022-10-07 15:15:52,834] AddToWishlist - Step 04: Verify 'The product has been added to your wishlist' is displayed
+ [2022-10-07 15:15:52,926]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 15:15:52,926] AddToWishlist - Step 05: Click close button to close dialog
+ [2022-10-07 15:15:53,239] AddToWishlist - Step 06: Open Wishlist page
+ [2022-10-07 15:15:53,351] AddToWishlist - Step 07: Verify product is displayed
+ [2022-10-07 15:15:53,721]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 15:15:53,721] AddToWishlist - Step 08: Click to wishlist URL for sharing
+ [2022-10-07 15:15:54,431] AddToWishlist - Step 09: Verify product is displayed and message
+ [2022-10-07 15:15:54,524]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 15:15:54,653]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 15:15:54,819] AddToCart - Step 01: Open Wishlist page
+ [2022-10-07 15:15:55,244] AddToCart - Step 02: Check to checkbox of 'Lenovo IdeaCentre 600 All-in-One PC'
+ [2022-10-07 15:16:10,594] AddToCart - Step 03: Click 'Add to cart' button
+ [2022-10-07 15:16:11,551] AddToCart - Step 04: Verify product is displayed at Add to Cart page
+ [2022-10-07 15:16:11,637]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 15:16:11,637] AddToCart - Step 05: Open Wishlist page
+ [2022-10-07 15:16:12,691] AddToCart - Step 06: Verify product is not displayed at Wishlist page
+ [2022-10-07 15:16:42,772]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 15:16:42,779] OS name = windows 10
+ [2022-10-07 15:16:42,780] Driver instance name = firefoxdriver: firefox on windows (e1c14073-417c-413d-a100-32b8853ed37d)
+ [2022-10-07 15:18:48,142] Pre-Condition - Step 01: Open browse and navigate to Homepage
+ [2022-10-07 15:18:58,014] Pre-Condition - Step 02: Navigate to Register page
+ [2022-10-07 15:18:59,101] Pre-Condition - Step 03: Input to Firstname textbox with value: Automation
+ [2022-10-07 15:18:59,257] Pre-Condition - Step 04: Input to Lastname textbox with value: FC
+ [2022-10-07 15:18:59,364] Pre-Condition - Step 05: Input to Email textbox with value: automation2693@gmail.com
+ [2022-10-07 15:18:59,506] Pre-Condition - Step 06: Input to Password textbox with value: 123456
+ [2022-10-07 15:18:59,629] Pre-Condition - Step 07: Input to Confirm Password textbox with value: 123456
+ [2022-10-07 15:18:59,732] Pre-Condition - Step 08: Click to Register button
+ [2022-10-07 15:19:01,427] Pre-Condition - Step 09: Verify Register success message is displayed
+ [2022-10-07 15:19:01,517]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 15:19:01,630] AddToWishlist - Step 01: Click Desktops Page link from Computers Menu
+ [2022-10-07 15:19:02,599] AddToWishlist - Step 02: Choose 'Lenovo IdeaCentre 600 All-in-One PC' from Product list
+ [2022-10-07 15:19:04,050] AddToWishlist - Step 03: Click 'Add to wishlist' button
+ [2022-10-07 15:19:04,361] AddToWishlist - Step 04: Verify 'The product has been added to your wishlist' is displayed
+ [2022-10-07 15:19:04,473]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 15:19:04,473] AddToWishlist - Step 05: Click close button to close dialog
+ [2022-10-07 15:19:04,765] AddToWishlist - Step 06: Open Wishlist page
+ [2022-10-07 15:19:04,876] AddToWishlist - Step 07: Verify product is displayed
+ [2022-10-07 15:19:05,250]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 15:19:05,250] AddToWishlist - Step 08: Click to wishlist URL for sharing
+ [2022-10-07 15:19:06,013] AddToWishlist - Step 09: Verify product is displayed and message
+ [2022-10-07 15:19:06,103]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 15:19:06,173]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 15:19:06,331] AddToCart - Step 01: Open Wishlist page
+ [2022-10-07 15:19:06,467] AddToCart - Step 02: Check to checkbox of 'Lenovo IdeaCentre 600 All-in-One PC'
+ [2022-10-07 15:19:22,075] AddToCart - Step 03: Click 'Add to cart' button
+ [2022-10-07 15:19:23,197] AddToCart - Step 04: Verify product is displayed at Add to Cart page
+ [2022-10-07 15:19:23,273]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 15:19:23,273] AddToCart - Step 05: Open Wishlist page
+ [2022-10-07 15:19:23,364] AddToCart - Step 06: Verify product is not displayed at Wishlist page
+ [2022-10-07 15:19:23,428]  -------------------------- FAILED -------------------------- 
+ [2022-10-07 15:19:23,514] RemoveProduct - Step 01: Click Desktops Page link from Computers Menu
+ [2022-10-07 15:19:24,310] RemoveProduct -  Step 02: Choose 'Lenovo IdeaCentre 600 All-in-One PC' from Product list
+ [2022-10-07 15:19:25,500] RemoveProduct - Step 03: Click 'Add to wishlist' button
+ [2022-10-07 15:19:26,116] RemoveProduct - Step 04: Verify 'The product has been added to your wishlist' is displayed
+ [2022-10-07 15:19:26,201]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 15:19:26,201] RemoveProduct - Step 05: Click close button to close dialog
+ [2022-10-07 15:19:26,506] RemoveProduct - Step 06: Open Wishlist page
+ [2022-10-07 15:19:26,587] RemoveProduct - Step 07: Click to remove icon of 'Lenovo IdeaCentre 600 All-in-One PC'
+ [2022-10-07 15:19:27,562] RemoveProduct - Step 08: Verify 'The wishlist is empty!' message is displayed
+ [2022-10-07 15:19:27,653]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 15:19:27,653] RemoveProduct - Step 08: Verify product is not displayed at Wishlist page
+ [2022-10-07 15:19:57,717]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 15:19:57,723] OS name = windows 10
+ [2022-10-07 15:19:57,723] Driver instance name = firefoxdriver: firefox on windows (f6efacb0-3c59-4bb0-b63b-09fddaedfae5)
+ [2022-10-07 15:23:55,624] Pre-Condition - Step 01: Open browse and navigate to Homepage
+ [2022-10-07 15:24:05,356] Pre-Condition - Step 02: Navigate to Register page
+ [2022-10-07 15:24:06,156] Pre-Condition - Step 03: Input to Firstname textbox with value: Automation
+ [2022-10-07 15:24:06,347] Pre-Condition - Step 04: Input to Lastname textbox with value: FC
+ [2022-10-07 15:24:06,520] Pre-Condition - Step 05: Input to Email textbox with value: automation6213@gmail.com
+ [2022-10-07 15:24:06,645] Pre-Condition - Step 06: Input to Password textbox with value: 123456
+ [2022-10-07 15:24:06,816] Pre-Condition - Step 07: Input to Confirm Password textbox with value: 123456
+ [2022-10-07 15:24:06,986] Pre-Condition - Step 08: Click to Register button
+ [2022-10-07 15:24:08,864] Pre-Condition - Step 09: Verify Register success message is displayed
+ [2022-10-07 15:24:08,956]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 15:24:09,078] AddToWishlist - Step 01: Click Desktops Page link from Computers Menu
+ [2022-10-07 15:24:10,062] AddToWishlist - Step 02: Choose 'Lenovo IdeaCentre 600 All-in-One PC' from Product list
+ [2022-10-07 15:24:11,437] AddToWishlist - Step 03: Click 'Add to wishlist' button
+ [2022-10-07 15:24:11,745] AddToWishlist - Step 04: Verify 'The product has been added to your wishlist' is displayed
+ [2022-10-07 15:24:11,851]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 15:24:11,852] AddToWishlist - Step 05: Click close button to close dialog
+ [2022-10-07 15:24:12,136] AddToWishlist - Step 06: Open Wishlist page
+ [2022-10-07 15:24:12,265] AddToWishlist - Step 07: Verify product is displayed
+ [2022-10-07 15:24:12,638]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 15:24:12,638] AddToWishlist - Step 08: Click to wishlist URL for sharing
+ [2022-10-07 15:24:13,188] AddToWishlist - Step 09: Verify product is displayed and message
+ [2022-10-07 15:24:13,299]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 15:24:13,437]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 15:24:13,567] AddToCart - Step 01: Open Wishlist page
+ [2022-10-07 15:24:14,487] AddToCart - Step 02: Check to checkbox of 'Lenovo IdeaCentre 600 All-in-One PC'
+ [2022-10-07 15:24:44,698] RemoveProduct - Step 01: Click Desktops Page link from Computers Menu
+ [2022-10-07 15:24:46,045] RemoveProduct -  Step 02: Choose 'Lenovo IdeaCentre 600 All-in-One PC' from Product list
+ [2022-10-07 15:24:47,014] RemoveProduct - Step 03: Click 'Add to wishlist' button
+ [2022-10-07 15:24:47,338] RemoveProduct - Step 04: Verify 'The product has been added to your wishlist' is displayed
+ [2022-10-07 15:24:47,439]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 15:24:47,439] RemoveProduct - Step 05: Click close button to close dialog
+ [2022-10-07 15:24:47,720] RemoveProduct - Step 06: Open Wishlist page
+ [2022-10-07 15:24:48,627] RemoveProduct - Step 07: Click to remove icon of 'Lenovo IdeaCentre 600 All-in-One PC'
+ [2022-10-07 15:25:18,774] OS name = windows 10
+ [2022-10-07 15:25:18,774] Driver instance name = firefoxdriver: firefox on windows (d754a954-e8b9-4da7-ae7d-5f23323f5329)
+ [2022-10-07 15:32:55,472] Pre-Condition - Step 01: Open browse and navigate to Homepage
+ [2022-10-07 15:33:05,812] Pre-Condition - Step 02: Navigate to Register page
+ [2022-10-07 15:33:08,560] Pre-Condition - Step 03: Input to Firstname textbox with value: Automation
+ [2022-10-07 15:33:09,789] Pre-Condition - Step 04: Input to Lastname textbox with value: FC
+ [2022-10-07 15:33:10,969] Pre-Condition - Step 05: Input to Email textbox with value: automation9645@gmail.com
+ [2022-10-07 15:33:12,191] Pre-Condition - Step 06: Input to Password textbox with value: 123456
+ [2022-10-07 15:33:13,399] Pre-Condition - Step 07: Input to Confirm Password textbox with value: 123456
+ [2022-10-07 15:33:14,632] Pre-Condition - Step 08: Click to Register button
+ [2022-10-07 15:33:16,819] Pre-Condition - Step 09: Verify Register success message is displayed
+ [2022-10-07 15:33:16,912]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 15:33:17,018] AddToWishlist - Step 01: Click Desktops Page link from Computers Menu
+ [2022-10-07 15:33:19,037] AddToWishlist - Step 02: Choose 'Lenovo IdeaCentre 600 All-in-One PC' from Product list
+ [2022-10-07 15:33:21,446] AddToWishlist - Step 03: Click 'Add to wishlist' button
+ [2022-10-07 15:33:22,840] AddToWishlist - Step 04: Verify 'The product has been added to your wishlist' is displayed
+ [2022-10-07 15:33:22,961]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 15:33:22,961] AddToWishlist - Step 05: Click close button to close dialog
+ [2022-10-07 15:33:24,320] AddToWishlist - Step 06: Open Wishlist page
+ [2022-10-07 15:33:25,490] AddToWishlist - Step 07: Verify product is displayed
+ [2022-10-07 15:33:25,879]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 15:33:25,880] AddToWishlist - Step 08: Click to wishlist URL for sharing
+ [2022-10-07 15:33:27,488] AddToWishlist - Step 09: Verify product is displayed and message
+ [2022-10-07 15:33:27,572]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 15:33:27,644]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 15:33:27,798] AddToCart - Step 01: Open Wishlist page
+ [2022-10-07 15:33:28,721] AddToCart - Step 02: Check to checkbox of 'Lenovo IdeaCentre 600 All-in-One PC'
+ [2022-10-07 15:33:58,900] RemoveProduct - Step 01: Click Desktops Page link from Computers Menu
+ [2022-10-07 15:34:01,635] RemoveProduct -  Step 02: Choose 'Lenovo IdeaCentre 600 All-in-One PC' from Product list
+ [2022-10-07 15:34:03,677] RemoveProduct - Step 03: Click 'Add to wishlist' button
+ [2022-10-07 15:34:05,098] RemoveProduct - Step 04: Verify 'The product has been added to your wishlist' is displayed
+ [2022-10-07 15:34:05,190]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 15:34:05,190] RemoveProduct - Step 05: Click close button to close dialog
+ [2022-10-07 15:34:06,594] RemoveProduct - Step 06: Open Wishlist page
+ [2022-10-07 15:34:07,511] RemoveProduct - Step 07: Click to remove icon of 'Lenovo IdeaCentre 600 All-in-One PC'
+ [2022-10-07 15:34:37,665] OS name = windows 10
+ [2022-10-07 15:34:37,665] Driver instance name = firefoxdriver: firefox on windows (11a9f526-1db3-4cf4-b96f-b01c00fc60d4)
+ [2022-10-07 15:36:18,531] Pre-Condition - Step 01: Open browse and navigate to Homepage
+ [2022-10-07 15:36:27,323] Pre-Condition - Step 02: Navigate to Register page
+ [2022-10-07 15:36:30,127] Pre-Condition - Step 03: Input to Firstname textbox with value: Automation
+ [2022-10-07 15:36:31,387] Pre-Condition - Step 04: Input to Lastname textbox with value: FC
+ [2022-10-07 15:36:32,592] Pre-Condition - Step 05: Input to Email textbox with value: automation8483@gmail.com
+ [2022-10-07 15:36:33,813] Pre-Condition - Step 06: Input to Password textbox with value: 123456
+ [2022-10-07 15:36:35,006] Pre-Condition - Step 07: Input to Confirm Password textbox with value: 123456
+ [2022-10-07 15:36:36,202] Pre-Condition - Step 08: Click to Register button
+ [2022-10-07 15:36:38,351] Pre-Condition - Step 09: Verify Register success message is displayed
+ [2022-10-07 15:36:38,440]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 15:36:38,546] AddToWishlist - Step 01: Click Desktops Page link from Computers Menu
+ [2022-10-07 15:36:40,564] AddToWishlist - Step 02: Choose 'Lenovo IdeaCentre 600 All-in-One PC' from Product list
+ [2022-10-07 15:36:43,015] AddToWishlist - Step 03: Click 'Add to wishlist' button
+ [2022-10-07 15:36:44,401] AddToWishlist - Step 04: Verify 'The product has been added to your wishlist' is displayed
+ [2022-10-07 15:36:44,505]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 15:36:44,505] AddToWishlist - Step 05: Click close button to close dialog
+ [2022-10-07 15:36:45,924] AddToWishlist - Step 06: Open Wishlist page
+ [2022-10-07 15:36:47,116] AddToWishlist - Step 07: Verify product is displayed
+ [2022-10-07 15:36:47,503]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 15:36:47,503] AddToWishlist - Step 08: Click to wishlist URL for sharing
+ [2022-10-07 15:36:49,088] AddToWishlist - Step 09: Verify product is displayed and message
+ [2022-10-07 15:36:49,158]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 15:36:49,227]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 15:36:49,361] AddToCart - Step 01: Open Wishlist page
+ [2022-10-07 15:36:50,514] AddToCart - Step 02: Check to checkbox of 'Lenovo IdeaCentre 600 All-in-One PC'
+ [2022-10-07 15:37:07,219] AddToCart - Step 03: Click 'Add to cart' button
+ [2022-10-07 15:37:09,276] AddToCart - Step 04: Verify product is displayed at Add to Cart page
+ [2022-10-07 15:37:09,348]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 15:37:09,348] AddToCart - Step 05: Open Wishlist page
+ [2022-10-07 15:37:10,521] AddToCart - Step 06: Verify product is not displayed at Wishlist page
+ [2022-10-07 15:37:10,572]  -------------------------- FAILED -------------------------- 
+ [2022-10-07 15:37:10,647] RemoveProduct - Step 01: Click Desktops Page link from Computers Menu
+ [2022-10-07 15:37:25,932] OS name = windows 10
+ [2022-10-07 15:37:25,933] Driver instance name = firefoxdriver: firefox on windows (caef47a5-53e4-4b7e-b8f8-28ad950044fb)
+ [2022-10-07 15:39:57,814] Pre-Condition - Step 01: Open browse and navigate to Homepage
+ [2022-10-07 15:40:05,120] Pre-Condition - Step 02: Navigate to Register page
+ [2022-10-07 15:40:07,867] Pre-Condition - Step 03: Input to Firstname textbox with value: Automation
+ [2022-10-07 15:40:09,202] Pre-Condition - Step 04: Input to Lastname textbox with value: FC
+ [2022-10-07 15:40:10,508] Pre-Condition - Step 05: Input to Email textbox with value: automation4426@gmail.com
+ [2022-10-07 15:40:11,851] Pre-Condition - Step 06: Input to Password textbox with value: 123456
+ [2022-10-07 15:40:13,126] Pre-Condition - Step 07: Input to Confirm Password textbox with value: 123456
+ [2022-10-07 15:40:14,403] Pre-Condition - Step 08: Click to Register button
+ [2022-10-07 15:40:16,554] Pre-Condition - Step 09: Verify Register success message is displayed
+ [2022-10-07 15:40:16,631]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 15:40:16,728] AddToWishlist - Step 01: Click Desktops Page link from Computers Menu
+ [2022-10-07 15:40:18,823] AddToWishlist - Step 02: Choose 'Lenovo IdeaCentre 600 All-in-One PC' from Product list
+ [2022-10-07 15:40:21,271] AddToWishlist - Step 03: Click 'Add to wishlist' button
+ [2022-10-07 15:40:22,483] AddToWishlist - Step 04: Verify 'The product has been added to your wishlist' is displayed
+ [2022-10-07 15:40:22,817]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 15:40:22,817] AddToWishlist - Step 05: Click close button to close dialog
+ [2022-10-07 15:40:26,258] AddToWishlist - Step 06: Open Wishlist page
+ [2022-10-07 15:40:31,541] AddToWishlist - Step 07: Verify product is displayed
+ [2022-10-07 15:40:31,634]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 15:40:31,634] AddToWishlist - Step 08: Click to wishlist URL for sharing
+ [2022-10-07 15:40:33,285] AddToWishlist - Step 09: Verify product is displayed and message
+ [2022-10-07 15:40:33,348]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 15:40:33,460]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 15:40:33,596] AddToCart - Step 01: Open Wishlist page
+ [2022-10-07 15:40:37,149] AddToCart - Step 02: Check to checkbox of 'Lenovo IdeaCentre 600 All-in-One PC'
+ [2022-10-07 15:40:53,474] AddToCart - Step 03: Click 'Add to cart' button
+ [2022-10-07 15:40:55,721] AddToCart - Step 04: Verify product is displayed at Add to Cart page
+ [2022-10-07 15:40:55,786]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 15:40:55,786] AddToCart - Step 05: Open Wishlist page
+ [2022-10-07 15:40:59,356] AddToCart - Step 06: Verify product is not displayed at Wishlist page
+ [2022-10-07 15:40:59,416]  -------------------------- FAILED -------------------------- 
+ [2022-10-07 15:40:59,584] RemoveProduct - Step 01: Click Desktops Page link from Computers Menu
+ [2022-10-07 15:41:01,444] RemoveProduct -  Step 02: Choose 'Lenovo IdeaCentre 600 All-in-One PC' from Product list
+ [2022-10-07 15:41:04,288] RemoveProduct - Step 03: Click 'Add to wishlist' button
+ [2022-10-07 15:41:05,553] RemoveProduct - Step 04: Verify 'The product has been added to your wishlist' is displayed
+ [2022-10-07 15:41:05,920]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 15:41:05,920] RemoveProduct - Step 05: Click close button to close dialog
+ [2022-10-07 15:41:09,183] RemoveProduct - Step 06: Open Wishlist page
+ [2022-10-07 15:41:12,832] RemoveProduct - Step 07: Click to remove icon of 'Lenovo IdeaCentre 600 All-in-One PC'
+ [2022-10-07 15:41:14,522] RemoveProduct - Step 08: Verify 'The wishlist is empty!' message is displayed
+ [2022-10-07 15:41:14,615]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 15:41:14,615] RemoveProduct - Step 08: Verify product is not displayed at Wishlist page
+ [2022-10-07 15:41:44,760]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 15:41:44,767] OS name = windows 10
+ [2022-10-07 15:41:44,768] Driver instance name = chromedriver: chrome on windows (2bcb06afa7cce728ca94f59359fb5a66)
+ [2022-10-07 15:42:07,166] Pre-Condition - Step 01: Open browse and navigate to Homepage
+ [2022-10-07 15:42:13,287] Pre-Condition - Step 02: Navigate to Register page
+ [2022-10-07 15:42:16,158] Pre-Condition - Step 03: Input to Firstname textbox with value: Automation
+ [2022-10-07 15:42:17,471] Pre-Condition - Step 04: Input to Lastname textbox with value: FC
+ [2022-10-07 15:42:18,749] Pre-Condition - Step 05: Input to Email textbox with value: automation6012@gmail.com
+ [2022-10-07 15:42:20,072] Pre-Condition - Step 06: Input to Password textbox with value: 123456
+ [2022-10-07 15:42:21,354] Pre-Condition - Step 07: Input to Confirm Password textbox with value: 123456
+ [2022-10-07 15:42:22,645] Pre-Condition - Step 08: Click to Register button
+ [2022-10-07 15:42:24,850] Pre-Condition - Step 09: Verify Register success message is displayed
+ [2022-10-07 15:42:24,926]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 15:42:25,030] AddToWishlist - Step 01: Click Desktops Page link from Computers Menu
+ [2022-10-07 15:42:27,147] AddToWishlist - Step 02: Choose 'Lenovo IdeaCentre 600 All-in-One PC' from Product list
+ [2022-10-07 15:42:29,464] AddToWishlist - Step 03: Click 'Add to wishlist' button
+ [2022-10-07 15:42:30,720] AddToWishlist - Step 04: Verify 'The product has been added to your wishlist' is displayed
+ [2022-10-07 15:42:31,129]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 15:42:31,130] AddToWishlist - Step 05: Click close button to close dialog
+ [2022-10-07 15:42:34,479] AddToWishlist - Step 06: Open Wishlist page
+ [2022-10-07 15:42:39,699] AddToWishlist - Step 07: Verify product is displayed
+ [2022-10-07 15:42:39,789]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 15:42:39,789] AddToWishlist - Step 08: Click to wishlist URL for sharing
+ [2022-10-07 15:42:41,409] AddToWishlist - Step 09: Verify product is displayed and message
+ [2022-10-07 15:42:41,467]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 15:42:41,545]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 15:42:41,660] AddToCart - Step 01: Open Wishlist page
+ [2022-10-07 15:42:45,227] AddToCart - Step 02: Check to checkbox of 'Lenovo IdeaCentre 600 All-in-One PC'
+ [2022-10-07 15:43:01,577] AddToCart - Step 03: Click 'Add to cart' button
+ [2022-10-07 15:43:04,040] AddToCart - Step 04: Verify product is displayed at Add to Cart page
+ [2022-10-07 15:43:04,113]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 15:43:04,113] AddToCart - Step 05: Open Wishlist page
+ [2022-10-07 15:43:07,754] AddToCart - Step 06: Verify product is not displayed at Wishlist page
+ [2022-10-07 15:43:07,852]  -------------------------- FAILED -------------------------- 
+ [2022-10-07 15:43:07,984] OS name = windows 10
+ [2022-10-07 15:43:07,984] Driver instance name = chromedriver: chrome on windows (ab43b0e0c87ed2e2bad64690557267b0)
+ [2022-10-07 15:44:00,613] Pre-Condition - Step 01: Open browse and navigate to Homepage
+ [2022-10-07 15:44:06,475] Pre-Condition - Step 02: Navigate to Register page
+ [2022-10-07 15:44:08,614] Pre-Condition - Step 03: Input to Firstname textbox with value: Automation
+ [2022-10-07 15:44:09,937] Pre-Condition - Step 04: Input to Lastname textbox with value: FC
+ [2022-10-07 15:44:11,221] Pre-Condition - Step 05: Input to Email textbox with value: automation2331@gmail.com
+ [2022-10-07 15:44:12,555] Pre-Condition - Step 06: Input to Password textbox with value: 123456
+ [2022-10-07 15:44:13,852] Pre-Condition - Step 07: Input to Confirm Password textbox with value: 123456
+ [2022-10-07 15:44:15,143] Pre-Condition - Step 08: Click to Register button
+ [2022-10-07 15:44:17,322] Pre-Condition - Step 09: Verify Register success message is displayed
+ [2022-10-07 15:44:17,398]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 15:44:17,502] AddToWishlist - Step 01: Click Desktops Page link from Computers Menu
+ [2022-10-07 15:44:19,637] AddToWishlist - Step 02: Choose 'Lenovo IdeaCentre 600 All-in-One PC' from Product list
+ [2022-10-07 15:44:22,041] AddToWishlist - Step 03: Click 'Add to wishlist' button
+ [2022-10-07 15:44:23,273] AddToWishlist - Step 04: Verify 'The product has been added to your wishlist' is displayed
+ [2022-10-07 15:44:23,654]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 15:44:23,654] AddToWishlist - Step 05: Click close button to close dialog
+ [2022-10-07 15:44:26,928] AddToWishlist - Step 06: Open Wishlist page
+ [2022-10-07 15:44:32,627] AddToWishlist - Step 07: Verify product is displayed
+ [2022-10-07 15:44:32,755]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 15:44:32,755] AddToWishlist - Step 08: Click to wishlist URL for sharing
+ [2022-10-07 15:44:34,400] AddToWishlist - Step 09: Verify product is displayed and message
+ [2022-10-07 15:44:34,478]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 15:44:34,551]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 15:44:34,657] AddToCart - Step 01: Open Wishlist page
+ [2022-10-07 15:44:39,223] AddToCart - Step 02: Check to checkbox of 'Lenovo IdeaCentre 600 All-in-One PC'
+ [2022-10-07 15:44:55,511] AddToCart - Step 03: Click 'Add to cart' button
+ [2022-10-07 15:44:57,742] AddToCart - Step 04: Verify product is displayed at Add to Cart page
+ [2022-10-07 15:44:57,806]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 15:44:57,806] AddToCart - Step 05: Open Wishlist page
+ [2022-10-07 15:45:02,708] AddToCart - Step 06: Verify product is not displayed at Wishlist page
+ [2022-10-07 15:45:02,807]  -------------------------- FAILED -------------------------- 
+ [2022-10-07 15:45:02,925] OS name = windows 10
+ [2022-10-07 15:45:02,925] Driver instance name = chromedriver: chrome on windows (bb864f50954e9e468c6cc8e790867184)
+ [2022-10-07 15:45:30,590] Pre-Condition - Step 01: Open browse and navigate to Homepage
+ [2022-10-07 15:45:36,660] Pre-Condition - Step 02: Navigate to Register page
+ [2022-10-07 15:45:39,687] Pre-Condition - Step 03: Input to Firstname textbox with value: Automation
+ [2022-10-07 15:45:41,023] Pre-Condition - Step 04: Input to Lastname textbox with value: FC
+ [2022-10-07 15:45:42,304] Pre-Condition - Step 05: Input to Email textbox with value: automation6610@gmail.com
+ [2022-10-07 15:45:43,631] Pre-Condition - Step 06: Input to Password textbox with value: 123456
+ [2022-10-07 15:45:44,923] Pre-Condition - Step 07: Input to Confirm Password textbox with value: 123456
+ [2022-10-07 15:45:46,184] Pre-Condition - Step 08: Click to Register button
+ [2022-10-07 15:45:48,455] Pre-Condition - Step 09: Verify Register success message is displayed
+ [2022-10-07 15:45:48,561]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 15:45:48,660] AddToWishlist - Step 01: Click Desktops Page link from Computers Menu
+ [2022-10-07 15:45:50,755] AddToWishlist - Step 02: Choose 'Lenovo IdeaCentre 600 All-in-One PC' from Product list
+ [2022-10-07 15:45:53,186] AddToWishlist - Step 03: Click 'Add to wishlist' button
+ [2022-10-07 15:45:54,437] AddToWishlist - Step 04: Verify 'The product has been added to your wishlist' is displayed
+ [2022-10-07 15:45:54,802]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 15:45:54,803] AddToWishlist - Step 05: Click close button to close dialog
+ [2022-10-07 15:45:58,010] AddToWishlist - Step 06: Open Wishlist page
+ [2022-10-07 15:46:06,295] AddToWishlist - Step 07: Verify product is displayed
+ [2022-10-07 15:46:06,385]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 15:46:06,386] AddToWishlist - Step 08: Click to wishlist URL for sharing
+ [2022-10-07 15:46:08,485] AddToWishlist - Step 09: Verify product is displayed and message
+ [2022-10-07 15:46:08,543]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 15:46:08,621]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 15:46:08,741] AddToCart - Step 01: Open Wishlist page
+ [2022-10-07 15:46:14,889] AddToCart - Step 02: Check to checkbox of 'Lenovo IdeaCentre 600 All-in-One PC'
+ [2022-10-07 15:46:31,162] AddToCart - Step 03: Click 'Add to cart' button
+ [2022-10-07 15:46:33,466] AddToCart - Step 04: Verify product is displayed at Add to Cart page
+ [2022-10-07 15:46:33,555]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 15:46:33,556] AddToCart - Step 05: Open Wishlist page
+ [2022-10-07 15:46:39,904] AddToCart - Step 06: Verify product is not displayed at Wishlist page
+ [2022-10-07 15:46:39,975]  -------------------------- FAILED -------------------------- 
+ [2022-10-07 15:46:40,121] OS name = windows 10
+ [2022-10-07 15:46:40,122] Driver instance name = chromedriver: chrome on windows (5be92de5bdc37418b0c9c0947ac6ab2e)
+ [2022-10-07 15:48:37,571] Pre-Condition - Step 01: Open browse and navigate to Homepage
+ [2022-10-07 15:48:43,475] Pre-Condition - Step 02: Navigate to Register page
+ [2022-10-07 15:48:45,573] Pre-Condition - Step 03: Input to Firstname textbox with value: Automation
+ [2022-10-07 15:48:46,878] Pre-Condition - Step 04: Input to Lastname textbox with value: FC
+ [2022-10-07 15:48:48,157] Pre-Condition - Step 05: Input to Email textbox with value: automation8392@gmail.com
+ [2022-10-07 15:48:49,511] Pre-Condition - Step 06: Input to Password textbox with value: 123456
+ [2022-10-07 15:48:50,831] Pre-Condition - Step 07: Input to Confirm Password textbox with value: 123456
+ [2022-10-07 15:48:52,111] Pre-Condition - Step 08: Click to Register button
+ [2022-10-07 15:48:54,158] Pre-Condition - Step 09: Verify Register success message is displayed
+ [2022-10-07 15:48:54,282]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 15:48:54,402] AddToWishlist - Step 01: Click Desktops Page link from Computers Menu
+ [2022-10-07 15:48:56,450] AddToWishlist - Step 02: Choose 'Lenovo IdeaCentre 600 All-in-One PC' from Product list
+ [2022-10-07 15:48:58,699] AddToWishlist - Step 03: Click 'Add to wishlist' button
+ [2022-10-07 15:48:59,918] AddToWishlist - Step 04: Verify 'The product has been added to your wishlist' is displayed
+ [2022-10-07 15:49:00,292]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 15:49:00,292] AddToWishlist - Step 05: Click close button to close dialog
+ [2022-10-07 15:49:03,529] AddToWishlist - Step 06: Open Wishlist page
+ [2022-10-07 15:49:11,513] AddToWishlist - Step 07: Verify product is displayed
+ [2022-10-07 15:49:11,606]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 15:49:11,607] AddToWishlist - Step 08: Click to wishlist URL for sharing
+ [2022-10-07 15:49:13,241] AddToWishlist - Step 09: Verify product is displayed and message
+ [2022-10-07 15:49:13,323]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 15:49:13,427]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 15:49:13,533] AddToCart - Step 01: Open Wishlist page
+ [2022-10-07 15:49:19,620] AddToCart - Step 02: Check to checkbox of 'Lenovo IdeaCentre 600 All-in-One PC'
+ [2022-10-07 15:49:35,999] AddToCart - Step 03: Click 'Add to cart' button
+ [2022-10-07 15:49:38,293] AddToCart - Step 04: Verify product is displayed at Add to Cart page
+ [2022-10-07 15:49:38,366]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 15:49:38,366] AddToCart - Step 05: Open Wishlist page
+ [2022-10-07 15:49:44,580] AddToCart - Step 06: Verify product is not displayed at Wishlist page
+ [2022-10-07 15:49:44,640]  -------------------------- FAILED -------------------------- 
+ [2022-10-07 15:49:44,819] OS name = windows 10
+ [2022-10-07 15:49:44,820] Driver instance name = chromedriver: chrome on windows (54945b506d342c3519c922c22f8cc746)
+ [2022-10-07 15:50:15,557] Pre-Condition - Step 01: Open browse and navigate to Homepage
+ [2022-10-07 15:50:21,817] Pre-Condition - Step 02: Navigate to Register page
+ [2022-10-07 15:50:24,023] Pre-Condition - Step 03: Input to Firstname textbox with value: Automation
+ [2022-10-07 15:50:25,328] Pre-Condition - Step 04: Input to Lastname textbox with value: FC
+ [2022-10-07 15:50:26,618] Pre-Condition - Step 05: Input to Email textbox with value: automation2827@gmail.com
+ [2022-10-07 15:50:28,075] Pre-Condition - Step 06: Input to Password textbox with value: 123456
+ [2022-10-07 15:50:29,405] Pre-Condition - Step 07: Input to Confirm Password textbox with value: 123456
+ [2022-10-07 15:50:30,868] Pre-Condition - Step 08: Click to Register button
+ [2022-10-07 15:50:33,292] Pre-Condition - Step 09: Verify Register success message is displayed
+ [2022-10-07 15:50:33,404]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 15:50:33,591] AddToWishlist - Step 01: Click Desktops Page link from Computers Menu
+ [2022-10-07 15:50:35,945] AddToWishlist - Step 02: Choose 'Lenovo IdeaCentre 600 All-in-One PC' from Product list
+ [2022-10-07 15:50:38,872] AddToWishlist - Step 03: Click 'Add to wishlist' button
+ [2022-10-07 15:50:40,258] AddToWishlist - Step 04: Verify 'The product has been added to your wishlist' is displayed
+ [2022-10-07 15:50:40,741]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 15:50:40,741] AddToWishlist - Step 05: Click close button to close dialog
+ [2022-10-07 15:50:44,179] AddToWishlist - Step 06: Open Wishlist page
+ [2022-10-07 15:50:46,676] AddToWishlist - Step 07: Verify product is displayed
+ [2022-10-07 15:50:46,756]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 15:50:46,757] AddToWishlist - Step 08: Click to wishlist URL for sharing
+ [2022-10-07 15:50:48,429] AddToWishlist - Step 09: Verify product is displayed and message
+ [2022-10-07 15:50:48,486]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 15:50:48,597]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 15:50:48,746] AddToCart - Step 01: Open Wishlist page
+ [2022-10-07 15:50:50,408] AddToCart - Step 02: Check to checkbox of 'Lenovo IdeaCentre 600 All-in-One PC'
+ [2022-10-07 15:51:06,692] AddToCart - Step 03: Click 'Add to cart' button
+ [2022-10-07 15:51:08,833] AddToCart - Step 04: Verify product is displayed at Add to Cart page
+ [2022-10-07 15:51:08,917]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 15:51:08,917] AddToCart - Step 05: Open Wishlist page
+ [2022-10-07 15:51:09,918] AddToCart - Step 06: Verify product is not displayed at Wishlist page
+ [2022-10-07 15:51:09,996]  -------------------------- FAILED -------------------------- 
+ [2022-10-07 15:51:10,155] OS name = windows 10
+ [2022-10-07 15:51:10,156] Driver instance name = chromedriver: chrome on windows (a93ac58b53d875444bdc47d10279df2a)
+ [2022-10-07 15:56:56,222] Pre-Condition - Step 01: Open browse and navigate to Homepage
+ [2022-10-07 15:57:02,928] Pre-Condition - Step 02: Navigate to Register page
+ [2022-10-07 15:57:05,690] Pre-Condition - Step 03: Input to Firstname textbox with value: Automation
+ [2022-10-07 15:57:06,967] Pre-Condition - Step 04: Input to Lastname textbox with value: FC
+ [2022-10-07 15:57:08,362] Pre-Condition - Step 05: Input to Email textbox with value: automation5912@gmail.com
+ [2022-10-07 15:57:09,709] Pre-Condition - Step 06: Input to Password textbox with value: 123456
+ [2022-10-07 15:57:11,008] Pre-Condition - Step 07: Input to Confirm Password textbox with value: 123456
+ [2022-10-07 15:57:12,282] Pre-Condition - Step 08: Click to Register button
+ [2022-10-07 15:57:14,407] Pre-Condition - Step 09: Verify Register success message is displayed
+ [2022-10-07 15:57:14,493]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 15:57:14,602] AddToWishlist - Step 01: Click Desktops Page link from Computers Menu
+ [2022-10-07 15:57:16,647] AddToWishlist - Step 02: Choose 'Lenovo IdeaCentre 600 All-in-One PC' from Product list
+ [2022-10-07 15:57:18,945] AddToWishlist - Step 03: Click 'Add to wishlist' button
+ [2022-10-07 15:57:20,198] AddToWishlist - Step 04: Verify 'The product has been added to your wishlist' is displayed
+ [2022-10-07 15:57:20,623]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 15:57:20,624] AddToWishlist - Step 05: Click close button to close dialog
+ [2022-10-07 15:57:24,026] AddToWishlist - Step 06: Open Wishlist page
+ [2022-10-07 15:57:26,924] AddToWishlist - Step 07: Verify product is displayed
+ [2022-10-07 15:57:27,008]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 15:57:27,008] AddToWishlist - Step 08: Click to wishlist URL for sharing
+ [2022-10-07 15:57:28,881] AddToWishlist - Step 09: Verify product is displayed and message
+ [2022-10-07 15:57:28,945]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 15:57:29,034]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 15:57:29,154] AddToCart - Step 01: Open Wishlist page
+ [2022-10-07 15:57:29,529] AddToCart - Step 02: Check to checkbox of 'Lenovo IdeaCentre 600 All-in-One PC'
+ [2022-10-07 15:57:45,856] AddToCart - Step 03: Click 'Add to cart' button
+ [2022-10-07 15:57:48,023] AddToCart - Step 04: Verify product is displayed at Add to Cart page
+ [2022-10-07 15:57:48,085]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 15:57:48,085] AddToCart - Step 05: Open Wishlist page
+ [2022-10-07 15:57:49,719] AddToCart - Step 06: Verify product is not displayed at Wishlist page
+ [2022-10-07 15:58:19,907]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 15:58:19,914] OS name = windows 10
+ [2022-10-07 15:58:19,915] Driver instance name = chromedriver: chrome on windows (8a7bbf23651bed9057c2b88e60942601)
+ [2022-10-07 15:59:13,213] Pre-Condition - Step 01: Open browse and navigate to Homepage
+ [2022-10-07 15:59:18,501] Pre-Condition - Step 02: Navigate to Register page
+ [2022-10-07 15:59:20,464] Pre-Condition - Step 03: Input to Firstname textbox with value: Automation
+ [2022-10-07 15:59:21,812] Pre-Condition - Step 04: Input to Lastname textbox with value: FC
+ [2022-10-07 15:59:23,120] Pre-Condition - Step 05: Input to Email textbox with value: automation3336@gmail.com
+ [2022-10-07 15:59:24,513] Pre-Condition - Step 06: Input to Password textbox with value: 123456
+ [2022-10-07 15:59:25,828] Pre-Condition - Step 07: Input to Confirm Password textbox with value: 123456
+ [2022-10-07 15:59:27,098] Pre-Condition - Step 08: Click to Register button
+ [2022-10-07 15:59:29,169] Pre-Condition - Step 09: Verify Register success message is displayed
+ [2022-10-07 15:59:29,245]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 15:59:29,345] AddToWishlist - Step 01: Click Desktops Page link from Computers Menu
+ [2022-10-07 15:59:31,384] AddToWishlist - Step 02: Choose 'Lenovo IdeaCentre 600 All-in-One PC' from Product list
+ [2022-10-07 15:59:33,602] AddToWishlist - Step 03: Click 'Add to wishlist' button
+ [2022-10-07 15:59:34,870] AddToWishlist - Step 04: Verify 'The product has been added to your wishlist' is displayed
+ [2022-10-07 15:59:35,219]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 15:59:35,220] AddToWishlist - Step 05: Click close button to close dialog
+ [2022-10-07 15:59:38,482] AddToWishlist - Step 06: Open Wishlist page
+ [2022-10-07 15:59:40,828] AddToWishlist - Step 07: Verify product is displayed
+ [2022-10-07 15:59:40,909]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 15:59:40,909] AddToWishlist - Step 08: Click to wishlist URL for sharing
+ [2022-10-07 15:59:42,571] AddToWishlist - Step 09: Verify product is displayed and message
+ [2022-10-07 15:59:42,631]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 15:59:42,707]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 15:59:42,707] AddToWishlist - Step 01: Open Wishlist page
+ [2022-10-07 15:59:44,359] AddToCart - Step 02: Check to checkbox of 'Lenovo IdeaCentre 600 All-in-One PC'
+ [2022-10-07 16:01:16,929] Pre-Condition - Step 01: Open browse and navigate to Homepage
+ [2022-10-07 16:01:23,098] Pre-Condition - Step 02: Navigate to Register page
+ [2022-10-07 16:01:25,265] Pre-Condition - Step 03: Input to Firstname textbox with value: Automation
+ [2022-10-07 16:01:26,620] Pre-Condition - Step 04: Input to Lastname textbox with value: FC
+ [2022-10-07 16:01:27,932] Pre-Condition - Step 05: Input to Email textbox with value: automation3183@gmail.com
+ [2022-10-07 16:01:29,247] Pre-Condition - Step 06: Input to Password textbox with value: 123456
+ [2022-10-07 16:01:30,539] Pre-Condition - Step 07: Input to Confirm Password textbox with value: 123456
+ [2022-10-07 16:01:31,818] Pre-Condition - Step 08: Click to Register button
+ [2022-10-07 16:01:33,962] Pre-Condition - Step 09: Verify Register success message is displayed
+ [2022-10-07 16:01:34,057]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 16:01:34,180] AddToWishlist - Step 01: Click Desktops Page link from Computers Menu
+ [2022-10-07 16:01:36,216] AddToWishlist - Step 02: Choose 'Lenovo IdeaCentre 600 All-in-One PC' from Product list
+ [2022-10-07 16:01:38,442] AddToWishlist - Step 03: Click 'Add to wishlist' button
+ [2022-10-07 16:01:39,705] AddToWishlist - Step 04: Verify 'The product has been added to your wishlist' is displayed
+ [2022-10-07 16:01:40,060]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 16:01:40,060] AddToWishlist - Step 05: Click close button to close dialog
+ [2022-10-07 16:01:43,392] AddToWishlist - Step 06: Open Wishlist page
+ [2022-10-07 16:01:46,748] AddToWishlist - Step 07: Verify product is displayed
+ [2022-10-07 16:01:46,842]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 16:01:46,843] AddToWishlist - Step 08: Click to wishlist URL for sharing
+ [2022-10-07 16:01:48,524] AddToWishlist - Step 09: Verify product is displayed and message
+ [2022-10-07 16:01:48,606]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 16:01:48,713]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 16:01:48,845] AddToCart - Step 01: Open Wishlist page
+ [2022-10-07 16:01:49,314] AddToCart - Step 02: Check to checkbox of 'Lenovo IdeaCentre 600 All-in-One PC'
+ [2022-10-07 16:02:05,643] AddToCart - Step 03: Click 'Add to cart' button
+ [2022-10-07 16:02:07,850] AddToCart - Step 04: Verify product is displayed at Add to Cart page
+ [2022-10-07 16:02:07,924]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 16:02:07,924] AddToCart - Step 05: Open Wishlist page
+ [2022-10-07 16:02:09,584] AddToCart - Step 06: Verify product is not displayed at Wishlist page
+ [2022-10-07 16:02:39,702]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 16:02:39,712] OS name = windows 10
+ [2022-10-07 16:02:39,712] Driver instance name = chromedriver: chrome on windows (b74e03afd733bcd107cee57caa7a972b)
+ [2022-10-07 16:03:20,508] Pre-Condition - Step 01: Open browse and navigate to Homepage
+ [2022-10-07 16:03:26,035] Pre-Condition - Step 02: Navigate to Register page
+ [2022-10-07 16:03:28,286] Pre-Condition - Step 03: Input to Firstname textbox with value: Automation
+ [2022-10-07 16:03:29,616] Pre-Condition - Step 04: Input to Lastname textbox with value: FC
+ [2022-10-07 16:03:30,912] Pre-Condition - Step 05: Input to Email textbox with value: automation4625@gmail.com
+ [2022-10-07 16:03:32,362] Pre-Condition - Step 06: Input to Password textbox with value: 123456
+ [2022-10-07 16:03:33,821] Pre-Condition - Step 07: Input to Confirm Password textbox with value: 123456
+ [2022-10-07 16:03:35,328] Pre-Condition - Step 08: Click to Register button
+ [2022-10-07 16:03:37,726] Pre-Condition - Step 09: Verify Register success message is displayed
+ [2022-10-07 16:03:37,916]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 16:03:38,067] AddToWishlist - Step 01: Click Desktops Page link from Computers Menu
+ [2022-10-07 16:03:40,369] AddToWishlist - Step 02: Choose 'Lenovo IdeaCentre 600 All-in-One PC' from Product list
+ [2022-10-07 16:03:42,874] AddToWishlist - Step 03: Click 'Add to wishlist' button
+ [2022-10-07 16:03:44,100] AddToWishlist - Step 04: Verify 'The product has been added to your wishlist' is displayed
+ [2022-10-07 16:03:44,446]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 16:03:44,446] AddToWishlist - Step 05: Click close button to close dialog
+ [2022-10-07 16:03:46,925] AddToWishlist - Step 06: Open Wishlist page
+ [2022-10-07 16:03:49,128] AddToWishlist - Step 07: Verify product is displayed
+ [2022-10-07 16:03:49,213]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 16:03:49,213] AddToWishlist - Step 08: Click to wishlist URL for sharing
+ [2022-10-07 16:03:50,877] AddToWishlist - Step 09: Verify product is displayed and message
+ [2022-10-07 16:03:50,983]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 16:03:51,195]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 16:03:51,335] AddToCart - Step 01: Open Wishlist page
+ [2022-10-07 16:03:51,682] AddToCart - Step 02: Check to checkbox of 'Lenovo IdeaCentre 600 All-in-One PC'
+ [2022-10-07 16:04:07,994] AddToCart - Step 03: Click 'Add to cart' button
+ [2022-10-07 16:04:10,049] AddToCart - Step 04: Verify product is displayed at Add to Cart page
+ [2022-10-07 16:04:10,123]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 16:04:10,123] AddToCart - Step 05: Open Wishlist page
+ [2022-10-07 16:04:11,755] AddToCart - Step 06: Verify product is not displayed at Wishlist page
+ [2022-10-07 16:04:41,841]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 16:04:41,853] RemoveProduct - Step 01: Click Desktops Page link from Computers Menu
+ [2022-10-07 16:04:44,597] RemoveProduct -  Step 02: Choose 'Lenovo IdeaCentre 600 All-in-One PC' from Product list
+ [2022-10-07 16:04:46,717] RemoveProduct - Step 03: Click 'Add to wishlist' button
+ [2022-10-07 16:04:47,950] RemoveProduct - Step 04: Verify 'The product has been added to your wishlist' is displayed
+ [2022-10-07 16:04:48,331]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 16:04:48,331] RemoveProduct - Step 05: Click close button to close dialog
+ [2022-10-07 16:04:50,782] RemoveProduct - Step 06: Open Wishlist page
+ [2022-10-07 16:04:52,493] RemoveProduct - Step 07: Click to remove icon of 'Lenovo IdeaCentre 600 All-in-One PC'
+ [2022-10-07 16:04:54,181] RemoveProduct - Step 08: Verify 'The wishlist is empty!' message is displayed
+ [2022-10-07 16:04:54,305]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 16:04:54,305] RemoveProduct - Step 08: Verify product is not displayed at Wishlist page
+ [2022-10-07 16:05:24,407]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 16:05:24,418] OS name = windows 10
+ [2022-10-07 16:05:24,419] Driver instance name = chromedriver: chrome on windows (90e07786cecdf193895d19985e710ccf)
+ [2022-10-07 16:14:45,552] Pre-Condition - Step 01: Open browse and navigate to Homepage
+ [2022-10-07 16:14:51,480] Pre-Condition - Step 02: Navigate to Register page
+ [2022-10-07 16:14:53,483] Pre-Condition - Step 03: Input to Firstname textbox with value: Automation
+ [2022-10-07 16:14:54,795] Pre-Condition - Step 04: Input to Lastname textbox with value: FC
+ [2022-10-07 16:14:56,100] Pre-Condition - Step 05: Input to Email textbox with value: automation6715@gmail.com
+ [2022-10-07 16:14:57,451] Pre-Condition - Step 06: Input to Password textbox with value: 123456
+ [2022-10-07 16:14:58,768] Pre-Condition - Step 07: Input to Confirm Password textbox with value: 123456
+ [2022-10-07 16:15:00,050] Pre-Condition - Step 08: Click to Register button
+ [2022-10-07 16:15:02,063] Pre-Condition - Step 09: Verify Register success message is displayed
+ [2022-10-07 16:15:02,155]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 16:15:02,270] AddToWishlist - Step 01: Click Desktops Page link from Computers Menu
+ [2022-10-07 16:15:04,320] AddToWishlist - Step 02: Choose 'null' from Product list
+ [2022-10-07 16:15:19,626] AddToCart - Step 01: Open Wishlist page
+ [2022-10-07 16:15:19,751] RemoveProduct - Step 01: Click Desktops Page link from Computers Menu
+ [2022-10-07 16:15:19,875] OS name = windows 10
+ [2022-10-07 16:15:19,876] Driver instance name = chromedriver: chrome on windows (59b2e6f5fdb8cc7ca40b38996712a242)
+ [2022-10-07 16:17:49,333] Pre-Condition - Step 01: Open browse and navigate to Homepage
+ [2022-10-07 16:17:55,507] Pre-Condition - Step 02: Navigate to Register page
+ [2022-10-07 16:17:58,338] Pre-Condition - Step 03: Input to Firstname textbox with value: Automation
+ [2022-10-07 16:17:59,716] Pre-Condition - Step 04: Input to Lastname textbox with value: FC
+ [2022-10-07 16:18:01,032] Pre-Condition - Step 05: Input to Email textbox with value: automation7416@gmail.com
+ [2022-10-07 16:18:02,383] Pre-Condition - Step 06: Input to Password textbox with value: 123456
+ [2022-10-07 16:18:03,659] Pre-Condition - Step 07: Input to Confirm Password textbox with value: 123456
+ [2022-10-07 16:18:04,938] Pre-Condition - Step 08: Click to Register button
+ [2022-10-07 16:18:06,933] Pre-Condition - Step 09: Verify Register success message is displayed
+ [2022-10-07 16:18:07,023]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 16:18:07,131] AddToWishlist - Step 01: Click Desktops Page link from Computers Menu
+ [2022-10-07 16:18:09,211] AddToWishlist - Step 02: Choose 'Lenovo IdeaCentre 600 All-in-One PC' from Product list
+ [2022-10-07 16:18:11,704] AddToWishlist - Step 03: Click 'Add to wishlist' button
+ [2022-10-07 16:18:12,954] AddToWishlist - Step 04: Verify 'The product has been added to your wishlist' is displayed
+ [2022-10-07 16:18:13,384]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 16:18:13,385] AddToWishlist - Step 05: Click close button to close dialog
+ [2022-10-07 16:18:15,839] AddToWishlist - Step 06: Open Wishlist page
+ [2022-10-07 16:18:18,854] AddToWishlist - Step 07: Verify product 'Lenovo IdeaCentre 600 All-in-One PC' is displayed
+ [2022-10-07 16:18:18,946]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 16:18:18,946] AddToWishlist - Step 08: Click to wishlist URL for sharing
+ [2022-10-07 16:18:20,630] AddToWishlist - Step 09: Verify product 'Lenovo IdeaCentre 600 All-in-One PC' is displayed and message
+ [2022-10-07 16:18:20,683]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 16:18:20,767]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 16:18:21,063] AddToCart - Step 01: Open Wishlist page
+ [2022-10-07 16:18:21,446] AddToCart - Step 02: Check to checkbox of 'Lenovo IdeaCentre 600 All-in-One PC'
+ [2022-10-07 16:18:37,767] AddToCart - Step 03: Click 'Add to cart' button
+ [2022-10-07 16:18:39,956] AddToCart - Step 04: Verify product 'Lenovo IdeaCentre 600 All-in-One PC' is displayed at Add to Cart page
+ [2022-10-07 16:18:40,020]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 16:18:40,020] AddToCart - Step 05: Open Wishlist page
+ [2022-10-07 16:18:41,694] AddToCart - Step 06: Verify product 'Lenovo IdeaCentre 600 All-in-One PC' is not displayed at Wishlist page
+ [2022-10-07 16:19:11,840]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 16:19:11,851] RemoveProduct - Step 01: Click Desktops Page link from Computers Menu
+ [2022-10-07 16:19:19,760] RemoveProduct - Step 02: Choose 'Lenovo IdeaCentre 600 All-in-One PC' from Product list
+ [2022-10-07 16:19:21,991] RemoveProduct - Step 03: Click 'Add to wishlist' button
+ [2022-10-07 16:19:23,240] RemoveProduct - Step 04: Verify 'The product has been added to your wishlist' is displayed
+ [2022-10-07 16:19:23,569]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 16:19:23,569] RemoveProduct - Step 05: Click close button to close dialog
+ [2022-10-07 16:19:25,789] RemoveProduct - Step 06: Open Wishlist page
+ [2022-10-07 16:19:27,450] RemoveProduct - Step 07: Click to remove icon of 'Lenovo IdeaCentre 600 All-in-One PC'
+ [2022-10-07 16:19:29,108] RemoveProduct - Step 08: Verify 'The wishlist is empty!' message is displayed
+ [2022-10-07 16:19:29,208]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 16:19:29,208] RemoveProduct - Step 08: Verify product 'Lenovo IdeaCentre 600 All-in-One PC' is not displayed at Wishlist page
+ [2022-10-07 16:19:59,305]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 16:19:59,321] OS name = windows 10
+ [2022-10-07 16:19:59,321] Driver instance name = chromedriver: chrome on windows (ee93bf733e1ad971c878f0e717694fab)
+ [2022-10-07 17:04:27,177] Pre-Condition - Step 01: Open browse and navigate to Homepage
+ [2022-10-07 17:04:34,118] Pre-Condition - Step 02: Navigate to Register page
+ [2022-10-07 17:04:36,871] Pre-Condition - Step 03: Input to Firstname textbox with value: Automation
+ [2022-10-07 17:04:38,195] Pre-Condition - Step 04: Input to Lastname textbox with value: FC
+ [2022-10-07 17:04:39,465] Pre-Condition - Step 05: Input to Email textbox with value: automation6705@gmail.com
+ [2022-10-07 17:04:40,781] Pre-Condition - Step 06: Input to Password textbox with value: 123456
+ [2022-10-07 17:04:42,063] Pre-Condition - Step 07: Input to Confirm Password textbox with value: 123456
+ [2022-10-07 17:04:43,355] Pre-Condition - Step 08: Click to Register button
+ [2022-10-07 17:04:45,533] Pre-Condition - Step 09: Verify Register success message is displayed
+ [2022-10-07 17:04:45,616]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 17:04:45,714] AddProduct - Step 01: Click Desktops Page link from Computers Menu
+ [2022-10-07 17:04:46,022] RecentlyViewedProducts - Step 01: Click Notebooks Page link from Computers Menu
+ [2022-10-07 17:04:46,023] RecentlyViewedProducts - Step 01: View 'Apple MacBook Pro 13-inch' product 1
+ [2022-10-07 17:04:46,023] RecentlyViewedProducts - Step 01: Click Notebooks Page link from Computers Menu
+ [2022-10-07 17:04:46,023] RecentlyViewedProducts - Step 01: View 'Asus N551JK-XO076H Laptop' product 2
+ [2022-10-07 17:04:46,023] RecentlyViewedProducts - Step 01: Click Notebooks Page link from Computers Menu
+ [2022-10-07 17:04:46,023] RecentlyViewedProducts - Step 01: View 'HP Envy 6-1180ca 15.6-Inch Sleekbook' product 3
+ [2022-10-07 17:04:46,023] RecentlyViewedProducts - Step 01: Click Notebooks Page link from Computers Menu
+ [2022-10-07 17:04:46,023] RecentlyViewedProducts - Step 01: View 'HP Spectre XT Pro UltraBook' product 4
+ [2022-10-07 17:04:46,023] RecentlyViewedProducts - Step 01: Click Notebooks Page link from Computers Menu
+ [2022-10-07 17:04:46,024] RecentlyViewedProducts - Step 01: View 'Lenovo Thinkpad X1 Carbon Laptop' product 5
+ [2022-10-07 17:04:46,024] RecentlyViewedProducts - Step 08: Open 'Recently viewed products' page in footer
+ [2022-10-07 17:04:46,024] RecentlyViewedProducts - Step 09: Verify 3 products is displayed
+ [2022-10-07 17:04:46,025] RecentlyViewedProducts - Step 09: Verify 'Lenovo Thinkpad X1 Carbon Laptop' product 5 is displayed
+ [2022-10-07 17:04:46,025] RecentlyViewedProducts - Step 09: Verify 'HP Spectre XT Pro UltraBook' product 4 is displayed
+ [2022-10-07 17:04:46,025] RecentlyViewedProducts - Step 09: Verify 'HP Envy 6-1180ca 15.6-Inch Sleekbook' product 3 is displayed
+ [2022-10-07 17:04:46,037] OS name = windows 10
+ [2022-10-07 17:04:46,037] Driver instance name = chromedriver: chrome on windows (4bc87d5bb755d55af606f62124e4bc73)
+ [2022-10-07 17:06:30,905] Pre-Condition - Step 01: Open browse and navigate to Homepage
+ [2022-10-07 17:06:37,290] Pre-Condition - Step 02: Navigate to Register page
+ [2022-10-07 17:06:39,528] Pre-Condition - Step 03: Input to Firstname textbox with value: Automation
+ [2022-10-07 17:06:40,891] Pre-Condition - Step 04: Input to Lastname textbox with value: FC
+ [2022-10-07 17:06:42,398] Pre-Condition - Step 05: Input to Email textbox with value: automation2142@gmail.com
+ [2022-10-07 17:06:43,745] Pre-Condition - Step 06: Input to Password textbox with value: 123456
+ [2022-10-07 17:06:45,073] Pre-Condition - Step 07: Input to Confirm Password textbox with value: 123456
+ [2022-10-07 17:06:46,408] Pre-Condition - Step 08: Click to Register button
+ [2022-10-07 17:06:48,679] Pre-Condition - Step 09: Verify Register success message is displayed
+ [2022-10-07 17:06:48,756]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 17:06:48,903] AddProduct - Step 01: Click Desktops Page link from Computers Menu
+ [2022-10-07 17:06:51,001] AddProduct -  Step 02: Click 'Compare' button of 'Lenovo IdeaCentre 600 All-in-One PC' from Product list
+ [2022-10-07 17:06:52,278] AddProduct -  Step 03: Verify 'The product has been added to your product comparison' message is displayed
+ [2022-10-07 17:06:52,803]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 17:06:52,804] AddProduct - Step 04: Click close button to close dialog
+ [2022-10-07 17:06:55,075] AddProduct -  Step 05: Click 'Compare' button of 'Digital Storm VANQUISH 3 Custom Performance PC' from Product list
+ [2022-10-07 17:06:56,369] AddProduct -  Step 06: Verify 'The product has been added to your product comparison' message is displayed
+ [2022-10-07 17:06:56,778]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 17:06:56,778] AddProduct - Step 07: Click close button to close dialog
+ [2022-10-07 17:06:59,109] AddProduct - Step 08: Open 'Compare products list' page in footer
+ [2022-10-07 17:07:02,649] AddProduct - Step 09: Verify 'Lenovo IdeaCentre 600 All-in-One PC' is displayed
+ [2022-10-07 17:07:02,785]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 17:07:02,785] AddProduct - Step 10: Verify 'Digital Storm VANQUISH 3 Custom Performance PC' is displayed
+ [2022-10-07 17:07:02,845]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 17:07:02,846] AddProduct - Step 11: Click to 'Clear list' button
+ [2022-10-07 17:07:18,462] RecentlyViewedProducts - Step 01: Click Notebooks Page link from Computers Menu
+ [2022-10-07 17:07:18,462] RecentlyViewedProducts - Step 01: View 'Apple MacBook Pro 13-inch' product 1
+ [2022-10-07 17:07:18,462] RecentlyViewedProducts - Step 01: Click Notebooks Page link from Computers Menu
+ [2022-10-07 17:07:18,462] RecentlyViewedProducts - Step 01: View 'Asus N551JK-XO076H Laptop' product 2
+ [2022-10-07 17:07:18,462] RecentlyViewedProducts - Step 01: Click Notebooks Page link from Computers Menu
+ [2022-10-07 17:07:18,462] RecentlyViewedProducts - Step 01: View 'HP Envy 6-1180ca 15.6-Inch Sleekbook' product 3
+ [2022-10-07 17:07:18,463] RecentlyViewedProducts - Step 01: Click Notebooks Page link from Computers Menu
+ [2022-10-07 17:07:18,463] RecentlyViewedProducts - Step 01: View 'HP Spectre XT Pro UltraBook' product 4
+ [2022-10-07 17:07:18,463] RecentlyViewedProducts - Step 01: Click Notebooks Page link from Computers Menu
+ [2022-10-07 17:07:18,463] RecentlyViewedProducts - Step 01: View 'Lenovo Thinkpad X1 Carbon Laptop' product 5
+ [2022-10-07 17:07:18,463] RecentlyViewedProducts - Step 08: Open 'Recently viewed products' page in footer
+ [2022-10-07 17:07:18,463] RecentlyViewedProducts - Step 09: Verify 3 products is displayed
+ [2022-10-07 17:07:18,463] RecentlyViewedProducts - Step 09: Verify 'Lenovo Thinkpad X1 Carbon Laptop' product 5 is displayed
+ [2022-10-07 17:07:18,463] RecentlyViewedProducts - Step 09: Verify 'HP Spectre XT Pro UltraBook' product 4 is displayed
+ [2022-10-07 17:07:18,464] RecentlyViewedProducts - Step 09: Verify 'HP Envy 6-1180ca 15.6-Inch Sleekbook' product 3 is displayed
+ [2022-10-07 17:07:18,480] OS name = windows 10
+ [2022-10-07 17:07:18,480] Driver instance name = chromedriver: chrome on windows (2724f768a17a983191106354d30bf46e)
+ [2022-10-07 17:16:00,561] Pre-Condition - Step 01: Open browse and navigate to Homepage
+ [2022-10-07 17:16:06,311] Pre-Condition - Step 02: Navigate to Register page
+ [2022-10-07 17:16:09,120] Pre-Condition - Step 03: Input to Firstname textbox with value: Automation
+ [2022-10-07 17:16:10,431] Pre-Condition - Step 04: Input to Lastname textbox with value: FC
+ [2022-10-07 17:16:11,766] Pre-Condition - Step 05: Input to Email textbox with value: automation6839@gmail.com
+ [2022-10-07 17:16:13,079] Pre-Condition - Step 06: Input to Password textbox with value: 123456
+ [2022-10-07 17:16:14,385] Pre-Condition - Step 07: Input to Confirm Password textbox with value: 123456
+ [2022-10-07 17:16:15,654] Pre-Condition - Step 08: Click to Register button
+ [2022-10-07 17:16:17,863] Pre-Condition - Step 09: Verify Register success message is displayed
+ [2022-10-07 17:16:17,945]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 17:16:18,059] AddProduct - Step 01: Click Desktops Page link from Computers Menu
+ [2022-10-07 17:16:20,139] AddProduct -  Step 02: Click 'Compare' button of 'Lenovo IdeaCentre 600 All-in-One PC' from Product list
+ [2022-10-07 17:16:21,393] AddProduct -  Step 03: Verify 'The product has been added to your product comparison' message is displayed
+ [2022-10-07 17:16:21,775]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 17:16:21,776] AddProduct - Step 04: Click close button to close dialog
+ [2022-10-07 17:16:24,066] AddProduct -  Step 05: Click 'Compare' button of 'Digital Storm VANQUISH 3 Custom Performance PC' from Product list
+ [2022-10-07 17:16:25,285] AddProduct -  Step 06: Verify 'The product has been added to your product comparison' message is displayed
+ [2022-10-07 17:16:25,721]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 17:16:25,721] AddProduct - Step 07: Click close button to close dialog
+ [2022-10-07 17:16:27,992] AddProduct - Step 08: Open 'Compare products list' page in footer
+ [2022-10-07 17:16:32,742] AddProduct - Step 09: Verify 'Lenovo IdeaCentre 600 All-in-One PC' is displayed
+ [2022-10-07 17:16:32,792]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 17:16:32,792] AddProduct - Step 10: Verify 'Digital Storm VANQUISH 3 Custom Performance PC' is displayed
+ [2022-10-07 17:16:32,838]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 17:16:32,838] AddProduct - Step 11: Click to 'Clear list' button
+ [2022-10-07 17:16:34,873] AddProduct - Step 12: Verify 'You have no items to compare.' message is displayed
+ [2022-10-07 17:16:34,958]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 17:16:34,958] AddProduct - Step 13: Verify 'Lenovo IdeaCentre 600 All-in-One PC' is not displayed
+ [2022-10-07 17:16:49,997]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 17:16:49,997] AddProduct - Step 14: Verify 'Digital Storm VANQUISH 3 Custom Performance PC' is not displayed
+ [2022-10-07 17:17:05,084]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 17:17:05,220] RecentlyViewedProducts - Step 01: Click Notebooks Page link from Computers Menu
+ [2022-10-07 17:17:05,221] RecentlyViewedProducts - Step 01: View 'Apple MacBook Pro 13-inch' product 1
+ [2022-10-07 17:17:05,222] RecentlyViewedProducts - Step 01: Click Notebooks Page link from Computers Menu
+ [2022-10-07 17:17:05,222] RecentlyViewedProducts - Step 01: View 'Asus N551JK-XO076H Laptop' product 2
+ [2022-10-07 17:17:05,222] RecentlyViewedProducts - Step 01: Click Notebooks Page link from Computers Menu
+ [2022-10-07 17:17:05,222] RecentlyViewedProducts - Step 01: View 'HP Envy 6-1180ca 15.6-Inch Sleekbook' product 3
+ [2022-10-07 17:17:05,222] RecentlyViewedProducts - Step 01: Click Notebooks Page link from Computers Menu
+ [2022-10-07 17:17:05,222] RecentlyViewedProducts - Step 01: View 'HP Spectre XT Pro UltraBook' product 4
+ [2022-10-07 17:17:05,223] RecentlyViewedProducts - Step 01: Click Notebooks Page link from Computers Menu
+ [2022-10-07 17:17:05,223] RecentlyViewedProducts - Step 01: View 'Lenovo Thinkpad X1 Carbon Laptop' product 5
+ [2022-10-07 17:17:05,223] RecentlyViewedProducts - Step 08: Open 'Recently viewed products' page in footer
+ [2022-10-07 17:17:05,223] RecentlyViewedProducts - Step 09: Verify 3 products is displayed
+ [2022-10-07 17:17:05,224] RecentlyViewedProducts - Step 09: Verify 'Lenovo Thinkpad X1 Carbon Laptop' product 5 is displayed
+ [2022-10-07 17:17:05,224] RecentlyViewedProducts - Step 09: Verify 'HP Spectre XT Pro UltraBook' product 4 is displayed
+ [2022-10-07 17:17:05,224] RecentlyViewedProducts - Step 09: Verify 'HP Envy 6-1180ca 15.6-Inch Sleekbook' product 3 is displayed
+ [2022-10-07 17:17:05,233] OS name = windows 10
+ [2022-10-07 17:17:05,233] Driver instance name = chromedriver: chrome on windows (e383a3cdd74d8abb8cb5a374d5e22d12)
+ [2022-10-07 19:08:34,104] Pre-Condition - Step 01: Open browse and navigate to Homepage
+ [2022-10-07 19:08:40,744] Pre-Condition - Step 02: Navigate to Register page
+ [2022-10-07 19:08:43,485] Pre-Condition - Step 03: Input to Firstname textbox with value: Automation
+ [2022-10-07 19:08:44,781] Pre-Condition - Step 04: Input to Lastname textbox with value: FC
+ [2022-10-07 19:08:46,113] Pre-Condition - Step 05: Input to Email textbox with value: automation5719@gmail.com
+ [2022-10-07 19:08:47,419] Pre-Condition - Step 06: Input to Password textbox with value: 123456
+ [2022-10-07 19:08:48,708] Pre-Condition - Step 07: Input to Confirm Password textbox with value: 123456
+ [2022-10-07 19:08:49,982] Pre-Condition - Step 08: Click to Register button
+ [2022-10-07 19:08:52,117] Pre-Condition - Step 09: Verify Register success message is displayed
+ [2022-10-07 19:08:52,201]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 19:08:52,793] RecentlyViewedProducts - Step 01: Click Notebooks Page link from Computers Menu
+ [2022-10-07 19:08:54,896] RecentlyViewedProducts - Step 02: View 'Apple MacBook Pro 13-inch' product 1
+ [2022-10-07 19:08:57,647] RecentlyViewedProducts - Step 03: Click Notebooks Page link from Computers Menu
+ [2022-10-07 19:08:59,593] RecentlyViewedProducts - Step 04: View 'Asus N551JK-XO076H Laptop' product 2
+ [2022-10-07 19:09:05,326] RecentlyViewedProducts - Step 05: Click Notebooks Page link from Computers Menu
+ [2022-10-07 19:09:07,136] RecentlyViewedProducts - Step 06: View 'HP Envy 6-1180ca 15.6-Inch Sleekbook' product 3
+ [2022-10-07 19:09:09,719] RecentlyViewedProducts - Step 07: Click Notebooks Page link from Computers Menu
+ [2022-10-07 19:09:11,567] RecentlyViewedProducts - Step 08: View 'HP Spectre XT Pro UltraBook' product 4
+ [2022-10-07 19:09:13,835] RecentlyViewedProducts - Step 09: Click Notebooks Page link from Computers Menu
+ [2022-10-07 19:09:15,738] RecentlyViewedProducts - Step 10: View 'Lenovo Thinkpad X1 Carbon Laptop' product 5
+ [2022-10-07 19:09:17,970] RecentlyViewedProducts - Step 11: Open 'Recently viewed products' page in footer
+ [2022-10-07 19:09:19,789] RecentlyViewedProducts - Step 12: Verify 3 products is displayed
+ [2022-10-07 19:09:19,822]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 19:09:19,822] RecentlyViewedProducts - Step 13: Verify 'Lenovo Thinkpad X1 Carbon Laptop' product 5 is displayed
+ [2022-10-07 19:09:19,922]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 19:09:19,923] RecentlyViewedProducts - Step 14: Verify 'HP Spectre XT Pro UltraBook' product 4 is displayed
+ [2022-10-07 19:09:20,000]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 19:09:20,001] RecentlyViewedProducts - Step 15: Verify 'HP Envy 6-1180ca 15.6-Inch Sleekbook' product 3 is displayed
+ [2022-10-07 19:09:20,078]  -------------------------- PASSED -------------------------- 
+ [2022-10-07 19:09:20,229] OS name = windows 10
+ [2022-10-07 19:09:20,229] Driver instance name = chromedriver: chrome on windows (768ab5098bd1d5f71e81f0591d558715)
+ [2022-10-08 16:23:51,458] Pre-Condition - Step 01: Open browse and navigate to Homepage
+ [2022-10-08 16:24:00,189] Pre-Condition - Step 02: Navigate to Register page
+ [2022-10-08 16:24:02,876] Pre-Condition - Step 03: Input to Firstname textbox with value: Automation
+ [2022-10-08 16:24:04,193] Pre-Condition - Step 04: Input to Lastname textbox with value: FC
+ [2022-10-08 16:24:05,499] Pre-Condition - Step 05: Input to Email textbox with value: automation9273@gmail.com
+ [2022-10-08 16:24:06,804] Pre-Condition - Step 06: Input to Password textbox with value: 123456
+ [2022-10-08 16:24:08,128] Pre-Condition - Step 07: Input to Confirm Password textbox with value: 123456
+ [2022-10-08 16:24:09,429] Pre-Condition - Step 08: Click to Register button
+ [2022-10-08 16:24:11,580] Pre-Condition - Step 09: Verify Register success message is displayed
+ [2022-10-08 16:24:11,679]  -------------------------- PASSED -------------------------- 
+ [2022-10-08 16:24:12,135] AddProduct - Step 01: Click Desktops Page link from Computers Menu
+ [2022-10-08 16:24:14,372] AddProduct -  Step 02: Click 'Compare' button of 'Lenovo IdeaCentre 600 All-in-One PC' from Product list
+ [2022-10-08 16:24:15,598] AddProduct -  Step 03: Verify 'The product has been added to your product comparison' message is displayed
+ [2022-10-08 16:24:15,949]  -------------------------- PASSED -------------------------- 
+ [2022-10-08 16:24:15,949] AddProduct - Step 04: Click close button to close dialog
+ [2022-10-08 16:24:18,173] AddProduct -  Step 05: Click 'Compare' button of 'Digital Storm VANQUISH 3 Custom Performance PC' from Product list
+ [2022-10-08 16:24:19,382] AddProduct -  Step 06: Verify 'The product has been added to your product comparison' message is displayed
+ [2022-10-08 16:24:19,751]  -------------------------- PASSED -------------------------- 
+ [2022-10-08 16:24:19,751] AddProduct - Step 07: Click close button to close dialog
+ [2022-10-08 16:24:22,002] AddProduct - Step 08: Open 'Compare products list' page in footer
+ [2022-10-08 16:24:26,078] AddProduct - Step 09: Verify 'Lenovo IdeaCentre 600 All-in-One PC' is displayed
+ [2022-10-08 16:24:26,131]  -------------------------- PASSED -------------------------- 
+ [2022-10-08 16:24:26,131] AddProduct - Step 10: Verify 'Digital Storm VANQUISH 3 Custom Performance PC' is displayed
+ [2022-10-08 16:24:26,192]  -------------------------- PASSED -------------------------- 
+ [2022-10-08 16:24:26,192] AddProduct - Step 11: Click to 'Clear list' button
+ [2022-10-08 16:24:28,262] AddProduct - Step 12: Verify 'You have no items to compare.' message is displayed
+ [2022-10-08 16:24:28,375]  -------------------------- PASSED -------------------------- 
+ [2022-10-08 16:24:28,375] AddProduct - Step 13: Verify 'Lenovo IdeaCentre 600 All-in-One PC' is not displayed
+ [2022-10-08 16:24:43,414]  -------------------------- PASSED -------------------------- 
+ [2022-10-08 16:24:43,414] AddProduct - Step 14: Verify 'Digital Storm VANQUISH 3 Custom Performance PC' is not displayed
+ [2022-10-08 16:24:58,444]  -------------------------- PASSED -------------------------- 
+ [2022-10-08 16:24:58,688] RecentlyViewedProducts - Step 01: Click Notebooks Page link from Computers Menu
+ [2022-10-08 16:25:01,549] RecentlyViewedProducts - Step 02: View 'Apple MacBook Pro 13-inch' product 1
+ [2022-10-08 16:25:04,336] RecentlyViewedProducts - Step 03: Click Notebooks Page link from Computers Menu
+ [2022-10-08 16:25:06,317] RecentlyViewedProducts - Step 04: View 'Asus N551JK-XO076H Laptop' product 2
+ [2022-10-08 16:25:09,312] RecentlyViewedProducts - Step 05: Click Notebooks Page link from Computers Menu
+ [2022-10-08 16:25:12,016] RecentlyViewedProducts - Step 06: View 'HP Envy 6-1180ca 15.6-Inch Sleekbook' product 3
+ [2022-10-08 16:25:14,875] RecentlyViewedProducts - Step 07: Click Notebooks Page link from Computers Menu
+ [2022-10-08 16:25:16,778] RecentlyViewedProducts - Step 08: View 'HP Spectre XT Pro UltraBook' product 4
+ [2022-10-08 16:25:19,296] RecentlyViewedProducts - Step 09: Click Notebooks Page link from Computers Menu
+ [2022-10-08 16:25:21,965] RecentlyViewedProducts - Step 10: View 'Lenovo Thinkpad X1 Carbon Laptop' product 5
+ [2022-10-08 16:25:24,227] RecentlyViewedProducts - Step 11: Open 'Recently viewed products' page in footer
+ [2022-10-08 16:25:27,905] RecentlyViewedProducts - Step 12: Verify 3 products is displayed
+ [2022-10-08 16:25:27,949]  -------------------------- PASSED -------------------------- 
+ [2022-10-08 16:25:27,950] RecentlyViewedProducts - Step 13: Verify 'Lenovo Thinkpad X1 Carbon Laptop' product 5 is displayed
+ [2022-10-08 16:25:28,041]  -------------------------- PASSED -------------------------- 
+ [2022-10-08 16:25:28,041] RecentlyViewedProducts - Step 14: Verify 'HP Spectre XT Pro UltraBook' product 4 is displayed
+ [2022-10-08 16:25:28,137]  -------------------------- PASSED -------------------------- 
+ [2022-10-08 16:25:28,137] RecentlyViewedProducts - Step 15: Verify 'HP Envy 6-1180ca 15.6-Inch Sleekbook' product 3 is displayed
+ [2022-10-08 16:25:28,234]  -------------------------- PASSED -------------------------- 
+ [2022-10-08 16:25:28,247] AddToWishlist - Step 01: Click Desktops Page link from Computers Menu
+ [2022-10-08 16:25:30,158] AddToWishlist - Step 02: Choose 'Lenovo IdeaCentre 600 All-in-One PC' from Product list
+ [2022-10-08 16:25:32,434] AddToWishlist - Step 03: Click 'Add to wishlist' button
+ [2022-10-08 16:25:33,716] AddToWishlist - Step 04: Verify 'The product has been added to your wishlist' is displayed
+ [2022-10-08 16:25:34,094]  -------------------------- PASSED -------------------------- 
+ [2022-10-08 16:25:34,094] AddToWishlist - Step 05: Click close button to close dialog
+ [2022-10-08 16:25:36,561] AddToWishlist - Step 06: Open Wishlist page
+ [2022-10-08 16:25:38,440] AddToWishlist - Step 07: Verify product 'Lenovo IdeaCentre 600 All-in-One PC' is displayed
+ [2022-10-08 16:25:38,523]  -------------------------- PASSED -------------------------- 
+ [2022-10-08 16:25:38,523] AddToWishlist - Step 08: Click to wishlist URL for sharing
+ [2022-10-08 16:25:40,153] AddToWishlist - Step 09: Verify product 'Lenovo IdeaCentre 600 All-in-One PC' is displayed and message
+ [2022-10-08 16:25:40,224]  -------------------------- PASSED -------------------------- 
+ [2022-10-08 16:25:40,309]  -------------------------- PASSED -------------------------- 
+ [2022-10-08 16:25:40,319] AddToCart - Step 01: Open Wishlist page
+ [2022-10-08 16:25:40,721] AddToCart - Step 02: Check to checkbox of 'Lenovo IdeaCentre 600 All-in-One PC'
+ [2022-10-08 16:25:57,102] AddToCart - Step 03: Click 'Add to cart' button
+ [2022-10-08 16:25:59,841] AddToCart - Step 04: Verify product 'Lenovo IdeaCentre 600 All-in-One PC' is displayed at Add to Cart page
+ [2022-10-08 16:25:59,931]  -------------------------- PASSED -------------------------- 
+ [2022-10-08 16:25:59,931] AddToCart - Step 05: Open Wishlist page
+ [2022-10-08 16:26:01,553] AddToCart - Step 06: Verify product 'Lenovo IdeaCentre 600 All-in-One PC' is not displayed at Wishlist page
+ [2022-10-08 16:26:31,710]  -------------------------- PASSED -------------------------- 
+ [2022-10-08 16:26:31,729] RemoveProduct - Step 01: Click Desktops Page link from Computers Menu
+ [2022-10-08 16:26:34,429] RemoveProduct - Step 02: Choose 'Lenovo IdeaCentre 600 All-in-One PC' from Product list
+ [2022-10-08 16:26:36,669] RemoveProduct - Step 03: Click 'Add to wishlist' button
+ [2022-10-08 16:26:37,960] RemoveProduct - Step 04: Verify 'The product has been added to your wishlist' is displayed
+ [2022-10-08 16:26:38,341]  -------------------------- PASSED -------------------------- 
+ [2022-10-08 16:26:38,341] RemoveProduct - Step 05: Click close button to close dialog
+ [2022-10-08 16:26:40,718] RemoveProduct - Step 06: Open Wishlist page
+ [2022-10-08 16:26:42,410] RemoveProduct - Step 07: Click to remove icon of 'Lenovo IdeaCentre 600 All-in-One PC'
+ [2022-10-08 16:26:44,101] RemoveProduct - Step 08: Verify 'The wishlist is empty!' message is displayed
+ [2022-10-08 16:26:44,209]  -------------------------- PASSED -------------------------- 
+ [2022-10-08 16:26:44,209] RemoveProduct - Step 08: Verify product 'Lenovo IdeaCentre 600 All-in-One PC' is not displayed at Wishlist page
+ [2022-10-08 16:27:14,318]  -------------------------- PASSED -------------------------- 
+ [2022-10-08 16:27:14,330] OS name = windows 10
+ [2022-10-08 16:27:14,330] Driver instance name = chromedriver: chrome on windows (326bde6e842506505fa318a0382db9bf)

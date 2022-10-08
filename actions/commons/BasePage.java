@@ -29,24 +29,13 @@ import pageObjects.nopcommerce.user.UserHomePageObject;
 import pageObjects.nopcommerce.user.UserMyProductReviewPageObject;
 import pageObjects.nopcommerce.user.UserOrderPageObject;
 import pageObjects.nopcommerce.user.UserRewardPointPageObject;
+import pageObjects.nopcommerce.user.UserWishlistPageObject;
 import pageObjects.wordpress.AdminDashboardPO;
 import pageObjects.wordpress.UserHomePO;
 import pageUIs.jquery.uploadFiles.BasePageJQueryUI;
 import pageUIs.nopcommerce.user.BasePageUI;
 import pageUIs.nopcommerce.user.HomePageUI;
 
-/**
- * @author Thao Le Glass
- *
- */
-/**
- * @author Thao Le Glass
- *
- */
-/**
- * @author Thao Le Glass
- *
- */
 public class BasePage {
 
 	public static BasePage getBasePageObject() {
@@ -185,6 +174,7 @@ public class BasePage {
 	}
 
 	public void clickToElement(WebDriver driver, String locatorType) {
+		highlightElement(driver, locatorType);
 		if (driver.toString().contains("internet explorer")) {
 			clickToElementByJS(driver, locatorType);
 			sleepInSecond(5);
@@ -195,6 +185,7 @@ public class BasePage {
 
 	public void clickToElement(WebDriver driver, String locatorType, String... dynamicValues) {
 		locatorType = getDynamicXpath(locatorType, dynamicValues);
+		highlightElement(driver, locatorType);
 		if (driver.toString().contains("internet explorer")) {
 			clickToElementByJS(driver, locatorType);
 			sleepInSecond(5);
@@ -205,12 +196,14 @@ public class BasePage {
 
 	public void sendkeyToElement(WebDriver driver, String locatorType, String textValue) {
 		WebElement element = getWebElement(driver, locatorType);
+		highlightElement(driver, locatorType);
 		element.clear();
 		element.sendKeys(textValue);
 	}
 
 	public void sendkeyToElement(WebDriver driver, String locatorType, String textValue, String... dynamicValues) {
 		WebElement element = getWebElement(driver, getDynamicXpath(locatorType, dynamicValues));
+		highlightElement(driver, getDynamicXpath(locatorType, dynamicValues));
 		element.clear();
 		element.sendKeys(textValue);
 	}
@@ -222,11 +215,13 @@ public class BasePage {
 
 	public void selectItemInDefaultDropdown(WebDriver driver, String locatorType, String textItem) {
 		Select select = new Select(getWebElement(driver, locatorType));
+		highlightElement(driver, locatorType);
 		select.selectByVisibleText(textItem);
 	}
 
 	public void selectItemInDefaultDropdown(WebDriver driver, String locatorType, String textItem, String... dynamicValues) {
 		Select select = new Select(getWebElement(driver, getDynamicXpath(locatorType, dynamicValues)));
+		highlightElement(driver, getDynamicXpath(locatorType, dynamicValues));
 		select.selectByVisibleText(textItem);
 	}
 
@@ -309,6 +304,7 @@ public class BasePage {
 
 	public void checkToDefaultCheckboxRadio(WebDriver driver, String locatorType) {
 		WebElement element = getWebElement(driver, locatorType);
+		highlightElement(driver, locatorType);
 		if (!element.isSelected()) {
 			element.click();
 		}
@@ -316,6 +312,7 @@ public class BasePage {
 
 	public void checkToDefaultCheckboxRadio(WebDriver driver, String locatorType, String... dynamicValues) {
 		WebElement element = getWebElement(driver, getDynamicXpath(locatorType, dynamicValues));
+		highlightElement(driver, getDynamicXpath(locatorType, dynamicValues));
 		if (!element.isSelected()) {
 			element.click();
 		}
@@ -323,6 +320,7 @@ public class BasePage {
 
 	public void uncheckToDefaultCheckbox(WebDriver driver, String locatorType) {
 		WebElement element = getWebElement(driver, locatorType);
+		highlightElement(driver, locatorType);
 		if (element.isSelected()) {
 			element.click();
 		}
@@ -330,6 +328,7 @@ public class BasePage {
 
 	public void uncheckToDefaultCheckbox(WebDriver driver, String locatorType, String... dynamicValues) {
 		WebElement element = getWebElement(driver, getDynamicXpath(locatorType, dynamicValues));
+		highlightElement(driver, getDynamicXpath(locatorType, dynamicValues));
 		if (element.isSelected()) {
 			element.click();
 		}
@@ -439,11 +438,13 @@ public class BasePage {
 
 	public void clickToElementByJS(WebDriver driver, String locatorType) {
 		JavascriptExecutor jsExecutor = (JavascriptExecutor) driver;
+		highlightElement(driver, locatorType);
 		jsExecutor.executeScript("arguments[0].click();", getWebElement(driver, locatorType));
 	}
 
 	public void clickToElementByJS(WebDriver driver, String locatorType, String... dynamicValues) {
 		JavascriptExecutor jsExecutor = (JavascriptExecutor) driver;
+		highlightElement(driver, getDynamicXpath(locatorType, dynamicValues));
 		jsExecutor.executeScript("arguments[0].click();", getWebElement(driver, getDynamicXpath(locatorType, dynamicValues)));
 	}
 
@@ -799,6 +800,32 @@ public class BasePage {
 	public AdminDashboardPO openAdminSite(WebDriver driver, String urlPage) {
 		openPageUrl(driver, urlPage);
 		return pageObjects.wordpress.PageGeneratorManager.getAdminDashboardPageObject(driver);
+	}
+
+	public UserWishlistPageObject openWishListPage(WebDriver driver) {
+		waitForElementClickable(driver, BasePageUI.WISHLIST_PAGE_LINK);
+		clickToElement(driver, BasePageUI.WISHLIST_PAGE_LINK);
+		return PageGeneratorManager.getUserWishListPage(driver);
+	}
+
+	public boolean isProductDisplayedAtTableByProductName(WebDriver driver, String columnName, String productName) {
+		int columnIndex = getElementSize(driver, BasePageUI.COLUMN_INDEX_BY_NAME, columnName) + 1;
+
+		// waitForElementVisible(driver, BasePageUI.PRODUCT_BY_COLUMN_INDEX_PRODUCT_NAME, String.valueOf(columnIndex), productName);
+
+		return isElementDisplayed(driver, BasePageUI.PRODUCT_BY_COLUMN_INDEX_PRODUCT_NAME, String.valueOf(columnIndex), productName);
+	}
+
+	public void checkToCheckboxByProductName(WebDriver driver, String columnName, String productName) {
+		int columnIndex = getElementSize(driver, BasePageUI.COLUMN_INDEX_BY_NAME, columnName) + 1;
+		waitForElementClickable(driver, BasePageUI.CHECKBOX_BY_COLUMN_INDEX_PRODUCT_NAME, productName, String.valueOf(columnIndex));
+		checkToDefaultCheckboxRadio(driver, BasePageUI.CHECKBOX_BY_COLUMN_INDEX_PRODUCT_NAME, productName, String.valueOf(columnIndex));
+	}
+
+	public void clickToRemoveIconAtTableByProductName(WebDriver driver, String columnName, String productName) {
+		int columnIndex = getElementSize(driver, BasePageUI.COLUMN_INDEX_BY_NAME, columnName) + 1;
+		waitForElementClickable(driver, BasePageUI.REMOVE_BY_COLUMN_INDEX_PRODUCT_NAME, productName, String.valueOf(columnIndex));
+		clickToElement(driver, BasePageUI.REMOVE_BY_COLUMN_INDEX_PRODUCT_NAME, productName, String.valueOf(columnIndex));
 	}
 
 	private long longTimeout = GlobalConstants.LONG_TIMEOUT;

@@ -25,4 +25,11 @@ public class BasePageUI {
 	public static final String DYNAMIC_MENU_LINK_BY_TEXT = "xpath=//ul[@class='top-menu notmobile']//a[contains(text(),'%s')]";
 
 	public static final String DYNAMIC_PAGE_LINK_IN_FOOTER_BY_NAME_PAGE = "xpath=//div[@class='footer']//a[text() = '%s']";
+
+	public static final String WISHLIST_PAGE_LINK = "css=a.ico-wishlist";
+
+	public static final String COLUMN_INDEX_BY_NAME = "xpath=//table[@class='cart']/thead//th[text()='%s']/preceding-sibling::th";
+	public static final String PRODUCT_BY_COLUMN_INDEX_PRODUCT_NAME = "xpath=//table[@class='cart']//tr/td[%s]/a[@class='product-name' and text()='%s']";
+	public static final String CHECKBOX_BY_COLUMN_INDEX_PRODUCT_NAME = "xpath=//table[@class='cart']//tr//a[@class='product-name' and text()='%s']//ancestor::tr/td[%s]/input";
+	public static final String REMOVE_BY_COLUMN_INDEX_PRODUCT_NAME = "xpath=//table[@class='cart']//tr//a[@class='product-name' and text()='%s']//ancestor::tr/td[%s]/button";
 }
